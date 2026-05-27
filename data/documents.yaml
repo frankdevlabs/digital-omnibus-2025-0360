@@ -1,0 +1,97 @@
+# Document register for file 2025/0360 (COD).
+# This YAML is the single source of truth; sources/README.md is its rendered table.
+# Fields: id, title, body, date (ISO), limite (bool), url (authoritative), mirror (public copy if LIMITE), local (path if committed), notes
+
+documents:
+  - id: COM-2025-47
+    title: "Communication 'A simpler and faster Europe' (implementation and simplification)"
+    body: Commission
+    date: 2025-02-11
+    limite: false
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2025:47:FIN
+    notes: Political framing for the Omnibus agenda.
+
+  - id: COM-2025-837
+    title: "Digital Omnibus — proposal for a Regulation (digital simplification: GDPR, ePrivacy, P2B, cyber)"
+    body: Commission
+    date: 2025-11-19
+    limite: false
+    url: https://eur-lex.europa.eu/procedure/EN/2025_360
+    notes: The proposal this repo tracks. Accompanied by SWD(2025) 836.
+
+  - id: EDPB-EDPS-JO-2-2026
+    title: "EDPB–EDPS Joint Opinion 2/2026 on the Digital Omnibus"
+    body: EDPB-EDPS
+    date: 2026-02-10
+    limite: false
+    url: https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-22026-proposal_en
+    notes: Strongly opposes the Art 4 personal-data redefinition and the AI legitimate-interest article.
+
+  - id: ST-6406-2026
+    title: "Presidency compromise text (GDPR, ePrivacy, cookies, P2B, cyber)"
+    body: Council
+    date: 2026-02-20
+    limite: true
+    url: https://data.consilium.europa.eu/doc/document/ST-6406-2026-INIT/en/pdf
+    mirror: https://netzpolitik.org/wp-upload/2026/02/Presidency-compromise-text-on-Omnibus-VII-Digital-GDPR-P2B.pdf
+    notes: First Cyprus compromise text. Do not commit the PDF (LIMITE).
+
+  - id: WK-3736-2026
+    title: "Consolidated delegations' comments on the compromise text"
+    body: Council
+    date: 2026-03-30
+    limite: true
+    url: https://data.consilium.europa.eu/doc/document/WK-3736-2026-INIT/en/pdf
+    mirror: https://table.media/assets/berlin/digital-omnibus-march-30-gdpr,-p2b,-eprivacy-fr,-ro,-pl-(1).pdf
+    notes: Member State positions incl. Poland (cookies stay in ePrivacy).
+
+  - id: ST-8261-2026
+    title: "Presidency compromise text (revision 2)"
+    body: Council
+    date: 2026-04-15
+    limite: true
+    url: https://data.consilium.europa.eu/doc/document/ST-8261-2026-INIT/en/pdf
+    mirror: https://table.media/assets/berlin/digitalomnibus.pdf
+    notes: Second Cyprus compromise text. Do not commit the PDF (LIMITE).
+
+  - id: ST-9547-2026
+    title: "Presidency revised compromise text (GDPR, ePrivacy, cookies, P2B, cyber)"
+    body: Council
+    date: 2026-05-21
+    limite: true
+    url: https://data.consilium.europa.eu/doc/document/ST-9547-2026-INIT/en/pdf
+    mirror: ""
+    local: ""   # LIMITE — not committed. Operative text extracted under extracts/council/
+    notes: Current text. For AGS 27 May 2026. Extracted in extracts/council/ST-9547-2026_*.md
+
+  - id: CM-2918-2026
+    title: "AGS meeting agenda (exchange of views on ST 9547/26)"
+    body: Council
+    date: 2026-05-22
+    limite: false
+    url: https://data.consilium.europa.eu/doc/document/CM-2918-2026-INIT/en/pdf
+    notes: Confirms 27 May 2026 AGS is an exchange of views, not a general approach.
+
+  - id: OEIL-2025-0360
+    title: "Procedure file 2025/0360(COD)"
+    body: Parliament
+    date: 2026-01-19
+    limite: false
+    url: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)
+    notes: Lead ITRE + LIBE (Rule 58); JURI opinion. Status 'Awaiting committee decision'.
+
+  - id: EP-LEGTRAIN
+    title: "Legislative Train — Digital Omnibus Regulation Proposal"
+    body: Parliament
+    date: 2026-04-20
+    limite: false
+    url: https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-digital-package
+    notes: Parliament-side status tracking.
+
+  - id: LAWTRACKER-2025-360
+    title: "EU Law Tracker — procedure 2025/360"
+    body: Parliament
+    date: 2026-05-01
+    limite: false
+    url: https://law-tracker.europa.eu/procedure/2025_360?lang=en
+    notes: Cross-institutional procedure tracker.

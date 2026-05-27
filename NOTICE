@@ -1,0 +1,31 @@
+NOTICE — third-party material and EU documents
+==============================================
+
+1. EU INSTITUTIONAL DOCUMENTS
+   This repository tracks EU legislative documents (Commission proposals, Council compromise
+   texts, European Parliament reports, EDPB/EDPS opinions, etc.). Those documents are the work
+   of the EU institutions, not of this repository's maintainer, and are NOT covered by the
+   CC BY 4.0 licence in the LICENSE file.
+
+   - Legislative texts of the EU are, as a rule, not subject to copyright, and the Commission's
+     reuse policy (Decision 2011/833/EU) generally permits reuse of Commission documents with
+     attribution. Council and Parliament documents have their own reuse terms.
+   - Operative-text EXTRACTS in extracts/ are transcriptions of such documents, provided for
+     tracking and diffing. They are reproduced as primary legal source material and carry the
+     maintainer's annotations (which ARE under CC BY 4.0); the underlying legal wording is the
+     institutions'.
+
+2. LIMITE COUNCIL DOCUMENTS
+   Some Council compromise texts (e.g. ST 6406/26, ST 8261/26, ST 9547/26) are marked "LIMITE"
+   — a limited-distribution marking (not a security classification). To respect that marking,
+   this repository does NOT host the LIMITE PDFs. Instead it:
+     - records the document in the register (sources/), and
+     - links to authoritative or already-public copies (institutions, or journalists/NGOs that
+       have published them), and
+     - contains the maintainer's own extracted text and analysis.
+   If you hold an authoritative copy, you may keep it locally; do not commit LIMITE binaries to
+   this public repository.
+
+3. STAKEHOLDER MATERIAL
+   Quotations from regulators, NGOs, law firms and industry are short, attributed, and used for
+   identification and commentary. Copyright in those works remains with their authors.

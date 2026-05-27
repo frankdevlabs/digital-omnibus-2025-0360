@@ -1,0 +1,37 @@
+# GDPR Art 4 — Definition of personal data & pseudonymisation
+
+**Tracked because:** the most fundamental change in the package — a relative/controller-centric concept
+of "personal data" would remove data from GDPR scope for actors that cannot identify the individual.
+
+## Current law
+Art 4(1) GDPR: "personal data" = any information relating to an identified or identifiable natural
+person; identifiability assessed by "all the means reasonably likely to be used" (Recital 26).
+
+## Commission proposal (COM(2025) 837)
+Adds sentences to Art 4(1): information is **not** personal for an entity that cannot identify the person
+by means reasonably likely to be used by **that entity**, and does not become personal merely because a
+later recipient could identify. New Art 41a gives the **Commission** implementing power on pseudonymisation
+criteria, with an EDPB opinion. Recitals 27a/27b. Cites CJEU *EDPS v SRB* (C-413/23 P).
+
+## Council — ST 9547/26 (21 May 2026)
+- **Art 4(1) addition: DELETED** (point 1(a) struck). Art 4(1) remains as today.
+- **Art 41a Commission implementing power: DELETED**, replaced by new **Art 29a** (EDPB opinion mechanism)
+  and an EDPB guideline task under Art 70.
+- A clarifying recital remains, pointing back to existing Recital 26.
+- → [Operative text](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-1--article-4-definitions),
+  [Art 29a](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-10--article-29a-pseudonymisation)
+
+## Parliament (provisional)
+No draft report. Co-rapporteur Kaljurand and centre-left groups hostile to redefinition; likely to back
+the Council's deletion.
+
+## EDPB–EDPS
+**Strongly oppose** the redefinition; consider it inconsistent with CJEU case law and a narrowing of scope.
+
+## Status
+**Council has dropped it.** Likely cross-institutional consensus *not* to redefine. Watch for any attempt
+to reintroduce a softer Art 4 clarification under the Irish Presidency or by industry amendment.
+
+## Open questions
+- Will the EDPB pseudonymisation opinion (Art 29a) effectively reintroduce a risk-based scoping by guidance?
+- How is "singling out" treated in the new Art 29a(1a)?

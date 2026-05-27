@@ -1,0 +1,13 @@
+# Do not commit LIMITE / limited-distribution PDFs to the public repo (see NOTICE)
+sources/**/*.pdf
+*.pdf
+
+# Local scratch
+/tmp/
+*.tmp
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp

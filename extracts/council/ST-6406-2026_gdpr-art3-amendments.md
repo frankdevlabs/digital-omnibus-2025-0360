@@ -5,9 +5,10 @@
 > of [`ST-9547-2026_gdpr-art3-amendments.md`](ST-9547-2026_gdpr-art3-amendments.md) so a `git diff` lines up
 > once the text is pasted in.
 >
-> **To complete:** obtain the document and paste the consolidated operative text under each heading below.
+> **To complete:** transcribe the consolidated operative text from the hosted PDF (below) under each heading.
 > - Authoritative: https://data.consilium.europa.eu/doc/document/ST-6406-2026-INIT/en/pdf
-> - Public mirror: https://netzpolitik.org/wp-upload/2026/02/Presidency-compromise-text-on-Omnibus-VII-Digital-GDPR-P2B.pdf
+> - Public mirror: https://netzpolitik.org/wp-upload/2026/02/Presidency-compromise-text-on-Omnibus-VII-%E2%80%93-Digital-GDPR-P2B.pdf
+> - Hosted copy in this repo: [`../../sources/council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf`](../../sources/council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf)
 >
 > Items marked **(research-derived)** are second-hand from reporting/analysis, **not** verbatim text.
 

@@ -28,13 +28,15 @@ documents:
     notes: Strongly opposes the Art 4 personal-data redefinition and the AI legitimate-interest article.
 
   - id: ST-6406-2026
-    title: "Presidency compromise text (GDPR, ePrivacy, cookies, P2B, cyber)"
+    title: "Presidency compromise text (Omnibus VII - Digital, GDPR/P2B)"
     body: Council
     date: 2026-02-20
     limite: true
-    url: https://data.consilium.europa.eu/doc/document/ST-6406-2026-INIT/en/pdf
-    mirror: https://netzpolitik.org/wp-upload/2026/02/Presidency-compromise-text-on-Omnibus-VII-Digital-GDPR-P2B.pdf
-    notes: First Cyprus compromise text. Do not commit the PDF (LIMITE).
+    access: public-via-journalist
+    register: https://data.consilium.europa.eu/doc/document/ST-6406-2026-INIT/en/pdf   # 404 until released
+    mirror: https://netzpolitik.org/wp-upload/2026/02/Presidency-compromise-text-on-Omnibus-VII-%E2%80%93-Digital-GDPR-P2B.pdf
+    local: sources/council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf
+    notes: First Cyprus compromise text (committed copy via EURACTIV). Mirror verified live (note the %E2%80%93 en-dash).
 
   - id: WK-3736-2026
     title: "Consolidated delegations' comments on the compromise text"
@@ -45,24 +47,29 @@ documents:
     mirror: https://table.media/assets/berlin/digital-omnibus-march-30-gdpr,-p2b,-eprivacy-fr,-ro,-pl-(1).pdf
     notes: Member State positions incl. Poland (cookies stay in ePrivacy).
 
-  - id: ST-8261-2026
-    title: "Presidency compromise text (revision 2)"
+  - id: ST-8261-1-26-REV1
+    title: "Presidency revised compromise text (rev 2)"
     body: Council
     date: 2026-04-15
     limite: true
-    url: https://data.consilium.europa.eu/doc/document/ST-8261-2026-INIT/en/pdf
-    mirror: https://table.media/assets/berlin/digitalomnibus.pdf
-    notes: Second Cyprus compromise text. Do not commit the PDF (LIMITE).
+    access: not-public
+    register: https://data.consilium.europa.eu/doc/document/CM-2463-2026-INIT/en/pdf   # agenda naming the doc (resolves)
+    national_parliament: ""   # add: parlament.gv.at dossier (search "8261")
+    mirror: ""                # add: PDF URL from the LinkedIn/X post if you grab it
+    local: sources/council/ST-8261-1-26-REV1_council-presidency-compromise_2026-04-15.pdf
+    procedure: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)
+    notes: Correct id is ST 8261/1/26 REV 1 (not INIT). Not in public register; cite by number.
 
   - id: ST-9547-2026
     title: "Presidency revised compromise text (GDPR, ePrivacy, cookies, P2B, cyber)"
     body: Council
     date: 2026-05-21
     limite: true
-    url: https://data.consilium.europa.eu/doc/document/ST-9547-2026-INIT/en/pdf
-    mirror: ""
-    local: ""   # LIMITE — not committed. Operative text extracted under extracts/council/
-    notes: Current text. For AGS 27 May 2026. Extracted in extracts/council/ST-9547-2026_*.md
+    access: public-via-national-parliament
+    register: https://data.consilium.europa.eu/doc/document/ST-9547-2026-INIT/en/pdf   # 404 until released
+    national_parliament: https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322
+    local: sources/council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf
+    notes: Current text. For AGS 27 May 2026. PDF committed; operative text in extracts/council/.
 
   - id: CM-2918-2026
     title: "AGS meeting agenda (exchange of views on ST 9547/26)"

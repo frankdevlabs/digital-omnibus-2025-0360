@@ -1,0 +1,12 @@
+# Link-checker config. Internal relative links (incl. the committed PDFs) are checked normally.
+# External hosts that bot-block or that we cite by number rather than assert as live are excluded.
+accept = [200, 202, 206, 403, 429]
+max_retries = 3
+retry_wait_time = 2
+timeout = 30
+exclude = [
+  "^https://data\\.consilium\\.europa\\.eu",   # register 404s for unreleased LIMITE docs (cited by number)
+  "^https://eur-lex\\.europa\\.eu",            # returns 202 to automated clients
+  "^https://oeil\\.europarl\\.europa\\.eu",    # bot-sensitive
+  "^https://www\\.linkedin\\.com",             # blocks automated access
+]

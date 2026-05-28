@@ -1,14 +1,15 @@
-# Extract — ST 8261/26, Article 3 (amendments to the GDPR) — ⚠️ STUB
+# Extract — ST 8261/1/26 REV 1, Article 3 (amendments to the GDPR) — ⚠️ STUB
 
 > **STATUS: STUB / NOT YET TRANSCRIBED.** The maintainer does **not** hold the full operative text of
-> **ST 8261/26** (15 April 2026, second Cyprus compromise text). This file mirrors the heading structure of
+> **ST 8261/1/26 REV 1** (15 April 2026, second Cyprus compromise text). This file mirrors the heading structure of
 > [`ST-9547-2026_gdpr-art3-amendments.md`](ST-9547-2026_gdpr-art3-amendments.md) so that a `git diff`
 > between the two lines up once the text is pasted in.
 >
-> **To complete:** obtain the document and paste the consolidated operative text under each heading below,
-> keeping the headings/anchors unchanged.
-> - Authoritative: https://data.consilium.europa.eu/doc/document/ST-8261-2026-INIT/en/pdf
+> **To complete:** transcribe the consolidated operative text from the hosted PDF (below) under each
+> heading, keeping the headings/anchors unchanged.
+> - Not in the public register; cited by number. Agenda naming the doc: https://data.consilium.europa.eu/doc/document/CM-2463-2026-INIT/en/pdf
 > - Public mirror: https://table.media/assets/berlin/digitalomnibus.pdf
+> - Hosted copy in this repo: [`../../sources/council/ST-8261-1-26-REV1_council-presidency-compromise_2026-04-15.pdf`](../../sources/council/ST-8261-1-26-REV1_council-presidency-compromise_2026-04-15.pdf)
 >
 > Items marked **(research-derived)** are second-hand from reporting/analysis, **not** verbatim text.
 

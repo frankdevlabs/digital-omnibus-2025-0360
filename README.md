@@ -48,9 +48,12 @@ The repo deliberately separates three layers so that links stay stable over time
 2. **Deep-link into extracts, not PDFs.** GitHub's PDF viewer does not support reliable
    `#page=` anchors, so to point at a specific article use the markdown extract's heading anchor,
    e.g. `extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-8--article-33-breach-notification`.
-3. **PDFs are linked, not committed.** The Council compromise texts are LIMITE, limited-distribution
-   documents. This repo links to the authoritative copies hosted by the institutions and by
-   journalists/NGOs rather than rehosting the binaries. See [`NOTICE`](NOTICE).
+3. **Source PDFs are committed in `sources/`.** The Council compromise texts (incl. LIMITE ones)
+   are hosted in this repo for transparency and offline diffing; the register also records the
+   document number, the Council register reference, and any national-parliament record or public
+   mirror so provenance stays traceable. See [`NOTICE`](NOTICE) §2. The markdown extracts in
+   [`extracts/`](extracts/) remain the *linkable* working copies, because GitHub's PDF viewer can't
+   anchor to a specific article — link `extracts/...md#anchor`, not `sources/...pdf#page`.
 
 ## Naming convention for documents
 

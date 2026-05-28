@@ -1,70 +1,339 @@
-# Extract — ST 8261/1/26 REV 1, Article 3 (amendments to the GDPR) — ⚠️ STUB
+# Extract — ST 8261/1/26 REV 1, Article 3 (amendments to the GDPR, Reg. (EU) 2016/679)
 
-> **STATUS: STUB / NOT YET TRANSCRIBED.** The maintainer does **not** hold the full operative text of
-> **ST 8261/1/26 REV 1** (15 April 2026, second Cyprus compromise text). This file mirrors the heading structure of
-> [`ST-9547-2026_gdpr-art3-amendments.md`](ST-9547-2026_gdpr-art3-amendments.md) so that a `git diff`
-> between the two lines up once the text is pasted in.
->
-> **To complete:** transcribe the consolidated operative text from the hosted PDF (below) under each
-> heading, keeping the headings/anchors unchanged.
-> - Not in the public register; cited by number. Agenda naming the doc: https://data.consilium.europa.eu/doc/document/CM-2463-2026-INIT/en/pdf
-> - Public mirror: https://table.media/assets/berlin/digitalomnibus.pdf
-> - Hosted copy in this repo: [`../../sources/council/ST-8261-1-26-REV1_council-presidency-compromise_2026-04-15.pdf`](../../sources/council/ST-8261-1-26-REV1_council-presidency-compromise_2026-04-15.pdf)
->
-> Items marked **(research-derived)** are second-hand from reporting/analysis, **not** verbatim text.
+> **Source:** Council document **ST 8261/1/26 REV 1** (LIMITE), Brussels, 15 April 2026 — Presidency
+> revised compromise text, for the AGS meeting of 24 April 2026. Interinstitutional file 2025/0360 (COD).
+> **This is a working transcription, not an official text.** It reproduces the *consolidated* reading
+> (i.e. with the Presidency's tracked changes against the Commission proposal accepted). Salient changes
+> are flagged with **▸** — vs the **Commission proposal** COM(2025) 837 and, where known, vs the previous
+> compromise **ST 6406/26**. Where the Presidency struck a whole provision it is marked
+> **[DELETED in ST 8261/26]**. Where a passage is illegible/uncertain it is marked `[illegible in
+> source]`. Numbering follows **this document's own** point/article numbering. Always verify against the
+> authoritative document before relying on it. See [`../../NOTICE`](../../NOTICE).
 
 *Regulation (EU) 2016/679 is amended as follows:*
 
+---
+
 <a id="point-1--article-4-definitions"></a>
 ## Point 1 — Article 4 (definitions)
-_(research-derived)_ Personal-data redefinition reportedly already softened/contested at this stage;
-scientific-research definition status uncertain in the April text. **Paste operative text here.**
+
+**(a) Addition to Art 4(1) on the concept of personal data — [DELETED in ST 8261/26].**
+The Commission's proposed sentences ("Information relating to a natural person is not necessarily
+personal data for every other person or entity… Information shall not be personal for a given entity
+where that entity cannot identify the natural person…") are **struck out**. Article 4(1) therefore
+**remains unchanged** from the current GDPR.
+▸ Same deletion as in ST 6406/26 and carried into May. See
+[provision page](../../docs/provisions/gdpr-art4-personal-data.md).
+
+**(b) New definitions added to Article 4:**
+
+- **(32) 'terminal equipment'** = terminal equipment as set out in Article 1(1) of Directive 2008/63/EC;
+- ~~(33) 'electronic communications networks' — **[DELETED in ST 8261/26]**~~;
+- **(34) 'web browser'** = web browser as defined in Article 2(11) of Regulation (EU) 2022/1925;
+- **(35) 'media service'** = a media service as defined in Article 2(1) of Regulation (EU) 2024/1083;
+- **(36) 'media service provider'** = as defined in Article 2(2) of Regulation (EU) 2024/1083;
+- **(37) 'online interface'** = as defined in Article 3(m) of Regulation (EU) 2022/2065;
+- **(38) 'scientific research'** = any research conducted in an autonomous and independent manner, with
+  the aim of **concurring to the public interest and wellbeing**, generating new or complementing existing
+  scientific knowledge, following a methodological and systematic approach consistent with ethical
+  standards and standards of the relevant scientific field, producing verifiable and transparent results.
+
+▸ Two moves vs ST 6406/26: definition **(33)** electronic-communications-networks is now **deleted**
+(it was present in February), and the **scientific-research definition (38) is re-included and reworked**
+(it had been deleted in February). May keeps (33) deleted and refines (38) further (May reads "contributing
+to the growth of society's general knowledge and wellbeing" rather than this version's "concurring to the
+public interest and wellbeing").
+
+---
 
 ## Point 2 — Article 5(1)(b) (purpose limitation)
-**Paste operative text here.**
+
+Replaced by: *"collected for specified, explicit and legitimate purposes and not further processed in a
+manner that is incompatible with those purposes; further processing for archiving purposes in the public
+interest, scientific or historical research purposes or statistical purposes shall, subject to the
+application of appropriate safeguards in accordance with Article 89(1), be considered to be compatible
+with the initial purposes, independent of the conditions of Article 6(4) of this Regulation, ('purpose
+limitation');"*
+▸ The awkward "purpose" insertion seen in ST 6406/26 is gone; this version restores "independent of the
+conditions of Article 6(4) of this Regulation" (as carried into May).
+
+---
 
 <a id="point-3--article-9-special-categories"></a>
-## Point 3 — Article 9 (special categories)
-**Paste operative text here.**
+## Point 3 — Article 9 (special categories of personal data)
+
+**(a) New points added to Article 9(2):**
+
+- **(k)** **incidental and residual** processing in the context of the development and operation of an AI
+  system as defined in Article 3, point (1), of Regulation (EU) 2024/1689 or an AI model as referred to in
+  Regulation (EU) 2024/1689, subject to the conditions referred to in paragraph 5.
+- **(l)** processing of biometric data is necessary for the purpose of confirming the identity of a data
+  subject (**verification**), where the biometric data or the means needed for the **one-to-one**
+  verification is under the **sole control** of the data subject, subject to appropriate safeguards laid
+  down in Union or Member State law to protect the fundamental rights and the interests of the data
+  subject.
+
+**(b) New Article 9(5):**
+*"For processing referred to in point (k) of paragraph 2, appropriate organisational and technical
+measures shall be implemented to avoid the collection and otherwise processing of special categories of
+personal data. Where, despite the implementation of such measures, the controller identifies special
+categories of personal data that are incidentally and residually involved in the datasets used for
+training, testing or validation or in the AI system or AI model, the controller shall **delete** such data.
+If deletion of those data proves to be impossible or requires manifestly disproportionate effort, the
+controller shall, without undue delay and in any event, effectively protect such data from being further
+processed or processed for other purposes, used to produce outputs, disclosed or otherwise made available
+to third parties. The controller shall establish a process of regular verification and assessment of the
+effectiveness of the measures implemented and shall comprehensively document those measures and the
+results of the assessments throughout the life cycle of the AI system."*
+▸ Big move vs ST 6406/26: **(k)** narrowed to "**incidental and residual**" processing; **(l)** drops "and
+possession"; and **9(5)** adds the **regular-verification + documentation** duty over the AI life cycle.
+This version uses **"delete"**; May changes it to **"erase"**. See
+[provision page](../../docs/provisions/gdpr-art9-special-categories-ai.md).
+
+---
 
 <a id="point-4--article-12-5-abusive-requests"></a>
-## Point 4 — Article 12(5) (abusive requests)
-**Paste operative text here.**
+## Point 4 — Article 12(5) (manifestly unfounded / excessive / abusive requests)
+
+Replaced by: *"Information provided under Articles 13 and 14 and any communication and any actions taken
+under Articles 15 to 22 and 34 shall be provided free of charge. Where requests from a data subject are
+manifestly unfounded or excessive, in particular because of their repetitive character or where an
+**abusive intention** on the part of the data subject submitting those requests can be demonstrated, the
+controller may either: (a) charge a reasonable fee **proportionate to** the administrative costs of
+providing the information or communication or taking the action requested; or (b) refuse to act on the
+request **and inform the data subject of the reasons thereof**. The controller shall bear the burden of
+demonstrating, **in the light of all the relevant circumstances of the case,** that the request is
+manifestly unfounded or excessive."*
+▸ vs ST 6406/26: fee now "proportionate to" (was "taking into account") the administrative costs; refusal
+must state reasons; the burden clause gains "in the light of all the relevant circumstances of the case"
+and drops the February "reasonable grounds to believe… abusive intention" tail. This is essentially the
+May formulation. See [provision page](../../docs/provisions/gdpr-art12-57-abusive-requests.md).
+
+---
 
 <a id="point-5--article-13-4-information-obligations"></a>
-## Point 5 — Article 13(4) / Point 6 — Article 13(5)
-**Paste operative text here.**
+## Point 5 — Article 13(4) (information obligation exemption)
+
+Added: *"Paragraphs 1, 2 and 3 shall not apply where there are reasonable grounds to assume that the data
+subject already has the information referred to in points (a) and (c) of paragraph 1 and the personal data
+are collected in the context of a **direct and clearly circumscribed** relationship between data subjects
+and a controller exercising an activity that is **not likely to result in a high risk** to the rights and
+freedoms of data subjects nor involve complex processing operations, the processing of large amounts of
+personal data, special categories of personal data, or personal data relating to criminal convictions and
+offences. The first subparagraph shall not apply where the controller intends to process the data collected
+from the data subject for other purposes, transmits the data to other recipients or categories of
+recipients, transfers the data to a third country, carries out automated decision-making, including
+profiling, referred to in Article 22(1), or the processing is likely to result in a high risk to the rights
+and freedoms of data subjects within the meaning of Article 35."*
+▸ vs ST 6406/26: the February "clear and circumscribed… not data-intensive" test is replaced by the
+"direct and clearly circumscribed… not likely to result in a high risk" test and the criminal-convictions
+limb is added — as carried into May.
+
+## Point 6 — Article 13(5) (research exemption, new paragraph)
+
+Added: *"When the further processing takes place for scientific research purposes by the same controller
+and the provision of information referred to under paragraphs 1, 2 and 3 proves impossible or would involve
+a disproportionate effort or in so far as the obligation referred to in paragraph 1 of this Article is
+likely to render impossible or seriously impair the achievement of the objectives of that further
+processing, subject to the conditions and safeguards referred to in Article 89(1), the controller does not
+need to provide the information referred to under paragraphs 1, 2 and 3. In such cases the controller shall
+take appropriate measures to protect the data subject's rights and freedoms and legitimate interests,
+including making the information publicly available."*
+
+---
 
 <a id="point-7--article-22-automated-decisions"></a>
-## Point 7 — Article 22 (automated decisions)
-**Paste operative text here.**
+## Point 7 — Article 22 (automated individual decision-making)
 
-## Point 7a — Article 25
-**Paste operative text here.**
+Paragraphs 1 and 2 replaced. Consolidated:
+*"1. The data subject shall have the right not to be subject to a decision based solely on automated
+processing, including profiling, which produces legal effects concerning him or her or similarly
+significantly affects him or her, unless such processing:
+(a) is necessary for entering into, or performance of, a contract between the data subject and a data
+controller;
+(b) is authorised by Union or Member State law to which the controller is subject and which also lays down
+suitable measures to safeguard the data subject's rights and freedoms and legitimate interests; or
+(c) is based on the data subject's explicit consent."*
+▸ Major change vs ST 6406/26, where this whole amendment point was **struck** (Article 22 left unchanged).
+Here it is **retained and rewritten** to restore the current-GDPR wording, with the Commission's point (a)
+clause "*regardless of whether the decision could be taken otherwise than by solely automated means*"
+**struck out** — the May approach. See
+[provision page](../../docs/provisions/gdpr-art22-automated-decisions.md).
+
+## Point 7a — Article 25 (data protection by design and by default)
+
+Paragraphs 1 and 2 replaced so that the obligations bind **"the controller and the processor"** (not the
+controller alone), with explicit reference to the lists under Article 35(4)/(5). Substance otherwise as in
+the current Article 25.
+▸ **New in this version** — there is no point 7a in ST 6406/26. Carried into May.
+
+---
 
 <a id="point-8--article-33-breach-notification"></a>
-## Point 8 — Article 33 (breach notification)
-_(research-derived)_ 96-hour / high-risk threshold present in the compromise line. **Paste operative text here.**
+## Point 8 — Article 33 (personal-data-breach notification)
+
+**(a) Article 33(1) replaced:** *"In the case of a personal data breach that is **likely to result in a
+high risk** to the rights and freedoms of natural persons, the controller shall without undue delay and,
+where feasible, not later than **96 hours** after having become aware of it, notify the personal data
+breach **via the national entry point established pursuant to Article 23b of Directive (EU) 2022/2555** to
+the supervisory authority competent in accordance with Article 55 and Article 56 of this Regulation. Where
+the notification to the supervisory authority is not made within 96 hours, it shall be accompanied by
+reasons for the delay."*
+▸ vs ST 6406/26: the **single-entry point / Article 23a** routing is replaced by the **national entry
+point / Article 23b** routing (as in May); deadline remains **96 hours**, high-risk only. See
+[provision page](../../docs/provisions/gdpr-art33-breach-notification.md).
+
+**(b) New Article 33(1a):** *"Until the establishment of the national entry point pursuant to Article 23b of
+Directive (EU) 2022/2555, controllers shall continue to notify personal data breaches directly to the
+competent supervisory authority in accordance with Article 55 and Article 56 of this Regulation."*
+
+**(c) New Article 33(6) and (7):**
+*"6. The Board shall **establish and make public** a common template for notifying a personal data breach
+to the competent supervisory authority referred to in paragraph 1 as well as a list of the circumstances
+in which a personal data breach is likely to result in a high risk to the rights and freedoms of a natural
+person and a list of the circumstances in which it is not likely to result in such a high risk. The
+template and lists shall be available within [OP date = nine months of the entry into application of this
+Regulation]. The Commission may adopt the template as established by the Board by way of an implementing
+act, in accordance with the examination procedure set out in Article 93(2).
+7. The template and lists referred to in paragraph 6 shall be reviewed at least every three years and
+updated where necessary. The Commission may adopt any updates of the template by way of an implementing
+act following the procedure referred to in paragraph 6."*
+▸ vs ST 6406/26: the Board establishes/publishes the template and lists, but — unlike February, which
+struck the Commission's role entirely — this version **retains a Commission implementing-act role** ("may
+adopt the template as established by the Board"). Carried into May.
+
+---
 
 <a id="point-9--article-35-dpia-lists"></a>
-## Point 9 — Article 35 (DPIA lists)
-**Paste operative text here.**
+## Point 9 — Article 35 (data protection impact assessment)
 
-## Point 9a — Article 37(7)
-**Paste operative text here.**
+**(a) Paragraphs 4, 5 and 6 replaced:** the **Board** shall **establish and make public** (4) the list of
+processing operations subject to a DPIA, (5) the list of those for which no DPIA is required, and (6) a
+common template and a common methodology for DPIAs.
+▸ Moves the power from the **Commission** (implementing acts) to the **EDPB**; single EU-level list
+replacing national lists.
+
+**(b) New paragraphs 6a, 6b and 6c inserted:**
+- **6a.** the lists/template/methodology to be **published** within [OP date = 9 months]; the Commission
+  **may adopt the template as established by the Board** by implementing act (Art 93(2)).
+- **6b.** review by the Board at least every three years; the Commission **may adopt any updates of the
+  template** by implementing act.
+- **6c.** existing national DPA lists remain valid until the **Board** establishes and makes public the
+  lists referred to in paragraphs 4 and 5.
+▸ vs ST 6406/26, which had struck **6a and 6b** (keeping only 6c): this version **restores 6a and 6b**
+(with the Commission's role limited to adopting the Board-established template). Carried into May.
+
+## Point 9a — Article 37(7) (DPO contact details)
+
+Replaced: *"The controller or the processor shall publish the contact details of the data protection
+officer."*
+▸ **New in this version** — there is no point 9a in ST 6406/26. Carried into May.
+
+---
 
 <a id="point-10--article-29a-pseudonymisation"></a>
-## Point 10 — Article 29a (pseudonymisation)
-**Paste operative text here.**
+## Point 10 — New Article 29a (pseudonymisation and identification of a natural person)
+
+▸ The Commission's proposed **Article 41a** (Commission *implementing power* to define pseudonymisation
+criteria) — which ST 6406/26 had **struck out entirely** — is here **replaced** by an EDPB-centred
+mechanism, renumbered to **Article 29a**. This is the May approach.
+
+*"1. Controllers and processors may apply pseudonymisation to personal data in order to reduce the risks to
+the data subjects concerned and to help meet their obligations under this Regulation. Personal data which
+have undergone pseudonymisation, which could be attributed to a natural person by the use of additional
+information, should be considered to be information on an identifiable natural person. To determine whether
+a natural person is identifiable, account should be taken of all the means reasonably likely to be used,
+such as **singling out**, either by the controller, the processor or by another person to identify the
+natural person directly or indirectly.
+2. The Board shall issue an opinion, in accordance with Article 64(2) of this Regulation, addressing the
+application of pseudonymisation and anonymisation, including related technical and organisational measures,
+and specifying means and criteria to determine whether the application of pseudonymisation to personal data
+may effectively prevent persons other than the controller from identifying a data subject, in such a way
+that, for them, the data subject is not or is no longer identifiable.
+3. The Chair of the Board shall request the opinion referred to in paragraph 1 no later than 12 months
+after the entry into force of this Regulation. The opinion shall be reviewed and updated where necessary."*
+▸ The Commission's implementing-act paragraphs (the old (1) chapeau, (2)(a)–(b) and (4)–(5)) are **struck
+out**.
+
+---
 
 <a id="point-11--article-57-supervisory-authority-requests"></a>
-## Point 11 — Article 57
-**Paste operative text here.**
+## Point 11 — Article 57 (tasks of the supervisory authority)
 
-## Points 12–14 — Articles 64 & 70
-**Paste operative text here.**
+- **(a)** Article 57(1) point **(k) deleted**.
+- **(aa)** New subparagraph added to Article 57(1): *"National supervisory authorities shall refrain from
+  adopting guidelines, recommendations and best practices on matters already covered by guidelines,
+  recommendations and best practices issued by the Board and, where necessary, shall update or repeal their
+  national documentation adopted prior to guidelines, recommendations and best practices adopted by the
+  Board in order to ensure consistency of interpretation of this Regulation."*
+- **(ab)** Article 57(4) replaced: *"Where requests are manifestly unfounded or excessive, in particular
+  because of their repetitive character or where an **abusive intention** on the part of the data subject
+  submitting those request can be demonstrated, the supervisory authority may charge a reasonable fee based
+  on administrative costs, or refuse to act on the request. The supervisory authority shall, in the light
+  of all the relevant circumstances of the case, bear the burden of demonstrating the manifestly unfounded
+  or excessive character of the request."*
+▸ vs ST 6406/26 (which had only point (k) deleted): this version adds the **57(4)** "abusive intention"
+amendment and the **national-authorities-refrain** subparagraph **(aa)**. The 57(4) amendment carries into
+May; the (aa) consistency subparagraph does not appear in the May extract. See
+[provision page](../../docs/provisions/gdpr-art12-57-abusive-requests.md).
+
+## Points 12–14 — Articles 64 & 70 (EDPB tasks and consistency)
+
+- **12.** Article 64(1) point (a) deleted.
+- **13.** Article 70(1) point (h) deleted.
+- **14.** New points inserted in Article 70(1):
+  - **(ha)** establish the DPIA lists (subject to / no DPIA required), pursuant to Article 35;
+  - **(hb)** establish the DPIA template/methodology, pursuant to Article 35;
+  - **(hc)** establish the breach-notification template and the high-risk / not-high-risk lists, pursuant
+    to Article 33;
+  - **(hca)** issue guidelines, recommendations and best practices on the appropriate technical and
+    organisational measures to ensure a level of **security** appropriate to the risk, pursuant to
+    Article 32;
+  - **(hcb)** issue the **pseudonymisation / anonymisation opinion** referred to in Article 29a.
+▸ vs ST 6406/26: point **(hca)** is repurposed (February's (hca) covered pseudonymisation; here it covers
+Article 32 security), and a new **(hcb)** carries the Article 29a opinion. Matches May.
+
+---
 
 <a id="point-15--articles-88-machine-readable-consent"></a>
-## Point 15 — new article(s) after Article 88 (terminal equipment / machine-readable signals / AI LI)
-_(research-derived)_ Status of Arts 88a/88b/88c in the April text to be confirmed against source —
-this is the key point to diff against the May deletions. **Paste operative text here.**
+## Point 15 — New article(s) after Article 88
+
+The Commission proposed three new articles (88a terminal-equipment consent; 88b machine-readable signals;
+88c AI legitimate interest). In ST 8261/1/26 REV 1 — already as in May:
+
+- **Article 88a (terminal-equipment consent) — [DELETED in ST 8261/26].** The whole article (consent to
+  store/access terminal equipment; consent-exempt purposes; refusal/6-month no-repeat; staged application)
+  is **struck out**. The cookie-consent regime is **kept in the ePrivacy Directive** instead (amended
+  Art 5(3)). See [cookies provision](../../docs/provisions/gdpr-art88a-88b-cookies.md).
+
+- **Machine-readable consent article — RETAINED** (the source renumbers the Commission's Article 88b; the
+  number is in flux, shown as "8b"). Consolidated substance: *for the purpose of data-subject consent to
+  storing/accessing terminal equipment in accordance with Directive 2002/58/EC*, controllers' online
+  interfaces must let data subjects **give consent for specific categories of purposes**, and **refuse**
+  consent **or** exercise the Art 21(2) objection, through **automated, machine-readable means**;
+  controllers must ensure their interfaces **respect the signals** expressing those choices; a
+  media-service-provider exemption applies; the Commission requests standardisation (Reg (EU) 1025/2012)
+  with a conformity presumption; **providers of web browsers and providers of operating systems** (of
+  terminal equipment, for software applications operating on it) must provide the technical means; staged
+  application (signals ~24 months; browser/OS duty ~48 months); and a **new paragraph (7a)** provides that
+  browser/OS providers **shall not process** the data subject's choices for any purpose other than
+  transmitting the signal to providers of online interfaces.
+  ▸ vs ST 6406/26: the technical-means duty now also binds **operating-system** providers (February bound
+  web browsers only); the "not-SMEs" qualifier is **struck**; and the **signals-only** clause **(7a)** is
+  added. This is the article that survives into May.
+
+- **Article 88c (AI legitimate interest) — [DELETED in ST 8261/26].** The whole article making AI
+  development/operation a legitimate interest under Art 6(1)(f) is **struck out**. The interpretive
+  statement survives only in a recital (recital 33a in May) — see
+  [AI LI provision](../../docs/provisions/gdpr-art88c-ai-legitimate-interest.md).
+  ▸ Major change vs ST 6406/26, where Articles 88a, 88b and 88c were **all present**. By this version, only
+  the machine-readable-signals article remains.
+
+---
+
+*Parallel amendments to Regulation (EU) 2018/1725 (data protection by EU institutions) mirror the above —
+not transcribed separately here.*
+
+**See also (May text, for diffing):** [GDPR Art 3](ST-9547-2026_gdpr-art3-amendments.md) ·
+[ePrivacy Art 5](ST-9547-2026_eprivacy-art5.md) · [Cyber Arts 6–9](ST-9547-2026_cyber-art6-9.md) ·
+[Final provisions](ST-9547-2026_final-art10-11.md) · [Recitals](ST-9547-2026_recitals.md)

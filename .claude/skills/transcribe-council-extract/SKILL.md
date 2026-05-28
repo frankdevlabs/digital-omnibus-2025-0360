@@ -5,8 +5,8 @@ description: >-
   repo's structured markdown extracts. Use when asked to transcribe / create
   extracts for a new ST document, add a new compromise-text version under
   extracts/council/, produce consolidated operative text, or diff one Council
-  version against another. Covers rendering tracked-change pages to images,
-  applying the consolidated reading, and link-checking the output.
+  version against another. Covers extracting tracked changes (strikethrough /
+  bold) into consolidated text, cross-checking via page images, and link-checking.
 ---
 
 # Transcribe a Council compromise text into extracts
@@ -19,12 +19,19 @@ read it first; this skill is the *operational* companion (how to actually pull
 text off the PDF and verify the result).
 
 **The one thing that makes this hard:** the PDFs show changes as tracked edits —
-~~strikethrough~~ = deletion, **bold** / **bold-underlined** = addition. The
-guide wants the *consolidated* reading (changes applied). Plain-text extraction
-**destroys that formatting** and interleaves struck and added words (you get
-`9672 hours` for "~~72~~ **96** hours", `datasubmitting` for
-"~~…their data~~ **submitting**…"). So the driver renders pages to **images**
-and you read them.
+~~strikethrough~~ = deletion, **bold** = addition, **bold-underlined** = change
+vs the Commission proposal. The guide wants the *consolidated* reading (changes
+applied). Plain-text extraction **destroys that formatting** and interleaves
+struck and added words (you get `9672 hours` for "~~72~~ **96** hours",
+`datasubmitting` for "~~…their data~~ **submitting**…"), so transcribing from
+`pdftotext`/`get_text()` silently produces *wrong legal text* — you cannot tell
+a deleted recital from a retained one.
+
+**`pdf_changes.py` recovers the formatting from the PDF's own structure** (bold
+= font flag; struck = a thin vector line crossing a span's middle) and prints the
+consolidated text with deletions removed. **This is the primary tool** — read its
+output, not the raw text. `render_pdf.py` (page images) is the cross-check for
+anything the markup gets wrong (see Gotchas). Both must agree before you commit.
 
 All paths below are relative to the **repo root**.
 
@@ -46,29 +53,41 @@ rendering.
    ls sources/council/
    ```
 
-2. Render the pages you need to `/tmp` (1-based; ranges allowed; `--all` for the
-   whole document):
+2. **Extract the tracked changes (primary).** `--mode both` prints the
+   `~~deleted~~`/`**added**` markup, then the consolidated CLEAN text below a
+   divider. Transcribe operative text from the CLEAN block; use the marked block
+   to see *what* changed for your `▸` notes:
+
+   ```bash
+   python3 .claude/skills/transcribe-council-extract/pdf_changes.py \
+     "sources/council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf" --pages 2-16 --mode marked
+   ```
+
+   Whole-recital/whole-point deletions and additions are detected reliably (a
+   recital shown entirely `~~struck~~` is `[DELETED]`; entirely `**bold**` is a
+   new recital).
+
+3. **Cross-check with page images.** Render the cover and any clause the markup
+   gets wrong (see Gotchas — esp. inline number/short-word swaps):
 
    ```bash
    python3 .claude/skills/transcribe-council-extract/render_pdf.py \
-     "sources/council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf" --all
+     "sources/council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf" --pages 1,18,19
    ```
 
-   For an ambiguous clause, render a high-DPI vertical crop
+   For a doubtful clause, a high-DPI vertical crop
    (`<page>:<y0frac>:<y1frac>[:dpi]`, repeatable):
 
    ```bash
    python3 .claude/skills/transcribe-council-extract/render_pdf.py \
      "sources/council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf" \
-     --pages 1,18,19 --crop 18:0.30:0.52:320
+     --crop 21:0.27:0.40:340
    ```
 
-3. **Read the PNGs** (`/tmp/p01.png …`, crops `/tmp/pNN_<y0>-<y1>.png`) with the
-   Read tool. Produce the **consolidated** text: KEEP bold / bold-underlined, DROP
-   strikethrough. Start with the **cover page** — it has the change legend, the
-   subject line, the date, and the meeting (e.g. AGS = Antici Group
-   (Simplification)). The cover's text layer is usually empty (image-only), so you
-   must read its rendered image.
+   **Read the PNGs** (`/tmp/p01.png …`, crops `/tmp/pNN_<y0>-<y1>.png`) with the
+   Read tool. Start with the **cover page** — it has the change legend, the subject
+   line, the date, and the meeting (e.g. AGS = Antici Group (Simplification)). The
+   cover's text layer is usually empty (image-only), so you *must* read its image.
 
 4. Read the matching **reference version's** five files to mirror structure,
    `<a id="...">` anchors and header style, e.g.
@@ -104,7 +123,15 @@ tracked-change-accurate text and to gate the result.
 
 - **Never transcribe from `pdftotext`/`page.get_text()` for operative text.** It
   drops strikethrough/bold and merges old+new tokens (`9672`, `datasubmitting`).
-  Read images. Zoom (`--crop`, dpi 300–320) any clause you're unsure about.
+  Use `pdf_changes.py`; cross-check the image.
+- **`pdf_changes.py` can FLIP an inline replacement where the new and old tokens
+  overlap horizontally.** The strike line over the deleted token can also cross
+  the added token's box, so a short swap like "~~72~~**96** hours" may print as
+  "~~96~~**72**". Block-level add/delete (whole recitals, whole points) is
+  reliable; **single numbers / short words that replace each other are the weak
+  spot** — verify every such inline swap against a `--crop` image. (Real case this
+  session: Art 33(1) is **96 hours** — 72 struck, 96 added — but the tool tagged it
+  backwards; the image settled it.)
 - **`MuPDF error: ... No common ancestor in structure tree`** on stderr is
   harmless — rendering still succeeds (the example commands `2>/dev/null` it).
 - **Numbering shifts between versions.** Use the document's own point/article and
@@ -131,6 +158,9 @@ tracked-change-accurate text and to gate the result.
 
 ## Files in this skill
 
-- `render_pdf.py` — render full pages / zoom crops to `/tmp` for visual reading.
+- `pdf_changes.py` — **primary.** Recover tracked changes from the PDF structure;
+  prints consolidated (`clean`) and/or `~~del~~`/`**add**` (`marked`) text.
+- `render_pdf.py` — render full pages / zoom crops to `/tmp` for visual reading
+  (the cross-check, and the only way to settle inline-overlap swaps).
 - `linkcheck.py` — internal relative-link + `#anchor` checker over `**/*.md`
   (mirrors the scope of the repo's lychee CI so you can verify before pushing).

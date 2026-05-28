@@ -15,15 +15,19 @@ Operative text of the Council compromise texts is transcribed under
 | COM(2025) 47 final | Communication "A simpler and faster Europe" | 2025-02-11 | [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2025:47:FIN) |
 | **COM(2025) 837 final** | **Digital Omnibus proposal** (+ SWD(2025) 836) | 2025-11-19 | [EUR-Lex procedure](https://eur-lex.europa.eu/procedure/EN/2025_360) |
 
-## Council (LIMITE — links only)
+## Council documents
 
-| ID | Title | Date | LIMITE | Authoritative | Mirror |
-|---|---|---|---|---|---|
-| ST 6406/26 | Presidency compromise text (rev 1) | 2026-02-20 | yes | [Council register](https://data.consilium.europa.eu/doc/document/ST-6406-2026-INIT/en/pdf) | [netzpolitik](https://netzpolitik.org/wp-upload/2026/02/Presidency-compromise-text-on-Omnibus-VII-Digital-GDPR-P2B.pdf) |
-| WK 3736/26 | Consolidated delegations' comments | 2026-03-30 | yes | [Council register](https://data.consilium.europa.eu/doc/document/WK-3736-2026-INIT/en/pdf) | [table.media](https://table.media/assets/berlin/digital-omnibus-march-30-gdpr,-p2b,-eprivacy-fr,-ro,-pl-(1).pdf) |
-| ST 8261/26 | Presidency compromise text (rev 2) | 2026-04-15 | yes | [Council register](https://data.consilium.europa.eu/doc/document/ST-8261-2026-INIT/en/pdf) | [table.media](https://table.media/assets/berlin/digitalomnibus.pdf) |
-| **ST 9547/26** | **Presidency compromise text (rev 3)** ← current | 2026-05-21 | yes | [Council register](https://data.consilium.europa.eu/doc/document/ST-9547-2026-INIT/en/pdf) | extracted → [`../extracts/council/`](../extracts/council/) |
-| CM 2918/26 | AGS meeting agenda (27 May) | 2026-05-22 | no | [Council register](https://data.consilium.europa.eu/doc/document/CM-2918-2026-INIT/en/pdf) | — |
+PDFs are committed under [`council/`](council/) where held. The register also records the document
+number, the Council register reference (which 404s while a document remains unreleased — cited by
+number, not asserted as live), and a national-parliament record or public mirror where one exists.
+
+| ID | Title | Date | Hosted file | Provenance (number · register · NP/mirror) |
+|---|---|---|---|---|
+| ST 6406/26 | Presidency compromise text (rev 1) | 2026-02-20 | [`council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf`](council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf) | ST 6406/26 · [register](https://data.consilium.europa.eu/doc/document/ST-6406-2026-INIT/en/pdf) · [netzpolitik mirror](https://netzpolitik.org/wp-upload/2026/02/Presidency-compromise-text-on-Omnibus-VII-%E2%80%93-Digital-GDPR-P2B.pdf) |
+| WK 3736/26 | Consolidated delegations' comments | 2026-03-30 | _optional_ | WK 3736/26 · [table.media mirror](https://table.media/assets/berlin/digital-omnibus-march-30-gdpr,-p2b,-eprivacy-fr,-ro,-pl-(1).pdf) |
+| ST 8261/1/26 REV 1 | Presidency compromise text (rev 2) | 2026-04-15 | _add PDF → `council/ST-8261-1-26-REV1_council-presidency-compromise_2026-04-15.pdf`_ | ST 8261/1/26 REV 1 · [agenda CM 2463/26](https://data.consilium.europa.eu/doc/document/CM-2463-2026-INIT/en/pdf) · NP: search parlament.gv.at "8261" |
+| **ST 9547/26** | **Presidency compromise text (rev 3)** ← current | 2026-05-21 | **[`council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf`](council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf)** | ST 9547/26 · [register](https://data.consilium.europa.eu/doc/document/ST-9547-2026-INIT/en/pdf) · [Austrian Parliament record](https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322) |
+| CM 2918/26 | AGS meeting agenda (27 May) | 2026-05-22 | _optional_ | CM 2918/26 · [register](https://data.consilium.europa.eu/doc/document/CM-2918-2026-INIT/en/pdf) |
 
 ## European Parliament
 

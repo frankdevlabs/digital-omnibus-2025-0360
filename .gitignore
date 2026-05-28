@@ -1,6 +1,6 @@
-# Do not commit LIMITE / limited-distribution PDFs to the public repo (see NOTICE)
-sources/**/*.pdf
-*.pdf
+# LIMITE / Council PDFs are intentionally committed in this repo (see NOTICE §2).
+# Keep individual files well under GitHub's 100 MB hard limit (50 MB triggers a warning).
+# If a source ever exceeds ~50 MB, track it with Git LFS instead of committing directly.
 
 # Local scratch
 /tmp/

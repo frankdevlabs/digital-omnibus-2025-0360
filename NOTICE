@@ -16,15 +16,19 @@ NOTICE — third-party material and EU documents
      institutions'.
 
 2. LIMITE COUNCIL DOCUMENTS
-   Some Council compromise texts (e.g. ST 6406/26, ST 8261/26, ST 9547/26) are marked "LIMITE"
-   — a limited-distribution marking (not a security classification). To respect that marking,
-   this repository does NOT host the LIMITE PDFs. Instead it:
-     - records the document in the register (sources/), and
-     - links to authoritative or already-public copies (institutions, or journalists/NGOs that
-       have published them), and
-     - contains the maintainer's own extracted text and analysis.
-   If you hold an authoritative copy, you may keep it locally; do not commit LIMITE binaries to
-   this public repository.
+   Some Council documents in sources/ are marked "LIMITE" — a limited-distribution marking used
+   by the Council (it is NOT a security classification and these documents are unclassified).
+   This repository hosts copies of such documents for transparency and research, on the basis
+   that they concern legislation of high public interest and are already in public circulation
+   (via national parliaments and journalists). The maintainer publishes them in a personal
+   capacity and takes sole responsibility for that choice; see DISCLAIMER.md.
+
+   For each hosted document the register (sources/README.md) also records the document number,
+   the authoritative Council register reference, and — where available — the national-parliament
+   record and/or a public mirror, so provenance is always traceable.
+
+   If you are an institutional rightsholder and have a concern about a specific file, open an
+   issue and it will be addressed.
 
 3. STAKEHOLDER MATERIAL
    Quotations from regulators, NGOs, law firms and industry are short, attributed, and used for

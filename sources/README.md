@@ -3,8 +3,10 @@
 Single human-readable index of every official document on file **2025/0360 (COD)**.
 Generated from [`../data/documents.yaml`](../data/documents.yaml) — edit the YAML, then update this table.
 
-**LIMITE handling:** documents marked LIMITE are **not committed** as PDFs (see [`../NOTICE`](../NOTICE)).
-The register links to the authoritative copy and, where the binary is already public, to a mirror.
+**LIMITE handling:** Council documents marked LIMITE **are committed** as PDFs under
+[`council/`](council/) for transparency and offline diffing (see [`../NOTICE`](../NOTICE)); for each,
+the register records full provenance — the document number, the authoritative register reference, and
+a national-parliament record or public mirror where one exists.
 Operative text of the Council compromise texts is transcribed under
 [`../extracts/council/`](../extracts/council/).
 

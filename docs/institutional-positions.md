@@ -3,7 +3,10 @@
 This is the core comparison. The **Council** column reflects the operative text of **ST 9547/26
 (21 May 2026)** as transcribed in [`../extracts/council/`](../extracts/council/) — which differs
 from earlier reporting on several points (see [`../STATUS.md`](../STATUS.md)). The **Parliament**
-column is provisional: no joint ITRE/LIBE draft report exists yet, so entries reflect rapporteur
+column is provisional: the EP has taken no substantive step — the
+[Oeil procedure file](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD))
+shows status *Awaiting committee decision* with no key event beyond the 19 Jan 2026 committee
+referral, and no joint ITRE/LIBE draft report exists yet. Entries therefore reflect rapporteur
 statements, committee debate and group signals only.
 
 Per-provision detail lives in [`provisions/`](provisions/). Machine-readable version:

@@ -20,15 +20,17 @@ authoritative copy. Dates in ISO format. Newest events at the bottom of each yea
 |---|---|---|
 | 2026-01-01 | Cyprus assumes the Council Presidency | — |
 | 2026-01-09 | Cyprus circulates first discussion document to capitals | [register](sources/README.md) |
-| 2026-01-19 | EP committee referral announced in plenary (ITRE lead + LIBE, Rule 58; JURI opinion) | [register](sources/README.md) |
+| 2026-01-19 | EP committee referral announced in Parliament, 1st reading (joint ITRE/LIBE, Rule 59; IMCO & JURI opinion) — one of only **two** EP key events on Oeil | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)) |
 | 2026-01-26 | LIBE hearing with Commission services (DG JUST) | [register](sources/README.md) |
 | 2026-02-10 | **EDPB–EDPS Joint Opinion 2/2026** adopted | [register: EDPB-EDPS-JO-2-2026](sources/README.md) |
 | 2026-02-11 | Joint Opinion published; rapporteur appointments announced | [register](sources/README.md) |
 | 2026-02-13 | Czech Senate Protocol 2 contribution registered | [register](sources/README.md) |
 | 2026-02-20 | **Council compromise text ST 6406/26** (for AGS 27 Feb) | [register: ST-6406-2026](sources/README.md) |
 | 2026-02-24 | Italian Camera dei Deputati observations; civil-society call to withdraw Salla | [register](sources/README.md) |
-| 2026-02-25 | Rapporteurs Salla (ITRE) and Kaljurand (LIBE) formally appointed | [register](sources/README.md) |
+| 2026-02-24 | JURI opinion rapporteur Benifei (S&D) appointed | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)) |
+| 2026-02-25 | Rapporteurs Salla (ITRE) and Kaljurand (LIBE) formally appointed (committee-internal — not an Oeil key event) | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)) |
 | 2026-02-27 | AGS exchange of views on ST 6406/26; IMCO exchange of views on the package | [register](sources/README.md) |
+| 2026-03-02 | IMCO opinion rapporteur Agius Saliba (S&D) appointed | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)) |
 | 2026-03-10 | ECB Opinion | [register](sources/README.md) |
 | 2026-03-18 | EESC opinion adopted | [register](sources/README.md) |
 | 2026-03-30 | Delegations' comments **WK 3736/26 ADD 4** (FR, PL, RO on GDPR/P2B & ePrivacy) | [register: WK-3736-2026](sources/README.md) · [positions](docs/member-state-positions.md) |

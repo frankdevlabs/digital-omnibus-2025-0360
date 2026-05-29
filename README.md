@@ -11,8 +11,8 @@ Platform-to-Business (P2B), and cyber incident-reporting** rules.
 > [`STATUS.md`](STATUS.md) for why the two are kept apart.
 
 **Current status (high level):** Council working-party stage (third Cyprus Presidency compromise
-text, ST 9547/26, 21 May 2026); European Parliament joint ITRE/LIBE scrutiny, no draft report yet.
-Full snapshot in **[`STATUS.md`](STATUS.md)**.
+text, ST 9547/26, 21 May 2026); European Parliament at committee referral only — Oeil status
+*Awaiting committee decision*, no draft report. Full snapshot in **[`STATUS.md`](STATUS.md)**.
 
 ---
 

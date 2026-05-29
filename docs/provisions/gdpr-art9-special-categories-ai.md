@@ -32,6 +32,17 @@ Accept a narrow incidental-data carve-out only with strict necessity and effecti
 **Retained on a tightening trajectory.** Less contested than Art 88c, but the boundary between
 "incidental/residual" and "necessary" sensitive-data processing will be litigated in trilogue.
 
+## Member-State signals (WK 3736/26)
+- **FR** — wants **9(2)(k) clarified to cover only residual/incidental** (health) data — not the sole
+  basis for health-data AI; and the **9(5) threshold aligned** with existing GDPR wording
+  ("disproportionate effort *or* technical impossibility"). On **9(2)(l) biometric verification**, allow
+  it **only where Union/Member-State law provides for it** — not on a controller's discretion alone.
+- **PL** — clarify "residual presence" / "disproportionate effort" and the **incidental-vs-intentional**
+  line; read the biometric derogation **restrictively** and technologically-neutrally.
+- **RO** — erasure requirements may be **excessive for SMEs**; add a size/resources/capability qualifier
+  and SME examples for "disproportionate effort".
+- → [`../member-state-positions.md`](../member-state-positions.md)
+
 ## Open questions
 - What counts as "manifestly disproportionate effort" to erase from a trained model?
 - Interaction with AI Act Art 10(5) bias-detection processing of special categories.

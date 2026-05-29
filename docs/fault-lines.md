@@ -12,6 +12,9 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
 - **EDPB–EDPS:** strongly oppose any redefinition as inconsistent with CJEU case law.
 - **Why it matters:** the redefinition would have taken whole categories of data outside the GDPR for
   some actors. Its deletion is the single biggest substantive retreat in the Council text.
+- **Member States (WK 3736/26):** FR and PL both welcome the deletion; FR wants a *binding* EDPB opinion
+  on pseudonymisation, while PL **opposes deleting Art 41a** and wants any guidance to leave Art 4(1)
+  untouched. See [`member-state-positions.md`](member-state-positions.md).
 - → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md)
 
 ## 2. Legitimate interest for AI development and the sensitive-data carve-out
@@ -31,7 +34,9 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
 - **Council:** **GDPR Art 88a deleted** — the consent rule is **kept in the ePrivacy Directive**
   (amended Art 5(3)), carrying the exempt-purpose list and the 6-month rule; the machine-readable
   signal article (Art 88b) is **retained** in the GDPR (renumbered). This aligns with Poland's
-  position (WK 3736/26) that terminal-equipment rules belong in ePrivacy.
+  position (WK 3736/26) that terminal-equipment rules belong in ePrivacy. **France** went further,
+  arguing cookie consent is a *technical operation, not data processing*, and demanding the relaxations
+  be made in ePrivacy Art 5(3) and that **Art 88b be deleted** (see [`member-state-positions.md`](member-state-positions.md)).
 - **Why it matters:** conceptually decisive for where the cookie regime lives and which authority
   enforces it; industry wants the machine-readable signal article deleted as "consent chaos".
 - → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),
@@ -44,6 +49,9 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
   the controller bearing the burden.
 - **EDPB–EDPS:** object to tying "abuse" to the *purpose* of the access request; noyb's empirical
   "reality check" found 83.5% of access requests already go unanswered or are answered incompletely.
+- **Member States (WK 3736/26):** PL welcomes the burden resting on the controller but wants "abusive
+  intention" read restrictively; FR wants the ground to also catch circumvention of procedures with
+  their own access rules. See [`member-state-positions.md`](member-state-positions.md).
 - → [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md)
 
 ## Secondary tensions

@@ -32,6 +32,15 @@ the Council's deletion.
 **Council has dropped it.** Likely cross-institutional consensus *not* to redefine. Watch for any attempt
 to reintroduce a softer Art 4 clarification under the Irish Presidency or by industry amendment.
 
+## Member-State signals (WK 3736/26)
+- **FR** — welcomes the deletion; wants the EDPB to give a **binding opinion** (not soft guidelines) on
+  pseudonymisation/identifiability so controllers get enforceable criteria fast.
+- **PL** — welcomes the deletion but "remains open to a solution without changing the definition", and
+  **opposes deleting Art 41a**; any guidance must be framed *without affecting Art 4(1)* (no "relative
+  personal data", no automatic non-personal qualification).
+- **RO** — backs the "means reasonably likely to be used" criterion as **reducing uncertainty for SMEs**.
+- → [`../member-state-positions.md`](../member-state-positions.md)
+
 ## Open questions
 - Will the EDPB pseudonymisation opinion (Art 29a) effectively reintroduce a risk-based scoping by guidance?
 - How is "singling out" treated in the new Art 29a(1a)?

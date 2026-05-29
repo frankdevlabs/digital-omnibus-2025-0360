@@ -12,10 +12,13 @@ Operative text of the Council compromise texts is transcribed under
 
 ## Commission
 
-| ID | Title | Date | Link |
-|---|---|---|---|
-| COM(2025) 47 final | Communication "A simpler and faster Europe" | 2025-02-11 | [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2025:47:FIN) |
-| **COM(2025) 837 final** | **Digital Omnibus proposal** (+ SWD(2025) 836) | 2025-11-19 | [EUR-Lex procedure](https://eur-lex.europa.eu/procedure/EN/2025_360) |
+| ID | Title | Date | Hosted file | Link |
+|---|---|---|---|---|
+| COM(2025) 47 final | Communication "A simpler and faster Europe" | 2025-02-11 | — | [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2025:47:FIN) |
+| **COM(2025) 837 final** | **Digital Omnibus proposal** (+ SWD(2025) 836) | 2025-11-19 | [`commission/COM-2025-837_proposal_2025-11-19.docx`](commission/COM-2025-837_proposal_2025-11-19.docx) · [Annex I](commission/COM-2025-837_annex1-correlation-tables_2025-11-19.docx) | [EUR-Lex procedure](https://eur-lex.europa.eu/procedure/EN/2025_360) · [CELEX 52025PC0837](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0837) |
+
+Base-text operative extracts of the proposal are transcribed under
+[`../extracts/commission/`](../extracts/commission/) (the diff baseline for the Council compromise texts).
 
 ## Council documents
 
@@ -47,12 +50,12 @@ number, not asserted as live), and a national-parliament record or public mirror
 
 ## Advisory bodies / national parliaments
 
-| Body | Item | Date |
-|---|---|---|
-| EESC | Opinion adopted | 2026-03-18 |
-| ECB | Opinion | 2026-03-10 |
-| Czech Senate | Protocol 2 contribution | 2026-02-13 |
-| Italian Camera dei Deputati | Observations | 2026-02-24 |
+| Body | Item | Date | Hosted file | Link |
+|---|---|---|---|---|
+| EESC | Opinion **INT/1108** (covers 2025/0359 & 2025/0360); rapporteur Willems | 2026-03-18 | [`advisory/EESC-2025-03929_opinion-int1108_2026-03-18.docx`](advisory/EESC-2025-03929_opinion-int1108_2026-03-18.docx) | [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=PI_EESC:EESC-2025-03929-AS) · [digest](../docs/advisory/eesc-int1108.md) |
+| ECB | Opinion | 2026-03-10 | — | — |
+| Czech Senate | Protocol 2 contribution | 2026-02-13 | — | — |
+| Italian Camera dei Deputati | Observations | 2026-02-24 | — | — |
 
 ## Stakeholders
 

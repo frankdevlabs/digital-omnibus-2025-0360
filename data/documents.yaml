@@ -17,7 +17,19 @@ documents:
     date: 2025-11-19
     limite: false
     url: https://eur-lex.europa.eu/procedure/EN/2025_360
-    notes: The proposal this repo tracks. Accompanied by SWD(2025) 836.
+    celex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0837
+    local: sources/commission/COM-2025-837_proposal_2025-11-19.docx
+    local_annex: sources/commission/COM-2025-837_annex1-correlation-tables_2025-11-19.docx
+    notes: The proposal this repo tracks. Accompanied by SWD(2025) 836. Base-text operative extracts in extracts/commission/. Annex I = correlation tables.
+
+  - id: EESC-2025-03929
+    title: "EESC opinion INT/1108 on the Digital Omnibus (covers 2025/0359 and 2025/0360)"
+    body: EESC
+    date: 2026-03-18
+    limite: false
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=PI_EESC:EESC-2025-03929-AS
+    local: sources/advisory/EESC-2025-03929_opinion-int1108_2026-03-18.docx
+    notes: Rapporteur Heiko Willems; co-rapporteur Angelo Pagliara. Adopted in INT section 11 Feb 2026 (102/0/1); plenary 18 Mar 2026. Digest in docs/advisory/eesc-int1108.md.
 
   - id: EDPB-EDPS-JO-2-2026
     title: "EDPB–EDPS Joint Opinion 2/2026 on the Digital Omnibus"

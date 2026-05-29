@@ -23,7 +23,7 @@ The repo deliberately separates three layers so that links stay stable over time
 | Layer | Folder | What it is | Mutable? |
 |---|---|---|---|
 | **Primary sources** | [`sources/`](sources/) | Register of every official document, with links to authoritative copies | append-only |
-| **Operative-text extracts** | [`extracts/`](extracts/) | Diffable plain-text of the operative articles, for `git diff` across versions | versioned |
+| **Operative-text extracts** | [`extracts/`](extracts/) | Diffable plain-text of the operative articles, for `git diff` across versions — [`commission/`](extracts/commission/) is the Commission base text, [`council/`](extracts/council/) the compromise texts | versioned |
 | **Analysis** | [`docs/`](docs/) | The human-readable analysis that links *to* the layers above | living |
 
 ### Navigation
@@ -31,12 +31,14 @@ The repo deliberately separates three layers so that links stay stable over time
 - **[`STATUS.md`](STATUS.md)** — where the file stands right now (one screen).
 - **[`TIMELINE.md`](TIMELINE.md)** — full chronology, every entry linked to a source.
 - **[`docs/summary.md`](docs/summary.md)** — the plain-language summary.
+- **[`docs/commission-proposal.md`](docs/commission-proposal.md)** — digest of the Commission proposal's explanatory memorandum.
 - **[`docs/institutional-positions.md`](docs/institutional-positions.md)** — Commission vs Council vs Parliament comparison table.
 - **[`docs/fault-lines.md`](docs/fault-lines.md)** — the contested issues likely to dominate trilogue.
 - **[`docs/stakeholders.md`](docs/stakeholders.md)** — EDPB/EDPS, noyb, EDRi, BEUC, industry.
 - **[`docs/provisions/`](docs/provisions/)** — one file per tracked provision (Art 4, 9, 12/57, 22, 33, 88a/88b, 88c, single-entry point).
 - **[`docs/instruments/`](docs/instruments/)** — what changes per amended/repealed instrument.
 - **[`sources/README.md`](sources/README.md)** — the document register.
+- **[`extracts/commission/`](extracts/commission/)** — base-text extracts of the Commission proposal COM(2025) 837 (the diff baseline).
 - **[`extracts/council/`](extracts/council/)** — operative-text extracts of the Council compromise texts.
 
 ---

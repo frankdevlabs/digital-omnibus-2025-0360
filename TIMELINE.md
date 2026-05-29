@@ -32,7 +32,7 @@ authoritative copy. Dates in ISO format. Newest events at the bottom of each yea
 | 2026-03-10 | ECB Opinion | [register](sources/README.md) |
 | 2026-03-18 | EESC opinion adopted | [register](sources/README.md) |
 | 2026-03-30 | Consolidated delegations' comments (WK 3736/26) | [register: WK-3736-2026](sources/README.md) |
-| 2026-04-15 | **Council compromise text ST 8261/1/26 REV 1** (for AGS 24 Apr) | [register: ST-8261-1-26-REV1](sources/README.md) |
+| 2026-04-17 | **Council compromise text ST 8261/1/26 REV 1** (for AGS 24 Apr) | [register: ST-8261-1-26-REV1](sources/README.md) |
 | 2026-04-24 | AGS exchange of views on ST 8261/1/26 REV 1 | [register](sources/README.md) |
 | 2026-05-07 | (Sister file 2025/0359 — AI Act) provisional trilogue agreement reached | [register](sources/README.md) |
 | 2026-05-21 | **Council compromise text ST 9547/26** + Presidency note WK 7178/26 | [register: ST-9547-2026](sources/README.md) |

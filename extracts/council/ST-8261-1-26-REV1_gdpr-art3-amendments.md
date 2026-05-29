@@ -1,6 +1,6 @@
 # Extract — ST 8261/1/26 REV 1, Article 3 (amendments to the GDPR, Reg. (EU) 2016/679)
 
-> **Source:** Council document **ST 8261/1/26 REV 1** (LIMITE), Brussels, 15 April 2026 — Presidency
+> **Source:** Council document **ST 8261/1/26 REV 1** (LIMITE), Brussels, 17 April 2026 — Presidency
 > revised compromise text, for the AGS meeting of 24 April 2026. Interinstitutional file 2025/0360 (COD).
 > **This is a working transcription, not an official text.** It reproduces the *consolidated* reading
 > (i.e. with the Presidency's tracked changes against the Commission proposal accepted). Salient changes

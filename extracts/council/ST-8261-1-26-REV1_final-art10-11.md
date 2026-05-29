@@ -1,6 +1,6 @@
 # Extract — ST 8261/1/26 REV 1, Articles 10–11 (amendments, repeals, transitional & final provisions)
 
-> **Source:** Council document **ST 8261/1/26 REV 1** (LIMITE), Brussels, 15 April 2026 — Presidency revised
+> **Source:** Council document **ST 8261/1/26 REV 1** (LIMITE), Brussels, 17 April 2026 — Presidency revised
 > compromise text, for the AGS meeting of 24 April 2026. Interinstitutional file 2025/0360 (COD).
 > **This is a working transcription, not an official text** — consolidated reading. Bracketed `[…]` dates
 > are undecided in the source. Always verify against the authoritative document. See [`../../NOTICE`](../../NOTICE).

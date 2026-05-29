@@ -1,6 +1,6 @@
 # Extract — ST 8261/1/26 REV 1, Article 5 (amendments to the ePrivacy Directive 2002/58/EC)
 
-> **Source:** Council document **ST 8261/1/26 REV 1** (LIMITE), Brussels, 15 April 2026 — Presidency revised
+> **Source:** Council document **ST 8261/1/26 REV 1** (LIMITE), Brussels, 17 April 2026 — Presidency revised
 > compromise text, for the AGS meeting of 24 April 2026. Interinstitutional file 2025/0360 (COD).
 > **This is a working transcription, not an official text** — consolidated reading (tracked changes against
 > the Commission proposal accepted). Salient changes are flagged with **▸**. Bracketed `[…]` dates are

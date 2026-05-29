@@ -1,6 +1,6 @@
 # Extract — ST 8261/1/26 REV 1, key recitals (curated subset)
 
-> **Source:** Council document **ST 8261/1/26 REV 1** (LIMITE), Brussels, 15 April 2026 — Presidency revised
+> **Source:** Council document **ST 8261/1/26 REV 1** (LIMITE), Brussels, 17 April 2026 — Presidency revised
 > compromise text, for the AGS meeting of 24 April 2026. Interinstitutional file 2025/0360 (COD).
 > **This is a working transcription, not an official text** — consolidated reading (Presidency tracked
 > changes against the Commission proposal accepted: additions kept, ~~strikethrough~~ deletions dropped).

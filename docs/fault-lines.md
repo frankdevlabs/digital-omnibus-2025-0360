@@ -9,7 +9,9 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
   pseudonymisation (proposed Art 41a).
 - **Council:** **both deleted.** Art 4(1) untouched; pseudonymisation handled by an **EDPB opinion**
   mandate (new Art 29a) and EDPB guidelines under Art 70.
-- **EDPB–EDPS:** strongly oppose any redefinition as inconsistent with CJEU case law.
+- **EDPB–EDPS:** strongly oppose any redefinition as inconsistent with CJEU case law, and would delete
+  the Art 41a implementing-act power
+  ([digest](advisory/edpb-edps-jo-2-2026.md#personal-data)).
 - **Why it matters:** the redefinition would have taken whole categories of data outside the GDPR for
   some actors. Its deletion is the single biggest substantive retreat in the Council text.
 - **Member States (WK 3736/26):** FR and PL both welcome the deletion; FR wants a *binding* EDPB opinion
@@ -24,7 +26,9 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
 - **Council:** **Art 88c deleted; recitals 30 & 31 deleted.** The AI Art 6(1)(f) reading survives
   only in **recital 33a**. Art 9(2)(k)/9(5) **retained but tightened** (avoid → erase → safeguard,
   with documentation across the AI life cycle).
-- **EDPB–EDPS:** the standalone article is unnecessary (Opinion 28/2024 already covers AI LI).
+- **EDPB–EDPS:** the standalone article is unnecessary (Opinion 28/2024 already covers AI LI); they would
+  bound the Art 9(2)(k) carve-out to *incidental and residual* processing
+  ([digest](advisory/edpb-edps-jo-2-2026.md#ai-legitimate-interest)).
 - → [`provisions/gdpr-art88c-ai-legitimate-interest.md`](provisions/gdpr-art88c-ai-legitimate-interest.md),
   [`provisions/gdpr-art9-special-categories-ai.md`](provisions/gdpr-art9-special-categories-ai.md)
 
@@ -47,8 +51,10 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
   made for a purpose other than data protection.
 - **Council:** **retained but reformulated** — an **"abusive intention"** must be demonstrated, with
   the controller bearing the burden.
-- **EDPB–EDPS:** object to tying "abuse" to the *purpose* of the access request; noyb's empirical
-  "reality check" found 83.5% of access requests already go unanswered or are answered incompletely.
+- **EDPB–EDPS:** object to tying "abuse" to the *purpose* of the access request (link it to an *abusive
+  intention* instead) and want Art 12(5) kept mirrored in Art 57(4)
+  ([digest](advisory/edpb-edps-jo-2-2026.md#access-requests)); noyb's empirical "reality check" found
+  83.5% of access requests already go unanswered or are answered incompletely.
 - **Member States (WK 3736/26):** PL welcomes the burden resting on the controller but wants "abusive
   intention" read restrictively; FR wants the ground to also catch circumvention of procedures with
   their own access rules. See [`member-state-positions.md`](member-state-positions.md).

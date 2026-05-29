@@ -24,17 +24,19 @@ authoritative copy. Dates in ISO format. Newest events at the bottom of each yea
 | 2026-01-01 | Cyprus assumes the Council Presidency | — |
 | 2026-01-09 | **Council working party** — Cyprus circulates first discussion document to capitals (note WK 252/26; agenda CM 5531/25) | [register](sources/README.md) |
 | 2026-01-16 | **Council working party** deliberations (notes WK 250/26, WK 448/26; agenda CM 1136/26) | [register](sources/README.md) |
-| 2026-01-19 | EP committee referral announced in plenary (ITRE lead + LIBE, Rule 58; JURI opinion) | [register](sources/README.md) |
+| 2026-01-19 | EP committee referral announced in Parliament, 1st reading (joint ITRE/LIBE, Rule 59; IMCO & JURI opinion) — one of only **two** EP key events on Oeil | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)) |
 | 2026-01-26 | LIBE hearing with Commission services (DG JUST) | [register](sources/README.md) |
-| 2026-02-10 | **EDPB–EDPS Joint Opinion 2/2026** adopted | [register: EDPB-EDPS-JO-2-2026](sources/README.md) |
+| 2026-02-10 | **EDPB–EDPS Joint Opinion 2/2026** adopted | [register: EDPB-EDPS-JO-2-2026](sources/README.md) · [digest](docs/advisory/edpb-edps-jo-2-2026.md) |
 | 2026-02-11 | Joint Opinion published; rapporteur appointments announced | [register](sources/README.md) |
 | 2026-02-13 | Czech Senate Protocol 2 contribution registered | [register](sources/README.md) |
 | 2026-02-13 | **Council working party** deliberations (delegation comments WK 3735/26 + ADD 1–4; notes WK 2045/2134/2399/26; agenda CM 1533/26) | [register: WK-3735-2026](sources/README.md) |
 | 2026-02-18 | **Coreper** approves EDPB/EDPS attendance at the 27 Feb AGS to present Joint Opinion 2/2026 ('I'-item note **ST 6311/26**) | [register: ST-6311-2026](sources/README.md) |
 | 2026-02-20 | **Council compromise text ST 6406/26** (for AGS 27 Feb) | [register: ST-6406-2026](sources/README.md) |
 | 2026-02-24 | Italian Camera dei Deputati observations; civil-society call to withdraw Salla | [register](sources/README.md) |
-| 2026-02-25 | Rapporteurs Salla (ITRE) and Kaljurand (LIBE) formally appointed | [register](sources/README.md) |
+| 2026-02-24 | JURI opinion rapporteur Benifei (S&D) appointed | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)) |
+| 2026-02-25 | Rapporteurs Salla (ITRE) and Kaljurand (LIBE) formally appointed (committee-internal — not an Oeil key event) | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)) |
 | 2026-02-27 | AGS exchange of views on ST 6406/26; IMCO exchange of views on the package | [register](sources/README.md) |
+| 2026-03-02 | IMCO opinion rapporteur Agius Saliba (S&D) appointed | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)) |
 | 2026-03-10 | **ECB Opinion CON/2026/9** adopted (requested by EP 9 Dec 2025; ECB broadly supports the proposal) — transmitted to Council via cover note ST 7244/26 (11 Mar) | [register: ECB-CON-2026-9](sources/README.md) |
 | 2026-03-18 | EESC opinion adopted | [register](sources/README.md) |
 | 2026-03-30 | Delegations' comments **WK 3736/26 ADD 4** (FR, PL, RO on GDPR/P2B & ePrivacy) | [register: WK-3736-2026](sources/README.md) · [positions](docs/member-state-positions.md) |

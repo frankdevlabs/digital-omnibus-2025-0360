@@ -26,7 +26,13 @@ EDRi/noyb push for full deletion of any AI LI statement; EPP/Renew more supporti
 cautious.
 
 ## EDPB–EDPS
-A standalone article is **unnecessary** — Opinion 28/2024 already frames AI legitimate interest.
+A standalone article is **unnecessary** — **Opinion 28/2024** already confirms AI legitimate interest under
+the current GDPR, and "may … where appropriate" adds nothing (Joint Opinion 2/2026, ¶39). If retained:
+state that **all Art 6(1)(f) conditions (the three-step test) must be met** and drop "where appropriate";
+move the **right to object into Art 21** (flagged to data subjects in advance), define "**enhanced
+transparency**" as info *additional* to Arts 13–14, do not conflate mitigating with mandatory compliance
+measures, and **define "operation"** of an AI system (¶41–45).
+→ [JO 2/2026 digest: AI legitimate interest](../advisory/edpb-edps-jo-2-2026.md#ai-legitimate-interest)
 
 ## Status
 **Major battle.** The Council removed the operative article but kept the interpretive recital; the

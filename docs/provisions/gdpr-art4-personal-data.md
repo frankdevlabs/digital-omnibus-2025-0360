@@ -26,7 +26,14 @@ No draft report. Co-rapporteur Kaljurand and centre-left groups hostile to redef
 the Council's deletion.
 
 ## EDPB–EDPS
-**Strongly oppose** the redefinition; consider it inconsistent with CJEU case law and a narrowing of scope.
+**Strongly urge co-legislators not to adopt** the redefinition (Joint Opinion 2/2026, ¶21): it is a
+selective, inaccurate codification of *EDPS v SRB* that would narrow the concept, invite scope-shopping and
+overlook "singling out"; a "negative" definition with undefined terms ("entity") *increases* uncertainty,
+and the pseudonymisation question is better left to forthcoming EDPB guidance. They also urge **deleting
+Art 41a** — defining personal data sets the *material scope* of EU data-protection law and must not be
+fixed by a Commission implementing act (¶22–25).
+→ [JO 2/2026 digest: personal data](../advisory/edpb-edps-jo-2-2026.md#personal-data),
+[implementing act](../advisory/edpb-edps-jo-2-2026.md#implementing-act-pseudonymisation)
 
 ## Status
 **Council has dropped it.** Likely cross-institutional consensus *not* to redefine. Watch for any attempt

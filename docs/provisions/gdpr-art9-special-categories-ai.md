@@ -26,7 +26,15 @@ Likely to insist on a strict-necessity standard and strong documentation; Kaljur
 GDPR technological neutrality" risk.
 
 ## EDPB–EDPS
-Accept a narrow incidental-data carve-out only with strict necessity and effective safeguards.
+**Welcome** the incidental/residual carve-out (Joint Opinion 2/2026, ¶46) — training certain AI cannot
+always avoid it — but recommend: put "**incidental and residual**" in the **enacting terms** of 9(2)(k);
+**exclude** special-category data collected via **prompts at deployment**; make 9(5) require deletion is
+**impossible/disproportionate** on a **documented, state-of-the-art** assessment; add **lifecycle
+safeguards** and bar **re-use**; and clarify the interplay with the **AI-Act Art 4a** bias-detection regime
+(¶48–52). On **biometric verification (9(2)(l))** they welcome the sole-control limit but want necessity
+preserved and the Recital 34 "not likely to create significant risks" line removed (¶36–38).
+→ [JO 2/2026 digest: AI special categories](../advisory/edpb-edps-jo-2-2026.md#ai-special-categories),
+[biometric](../advisory/edpb-edps-jo-2-2026.md#biometric)
 
 ## Status
 **Retained on a tightening trajectory.** Less contested than Art 88c, but the boundary between

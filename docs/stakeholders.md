@@ -10,6 +10,7 @@ Positions of regulators, civil society and industry. Links resolve via [`../sour
   Criticise the abuse-of-rights provision for linking abuse to the *purpose* of the request.
   **Welcome** the high-risk/96-hour breach-notification threshold, the EU-wide DPIA list, the
   biometric-verification derogation, and the single-entry point (with safeguards).
+  → [digest](advisory/edpb-edps-jo-2-2026.md)
 - **ECB — Opinion (10 Mar 2026).** Financial-stability-relevant aspects (DORA single-entry point,
   abuse-of-rights).
 - **EESC — Opinion (18 Mar 2026).**

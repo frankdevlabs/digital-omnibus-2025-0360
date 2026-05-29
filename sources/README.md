@@ -58,9 +58,9 @@ number, not asserted as live), and a national-parliament record or public mirror
 
 ## EDPB / EDPS
 
-| ID | Title | Date | Link |
-|---|---|---|---|
-| Joint Opinion 2/2026 | EDPB–EDPS joint opinion on the Digital Omnibus | 2026-02-10 | [EDPB](https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-22026-proposal_en) |
+| ID | Title | Date | Hosted file | Link |
+|---|---|---|---|---|
+| Joint Opinion 2/2026 | EDPB–EDPS joint opinion on the Digital Omnibus | 2026-02-10 | [`edpb-edps/EDPB-EDPS-JO-2-2026_opinion_2026-02-10.pdf`](edpb-edps/EDPB-EDPS-JO-2-2026_opinion_2026-02-10.pdf) | [EDPB](https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-22026-proposal_en) · [digest](../docs/advisory/edpb-edps-jo-2-2026.md) |
 
 ## Advisory bodies / national parliaments
 

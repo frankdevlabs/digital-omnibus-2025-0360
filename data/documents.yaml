@@ -20,7 +20,14 @@ documents:
     celex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0837
     local: sources/commission/COM-2025-837_proposal_2025-11-19.docx
     local_annex: sources/commission/COM-2025-837_annex1-correlation-tables_2025-11-19.docx
-    notes: The proposal this repo tracks. Accompanied by SWD(2025) 836. Base-text operative extracts in extracts/commission/. Annex I = correlation tables.
+    leading_service: DG CNECT; Commissioner responsible Henna Virkkunen
+    mandatory_consultees: European Committee of the Regions, European Central Bank, European Economic and Social Committee
+    notes: >-
+      The proposal this repo tracks. Accompanied by SWD(2025) 836. Base-text operative extracts in
+      extracts/commission/. Annex I = correlation tables. Transmitted to the Council as ST 15698/25
+      (INIT = proposal, ADD 1 = correlation tables, ADD 2 ≈ financial statement / SWD 836); see
+      ST-15698-2025. Mandatory consultees per the law-tracker: CoR, ECB (Opinion CON/2026/9), EESC
+      (Opinion INT/1108).
 
   - id: EESC-2025-03929
     title: "EESC opinion INT/1108 on the Digital Omnibus (covers 2025/0359 and 2025/0360)"
@@ -46,6 +53,101 @@ documents:
       EDPS for the EUDPR) to prepare *and approve* the breach/DPIA templates and lists. Digest:
       docs/advisory/edpb-edps-jo-2-2026.md.
 
+  - id: ECB-CON-2026-9
+    title: "ECB Opinion CON/2026/9 on the Digital Omnibus"
+    body: ECB
+    date: 2026-03-10
+    limite: false
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026AB0009
+    eur_lex_note: "ECB opinion; CELEX 52026AB0009 (verify) — also on the ECB legal-opinions register."
+    council_cover_note: ST 7244/26 (11 Mar 2026) — see ST-7244-2026
+    local: sources/advisory/ECB-CON-2026-9_opinion_2026-03-10.pdf
+    notes: >-
+      Opinion of the European Central Bank of 10 March 2026, requested by the European Parliament on
+      9 December 2025 (competence under Arts 127(4) and 282(5) TFEU). The ECB broadly supports the
+      proposal as a simplification of the digital rulebook, with observations relevant to monetary
+      policy, payment systems, prudential supervision and statistics. Committed copy from the ECB
+      website; reached the Council via cover note ST 7244/26. Digest in docs/advisory/ecb-con-2026-9.md.
+      Notable ask: exclude DORA from the single-entry-point regime (at least initially).
+
+  - id: ST-15698-2025
+    title: "Council transmission of the Digital Omnibus proposal (= COM(2025) 837)"
+    body: Council
+    date: 2025-12-12
+    limite: false
+    access: cite-only
+    register: https://data.consilium.europa.eu/doc/document/ST-15698-2025-INIT/en/pdf
+    notes: >-
+      The Commission proposal as transmitted to the Council: ST 15698/25 INIT = the proposal,
+      ADD 1 = Annex I correlation tables, ADD 2 ≈ financial statement / SWD(2025) 836. Content is
+      already committed under sources/commission/ (see COM-2025-837) — registered here only as the
+      Council document number that appears on the working-party agendas (12 Dec 2025, 16 Jan and
+      13 Feb 2026). No separate PDF committed (duplicate of the COM files).
+
+  - id: ST-16131-1-25-REV1
+    title: "Presidency note 'Simplification — 2025 Annual Overview / Annual Progress Reports'"
+    body: Council
+    date: 2025-12-04
+    limite: false
+    access: screenshot-only
+    register: https://data.consilium.europa.eu/doc/document/ST-16131-2025-REV-1/en/pdf
+    notes: >-
+      Correct id is ST 16131/1/25 REV 1 (GIP.B note, 4 Dec 2025). A HORIZONTAL simplification-agenda
+      note (Commission presentation + exchange of views on the 2025 Annual Overview Report
+      ST 14498/REV1/25 and the Annual Progress Reports ST 16182/25, ST 16262/25); it does NOT carry
+      the 2025/0360 interinstitutional-file header. The law-tracker attaches it to this procedure
+      because the Digital Omnibus is one of the omnibus packages. Discussed at Coreper (5 Dec 2025)
+      and Council (16 Dec 2025). Not downloadable from the register; characterised from a screenshot.
+
+  - id: ST-6311-2026
+    title: "Coreper 'I'-item note — EDPB/EDPS attendance at the 27 Feb 2026 AGS"
+    body: Council
+    date: 2026-02-13
+    limite: true
+    access: public-released   # carries the register "PUBLIC" release watermark
+    register: https://data.consilium.europa.eu/doc/document/ST-6311-2026-INIT/en/pdf
+    local: sources/council/ST-6311-2026_coreper-i-item-edpb-edps-attendance_2026-02-13.pdf
+    notes: >-
+      ST 6311/26 (13 Feb 2026), Interinstitutional File 2025/0360(COD). Asks Coreper (Part 2) to
+      approve the attendance of EDPB and EDPS representatives at the Antici Group (Simplification) on
+      27 Feb 2026 to present Joint Opinion 2/2026. Approved at Coreper on 18 Feb 2026. Committed copy
+      carries the public-release watermark.
+
+  - id: WK-3735-2026
+    title: "Delegations' comments on the cyber/data strand (Commission proposal) — INIT + ADD 1–4"
+    body: Council
+    date: 2026-02-13
+    limite: true
+    access: public-via-register
+    register: https://data.consilium.europa.eu/doc/document/WK-3735-2026-INIT/en/pdf
+    local_init: sources/council/WK-3735-2026-INIT_consolidated-comments-cyber-data_2026-03-11.pdf
+    local_add1: sources/council/WK-3735-2026-ADD1_delegation-comments-cz-cyber-data_2026-03-11.pdf
+    local_add2: sources/council/WK-3735-2026-ADD2_delegation-comments-ee-cyber-data_2026-03-12.pdf
+    local_add3: sources/council/WK-3735-2026-ADD3_delegation-comments-at-cyber-data_2026-03-18.pdf
+    local_add4: sources/council/WK-3735-2026-ADD4_delegation-comments-dk-cyber-data_2026-03-23.pdf
+    notes: >-
+      CYBER/DATA strand — comments on the Commission proposal (consultation deadline 27 Feb → 6 Mar
+      2026); sibling to WK 3736/26 (GDPR/P2B). Committed: INIT (11 Mar, consolidated table from 15
+      delegations BE/DE/DK/EL/ES/FI/FR/IT/LU/LV/NL/PL/RO/SE/SI), ADD 1 = Czechia (CZ, 11 Mar,
+      tracked-changes: single entry point, EDIB powers, Art 38(3) cooperation, "protected data"
+      terminology, payment for anonymisation), ADD 2 = Estonia (EE, 12 Mar: SEP timeline review,
+      open/protected-data merger, public-emergency non-personal data), ADD 3 = Austria (AT, 18 Mar:
+      EDIB mandate, Art 38 competent-authority ambiguity, supports DE info-sharing system), ADD 4 =
+      Denmark (DK, 23 Mar: MS control over SEP, ENISA/Cyber Resilience Act, high-value datasets).
+      Positions summarised in docs/member-state-positions.md and docs/provisions/cyber-single-entry-point.md.
+
+  - id: ST-7244-2026
+    title: "Council cover note transmitting ECB Opinion CON/2026/9"
+    body: Council
+    date: 2026-03-11
+    limite: false
+    access: screenshot-only
+    register: https://data.consilium.europa.eu/doc/document/ST-7244-2026-INIT/en/pdf
+    notes: >-
+      ST 7244/26 (11 Mar 2026), cover note from C. Lagarde (ECB) to the GSC transmitting ECB Opinion
+      CON/2026/9 on the Digital Omnibus, referencing [15698/25 - 2025/0360(COD)]. The opinion itself
+      is committed under ECB-CON-2026-9. Cover note characterised from a screenshot.
+
   - id: ST-6406-2026
     title: "Presidency compromise text (Omnibus VII - Digital, GDPR/P2B)"
     body: Council
@@ -58,18 +160,23 @@ documents:
     notes: First Cyprus compromise text (committed copy via EURACTIV). Mirror verified live (note the %E2%80%93 en-dash).
 
   - id: WK-3736-2026
-    title: "Consolidated delegations' comments (ADD 4 — FR, PL, RO on GDPR/P2B & ePrivacy)"
+    title: "Delegations' comments on the GDPR/P2B/ePrivacy strand — ADD 1–4"
     body: Council
-    date: 2026-03-30
+    date: 2026-03-19
     limite: true
     url: https://data.consilium.europa.eu/doc/document/WK-3736-2026-INIT/en/pdf
     mirror: https://table.media/assets/berlin/digital-omnibus-march-30-gdpr,-p2b,-eprivacy-fr,-ro,-pl-(1).pdf
-    local: sources/council/WK-3736-2026-ADD4_delegations-comments-fr-pl-ro_2026-03-30.pdf
+    local_add1: sources/council/WK-3736-2026-ADD1_consolidated-comments-gdpr-p2b_2026-03-19.pdf
+    local_add2: sources/council/WK-3736-2026-ADD2_delegation-comments-de-gdpr-p2b_2026-03-19.pdf
+    local_add3: sources/council/WK-3736-2026-ADD3_delegation-comments-ee-gdpr-p2b_2026-03-23.pdf
+    local_add4: sources/council/WK-3736-2026-ADD4_delegations-comments-fr-pl-ro_2026-03-30.pdf
     notes: >-
-      WK 3736/26 ADD 4 — working document for the Antici Group (Simplification), comments related to
-      AGS 27 Feb 2026 (deadline 18 Mar) on the ST 6406/26 text. FR/PL/RO drafting suggestions and
-      comments (FR in French). Other ADD addenda (further delegations) may exist. PDF committed;
-      delegation positions summarised in docs/member-state-positions.md.
+      WK 3736/26 — GDPR/P2B/ePrivacy strand, working documents for the Antici Group (Simplification),
+      comments on the ST 6406/26 text (deadline 18 Mar 2026). Committed locally: ADD 1 = consolidated
+      (19 Mar; two joint submissions — {AT,ES,LV,SE} and {BE,CZ,DK,FI,IE,IT,LU,NL,SI} — both resisting
+      the P2B repeal), ADD 2 = Germany (DE, 19 Mar), ADD 3 = Estonia (EE, 23 Mar), ADD 4 = FR/PL/RO
+      (30 Mar; FR in French). Further addenda on the register (ADD 5 = Croatia 30 Mar, ADD 6 =
+      Estonia/Croatia 8 Apr) not committed. Positions summarised in docs/member-state-positions.md.
 
   - id: ST-8261-1-26-REV1
     title: "Presidency revised compromise text (rev 2)"

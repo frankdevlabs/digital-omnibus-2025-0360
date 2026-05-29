@@ -55,6 +55,18 @@ approach and no trilogue** has begun. Cyprus has publicly conceded the file will
 - Committee dossier **CJ72/10/04598**.
 - Salla's appointment is contested (prior Meta EU public-policy role) — civil-society call to withdraw.
 
+### Advisory bodies & Member States
+- **EDPB–EDPS Joint Opinion 2/2026** (10 Feb 2026) — strongly opposes the Art 4 personal-data
+  redefinition and the AI legitimate-interest article.
+- **EESC opinion INT/1108** (18 Mar 2026) — broadly supports simplification "as a first step", provided
+  standards are not lowered ([digest](docs/advisory/eesc-int1108.md)).
+- **ECB Opinion CON/2026/9** (10 Mar 2026) — supportive, but asks to **carve DORA out of the
+  single-entry-point regime** (at least initially) and flags joint-controllership breach-reporting
+  duplication ([digest](docs/advisory/ecb-con-2026-9.md)).
+- **Member-State delegation comments** (FR/PL/RO, DE, EE, DK) are tracked in
+  [`docs/member-state-positions.md`](docs/member-state-positions.md); the formal Council working-party
+  and Coreper steps are in [`TIMELINE.md`](TIMELINE.md).
+
 ## Next milestones to watch
 
 - [ ] Publication of the joint ITRE/LIBE **draft report** (Parliament's first formal position).
@@ -62,6 +74,7 @@ approach and no trilogue** has begun. Cyprus has publicly conceded the file will
 - [ ] Start of **trilogue** (earliest Q4 2026).
 - [ ] EDPB DPIA-template consultation (deadline ~9 June 2026); updated pseudonymisation guideline.
 - [ ] Any reopening of the **Art 4 personal-data** redefinition (currently deleted in the Council text).
+- [ ] Whether the Council **carves DORA out of the single entry point** (ECB Opinion CON/2026/9 ask).
 
 ---
 

@@ -43,6 +43,10 @@ article. Net practical effect today: rely on **ordinary Art 6(1)(f) + Opinion 28
 - **RO** — proposes to **eliminate or clarify "regurgitation"** (recital 31): the term is undefined and
   not used in the operative provisions.
 - **PL** — "previous comments remain valid" on recitals 30/31.
+- **DE** — enters a **scrutiny reservation** on the AI legitimate-interest balancing recitals (WK 3736/26 ADD 2).
+- **EE** — the available **legal bases for AI data processing should not be unnecessarily restricted**
+  (each operation needs its own basis); questions the relevance of a **third party's** legitimate interest
+  here (WK 3736/26 ADD 3).
 - → [`../member-state-positions.md`](../member-state-positions.md)
 
 ## Open questions

@@ -272,8 +272,11 @@ The Commission proposed three new articles (88a terminal-equipment consent; 88b 
 
 ---
 
-*Parallel amendments to Regulation (EU) 2018/1725 (data protection by EU institutions) mirror the above —
-not transcribed separately here.*
+*Regulation (EU) 2018/1725 (data protection by the EU institutions, "EUDPR") is referenced in the recitals
+as a parallel-amendment intention but is **not operatively amended** in this text. This May compromise also
+contains no Omnibus Article 1 (Data Act) or Article 2 (Single Digital Gateway) — see the absence stubs below.*
 
-**See also:** [ePrivacy Art 5](ST-9547-2026_eprivacy-art5.md) · [Cyber Arts 6–9](ST-9547-2026_cyber-art6-9.md)
+**See also:** [Data Act Art 1 (absent)](ST-9547-2026_dataact-art1.md) ·
+[SDG Art 2 (absent)](ST-9547-2026_sdg-art2.md) · [ePrivacy Art 5](ST-9547-2026_eprivacy-art5.md) ·
+[Cyber Arts 6–9](ST-9547-2026_cyber-art6-9.md)
 · [Final provisions](ST-9547-2026_final-art10-11.md) · [Recitals](ST-9547-2026_recitals.md)

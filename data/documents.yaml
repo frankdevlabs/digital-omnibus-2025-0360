@@ -55,15 +55,15 @@ documents:
   - id: ST-8261-1-26-REV1
     title: "Presidency revised compromise text (rev 2)"
     body: Council
-    date: 2026-04-15
+    date: 2026-04-17
     limite: true
     access: not-public
     register: https://data.consilium.europa.eu/doc/document/CM-2463-2026-INIT/en/pdf   # agenda naming the doc (resolves)
     national_parliament: ""   # add: parlament.gv.at dossier (search "8261")
     mirror: ""                # add: PDF URL from the LinkedIn/X post if you grab it
-    local: sources/council/ST-8261-1-26-REV1_council-presidency-compromise_2026-04-15.pdf
+    local: sources/council/ST-8261-1-26-REV1_council-presidency-compromise_2026-04-17.pdf
     procedure: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)
-    notes: Correct id is ST 8261/1/26 REV 1 (not INIT). Not in public register; cite by number.
+    notes: Correct id is ST 8261/1/26 REV 1 (not INIT). Not in public register; cite by number. Uniquely among the tracked versions, this text carries Omnibus Article 1 (Data Act, Reg (EU) 2023/2854, pp 37-95, Chapters VIIa-VIIc / Arts 32a-32z) and Article 2 (Single Digital Gateway, Reg (EU) 2018/1724, p 96) - both now transcribed under extracts/council/. EUDPR (Reg 2018/1725) is recital-only (no operative article).
 
   - id: ST-9547-2026
     title: "Presidency revised compromise text (GDPR, ePrivacy, cookies, P2B, cyber)"

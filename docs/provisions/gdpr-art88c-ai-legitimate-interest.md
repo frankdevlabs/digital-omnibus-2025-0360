@@ -33,6 +33,12 @@ A standalone article is **unnecessary** — Opinion 28/2024 already frames AI le
 Parliament may seek to delete even the recital, or conversely industry may seek to re-elevate it to an
 article. Net practical effect today: rely on **ordinary Art 6(1)(f) + Opinion 28/2024**, not on Art 88c.
 
+## Member-State signals (WK 3736/26)
+- **RO** — proposes to **eliminate or clarify "regurgitation"** (recital 31): the term is undefined and
+  not used in the operative provisions.
+- **PL** — "previous comments remain valid" on recitals 30/31.
+- → [`../member-state-positions.md`](../member-state-positions.md)
+
 ## Open questions
 - Does recital 33a add anything to existing Art 6(1)(f) practice?
 - Treatment of children and of "regurgitation"/leakage safeguards in the final text.

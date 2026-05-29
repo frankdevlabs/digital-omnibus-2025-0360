@@ -31,7 +31,7 @@ authoritative copy. Dates in ISO format. Newest events at the bottom of each yea
 | 2026-02-27 | AGS exchange of views on ST 6406/26; IMCO exchange of views on the package | [register](sources/README.md) |
 | 2026-03-10 | ECB Opinion | [register](sources/README.md) |
 | 2026-03-18 | EESC opinion adopted | [register](sources/README.md) |
-| 2026-03-30 | Consolidated delegations' comments (WK 3736/26) | [register: WK-3736-2026](sources/README.md) |
+| 2026-03-30 | Delegations' comments **WK 3736/26 ADD 4** (FR, PL, RO on GDPR/P2B & ePrivacy) | [register: WK-3736-2026](sources/README.md) · [positions](docs/member-state-positions.md) |
 | 2026-04-17 | **Council compromise text ST 8261/1/26 REV 1** (for AGS 24 Apr) | [register: ST-8261-1-26-REV1](sources/README.md) |
 | 2026-04-24 | AGS exchange of views on ST 8261/1/26 REV 1 | [register](sources/README.md) |
 | 2026-05-07 | (Sister file 2025/0359 — AI Act) provisional trilogue agreement reached | [register](sources/README.md) |

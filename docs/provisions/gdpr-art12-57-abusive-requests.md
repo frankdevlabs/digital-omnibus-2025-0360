@@ -27,6 +27,14 @@ Object to linking "abuse" to the **purpose** of the access request; concerned it
 **Contested.** Council has softened the Commission ("intention" + burden on controller) but the provision
 survives. noyb's empirical data (83.5% of requests not properly answered) is the centrepiece of opposition.
 
+## Member-State signals (WK 3736/26)
+- **FR** — wants the ground to **also cover** the case where exercising access would adversely affect a
+  **procedure that has its own access rules** (to prevent circumvention).
+- **PL** — welcomes that **"abusive intention" must be demonstrated by the controller** (a real
+  safeguard), but wants it **read restrictively** and applied consistently so it does not deter
+  legitimate requests.
+- → [`../member-state-positions.md`](../member-state-positions.md)
+
 ## Open questions
 - Who proves "intention", and to what standard?
 - Does "overly broad and undifferentiated" survive in the final recitals?

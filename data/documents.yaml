@@ -39,13 +39,18 @@ documents:
     notes: First Cyprus compromise text (committed copy via EURACTIV). Mirror verified live (note the %E2%80%93 en-dash).
 
   - id: WK-3736-2026
-    title: "Consolidated delegations' comments on the compromise text"
+    title: "Consolidated delegations' comments (ADD 4 — FR, PL, RO on GDPR/P2B & ePrivacy)"
     body: Council
     date: 2026-03-30
     limite: true
     url: https://data.consilium.europa.eu/doc/document/WK-3736-2026-INIT/en/pdf
     mirror: https://table.media/assets/berlin/digital-omnibus-march-30-gdpr,-p2b,-eprivacy-fr,-ro,-pl-(1).pdf
-    notes: Member State positions incl. Poland (cookies stay in ePrivacy).
+    local: sources/council/WK-3736-2026-ADD4_delegations-comments-fr-pl-ro_2026-03-30.pdf
+    notes: >-
+      WK 3736/26 ADD 4 — working document for the Antici Group (Simplification), comments related to
+      AGS 27 Feb 2026 (deadline 18 Mar) on the ST 6406/26 text. FR/PL/RO drafting suggestions and
+      comments (FR in French). Other ADD addenda (further delegations) may exist. PDF committed;
+      delegation positions summarised in docs/member-state-positions.md.
 
   - id: ST-8261-1-26-REV1
     title: "Presidency revised compromise text (rev 2)"

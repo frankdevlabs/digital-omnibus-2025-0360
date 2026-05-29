@@ -1,0 +1,197 @@
+# Member-State positions — Council delegations
+
+What individual Member States are saying in the Council working party, as distinct from the
+*Presidency* compromise text (tracked in [`institutional-positions.md`](institutional-positions.md)
+and the [`../extracts/council/`](../extracts/council/) extracts). This page is built from
+**delegation comment documents** circulated to the Antici Group (Simplification); it will grow
+as further `WK` addenda are released.
+
+> **Source:** Council working document **WK 3736/26 ADD 4** (LIMITE), Brussels, 30 March 2026 —
+> *consolidated written comments on the GDPR/P2B & ePrivacy files, FR, PL and RO comments on
+> GDPR/P2B*, for the Antici Group (Simplification), related to the AGS meeting of 27 February 2026
+> (comment deadline 18 March 2026). Interinstitutional file 2025/0360 (COD). Register entry:
+> [`WK-3736-2026`](../sources/README.md#council-documents); committed PDF:
+> [`../sources/council/WK-3736-2026-ADD4_delegations-comments-fr-pl-ro_2026-03-30.pdf`](../sources/council/WK-3736-2026-ADD4_delegations-comments-fr-pl-ro_2026-03-30.pdf).
+> **The comments target the first Cyprus compromise, [ST 6406/26](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md) (20 Feb 2026)** — recital and
+> article numbers below are that version's. This is a working summary of delegation positions
+> (FR comments are in French in the source; summarised in English here), **not an official text**.
+> Always verify against the document before relying on it. See [`../NOTICE`](../NOTICE).
+
+## At a glance — the three delegations
+
+| Delegation | Overall thrust on this file |
+|---|---|
+| **France (FR)** | Protective and **governance-focused**. Welcomes dropping the Art 4(1) redefinition; pushes for a **binding EDPB opinion** (not soft guidelines) on pseudonymisation/identifiability and for **extending the consistency mechanism** (Arts 64–65) to controllers. Restrictive on biometric verification (wants a Member-State/Union-law gate). Adamant that the **cookie/terminal-equipment rules stay in the ePrivacy Directive** and that **Art 88b be deleted**. |
+| **Poland (PL)** | Nuanced; broadly content with the Presidency's retreats but wants to **keep several Commission empowerments** the Presidency removed — **Art 41a**, and the **implementing-act route** for the Art 35 DPIA lists and the Art 33 breach template/lists (so they bind all 27 Member States). Opposes deleting the **Art 22 / recital 38** clarification and the **scientific-research definition**. Wants a **single, clear 96-hour** breach deadline. Cookies belong in **ePrivacy**. |
+| **Romania (RO)** | Consistently **SME-focused**. Wants proportionate guidance, **simplified compliance pathways and "light DPIA templates"** for SMEs, explicit SME access to the research-friendly regime, and clarification of vague terms (**"regurgitation"**, **"disproportionate effort"**) with SME-relevant examples. Flags the **72h/96h** breach-deadline ambiguity. |
+
+---
+
+## Personal-data definition & pseudonymisation (rec 27/27a, Art 4(1), Art 41a, Art 70)
+
+- **FR** — Welcomes the Presidency striking the Art 4(1) addition: keeping the current definition
+  preserves the CJEU case law and gives actors legal certainty. On identifiability/pseudonymisation
+  it wants the **EDPB to adopt a binding _opinion_ under Art 64(3)** (not non-binding guidelines),
+  with a deadline (proposes "within 2 months of entry into application"), so controllers get
+  concrete, enforceable criteria fast.
+- **PL** — Also welcomes the deletion, but **"remains open to a solution addressing the topic
+  without changing the definition."** Warns that recital 27a wording ("criteria … may no longer
+  constitute personal data for certain entities") could destabilise Art 4(1); proposes guidance be
+  framed **"without affecting the definition of personal data in Article 4(1)"** and consistent with
+  recital 26 — no "relative personal data" concept, no automatic non-personal qualification.
+  Notably **does _not_ support deleting Art 41a** (Commission implementing power on pseudonymisation)
+  — wants it reconsidered rather than removed.
+- **RO** — Supports the identifiability criteria ("means reasonably likely to be used" by the
+  controller) as **reducing uncertainty for SMEs**, which lack the capacity for complex
+  re-identification assessments; guidance should be **proportionate with simplified SME pathways**.
+- → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md) ·
+  extract [point 1](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-1--article-4-definitions),
+  [point 10 (Art 41a)](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-10--article-41a-pseudonymisation)
+
+## Scientific research (rec 28/29/32, Art 4(38), Art 5(1)(b))
+
+- **FR** — Wants explicit **safeguards on the independence of research** ("conducted autonomously
+  and independently, free from undue pressure").
+- **PL** — **Opposes deleting recital 28 and the Art 4(38) definition** of scientific research; wants
+  them clarified/limited rather than removed, and insists processing **primarily for commercial
+  product development must not bypass the Article 89 safeguards**; further processing must stay tied
+  to Art 89(1).
+- **RO** — Wants the regime to expressly cover **"innovation activities carried out by SMEs, such as
+  product development and applied research,"** so SMEs have real access to the research-friendly regime.
+- → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md)
+  (research definition) · extract [point 1](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-1--article-4-definitions)
+
+## Special categories in AI training (rec 33, Art 9(2)(k), Art 9(5))
+
+- **FR** — Backs the EDPB view that **Art 9(2)(k) should be clarified to cover only _residual /
+  incidental_ special-category (health) data**; it must not read as the sole basis for health-data AI
+  (developers should still rely on 9(2)(a) or (i)). On Art 9(5) wants the threshold aligned with
+  existing GDPR wording — **"disproportionate effort _or_ technical impossibility"** — for a coherent
+  standard.
+- **PL** — Wants **"residual presence of data"** and **"disproportionate effort"** clarified, and a
+  clear line between **incidental vs intentional** processing, so the derogation can't be used to
+  deliberately rely on special-category data.
+- **RO** — Removing sensitive data may be **excessive for SMEs**; wants "taking into account the size,
+  resources and capabilities of the controller, in particular SMEs" added, and **"disproportionate
+  effort" clarified with SME examples.**
+- → [`provisions/gdpr-art9-special-categories-ai.md`](provisions/gdpr-art9-special-categories-ai.md) ·
+  extract [point 3](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-3--article-9-special-categories)
+
+## Biometric verification (rec 34, Art 9(2)(l))
+
+- **FR** — Favourable to the new safeguards in principle, but considers it **disproportionate to allow
+  biometric processing merely because a controller deems it useful.** As with other Art 9(2)
+  derogations, it should be permitted **only where Union or Member-State law provides for it** —
+  otherwise the GDPR would enshrine a general right for any controller to impose biometric recognition
+  on the sole ground that the technology is available.
+- **PL** — The derogation must be **interpreted restrictively and consistently** across Member States;
+  wants the interaction between "sole control and possession" and the MS-law condition clarified, and
+  a **technologically-neutral** reading that does not exclude encrypted-template or secure server-side
+  verification.
+- → [`provisions/gdpr-art9-special-categories-ai.md`](provisions/gdpr-art9-special-categories-ai.md) ·
+  extract [point 3](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-3--article-9-special-categories)
+
+## Abusive / excessive access requests (rec 35, Art 12(5), Art 57)
+
+- **FR** — Wants the provision to **also cover the case where exercising the right of access would
+  adversely affect a procedure that already has its own access rules**, to prevent circumvention of
+  those procedures.
+- **PL** — Welcomes that **"abusive intention" must be _demonstrated by the controller_** (an
+  important safeguard), but wants it **interpreted restrictively** and proportionately so it does not
+  discourage data subjects from exercising their rights, and applied consistently across Member States.
+- → [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md) ·
+  extract [point 4](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-4--article-12-5-abusive-requests)
+
+## Transparency exemptions (rec 36/37, Art 13(4), Art 13(5))
+
+- **FR** — **Supports** the modifications to Art 13.
+- **PL** — Welcomes the more objective wording (no high risk, no large-scale processing, special
+  categories/complex operations excluded) as improving legal certainty, but the exemption should stay
+  **strictly limited to genuinely simple, low-risk situations** and the Art 13(5) research derogation
+  **exceptional and case-by-case**, consistent with the Art 5(1)(a) transparency principle and Art 89.
+- → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md) (transparency context);
+  extract [point 5](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-5--article-13-4-information-obligations)
+
+## Automated decision-making (rec 38, Art 22)
+
+- **FR** — **Supports keeping the current Article 22** (a prohibition with a derogation), i.e. backs
+  the Presidency's deletion of the Commission rewrite.
+- **PL** — **Does _not_ support deleting recital 38 / the Art 22 changes.** While it objected to the
+  original "regardless of whether the decision could be taken otherwise than by solely automated means"
+  wording, it argues that **complete deletion forfeits the chance to improve legal certainty**. Wants
+  the **"necessity" test in Art 22(2)(a) read restrictively** so fully automated decisions stay
+  exceptional and safeguarded — refine rather than remove.
+- → [`provisions/gdpr-art22-automated-decisions.md`](provisions/gdpr-art22-automated-decisions.md) ·
+  extract [point 7](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-7--article-22-automated-decisions)
+
+## Breach notification (rec 39, Art 33)
+
+- **PL** — **Strongly supports moving the deadline from 72h to 96h.** Flags that the compromise text
+  carries **both 72h and 96h in the same provision**, creating legal uncertainty, and asks for a
+  **single, clearly defined 96-hour deadline.** On the template and high-risk lists, **wants them
+  adopted by _implementing act_ (so they bind all 27 Member States)** and **does not support** the
+  Presidency's switch to an "EDPB establishes" model — asks to revert to the Commission proposal;
+  the lists must not replace the controller's individual risk assessment.
+- **RO** — Flags the same **ambiguity (96h or 72h?)** and asks for clarification.
+- **FR** — Observes that recital 39's opening sentences are **explanatory rather than recital-like**.
+- → [`provisions/gdpr-art33-breach-notification.md`](provisions/gdpr-art33-breach-notification.md) ·
+  extract [point 8](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-8--article-33-breach-notification)
+
+## DPIA EU-level lists (rec 40, Art 35)
+
+- **PL** — Wants the lists to **expressly reflect the risk-based approach** (context, nature, scope,
+  purposes) and **does not support** the Presidency's switch from a Commission implementing act to an
+  "EDPB establishes" model — asks to **revert to the Commission proposal** so implementation is aligned
+  across all Member States; the lists/template must not replace individual risk assessment.
+- **RO** — Wants **"light DPIA templates"** — simplified assessment models, in particular for SMEs.
+- → [`provisions/gdpr-art33-breach-notification.md`](provisions/gdpr-art33-breach-notification.md)
+  (DPIA/breach governance); extract [point 9](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-9--article-35-dpia-lists)
+
+## Consistency mechanism & EDPB tasks (Art 32, Art 57, Art 64/65, Art 70)
+
+- **FR** — A cluster of governance amendments: add an **Art 32(5)** EDPB security-guidance mandate and
+  cross-reference the Art 35(4)/(5) lists across Arts 24/25/30/32 to **fully operationalise the
+  risk-based approach**; have **national supervisory authorities refrain** from issuing guidance on
+  matters already covered by the EDPB; and **extend the Art 64/65 consistency mechanism so that
+  controllers and processors can themselves ask the EDPB for an opinion** on cross-border matters
+  — strengthening EDPB-led convergence and legal certainty across the single market.
+- → [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md)
+  (Art 57 context); extract [point 11](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-11--article-57-supervisory-authority-requests)
+
+## AI legitimate interest (rec 30/31, Art 88c)
+
+- **RO** — Proposes to **eliminate or clarify the concept of "regurgitation"** in recital 31: there is
+  no definition of the term and it is not used in the operative provisions.
+- **PL** — "Previous comments remain valid" on recitals 30/31.
+- → [`provisions/gdpr-art88c-ai-legitimate-interest.md`](provisions/gdpr-art88c-ai-legitimate-interest.md) ·
+  recitals extract [ST 6406/26](../extracts/council/ST-6406-2026_recitals.md)
+
+## Cookies / terminal equipment (rec 44–48, Art 88a, Art 88b)
+
+- **FR** — The most developed position in the document. Cookie consent governs a **technical operation
+  (placing/reading a tracker) that is not itself data processing**; folding it into the GDPR is
+  **inappropriate** and ill-suited to the legal basis of any subsequent processing, and would also
+  leave a **separate regime for non-personal data**. France therefore wants the relaxations made in the
+  **ePrivacy Directive's Article 5(3) for _all_ trackers**, without creating two regimes — it is open to
+  the audience-measurement and security exemptions, **but only within ePrivacy**. It demands
+  **deletion of Article 88b** (machine-readable consent signals): technical tracker rules don't belong
+  in the GDPR, the article raises intractable practical problems (and harms the press through its
+  closed-loop dynamics), and there is **no impact assessment** to evaluate its structural effects.
+- **PL** — "Previous comments remain valid": storing/accessing data in terminal equipment should remain
+  **consent-based**, and the terminal-equipment rules belong in **ePrivacy**. (This is the position the
+  Presidency ultimately adopted by ST 9547/26 — see [`fault-lines.md`](fault-lines.md#3-cookies--terminal-equipment-consent).)
+  Comments on Art 88b "will be shared later."
+- → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),
+  [`instruments/eprivacy-2002-58.md`](instruments/eprivacy-2002-58.md) ·
+  extract [point 15](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-15--articles-88-machine-readable-consent)
+
+---
+
+## How this fed the later compromise
+
+Several of these positions are visible in the **ST 9547/26** (May) text: the Art 4(1) redefinition
+stays deleted; the cookie/terminal-equipment regime is **relocated to ePrivacy Art 5(3)** (FR + PL);
+and the breach-notification deadline settles at **96 hours** (PL/RO). Where the Presidency went the
+*other* way — e.g. removing the Commission's implementing-act route for the DPIA lists and breach
+template, which **PL wanted kept** — the disagreement is still live. See
+[`institutional-positions.md`](institutional-positions.md) and [`fault-lines.md`](fault-lines.md).

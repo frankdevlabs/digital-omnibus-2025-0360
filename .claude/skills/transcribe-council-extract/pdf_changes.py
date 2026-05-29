@@ -24,7 +24,7 @@ This is the PRIMARY transcription aid. Still render the page image
 (render_pdf.py) and read it whenever the layout is unusual (tables, footnotes,
 multi-column) or the markup looks wrong -- the two should agree.
 """
-import argparse, os, sys
+import argparse, os, re, sys
 
 try:
     import fitz  # PyMuPDF
@@ -96,6 +96,78 @@ def render_page(pg, mode):
     return "\n".join(marked), "\n".join(clean)
 
 
+_SKIP = {"LIMITE", "EN", "ANNEX", "GIP.B", "6406/26"}
+_ITEM_PATS = [
+    (re.compile(r"^\((\d{1,3}[a-z]?)\)$"), "(%s)"),   # recital (27) / (27a)  [also defn/para nums in articles]
+    (re.compile(r"^(\d{1,3})\.$"), "%s."),            # numbered point 7.
+    (re.compile(r"^Article (\d{1,3}[a-z]?)$"), "Art %s"),  # article heading
+]
+
+
+def _item_label(text):
+    t = text.strip()
+    for pat, fmt in _ITEM_PATS:
+        m = pat.match(t)
+        if m:
+            return fmt % m.group(1)
+    return None
+
+
+def _status(struck, bold, plain):
+    tol = max(3, int(0.02 * (struck + bold + plain)))   # ignore stray glyphs
+    if struck > 0 and bold + plain <= tol:
+        return "DELETED"
+    if bold > 0 and struck + plain <= tol:
+        return "NEW"
+    if struck == 0 and bold == 0:
+        return "unchanged"
+    if struck == 0:
+        return "amended(+)"
+    return "AMENDED"
+
+
+def summarise(doc, pages):
+    """Per-item add/delete triage: is each recital/point/article DELETED, NEW,
+    AMENDED or unchanged? Catches the easy-to-miss case of a whole recital that is
+    struck through (deletion) yet still legible. Footnotes (small font) are filtered.
+
+    Reliability: high for the PREAMBLE, where '(N)' is always a recital number. In
+    the enacting articles, '(N)' also appears as definition and paragraph numbers,
+    so those rows are noisy -- treat them as hints and confirm with --mode marked.
+    Cross-page items are tracked; the last item before a section break may absorb
+    following heading text."""
+    rows = []
+    cur = None
+    for p in pages:
+        pg = doc[p - 1]
+        lines = horizontal_lines(pg)
+        for blk in pg.get_text("dict")["blocks"]:
+            for ln in blk.get("lines", []):
+                for sp in ln["spans"]:
+                    t = sp["text"].strip()
+                    if not t or t in _SKIP or not (11.0 <= sp["size"] <= 14.0):
+                        continue
+                    lab = _item_label(t)
+                    if lab:
+                        cur = [lab, p, 0, 0, 0]
+                        rows.append(cur)
+                        continue
+                    if cur is None:
+                        continue
+                    struck, bold, _ = classify_span(sp, lines)
+                    n = len(t)
+                    if struck:
+                        cur[2] += n
+                    elif bold:
+                        cur[3] += n
+                    else:
+                        cur[4] += n
+    out = ["# item status (triage; confirm with --mode marked):"]
+    for lab, p, s, b, pl in rows:
+        out.append(f"p{p:>2}  {lab:>8}  {_status(s, b, pl)}")
+    return "\n".join(out)
+
+
 def parse_pages(spec, n):
     out = []
     for part in spec.split(","):
@@ -114,7 +186,7 @@ def main():
     ap.add_argument("pdf")
     ap.add_argument("--pages", help="1-based pages/ranges, e.g. 2-16")
     ap.add_argument("--all", action="store_true")
-    ap.add_argument("--mode", choices=["clean", "marked", "both"], default="both")
+    ap.add_argument("--mode", choices=["clean", "marked", "both", "summary"], default="both")
     args = ap.parse_args()
 
     if not os.path.exists(args.pdf):
@@ -122,6 +194,10 @@ def main():
     doc = fitz.open(args.pdf)
     n = doc.page_count
     pages = list(range(1, n + 1)) if (args.all or not args.pages) else parse_pages(args.pages, n)
+
+    if args.mode == "summary":
+        print(summarise(doc, pages))
+        return
 
     for p in pages:
         marked, clean = render_page(doc[p - 1], args.mode)

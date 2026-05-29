@@ -53,10 +53,23 @@ rendering.
    ls sources/council/
    ```
 
-2. **Extract the tracked changes (primary).** `--mode both` prints the
-   `~~deleted~~`/`**added**` markup, then the consolidated CLEAN text below a
-   divider. Transcribe operative text from the CLEAN block; use the marked block
-   to see *what* changed for your `▸` notes:
+2. **Map every change first (`--mode summary`).** Get a one-line-per-item verdict
+   (DELETED / NEW / AMENDED / unchanged) for the *whole* document before writing a
+   word. This is the guardrail against the failure that prompted this tool: a whole
+   recital that is struck through but still legible, mistaken for "retained":
+
+   ```bash
+   python3 .claude/skills/transcribe-council-extract/pdf_changes.py \
+     "sources/council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf" --all --mode summary
+   ```
+
+   Most reliable on the **preamble** (every `(N)` is a recital). In the enacting
+   articles `(N)` is also a definition/paragraph number, so those rows are noisy —
+   treat them as hints. Keep this list; you reconcile against it in step 7.
+
+3. **Extract the tracked changes.** `--mode both` prints the `~~deleted~~`/`**added**`
+   markup, then the consolidated CLEAN text below a divider. Transcribe operative
+   text from the CLEAN block; use the marked block to see *what* changed for `▸`:
 
    ```bash
    python3 .claude/skills/transcribe-council-extract/pdf_changes.py \
@@ -64,10 +77,9 @@ rendering.
    ```
 
    Whole-recital/whole-point deletions and additions are detected reliably (a
-   recital shown entirely `~~struck~~` is `[DELETED]`; entirely `**bold**` is a
-   new recital).
+   recital shown entirely `~~struck~~` is `[DELETED]`; entirely `**bold**` is new).
 
-3. **Cross-check with page images.** Render the cover and any clause the markup
+4. **Cross-check with page images.** Render the cover and any clause the markup
    gets wrong (see Gotchas — esp. inline number/short-word swaps):
 
    ```bash
@@ -89,13 +101,13 @@ rendering.
    line, the date, and the meeting (e.g. AGS = Antici Group (Simplification)). The
    cover's text layer is usually empty (image-only), so you *must* read its image.
 
-4. Read the matching **reference version's** five files to mirror structure,
+5. Read the matching **reference version's** five files to mirror structure,
    `<a id="...">` anchors and header style, e.g.
    [`../../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md`](../../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md)
    and its siblings (`_eprivacy-art5.md`, `_cyber-art6-9.md`, `_final-art10-11.md`,
    `_recitals.md`).
 
-5. Write the five `extracts/council/ST-<nnnn>-<yyyy>_*.md` files per the guide:
+6. Write the five `extracts/council/ST-<nnnn>-<yyyy>_*.md` files per the guide:
    header blockquote (doc no. + LIMITE + date + meeting + file 2025/0360 (COD) +
    "working transcription, not an official text" + link to `../../NOTICE`);
    the document's **own** article/recital numbering; `▸` change-notes;
@@ -104,13 +116,18 @@ rendering.
    in this version, still create the file and state the absence + a one-line reason
    + cross-links.
 
-6. Verify links (must end with `0 broken`; fix only link paths, never legal text):
+7. **Reconcile against the status map.** Re-run `--mode summary` and check it
+   item-by-item against what you wrote: every `DELETED` must be `[DELETED in ST …]`
+   (or an absent point) in the extract, every `NEW` a newly-added item, every
+   `AMENDED` reflected in the consolidated text + a `▸` note. Do the **whole**
+   document — don't stop partway (the original miss was an unreviewed tail). Then
+   verify links (must end with `0 broken`; fix only link paths, never legal text):
 
    ```bash
    python3 .claude/skills/transcribe-council-extract/linkcheck.py .
    ```
 
-7. Branch `extracts/st-<nnnn>-<yyyy>`, commit the five files, push, open a PR to
+8. Branch `extracts/st-<nnnn>-<yyyy>`, commit the five files, push, open a PR to
    `main`. Do **not** commit the `/tmp` PNGs.
 
 ## Run — human path
@@ -121,6 +138,10 @@ tracked-change-accurate text and to gate the result.
 
 ## Gotchas (battle scars)
 
+- **A struck-through recital is still perfectly legible — and means DELETED.**
+  This is the trap that prompted the tool: read by eye, a whole struck recital
+  looks "retained"; it is the opposite. Always run `--mode summary` and reconcile
+  every item (step 7). A missed strikethrough silently *inverts* the legal status.
 - **Never transcribe from `pdftotext`/`page.get_text()` for operative text.** It
   drops strikethrough/bold and merges old+new tokens (`9672`, `datasubmitting`).
   Use `pdf_changes.py`; cross-check the image.
@@ -159,7 +180,8 @@ tracked-change-accurate text and to gate the result.
 ## Files in this skill
 
 - `pdf_changes.py` — **primary.** Recover tracked changes from the PDF structure;
-  prints consolidated (`clean`) and/or `~~del~~`/`**add**` (`marked`) text.
+  `clean` (consolidated), `marked` (`~~del~~`/`**add**`), `both`, or `summary`
+  (one-line per-item DELETED/NEW/AMENDED verdict for reconciliation).
 - `render_pdf.py` — render full pages / zoom crops to `/tmp` for visual reading
   (the cross-check, and the only way to settle inline-overlap swaps).
 - `linkcheck.py` — internal relative-link + `#anchor` checker over `**/*.md`

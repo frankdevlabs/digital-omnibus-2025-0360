@@ -35,6 +35,13 @@ fixed by a Commission implementing act (¶22–25).
 → [JO 2/2026 digest: personal data](../advisory/edpb-edps-jo-2-2026.md#personal-data),
 [implementing act](../advisory/edpb-edps-jo-2-2026.md#implementing-act-pseudonymisation)
 
+## EESC
+**EESC (INT/1108)** — the personal-data definition is *decisive* for GDPR scope and must stay
+**objective and adequately broad** (the CJEU reads the notion broadly), preventing "subjective or
+evasive interpretations". Unlike the Council's deletion of Art 41a, it **supports Commission implementing
+acts** clarifying when pseudonymised data may be treated as anonymised for other entities — to aid AI
+training while preserving safeguards. → [digest](../advisory/eesc-int1108.md)
+
 ## Status
 **Council has dropped it.** Likely cross-institutional consensus *not* to redefine. Watch for any attempt
 to reintroduce a softer Art 4 clarification under the Irish Presidency or by industry amendment.

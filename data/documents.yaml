@@ -20,7 +20,7 @@ documents:
     celex: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025PC0837
     local: sources/commission/COM-2025-837_proposal_2025-11-19.docx
     local_annex: sources/commission/COM-2025-837_annex1-correlation-tables_2025-11-19.docx
-    leading_service: DG CNECT; Commissioner responsible Henna Virkkunen
+    leading_service: "Lead service DG CNECT. Political leads: EVP Henna Virkkunen (Tech Sovereignty) and Commissioner Michael McGrath (Justice/DG JUST). The Oeil procedure file formally registers the file to DG CNECT with Commissioner Valdis Dombrovskis (see OEIL-2025-0360)."
     mandatory_consultees: European Committee of the Regions, European Central Bank, European Economic and Social Committee
     notes: >-
       The proposal this repo tracks. Accompanied by SWD(2025) 836. Base-text operative extracts in

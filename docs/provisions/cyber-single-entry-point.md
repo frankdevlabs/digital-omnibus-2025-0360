@@ -31,6 +31,17 @@ changes in **EUDPR Art 34(1)** so EU institutions can notify via the SEP (¶87),
 harmonisation** with the shorter NIS2/DORA/eIDAS/CER deadlines (¶79).
 → [JO 2/2026 digest: breach notification & SEP](../advisory/edpb-edps-jo-2-2026.md#breach-notification)
 
+## ECB & EESC
+- **ECB (CON/2026/9)** — supports the SEP and "report once, share many", but warns it does **not**
+  actually cut the burden while each framework keeps its own taxonomy/template, and asks to **exclude
+  DORA** for now (time-critical reports should go **direct to the competent authority**); also
+  recommends adding the **EUDPR** to the acts covered by the SEP.
+  → [digest](../advisory/ecb-con-2026-9.md)
+- **EESC (INT/1108)** — strong support for a *genuinely interoperable* SEP covering NIS2, GDPR, DORA,
+  eIDAS and CER, with **English-language** submissions, **reuse** of previously submitted information,
+  strict **need-to-know** access controls, and pilots co-designed with industry and the social partners.
+  → [digest](../advisory/eesc-int1108.md)
+
 ## Member-State signals (WK 3735/26, cyber/data consultation)
 - **DK** — Member States should have more say over whether the SEP is **secure and functional** (wary of
   the Commission's assessment role; asked for Council Legal Service input); content for **ENISA** to run

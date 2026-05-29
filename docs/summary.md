@@ -32,7 +32,13 @@ It is **not** the AI-Act Digital Omnibus (`2025/0359`), which is a separate, fas
 - **Parliament:** committee referral only — [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD))
   status *Awaiting committee decision*; joint **ITRE + LIBE** (Rule 59), **IMCO** & **JURI** opinions;
   **no draft report yet**.
-- **EDPB–EDPS:** Joint Opinion 2/2026 (10 Feb 2026) opposes the core GDPR changes.
+- **EDPB–EDPS:** Joint Opinion 2/2026 (10 Feb 2026) opposes the core GDPR changes ([digest](advisory/edpb-edps-jo-2-2026.md)).
+- **ECB & EESC:** ECB Opinion CON/2026/9 (10 Mar 2026) is broadly supportive but asks to **carve DORA
+  out of the single-entry point** ([digest](advisory/ecb-con-2026-9.md)); EESC opinion INT/1108
+  (18 Mar 2026) backs simplification "as a first step" provided standards are not lowered
+  ([digest](advisory/eesc-int1108.md)).
+- **Member States:** delegation comments from FR, PL, RO, DE, EE, CZ, AT and DK (plus two coalitions
+  resisting the P2B repeal) are summarised in [`member-state-positions.md`](member-state-positions.md).
 
 ## The headline of the May Council text
 

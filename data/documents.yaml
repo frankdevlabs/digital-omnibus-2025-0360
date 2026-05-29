@@ -107,18 +107,21 @@ documents:
       carries the public-release watermark.
 
   - id: WK-3735-2026
-    title: "Delegations' comments (INIT + ADD 1–4) — sibling set to WK 3736/26"
+    title: "Delegations' comments on the cyber/data strand (Commission proposal) — INIT + ADD 1–4"
     body: Council
     date: 2026-02-13
     limite: true
     access: public-via-register
     register: https://data.consilium.europa.eu/doc/document/WK-3735-2026-INIT/en/pdf
+    local_add4: sources/council/WK-3735-2026-ADD4_delegation-comments-dk-cyber-data_2026-03-23.pdf
     notes: >-
       Working documents for the Antici Group (Simplification) discussed at the 13 Feb 2026 working
-      party (alongside WK 2045/2134/2399/26). Companion to WK 3736/26 (of which the repo holds ADD 4).
-      WK addenda for this file are being released on the public register (INIT + ADD 1–4 via the
-      WK-3735-2026-{INIT,ADD-1…4} pattern) — downloadable but NOT committed here (no network egress
-      in this environment). Upload if you want them mined into docs/member-state-positions.md.
+      party — the CYBER/DATA strand (comments on the Commission proposal; consultation deadline
+      27 Feb 2026), sibling to WK 3736/26 (the GDPR/P2B strand). ADD 4 = Denmark (DK) committed
+      locally (single entry point: MS control over SEP security/functionality, ENISA-run building on
+      the Cyber Resilience Act Reg 2024/2847; Data Act altruism/EDIB/high-value datasets). Other
+      addenda are on the register (WK-3735-2026-{INIT,ADD-1…3}) but not committed (no egress here).
+      Positions summarised in docs/member-state-positions.md.
 
   - id: ST-7244-2026
     title: "Council cover note transmitting ECB Opinion CON/2026/9"
@@ -151,13 +154,16 @@ documents:
     url: https://data.consilium.europa.eu/doc/document/WK-3736-2026-INIT/en/pdf
     mirror: https://table.media/assets/berlin/digital-omnibus-march-30-gdpr,-p2b,-eprivacy-fr,-ro,-pl-(1).pdf
     local: sources/council/WK-3736-2026-ADD4_delegations-comments-fr-pl-ro_2026-03-30.pdf
+    local_add2: sources/council/WK-3736-2026-ADD2_delegation-comments-de-gdpr-p2b_2026-03-19.pdf
+    local_add3: sources/council/WK-3736-2026-ADD3_delegation-comments-ee-gdpr-p2b_2026-03-23.pdf
     notes: >-
-      WK 3736/26 ADD 4 — working document for the Antici Group (Simplification), comments related to
-      AGS 27 Feb 2026 (deadline 18 Mar) on the ST 6406/26 text. FR/PL/RO drafting suggestions and
-      comments (FR in French). The repo holds ADD 4 locally; the full series is on the public register
-      (WK-3736-2026-{INIT,ADD-1…6}) — e.g. ADD 5 (30 Mar) = Croatia, ADD 6 (8 Apr) = Estonia/Croatia,
-      with Latvia and others across INIT/ADD-3. Not all committed (no network egress here). PDF
-      committed for ADD 4; delegation positions summarised in docs/member-state-positions.md.
+      WK 3736/26 — GDPR/P2B strand, working documents for the Antici Group (Simplification), comments
+      related to AGS 27 Feb 2026 (deadline 18 Mar) on the ST 6406/26 text. Committed locally:
+      ADD 2 = Germany (DE, 19 Mar), ADD 3 = Estonia (EE, 23 Mar), ADD 4 = FR/PL/RO (30 Mar; FR in
+      French). The full series is on the public register (WK-3736-2026-{INIT,ADD-1…6}) — e.g. ADD 5
+      (30 Mar) = Croatia, ADD 6 (8 Apr) = Estonia/Croatia, Latvia and others across INIT/ADD-1/ADD-3;
+      remaining addenda not committed (no egress here). Positions summarised in
+      docs/member-state-positions.md.
 
   - id: ST-8261-1-26-REV1
     title: "Presidency revised compromise text (rev 2)"

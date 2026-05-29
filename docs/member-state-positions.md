@@ -17,6 +17,12 @@ as further `WK` addenda are released.
 > (FR comments are in French in the source; summarised in English here), **not an official text**.
 > Always verify against the document before relying on it. See [`../NOTICE`](../NOTICE).
 
+> **Additional delegation documents now committed** (summarised under [Further delegations](#further-delegations) below):
+> **WK 3736/26 ADD 2** (DE, 19 Mar 2026) and **WK 3736/26 ADD 3** (EE, 23 Mar 2026) — GDPR/P2B comments
+> on the *Presidency compromise* ST 6406/26; and **WK 3735/26 ADD 4** (DK, 23 Mar 2026) — comments on
+> the *Commission proposal* for the **cyber/data** strand (Data Act, single entry point). PDFs under
+> [`../sources/council/`](../sources/council/).
+
 ## At a glance — the three delegations
 
 | Delegation | Overall thrust on this file |
@@ -184,6 +190,29 @@ as further `WK` addenda are released.
 - → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),
   [`instruments/eprivacy-2002-58.md`](instruments/eprivacy-2002-58.md) ·
   extract [point 15](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-15--articles-88-machine-readable-consent)
+
+---
+
+## Further delegations
+
+Drawn from delegation documents added after the original FR/PL/RO set. **DE** and **EE** comment on the
+GDPR/P2B strand of the *Presidency compromise* (ST 6406/26, deadline 18 Mar 2026); **DK** comments on
+the *Commission proposal* for the cyber/data strand (deadline 27 Feb 2026), so its article references
+are to the Data Act / single-entry-point text rather than the GDPR compromise.
+
+| Delegation | Source | Overall thrust |
+|---|---|---|
+| **Germany (DE)** | WK 3736/26 ADD 2 | Broadly agrees with the simplification intent. On **Art 4 personal data**, insists the **SRB judgment / "relative anonymity"** be properly reflected (concerned the COM text didn't track the CJEU case law). Wants supervisory authorities empowered to **terminate proceedings for expediency** (complaint overload). Backs simplifying **Art 13/14** information duties (per its 23 Oct & 30 Jan papers). On **P2B**, wants **Arts 3 and 5 to survive until 31 Dec 2032 to protect SMEs**. Scrutiny reservations on biometric data and the AI legitimate-interest balancing recitals. |
+| **Estonia (EE)** | WK 3736/26 ADD 3 | Supports the **P2B repeal** (objectives largely covered by the DSA/DMA). On **cookies/Art 88b**, web browsers should provide technical means to **withdraw** consent; supports keeping the **audience-measurement exemption (Art 88a(3)(c))** in its original scope. Prefers **continuing discussions on Art 22** automated decisions but is open to the COM "regardless of whether…" amendment. On **AI legitimate interest (rec 33)**, available legal bases should **not be unnecessarily restricted**; questions the relevance of a third party's legitimate interest. |
+| **Denmark (DK)** | WK 3735/26 ADD 4 | Cyber/data strand. On the **single entry point**, wants **Member States to have more say** over whether the platform is secure and functional (wary of the Commission's assessment role; asked for Council Legal Service input); content for **ENISA** to run the SEP, building on the Cyber Resilience Act (Reg (EU) 2024/2847) single-reporting. Engages with the **Data Act** amendments (data altruism, European Data Innovation Board, high-value datasets in Annex II / Art 32ab). |
+
+- DE → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md),
+  [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md)
+- EE → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),
+  [`provisions/gdpr-art22-automated-decisions.md`](provisions/gdpr-art22-automated-decisions.md),
+  [`provisions/gdpr-art88c-ai-legitimate-interest.md`](provisions/gdpr-art88c-ai-legitimate-interest.md)
+- DK → [`provisions/cyber-single-entry-point.md`](provisions/cyber-single-entry-point.md),
+  [`instruments/data-act-2023-2854.md`](instruments/data-act-2023-2854.md)
 
 ---
 

@@ -31,15 +31,16 @@ number, not asserted as live), and a national-parliament record or public mirror
 > `https://data.consilium.europa.eu/doc/document/{ImmcIdentifier}/en/pdf`
 > (e.g. `ST-6311-2026-INIT`, `ST-15698-2025-ADD-1`). Caveats: **LIMITE** compromise texts
 > (ST 6406/8261/9547) are not released — the register 404s and we rely on national-parliament records
-> or press mirrors; **WK** working notes are not served by the public register at all (cite by number,
-> obtain via leak/mirror); ordinary **ST notes/agendas** are usually downloadable unless still LIMITE.
+> or press mirrors; ordinary **ST notes/agendas** are usually downloadable unless still LIMITE. For
+> this file many **WK** working notes (e.g. the WK 3735/26 and WK 3736/26 addenda) *are* being released
+> on the register and via mirrors (some on `table.media`) — see those entries.
 
 | ID | Title | Date | Hosted file | Provenance (number · register · NP/mirror) |
 |---|---|---|---|---|
 | ST 16131/1/25 REV 1 | *Simplification* — 2025 Annual Overview/Progress Reports (horizontal note; Coreper 5 Dec, Council 16 Dec) | 2025-12-04 | — (screenshot only) | ST 16131/1/25 REV 1 · [register](https://data.consilium.europa.eu/doc/document/ST-16131-2025-REV-1/en/pdf) · not DO-specific — no 2025/0360 file header |
 | ST 15698/25 | Council transmission of the proposal (= COM(2025) 837: INIT proposal · ADD 1 corr. tables · ADD 2 ≈ SWD 836) | 2025-12-12 | see [`commission/COM-2025-837_proposal_2025-11-19.docx`](commission/COM-2025-837_proposal_2025-11-19.docx) | ST 15698/25 · [register](https://data.consilium.europa.eu/doc/document/ST-15698-2025-INIT/en/pdf) · content duplicate of the COM files |
 | ST 6311/26 | Coreper 'I'-item note — EDPB/EDPS attendance at the 27 Feb AGS (approved 18 Feb) | 2026-02-13 | [`council/ST-6311-2026_coreper-i-item-edpb-edps-attendance_2026-02-13.pdf`](council/ST-6311-2026_coreper-i-item-edpb-edps-attendance_2026-02-13.pdf) | ST 6311/26 · [register](https://data.consilium.europa.eu/doc/document/ST-6311-2026-INIT/en/pdf) · LIMITE, public-release watermark |
-| WK 3735/26 (+ ADD 1–4) | Delegations' comments (sibling set to WK 3736/26; 13 Feb WP) | 2026-02-13 | — (not public) | WK 3735/26 · WK working doc — not served by the register; cite by number |
+| WK 3735/26 (+ ADD 1–4) | Delegations' comments (sibling set to WK 3736/26; 13 Feb WP) | 2026-02-13 | — (not committed) | WK 3735/26 · [register](https://data.consilium.europa.eu/doc/document/WK-3735-2026-INIT/en/pdf) · on the public register; not fetchable from this env |
 | ST 6406/26 | Presidency compromise text (rev 1) | 2026-02-20 | [`council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf`](council/ST-6406-2026_council-presidency-compromise_2026-02-20.pdf) | ST 6406/26 · [register](https://data.consilium.europa.eu/doc/document/ST-6406-2026-INIT/en/pdf) · [netzpolitik mirror](https://netzpolitik.org/wp-upload/2026/02/Presidency-compromise-text-on-Omnibus-VII-%E2%80%93-Digital-GDPR-P2B.pdf) |
 | WK 3736/26 ADD 4 | Delegations' comments (FR, PL, RO on GDPR/P2B & ePrivacy) | 2026-03-30 | [`council/WK-3736-2026-ADD4_delegations-comments-fr-pl-ro_2026-03-30.pdf`](council/WK-3736-2026-ADD4_delegations-comments-fr-pl-ro_2026-03-30.pdf) | WK 3736/26 ADD 4 · [register](https://data.consilium.europa.eu/doc/document/WK-3736-2026-INIT/en/pdf) · [table.media mirror](https://table.media/assets/berlin/digital-omnibus-march-30-gdpr,-p2b,-eprivacy-fr,-ro,-pl-(1).pdf) · positions in [`../docs/member-state-positions.md`](../docs/member-state-positions.md) |
 | ST 7244/26 | Cover note transmitting **ECB Opinion CON/2026/9** to the Council | 2026-03-11 | — (screenshot only) | ST 7244/26 · [register](https://data.consilium.europa.eu/doc/document/ST-7244-2026-INIT/en/pdf) · opinion held under [advisory](#advisory-bodies--national-parliaments) |
@@ -66,7 +67,7 @@ number, not asserted as live), and a national-parliament record or public mirror
 | Body | Item | Date | Hosted file | Link |
 |---|---|---|---|---|
 | EESC | Opinion **INT/1108** (covers 2025/0359 & 2025/0360); rapporteur Willems | 2026-03-18 | [`advisory/EESC-2025-03929_opinion-int1108_2026-03-18.docx`](advisory/EESC-2025-03929_opinion-int1108_2026-03-18.docx) | [EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=PI_EESC:EESC-2025-03929-AS) · [digest](../docs/advisory/eesc-int1108.md) |
-| ECB | Opinion **CON/2026/9** (requested by EP 9 Dec 2025; broadly supportive); cover note ST 7244/26 | 2026-03-10 | [`advisory/ECB-CON-2026-9_opinion_2026-03-10.pdf`](advisory/ECB-CON-2026-9_opinion_2026-03-10.pdf) | [EUR-Lex (CELEX 52026AB0009)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026AB0009) |
+| ECB | Opinion **CON/2026/9** (requested by EP 9 Dec 2025; broadly supportive); cover note ST 7244/26 | 2026-03-10 | [`advisory/ECB-CON-2026-9_opinion_2026-03-10.pdf`](advisory/ECB-CON-2026-9_opinion_2026-03-10.pdf) | [EUR-Lex (CELEX 52026AB0009)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52026AB0009) · [digest](../docs/advisory/ecb-con-2026-9.md) |
 | Committee of the Regions | Mandatory consultee (Art named in COM(2025) 837); no opinion tracked yet | — | — | — |
 | Czech Senate | Protocol 2 contribution | 2026-02-13 | — | — |
 | Italian Camera dei Deputati | Observations | 2026-02-24 | — | — |

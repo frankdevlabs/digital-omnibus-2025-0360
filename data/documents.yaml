@@ -60,7 +60,8 @@ documents:
       9 December 2025 (competence under Arts 127(4) and 282(5) TFEU). The ECB broadly supports the
       proposal as a simplification of the digital rulebook, with observations relevant to monetary
       policy, payment systems, prudential supervision and statistics. Committed copy from the ECB
-      website; reached the Council via cover note ST 7244/26.
+      website; reached the Council via cover note ST 7244/26. Digest in docs/advisory/ecb-con-2026-9.md.
+      Notable ask: exclude DORA from the single-entry-point regime (at least initially).
 
   - id: ST-15698-2025
     title: "Council transmission of the Digital Omnibus proposal (= COM(2025) 837)"
@@ -110,12 +111,14 @@ documents:
     body: Council
     date: 2026-02-13
     limite: true
-    access: not-public
-    register: ""   # WK working documents are not served by the public register
+    access: public-via-register
+    register: https://data.consilium.europa.eu/doc/document/WK-3735-2026-INIT/en/pdf
     notes: >-
       Working documents for the Antici Group (Simplification) discussed at the 13 Feb 2026 working
       party (alongside WK 2045/2134/2399/26). Companion to WK 3736/26 (of which the repo holds ADD 4).
-      Not published in the public register — cite by number; obtain via a leak/press mirror if needed.
+      WK addenda for this file are being released on the public register (INIT + ADD 1–4 via the
+      WK-3735-2026-{INIT,ADD-1…4} pattern) — downloadable but NOT committed here (no network egress
+      in this environment). Upload if you want them mined into docs/member-state-positions.md.
 
   - id: ST-7244-2026
     title: "Council cover note transmitting ECB Opinion CON/2026/9"
@@ -151,8 +154,10 @@ documents:
     notes: >-
       WK 3736/26 ADD 4 — working document for the Antici Group (Simplification), comments related to
       AGS 27 Feb 2026 (deadline 18 Mar) on the ST 6406/26 text. FR/PL/RO drafting suggestions and
-      comments (FR in French). Other ADD addenda (further delegations) may exist. PDF committed;
-      delegation positions summarised in docs/member-state-positions.md.
+      comments (FR in French). The repo holds ADD 4 locally; the full series is on the public register
+      (WK-3736-2026-{INIT,ADD-1…6}) — e.g. ADD 5 (30 Mar) = Croatia, ADD 6 (8 Apr) = Estonia/Croatia,
+      with Latvia and others across INIT/ADD-3. Not all committed (no network egress here). PDF
+      committed for ADD 4; delegation positions summarised in docs/member-state-positions.md.
 
   - id: ST-8261-1-26-REV1
     title: "Presidency revised compromise text (rev 2)"

@@ -11,3 +11,7 @@
 .vscode/
 .idea/
 *.swp
+
+# Python build artifacts (skill drivers)
+__pycache__/
+*.pyc

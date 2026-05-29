@@ -26,5 +26,14 @@ Welcomed the restoration toward the current standard.
 ## Status
 **De-escalated by Council.** Among the less contentious items now; unlikely to be a major trilogue battle.
 
+## Member-State signals (WK 3736/26)
+- **FR** — supports **keeping the current Article 22** (prohibition + derogation), i.e. backs deleting the
+  Commission rewrite.
+- **PL** — **opposes deleting recital 38 / the Art 22 changes**: it objected to the "regardless of
+  whether…" wording, but argues complete deletion forfeits a chance to improve legal certainty. Wants the
+  **"necessity" test in 22(2)(a) read restrictively** so fully automated decisions stay exceptional —
+  refine, don't remove.
+- → [`../member-state-positions.md`](../member-state-positions.md)
+
 ## Open questions
 - Will any residual "less intrusive solution" wording survive in recitals?

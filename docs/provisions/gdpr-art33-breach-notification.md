@@ -28,6 +28,16 @@ Likely to support.
 **Likely consensus.** Plan compliance against high-risk + 96h + entry-point routing; note 30-month
 switch-over to the entry point ([final provisions](../../extracts/council/ST-9547-2026_final-art10-11.md)).
 
+## Member-State signals (WK 3736/26)
+- **PL** — **strongly backs a single, clear 96-hour** deadline; flags that the ST 6406/26 text carried
+  **both 72h and 96h** in the same provision (legal uncertainty). On the template + high-risk lists,
+  wants them adopted by **implementing act** (to bind all 27 Member States) and **opposes** the switch to
+  an "EDPB establishes" model — asks to revert to the Commission proposal; lists must not replace the
+  individual risk assessment.
+- **RO** — flags the same **72h/96h ambiguity** and asks for clarification.
+- **FR** — notes recital 39's opening sentences are explanatory rather than recital-like.
+- → [`../member-state-positions.md`](../member-state-positions.md)
+
 ## Open questions
 - Interaction with DORA's stricter incident timelines for financial entities.
 - Content of the EDPB high-risk list.

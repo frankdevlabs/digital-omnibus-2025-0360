@@ -36,6 +36,17 @@ Support effective machine-readable consent and oppose consent fatigue; cautious 
 Council keeping cookies in ePrivacy. The live issue is the **machine-readable signal** article and its
 browser/OS obligations.
 
+## Member-State signals (WK 3736/26)
+- **FR** — the document's most developed position: cookie consent governs a **technical operation, not
+  data processing**, so folding it into the GDPR is **inappropriate**; the relaxations should be made in
+  **ePrivacy Art 5(3) for all trackers**, without two regimes (FR is open to the audience-measurement and
+  security exemptions, but only within ePrivacy). It demands **deletion of Art 88b** (machine-readable
+  signals) — technical rules out of place in the GDPR, intractable in practice, harmful to the press, and
+  unassessed (no impact assessment).
+- **PL** — terminal-equipment storage/access should stay **consent-based** and the rules belong in
+  **ePrivacy** (the position the Presidency adopted by ST 9547/26); Art 88b comments "to be shared later".
+- → [`../member-state-positions.md`](../member-state-positions.md)
+
 ## Open questions
 - Final article number for the machine-readable-signal provision.
 - Scope: web browsers only, or also operating systems / in-app?

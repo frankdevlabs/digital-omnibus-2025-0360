@@ -39,6 +39,9 @@ to reintroduce a softer Art 4 clarification under the Irish Presidency or by ind
   **opposes deleting Art 41a**; any guidance must be framed *without affecting Art 4(1)* (no "relative
   personal data", no automatic non-personal qualification).
 - **RO** — backs the "means reasonably likely to be used" criterion as **reducing uncertainty for SMEs**.
+- **DE** — insists the **SRB judgment / "relative anonymity"** be properly reflected in Art 4; concerned
+  the Commission text did **not** track the CJEU case law (WK 3736/26 ADD 2). *(Cuts against PL's wish to
+  avoid any "relative personal data" framing — a live tension.)*
 - → [`../member-state-positions.md`](../member-state-positions.md)
 
 ## Open questions

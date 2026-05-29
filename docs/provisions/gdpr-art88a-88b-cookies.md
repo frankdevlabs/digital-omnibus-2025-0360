@@ -45,6 +45,9 @@ browser/OS obligations.
   unassessed (no impact assessment).
 - **PL** — terminal-equipment storage/access should stay **consent-based** and the rules belong in
   **ePrivacy** (the position the Presidency adopted by ST 9547/26); Art 88b comments "to be shared later".
+- **EE** — web browsers should provide **technical means for data subjects to withdraw consent**; supports
+  retaining the **audience-measurement exemption (Art 88a(3)(c))** within its originally intended scope
+  (the controller of the service requested by the data subject) (WK 3736/26 ADD 3).
 - → [`../member-state-positions.md`](../member-state-positions.md)
 
 ## Open questions

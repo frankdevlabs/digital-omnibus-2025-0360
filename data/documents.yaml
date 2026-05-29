@@ -113,15 +113,21 @@ documents:
     limite: true
     access: public-via-register
     register: https://data.consilium.europa.eu/doc/document/WK-3735-2026-INIT/en/pdf
+    local_init: sources/council/WK-3735-2026-INIT_consolidated-comments-cyber-data_2026-03-11.pdf
+    local_add1: sources/council/WK-3735-2026-ADD1_delegation-comments-cz-cyber-data_2026-03-11.pdf
+    local_add2: sources/council/WK-3735-2026-ADD2_delegation-comments-ee-cyber-data_2026-03-12.pdf
+    local_add3: sources/council/WK-3735-2026-ADD3_delegation-comments-at-cyber-data_2026-03-18.pdf
     local_add4: sources/council/WK-3735-2026-ADD4_delegation-comments-dk-cyber-data_2026-03-23.pdf
     notes: >-
-      Working documents for the Antici Group (Simplification) discussed at the 13 Feb 2026 working
-      party — the CYBER/DATA strand (comments on the Commission proposal; consultation deadline
-      27 Feb 2026), sibling to WK 3736/26 (the GDPR/P2B strand). ADD 4 = Denmark (DK) committed
-      locally (single entry point: MS control over SEP security/functionality, ENISA-run building on
-      the Cyber Resilience Act Reg 2024/2847; Data Act altruism/EDIB/high-value datasets). Other
-      addenda are on the register (WK-3735-2026-{INIT,ADD-1…3}) but not committed (no egress here).
-      Positions summarised in docs/member-state-positions.md.
+      CYBER/DATA strand — comments on the Commission proposal (consultation deadline 27 Feb → 6 Mar
+      2026); sibling to WK 3736/26 (GDPR/P2B). Committed: INIT (11 Mar, consolidated table from 15
+      delegations BE/DE/DK/EL/ES/FI/FR/IT/LU/LV/NL/PL/RO/SE/SI), ADD 1 = Czechia (CZ, 11 Mar,
+      tracked-changes: single entry point, EDIB powers, Art 38(3) cooperation, "protected data"
+      terminology, payment for anonymisation), ADD 2 = Estonia (EE, 12 Mar: SEP timeline review,
+      open/protected-data merger, public-emergency non-personal data), ADD 3 = Austria (AT, 18 Mar:
+      EDIB mandate, Art 38 competent-authority ambiguity, supports DE info-sharing system), ADD 4 =
+      Denmark (DK, 23 Mar: MS control over SEP, ENISA/Cyber Resilience Act, high-value datasets).
+      Positions summarised in docs/member-state-positions.md and docs/provisions/cyber-single-entry-point.md.
 
   - id: ST-7244-2026
     title: "Council cover note transmitting ECB Opinion CON/2026/9"
@@ -147,23 +153,23 @@ documents:
     notes: First Cyprus compromise text (committed copy via EURACTIV). Mirror verified live (note the %E2%80%93 en-dash).
 
   - id: WK-3736-2026
-    title: "Consolidated delegations' comments (ADD 4 — FR, PL, RO on GDPR/P2B & ePrivacy)"
+    title: "Delegations' comments on the GDPR/P2B/ePrivacy strand — ADD 1–4"
     body: Council
-    date: 2026-03-30
+    date: 2026-03-19
     limite: true
     url: https://data.consilium.europa.eu/doc/document/WK-3736-2026-INIT/en/pdf
     mirror: https://table.media/assets/berlin/digital-omnibus-march-30-gdpr,-p2b,-eprivacy-fr,-ro,-pl-(1).pdf
-    local: sources/council/WK-3736-2026-ADD4_delegations-comments-fr-pl-ro_2026-03-30.pdf
+    local_add1: sources/council/WK-3736-2026-ADD1_consolidated-comments-gdpr-p2b_2026-03-19.pdf
     local_add2: sources/council/WK-3736-2026-ADD2_delegation-comments-de-gdpr-p2b_2026-03-19.pdf
     local_add3: sources/council/WK-3736-2026-ADD3_delegation-comments-ee-gdpr-p2b_2026-03-23.pdf
+    local_add4: sources/council/WK-3736-2026-ADD4_delegations-comments-fr-pl-ro_2026-03-30.pdf
     notes: >-
-      WK 3736/26 — GDPR/P2B strand, working documents for the Antici Group (Simplification), comments
-      related to AGS 27 Feb 2026 (deadline 18 Mar) on the ST 6406/26 text. Committed locally:
-      ADD 2 = Germany (DE, 19 Mar), ADD 3 = Estonia (EE, 23 Mar), ADD 4 = FR/PL/RO (30 Mar; FR in
-      French). The full series is on the public register (WK-3736-2026-{INIT,ADD-1…6}) — e.g. ADD 5
-      (30 Mar) = Croatia, ADD 6 (8 Apr) = Estonia/Croatia, Latvia and others across INIT/ADD-1/ADD-3;
-      remaining addenda not committed (no egress here). Positions summarised in
-      docs/member-state-positions.md.
+      WK 3736/26 — GDPR/P2B/ePrivacy strand, working documents for the Antici Group (Simplification),
+      comments on the ST 6406/26 text (deadline 18 Mar 2026). Committed locally: ADD 1 = consolidated
+      (19 Mar; two joint submissions — {AT,ES,LV,SE} and {BE,CZ,DK,FI,IE,IT,LU,NL,SI} — both resisting
+      the P2B repeal), ADD 2 = Germany (DE, 19 Mar), ADD 3 = Estonia (EE, 23 Mar), ADD 4 = FR/PL/RO
+      (30 Mar; FR in French). Further addenda on the register (ADD 5 = Croatia 30 Mar, ADD 6 =
+      Estonia/Croatia 8 Apr) not committed. Positions summarised in docs/member-state-positions.md.
 
   - id: ST-8261-1-26-REV1
     title: "Presidency revised compromise text (rev 2)"

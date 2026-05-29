@@ -33,6 +33,9 @@ survives. noyb's empirical data (83.5% of requests not properly answered) is the
 - **PL** — welcomes that **"abusive intention" must be demonstrated by the controller** (a real
   safeguard), but wants it **read restrictively** and applied consistently so it does not deter
   legitimate requests.
+- **DE** — wants supervisory authorities able to **terminate proceedings for reasons of expediency**
+  (complaint overload is hard to handle with existing resources), and a **reasonable fee** reflecting the
+  administrative cost of responding (WK 3736/26 ADD 2).
 - → [`../member-state-positions.md`](../member-state-positions.md)
 
 ## Open questions

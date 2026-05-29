@@ -17,11 +17,12 @@ as further `WK` addenda are released.
 > (FR comments are in French in the source; summarised in English here), **not an official text**.
 > Always verify against the document before relying on it. See [`../NOTICE`](../NOTICE).
 
-> **Additional delegation documents now committed** (summarised under [Further delegations](#further-delegations) below):
-> **WK 3736/26 ADD 2** (DE, 19 Mar 2026) and **WK 3736/26 ADD 3** (EE, 23 Mar 2026) — GDPR/P2B comments
-> on the *Presidency compromise* ST 6406/26; and **WK 3735/26 ADD 4** (DK, 23 Mar 2026) — comments on
-> the *Commission proposal* for the **cyber/data** strand (Data Act, single entry point). PDFs under
-> [`../sources/council/`](../sources/council/).
+> **The wider consultation is now committed** (summarised under [Further delegations](#further-delegations) below):
+> the **GDPR/P2B** set **WK 3736/26 INIT-equivalent ADD 1** (consolidated — two coalitions), **ADD 2** (DE),
+> **ADD 3** (EE), **ADD 4** (FR/PL/RO); and the **cyber/data** set **WK 3735/26 INIT** (consolidated, 15
+> delegations), **ADD 1** (CZ), **ADD 2** (EE), **ADD 3** (AT), **ADD 4** (DK). PDFs under
+> [`../sources/council/`](../sources/council/); register: [`WK-3736-2026`](../sources/README.md#council-documents),
+> [`WK-3735-2026`](../sources/README.md#council-documents).
 
 ## At a glance — the three delegations
 
@@ -195,23 +196,68 @@ as further `WK` addenda are released.
 
 ## Further delegations
 
-Drawn from delegation documents added after the original FR/PL/RO set. **DE** and **EE** comment on the
-GDPR/P2B strand of the *Presidency compromise* (ST 6406/26, deadline 18 Mar 2026); **DK** comments on
-the *Commission proposal* for the cyber/data strand (deadline 27 Feb 2026), so its article references
-are to the Data Act / single-entry-point text rather than the GDPR compromise.
+Beyond the original FR/PL/RO set, the repo now holds the wider consultation. The comments split by
+**strand**: **WK 3736/26** is the *GDPR/P2B/ePrivacy* consultation on the **Presidency compromise**
+(ST 6406/26, deadline 18 Mar 2026); **WK 3735/26** is the *cyber/data* consultation on the **Commission
+proposal** (deadline 27 Feb → 6 Mar 2026), so its article references are to the Data Act / single-entry-
+point text. Committed documents: WK 3736/26 **ADD 1** (consolidated, two coalitions), **ADD 2** (DE),
+**ADD 3** (EE), **ADD 4** (FR/PL/RO); WK 3735/26 **INIT** (consolidated, 15 delegations), **ADD 1** (CZ),
+**ADD 2** (EE), **ADD 3** (AT), **ADD 4** (DK). Single-delegation documents are summarised in full below;
+for the consolidated documents only clearly attributable points are quoted.
+
+> Faithfulness note: these are working summaries from `WK` consultation tables (machine-extracted text).
+> Verify against the source PDFs before relying on any specific drafting point.
+
+### GDPR/P2B/ePrivacy strand (WK 3736/26)
 
 | Delegation | Source | Overall thrust |
 |---|---|---|
-| **Germany (DE)** | WK 3736/26 ADD 2 | Broadly agrees with the simplification intent. On **Art 4 personal data**, insists the **SRB judgment / "relative anonymity"** be properly reflected (concerned the COM text didn't track the CJEU case law). Wants supervisory authorities empowered to **terminate proceedings for expediency** (complaint overload). Backs simplifying **Art 13/14** information duties (per its 23 Oct & 30 Jan papers). On **P2B**, wants **Arts 3 and 5 to survive until 31 Dec 2032 to protect SMEs**. Scrutiny reservations on biometric data and the AI legitimate-interest balancing recitals. |
-| **Estonia (EE)** | WK 3736/26 ADD 3 | Supports the **P2B repeal** (objectives largely covered by the DSA/DMA). On **cookies/Art 88b**, web browsers should provide technical means to **withdraw** consent; supports keeping the **audience-measurement exemption (Art 88a(3)(c))** in its original scope. Prefers **continuing discussions on Art 22** automated decisions but is open to the COM "regardless of whether…" amendment. On **AI legitimate interest (rec 33)**, available legal bases should **not be unnecessarily restricted**; questions the relevance of a third party's legitimate interest. |
-| **Denmark (DK)** | WK 3735/26 ADD 4 | Cyber/data strand. On the **single entry point**, wants **Member States to have more say** over whether the platform is secure and functional (wary of the Commission's assessment role; asked for Council Legal Service input); content for **ENISA** to run the SEP, building on the Cyber Resilience Act (Reg (EU) 2024/2847) single-reporting. Engages with the **Data Act** amendments (data altruism, European Data Innovation Board, high-value datasets in Annex II / Art 32ab). |
+| **Germany (DE)** | ADD 2 | Broadly agrees with the simplification intent. On **Art 4 personal data**, insists the **SRB judgment / "relative anonymity"** be properly reflected (concerned the COM text didn't track the CJEU case law). Wants supervisory authorities empowered to **terminate proceedings for expediency** (complaint overload). Backs simplifying **Art 13/14** information duties (per its 23 Oct & 30 Jan papers). On **P2B**, wants **Arts 3 and 5 to survive until 31 Dec 2032 to protect SMEs**. Scrutiny reservations on biometric data and the AI legitimate-interest balancing recitals. |
+| **Estonia (EE)** | ADD 3 | The outlier that **supports the P2B repeal** (objectives largely covered by the DSA/DMA). On **cookies/Art 88b**, web browsers should provide technical means to **withdraw** consent; supports keeping the **audience-measurement exemption (Art 88a(3)(c))** in its original scope. Prefers **continuing discussions on Art 22** automated decisions but is open to the COM "regardless of whether…" amendment. On **AI legitimate interest (rec 33)**, available legal bases should **not be unnecessarily restricted**; questions the relevance of a third party's legitimate interest. |
 
-- DE → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md),
-  [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md)
-- EE → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),
+**Broad resistance to repealing the Platform-to-Business Regulation (Reg (EU) 2019/1150).** The
+consolidated **ADD 1** carries two joint submissions that both push back on the P2B repeal:
+
+- **{AT, ES, LV, SE}** — **Article 1** (scope/subject-matter), **Article 4(2)** (business users' notice
+  period before platform-access termination — *"particularly important to AT"*) and **Article 19**
+  (redress) must remain *"to maintain coherence … following its partial repeal"* and avoid legal
+  uncertainty; enforcement should stay **flexible and open to Member States** (AT: enforcement via
+  representative organisations/associations and public bodies).
+- **{BE, CZ, DK, FI, IE, IT, LU, NL, SI}** — certain P2B provisions are **essential SME safeguards** and
+  should be kept **permanently, not merely until 31 December 2032** (BE and IT state this explicitly);
+  **Article 19** must remain in force; **Article 3(2)** matters so business users are informed before
+  terms & conditions change and keep the right to terminate.
+
+So on P2B the Council splits: **most delegations want the protections retained** (some permanently),
+**Germany** would extend the sunset to 2032, and **Estonia** backs the clean repeal.
+
+### Cyber/data strand (WK 3735/26)
+
+| Delegation | Source | Overall thrust |
+|---|---|---|
+| **Czechia (CZ)** | ADD 1 | Detailed tracked-changes on the Data Act merger. Generally **supports** simplifying the single entry point but wants a **Member-State role**; **opposes limiting the European Data Innovation Board (EDIB)** to advising the Commission and wants the original **Art 38(3)** duty of competent authorities to cooperate **preserved**; repeatedly flags that using **"protected data"** for both data and documents is misleading; would **limit payment for anonymisation**; several incorrect cross-references to correct (e.g. Art 49(5) does not exist). |
+| **Estonia (EE)** | ADD 2 | The **SEP timeline (18/24 months) should be reviewed later**, once it is clear what the SEP is and what Member States must build — the COM text mainly addresses **ENISA's** role, not MS duties. Merge the separate **open-data (Art 32s)** and **protected-data (Art 32aa)** description/publication obligations into one. Public-emergency data requests should **primarily concern non-personal data**, using **PETs/pseudonymisation**. Flags overlapping definitions. |
+| **Austria (AT)** | ADD 3 | Concerned the proposal **reduces the EDIB mandate** and the structured involvement of competent authorities, which is *"critical for effective enforcement"*. Flags **ambiguity in Art 38's multiple "competent authorities"** for complaints (legal certainty needed); notes **eIDAS (Reg 910/2014) is missing from the title**; **supports DE's proposed Information-Sharing System** on Data Act application/enforcement (Art 37); reference corrections (repealed Art 29 DGA → Art 41a). |
+| **Denmark (DK)** | ADD 4 | Wants **Member States to have more say** over whether the SEP platform is secure and functional (wary of the Commission's assessment role; asked for **Council Legal Service** input); content for **ENISA** to run the SEP, **building on the Cyber Resilience Act (Reg (EU) 2024/2847)** single-reporting. Engages with Data Act amendments (data altruism, EDIB, high-value datasets in Annex II / Art 32ab). |
+
+**From the consolidated INIT (15 delegations — clearly attributable points):**
+- **Spain (ES)** — incident reporting under **CER, DORA and eIDAS must stay a direct channel to national
+  competent authorities**, not be mandatorily routed through the SEP. *(Echoes the ECB's DORA ask — see
+  [`institutional-positions.md`](institutional-positions.md).)*
+- **Finland (FI)** — SEP reporting should be **voluntary** ("entities should be able to choose how to
+  report"); wants a **stronger EDIB governance** structure (drawing on the DSA Board model).
+- **Belgium (BE)** — the **entry into force on the third day after publication is unfeasible**; needs a
+  transitional period; timelines can only be assessed once the overall framework is aligned.
+- **Latvia (LV)** — engages with the **overall consolidation approach** (DGA + Open Data Directive +
+  Reg 2018/1807 folded into the Data Act).
+
+### Where to read more
+- GDPR/P2B → DE: [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md),
+  [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md) ·
+  EE: [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),
   [`provisions/gdpr-art22-automated-decisions.md`](provisions/gdpr-art22-automated-decisions.md),
   [`provisions/gdpr-art88c-ai-legitimate-interest.md`](provisions/gdpr-art88c-ai-legitimate-interest.md)
-- DK → [`provisions/cyber-single-entry-point.md`](provisions/cyber-single-entry-point.md),
+- Cyber/data (CZ, EE, AT, DK, ES, FI) → [`provisions/cyber-single-entry-point.md`](provisions/cyber-single-entry-point.md),
   [`instruments/data-act-2023-2854.md`](instruments/data-act-2023-2854.md)
 
 ---

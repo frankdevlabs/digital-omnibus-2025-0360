@@ -26,6 +26,18 @@ Broadly supportive; EPRS briefing favourable. Concerns about ENISA resourcing.
 ## EDPB–EDPS
 Support, with security/confidentiality safeguards for the information flows.
 
+## Member-State signals (WK 3735/26, cyber/data consultation)
+- **DK** — Member States should have more say over whether the SEP is **secure and functional** (wary of
+  the Commission's assessment role; asked for Council Legal Service input); content for **ENISA** to run
+  it, **building on the Cyber Resilience Act (Reg 2024/2847)** single-reporting.
+- **ES** — **CER, DORA and eIDAS** notifications must remain a **direct channel to national competent
+  authorities**, not be mandatorily routed via the SEP. *(Aligns with the ECB's DORA carve-out ask, [`../advisory/ecb-con-2026-9.md`](../advisory/ecb-con-2026-9.md).)*
+- **FI** — SEP reporting should be **voluntary** ("entities should be able to choose how to report").
+- **EE** — the **18/24-month switch-over timeline should be reviewed later**, once the SEP scope and the
+  Member-State build obligations are clear (the text mainly addresses ENISA's role, not MS duties).
+- **AT** — flags **ambiguity in Art 38's multiple "competent authorities"** for complaints.
+- → [`../member-state-positions.md`](../member-state-positions.md)
+
 ## Status
 **Likely consensus.** Priority workstream for financial institutions: map current GDPR/NIS2/DORA reporting
 channels to the future national entry point; note the 30-month horizon and the fallback (alternative means

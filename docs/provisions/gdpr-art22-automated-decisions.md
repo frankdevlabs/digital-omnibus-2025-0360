@@ -33,6 +33,10 @@ Welcomed the restoration toward the current standard.
   whether…" wording, but argues complete deletion forfeits a chance to improve legal certainty. Wants the
   **"necessity" test in 22(2)(a) read restrictively** so fully automated decisions stay exceptional —
   refine, don't remove.
+- **EE** — would **prefer to continue the discussion** on automated decision-making, but is **open to the
+  Commission amendment** (apply the rule "regardless of whether the decision could be taken otherwise than
+  by solely automated means") as serving simplification; suggests clarifying recital 38 on contractual
+  necessity (WK 3736/26 ADD 3).
 - → [`../member-state-positions.md`](../member-state-positions.md)
 
 ## Open questions

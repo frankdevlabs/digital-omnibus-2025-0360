@@ -22,7 +22,14 @@ point; EDPB common template + high-risk lists.
 Likely to support.
 
 ## EDPB–EDPS
-**Welcomed** the alignment to high-risk and the 96-hour deadline.
+**Welcome** the high-risk threshold and the **96-hour** deadline (Joint Opinion 2/2026, ¶73, ¶77) — neither
+materially lowers protection — and **strongly support the single-entry point** (¶85). But on the common
+**template and high-risk lists** (and the DPIA lists/template/methodology under Art 35), they object to the
+Commission **unilaterally modifying** the EDPB's drafts by implementing act: **entrust the EDPB with both
+preparation *and* approval** (and the **EDPS** for the EUDPR equivalents) (¶82–84, ¶90–95). They also urge
+**more harmonisation** with the shorter NIS2/DORA/eIDAS/CER timelines (¶79).
+→ [JO 2/2026 digest: breach notification](../advisory/edpb-edps-jo-2-2026.md#breach-notification),
+[DPIA](../advisory/edpb-edps-jo-2-2026.md#dpia)
 
 ## Status
 **Likely consensus.** Plan compliance against high-risk + 96h + entry-point routing; note 30-month

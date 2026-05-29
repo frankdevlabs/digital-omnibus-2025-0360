@@ -9,7 +9,8 @@ statements, committee debate and group signals only.
 Per-provision detail lives in [`provisions/`](provisions/). Machine-readable version:
 [`../data/positions.csv`](../data/positions.csv). For positions of *individual* Council delegations
 (France, Poland, Romania) behind the Council column, see
-[`member-state-positions.md`](member-state-positions.md).
+[`member-state-positions.md`](member-state-positions.md). The **EDPB–EDPS** column distils
+**Joint Opinion 2/2026** — full digest in [`advisory/edpb-edps-jo-2-2026.md`](advisory/edpb-edps-jo-2-2026.md).
 
 | Topic | Commission (COM(2025) 837) | Council (ST 9547/26) | Parliament (provisional) | EDPB–EDPS |
 |---|---|---|---|---|

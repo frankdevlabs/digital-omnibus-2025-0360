@@ -22,7 +22,7 @@ authoritative copy. Dates in ISO format. Newest events at the bottom of each yea
 | 2026-01-09 | Cyprus circulates first discussion document to capitals | [register](sources/README.md) |
 | 2026-01-19 | EP committee referral announced in plenary (ITRE lead + LIBE, Rule 58; JURI opinion) | [register](sources/README.md) |
 | 2026-01-26 | LIBE hearing with Commission services (DG JUST) | [register](sources/README.md) |
-| 2026-02-10 | **EDPB–EDPS Joint Opinion 2/2026** adopted | [register: EDPB-EDPS-JO-2-2026](sources/README.md) |
+| 2026-02-10 | **EDPB–EDPS Joint Opinion 2/2026** adopted | [register: EDPB-EDPS-JO-2-2026](sources/README.md) · [digest](docs/advisory/edpb-edps-jo-2-2026.md) |
 | 2026-02-11 | Joint Opinion published; rapporteur appointments announced | [register](sources/README.md) |
 | 2026-02-13 | Czech Senate Protocol 2 contribution registered | [register](sources/README.md) |
 | 2026-02-20 | **Council compromise text ST 6406/26** (for AGS 27 Feb) | [register: ST-6406-2026](sources/README.md) |

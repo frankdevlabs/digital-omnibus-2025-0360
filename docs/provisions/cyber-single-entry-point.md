@@ -24,7 +24,12 @@ DORA, CER and eIDAS. Application 18 months (extendable to 24).
 Broadly supportive; EPRS briefing favourable. Concerns about ENISA resourcing.
 
 ## EDPB–EDPS
-Support, with security/confidentiality safeguards for the information flows.
+**Strongly support** the single-entry point (Joint Opinion 2/2026, ¶85): an EEA-wide SEP eases reporting
+without lowering protection, in line with the EDPB Helsinki Statement. They stress the **security** of
+notifications routed through the SEP (they often contain sensitive data) (¶86), recommend mirroring the
+changes in **EUDPR Art 34(1)** so EU institutions can notify via the SEP (¶87), and urge **more
+harmonisation** with the shorter NIS2/DORA/eIDAS/CER deadlines (¶79).
+→ [JO 2/2026 digest: breach notification & SEP](../advisory/edpb-edps-jo-2-2026.md#breach-notification)
 
 ## Status
 **Likely consensus.** Priority workstream for financial institutions: map current GDPR/NIS2/DORA reporting

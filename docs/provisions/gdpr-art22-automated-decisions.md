@@ -21,7 +21,13 @@ could be taken otherwise than by solely automated means", among other clarificat
 Likely to support the Council's de-escalation.
 
 ## EDPB–EDPS
-Welcomed the restoration toward the current standard.
+**Retain the in-principle prohibition** (Joint Opinion 2/2026, ¶66): the CJEU (*SCHUFA*, C-634/21) reads
+Art 22(1) as a prohibition, not a mere invokable right, so keep "a decision … shall not be based solely on
+automated processing … unless …" and confirm in Recital 38 that Art 22 stays an invokable right (¶67). Keep
+"regardless of whether the decision could be taken otherwise…" **only in the recital, not the enacting
+terms**, and confirm ADM is "necessary" only where **no equally effective, less-intrusive means** exist
+(Arts 5(1)(c), 6(1)(b)) (¶70–72).
+→ [JO 2/2026 digest: automated decisions](../advisory/edpb-edps-jo-2-2026.md#automated-decisions)
 
 ## Status
 **De-escalated by Council.** Among the less contentious items now; unlikely to be a major trilogue battle.

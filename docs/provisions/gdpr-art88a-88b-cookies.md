@@ -29,7 +29,16 @@ Highly contested. Industry pushes deletion of the machine-readable-signal articl
 wants broader OS/app coverage and stronger signal-honouring.
 
 ## EDPB–EDPS
-Support effective machine-readable consent and oppose consent fatigue; cautious on scope.
+**Strongly support** tackling consent fatigue and GDPR-SA oversight (Joint Opinion 2/2026, ¶96), but warn
+that **splitting terminal-equipment rules** across GDPR and ePrivacy creates a two-regime fragmentation
+(¶97–98). On exceptions: delimit explicitly-requested-service, **audience measurement** (aggregated/
+anonymous, own-use only) and **security** to *strictly necessary*, and **add a contextual-advertising
+exception** (¶101–104). Oversight needs **effective fining powers** (Art 83(5)) (¶107). On **Art 88b
+machine-readable signals** they are enthusiastic but want **no consent-by-default**, **no SME-browser
+exemption**, extension to **operating systems/other software**, and **removal of the media-service
+exemption** (¶108–117).
+→ [JO 2/2026 digest: ePrivacy terminal equipment](../advisory/edpb-edps-jo-2-2026.md#eprivacy),
+[machine-readable signals](../advisory/edpb-edps-jo-2-2026.md#machine-readable-signals)
 
 ## Status
 **Major battle, but reframed.** The conceptual fight ("cookies into GDPR") is — for now — resolved by the

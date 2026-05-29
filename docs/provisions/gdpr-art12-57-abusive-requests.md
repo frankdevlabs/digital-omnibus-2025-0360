@@ -21,7 +21,13 @@ purpose **other than** data protection; gives examples of "abuse".
 Likely to tighten further or narrow the "abusive intention" ground.
 
 ## EDPB–EDPS
-Object to linking "abuse" to the **purpose** of the access request; concerned it chills legitimate access.
+Object to tying abuse to exercising access **for purposes other than data protection** (Joint Opinion
+2/2026, ¶54) — the GDPR protects *all* fundamental rights and the CJEU (C-307/22) allows access with no
+stated motive; link "abusive requests" to an **abusive intention** instead (¶55). **Drop "reasonable
+grounds to believe"** and keep the current burden-of-proof threshold (¶57); let data subjects clarify
+before refusal (¶56, ¶58). Crucially, **keep Art 12(5) mirrored in Art 57(4)** so DPAs can refuse/charge on
+the same conditions, and address SA **resourcing** (¶59).
+→ [JO 2/2026 digest: access requests](../advisory/edpb-edps-jo-2-2026.md#access-requests)
 
 ## Status
 **Contested.** Council has softened the Commission ("intention" + burden on controller) but the provision

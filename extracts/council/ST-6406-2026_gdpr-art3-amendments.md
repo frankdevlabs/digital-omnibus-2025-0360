@@ -331,10 +331,13 @@ awkward ("…and where such interests are overridden…" reads as a carve-out ra
 
 ---
 
-*Parallel amendments to Regulation (EU) 2018/1725 (data protection by EU institutions) mirror the above —
-not transcribed separately here.*
+*Regulation (EU) 2018/1725 (data protection by the EU institutions, "EUDPR") is referenced in the recitals
+as a parallel-amendment intention but is **not operatively amended** in this text. This February compromise
+also contains no Omnibus Article 1 (Data Act) or Article 2 (Single Digital Gateway) — see the absence stubs
+below.*
 
-**See also (this version):** [ePrivacy Art 5 (absent)](ST-6406-2026_eprivacy-art5.md) ·
+**See also (this version):** [Data Act Art 1 (absent)](ST-6406-2026_dataact-art1.md) ·
+[SDG Art 2 (absent)](ST-6406-2026_sdg-art2.md) · [ePrivacy Art 5 (absent)](ST-6406-2026_eprivacy-art5.md) ·
 [Cyber Arts 6–9 (absent)](ST-6406-2026_cyber-art6-9.md) ·
 [Final provisions](ST-6406-2026_final-art10-11.md) · [Recitals](ST-6406-2026_recitals.md)
 

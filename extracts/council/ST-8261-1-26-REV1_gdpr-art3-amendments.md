@@ -362,12 +362,17 @@ article is added:"* (singular). In ST 8261/1/26 REV 1 — already as in May:
 
 ---
 
-*Parallel amendments to Regulation (EU) 2018/1725 (data protection by EU institutions; Article 4 of this
-Omnibus) mirror the above — not transcribed separately here. This version also extensively amends the Data
-Act, Regulation (EU) 2023/2854 (Article 1 of this Omnibus, inserting Chapters VIIa–VIIc / Articles
-32a–32z), which is outside the scope of these five tracked extracts.*
+*This Omnibus text also amends other instruments, now tracked in sibling files: the **Data Act**, Regulation
+(EU) 2023/2854 (**Omnibus Article 1**, inserting Chapters VIIa–VIIc / Articles 32a–32z) — see
+[`ST-8261-1-26-REV1_dataact-art1.md`](ST-8261-1-26-REV1_dataact-art1.md); and the **Single Digital Gateway**,
+Regulation (EU) 2018/1724 (**Omnibus Article 2**, Annex II) — see
+[`ST-8261-1-26-REV1_sdg-art2.md`](ST-8261-1-26-REV1_sdg-art2.md). Note: Regulation (EU) 2018/1725 (data
+protection by the EU institutions, "EUDPR") is **foreshadowed in recitals 41–42** as a parallel amendment but
+**has no operative amending article** in this compromise text (the enacting terms run straight from Article 3
+(GDPR) to Article 5 (ePrivacy) — there is no Article 4).*
 
-**See also (this version):** [ePrivacy Art 5](ST-8261-1-26-REV1_eprivacy-art5.md) ·
+**See also (this version):** [Data Act Art 1](ST-8261-1-26-REV1_dataact-art1.md) ·
+[SDG Art 2](ST-8261-1-26-REV1_sdg-art2.md) · [ePrivacy Art 5](ST-8261-1-26-REV1_eprivacy-art5.md) ·
 [Cyber Arts 6–9](ST-8261-1-26-REV1_cyber-art6-9.md) ·
 [Final provisions](ST-8261-1-26-REV1_final-art10-11.md) · [Recitals](ST-8261-1-26-REV1_recitals.md)
 

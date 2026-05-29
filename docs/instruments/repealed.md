@@ -9,7 +9,7 @@ Handled by **Article 10** of the Omnibus. Operative text:
 | **Data Governance Act (EU) 2022/868** | Repeal / consolidate into Data Act | **Repealed** |
 | **Free Flow of Non-Personal Data Reg (EU) 2018/1807** | Repeal / consolidate into Data Act | **Repealed** |
 | **Open Data Directive (EU) 2019/1024** | Repeal | **Repealed** |
-| **Data Act (EU) 2023/2854** | Receives consolidated substance; SME/cloud carve-outs | Amended (see Commission proposal Art 4 of the Omnibus — *not transcribed here; out of the GDPR/ePrivacy/cyber extract scope*) |
+| **Data Act (EU) 2023/2854** | Receives consolidated substance; SME/cloud carve-outs | Amended by **Omnibus Article 1** (inserts Chapters VIIa–VIIc / Articles 32a–32z) — **only in the April text ST 8261/1/26 REV 1**; cover-listed only in Feb/May. See the [Data Act instrument page](data-act-2023-2854.md) and the [April Data Act extract](../../extracts/council/ST-8261-1-26-REV1_dataact-art1.md). |
 
 > ⚠️ The repeals/amendments take effect on dates "aligned with the entry into application of the
 > amendments" — bracketed/undecided in the May text. References to repealed acts are read via a

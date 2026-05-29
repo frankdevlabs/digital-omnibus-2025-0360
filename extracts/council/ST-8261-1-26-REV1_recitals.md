@@ -10,11 +10,103 @@
 > recital it is marked **[DELETED in ST 8261/1/26 REV 1]**; wholly new recitals are marked **[NEW in ST
 > 8261/1/26 REV 1]**. Always verify against the authoritative document. See [`../../NOTICE`](../../NOTICE).
 
-Recitals are interpretive, not operative. The preamble of this version is long (recitals 1–26 concern the
-**Data Act**, Regulation (EU) 2023/2854, amended by Article 1 of this Omnibus — outside the scope of these
-tracked extracts). This subset begins, like the other versions, at recital **27**.
+Recitals are interpretive, not operative. The preamble of this version is long: **recitals 1–26 concern the
+Data Act, Regulation (EU) 2023/2854** (and the instruments consolidated into it), amended by **Omnibus
+Article 1** — these are curated below in a first section, since the operative Data Act text is now tracked in
+[`ST-8261-1-26-REV1_dataact-art1.md`](ST-8261-1-26-REV1_dataact-art1.md). **Recitals 27+** (curated in the
+second section) concern the GDPR / ePrivacy / cyber strand, as in the other versions. Recitals 1–26 are
+**new in the April text** — February and May contain no Data Act preamble.
 
 ---
+
+# Part 1 — Recitals 1–26 (Data Act / data-acquis consolidation; new in April)
+
+## Recitals 1–3 — simplification framing
+*Consolidated sense:* following the Commission's "A simpler and faster Europe" communication (COM(2025) 47)
+and pending a forthcoming **Digital Fitness Check**, this Regulation makes a **first set** of amendments to
+the digital legislative framework to provide immediate regulatory clarifications, cut administrative
+compliance costs (especially for business) and streamline supervisory costs, while maintaining the highest
+standards of privacy and data protection.
+
+<a id="recital-4-two-act-consolidation"></a>
+## Recital 4 — consolidation into two acts (the structural keystone)
+*Consolidated sense:* given the foundational role of data, the data-related amendments seek to **consolidate
+the data regulatory framework into only two legal acts — Regulation (EU) 2016/679 (GDPR) and Regulation
+(EU) 2023/2854 (Data Act) — down from the current five**, cutting administrative costs and stimulating data
+availability while preserving privacy, personal-data protection and fair business practices.
+▸ This is the rationale for the Data Act becoming the consolidating home (Omnibus Article 1) and for the
+repeal of the DGA, FFNPD and Open Data Directive (Omnibus Article 10) — see
+[Data Act instrument page](../../docs/instruments/data-act-2023-2854.md) and
+[repealed instruments](../../docs/instruments/repealed.md).
+
+## Recitals 5–8 — Data Governance Act regimes folded in; data intermediation streamlined
+*Consolidated sense:* the **DGA (Reg (EU) 2022/868)** established three regimes — (a) re-use of protected
+public-sector data, (b) **data intermediation services**, and (c) **data altruism** — whose interplay with
+the **Open Data Directive (Dir (EU) 2019/1024)** caused confusion; the two sets of rules should be **merged**
+(recital 7). The data-intermediation regime is **streamlined** (recital 8): the provider definition is made
+more precise; the **compulsory registration regime becomes voluntary**; the **legal-separation** requirement
+from other value-added services is replaced by a **functional separation** with safeguards; and national
+registers are replaced by **Union-only public registers** (one for data intermediation service providers,
+one for data altruism organisations). Certain DGA data-altruism obligations (national policies, the
+'rulebook', the EU consent form) are dropped as unnecessary.
+
+## Recitals 9–14 — Data Act trade-secret protection / third-country access
+*Consolidated sense:* the Data Act (Chapter II) requires data holders to make data available, including
+trade-secret-protected data, subject to confidentiality safeguards. A **new ground to refuse access** is
+introduced where disclosure could expose trade secrets to **third-country regimes with inadequate,
+non-equivalent or unenforced protection** (recitals 11, 14), supplementing the existing "serious economic
+damage" ground; refusals must be **duly substantiated, notified to the competent authority, treated as
+confidential**, and are challengeable by users/third parties.
+
+## Recital 15 — business-to-government data sharing narrowed to "public emergencies"
+*Consolidated sense:* Chapter V of the Data Act (B2G data sharing) is **narrowed from "exceptional need" to
+"public emergencies"**, reducing burden; the role of official statistics (Reg (EC) No 223/2009) is preserved
+for such situations, and **micro/small enterprises required to provide data may claim compensation**.
+
+<a id="recital-16-smart-contracts"></a>
+## Recital 16 — Article 36 (smart contracts) deleted
+*Consolidated sense:* the smart-contract requirements (Article 36 of the Data Act) — robustness, access
+control, consistency with contractual terms, a safe termination/interruption mechanism — lacked harmonised
+standards and clear definitions and were potentially **incompatible with decentralised/public blockchain
+(immutable-ledger) architectures**; **Article 36 is eliminated** to foster innovation and new business models.
+
+## Recitals 17–18 — custom-built data processing services; SME/SMC switching regimes
+*Consolidated sense:* **custom-made data processing services** (not off-the-shelf, contracts concluded
+before/on 12 September 2025) are largely **carved out of Chapter VI** (except the duty to reduce/remove
+switching and egress charges); providers that are **SMEs/SMCs** get a **lighter regime** for pre-existing
+non-IaaS contracts (incl. proportionate early-termination penalties), without undermining the gradual
+withdrawal of switching/egress charges (contractual terms contrary to that objective are deemed never to
+have existed).
+
+## Recitals 19–20 — Free Flow of Non-Personal Data Regulation repealed; data localisation
+*Consolidated sense:* the **FFNPD Regulation (Reg (EU) 2018/1807)** is **repealed**; its core **no-data-
+localisation / free-flow principle is retained in the Data Act**, with the Commission continuing to monitor
+deviations, and data-localisation requirements justified on **public-security** grounds (Art 52 TFEU) must
+be suitable and proportionate (recital 20).
+
+## Recitals 21–22 — Open Data Directive + DGA public-sector re-use consolidated into Chapter VIIc
+*Consolidated sense:* both the **Open Data Directive (Dir (EU) 2019/1024)** and Chapter II of the **DGA**
+regulate re-use of public-sector information; their overlap created legal uncertainty for public-sector
+bodies, so the rules are **aligned and consolidated into a single Chapter (VIIc) of the Data Act**, while
+respecting national organisational specificities and leaving third-party intellectual-property rights
+unaffected.
+
+## Recitals 23–26 — further Data Act consolidation detail
+*Consolidated sense:* additional clarifications on the consolidated public-sector-data-reuse regime, scope
+of protected data, competent bodies and transitional matters accompany the Chapter VIIc consolidation. (Curated
+at a high level here; the operative text is in the
+[Data Act extract](ST-8261-1-26-REV1_dataact-art1.md).)
+
+## Recital 26a — European Data Innovation Board — [NEW in ST 8261/1/26 REV 1]
+**Wholly new recital.** *Consolidated sense:* the **European Data Innovation Board's** character as a
+**consultative body** for the implementation and enforcement of the Data Act is **maintained** but its
+structure is **simplified** to allow more strategic discussion; technical exchanges and dialogue between
+national enforcement bodies continue in subgroups, which may also discuss the newly added **Chapters VIIa
+and VIIc**.
+
+---
+
+# Part 2 — Recitals 27+ (GDPR / ePrivacy / cyber strand)
 
 ## Recital 27 — concept of personal data — amended (reduced to its opening sentence)
 The opening sentence is **kept**: *"This Regulation proposes a series of targeted amendments to Regulation

@@ -94,7 +94,7 @@ Member-State-law authorisation clause. The **regular-verification + documentatio
 ## Point 4 — Article 12(5) (manifestly unfounded / excessive / abusive requests)
 
 Replaced by: *"Information provided under Articles 13 and 14 and any communication and any actions taken
-under Articles 15 to 22 and 34 shall be provided free of charge. Where requests from a data subject are
+under Articles 15 to 22 and 34 shall be free of charge. Where requests from a data subject are
 manifestly unfounded or excessive, in particular because of their repetitive character and, in the case
 of requests under Article 15, where an **abusive intention** on the part of the data subject submitting
 those requests can be demonstrated, the controller may either: (a) charge a reasonable fee taking into
@@ -333,6 +333,10 @@ awkward ("…and where such interests are overridden…" reads as a carve-out ra
 
 *Parallel amendments to Regulation (EU) 2018/1725 (data protection by EU institutions) mirror the above —
 not transcribed separately here.*
+
+**See also (this version):** [ePrivacy Art 5 (absent)](ST-6406-2026_eprivacy-art5.md) ·
+[Cyber Arts 6–9 (absent)](ST-6406-2026_cyber-art6-9.md) ·
+[Final provisions](ST-6406-2026_final-art10-11.md) · [Recitals](ST-6406-2026_recitals.md)
 
 **See also (May text, for diffing):** [GDPR Art 3](ST-9547-2026_gdpr-art3-amendments.md) ·
 [ePrivacy Art 5](ST-9547-2026_eprivacy-art5.md) · [Cyber Arts 6–9](ST-9547-2026_cyber-art6-9.md) ·

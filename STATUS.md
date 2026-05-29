@@ -27,7 +27,7 @@ Cyprus has publicly conceded the file will pass to the **Irish Presidency (from 
 - Handled in the **Antici Group on Simplification (AGS)**, with DATAPROTECT / CYBER / TELECOM / COMPET input.
 - **Cyprus Presidency** (Jan–Jun 2026) has produced three compromise texts:
   - **ST 6406/26** — 20 Feb 2026 (for AGS 27 Feb)
-  - **ST 8261/26** — 15 Apr 2026 (for AGS 24 Apr)
+  - **ST 8261/1/26 REV 1** — 15 Apr 2026 (for AGS 24 Apr)
   - **ST 9547/26** — 21 May 2026 (for AGS **27 May 2026**) ← current
 - The 27 May AGS meeting is an **exchange of views**, *not* a vote on a general approach.
 - No general approach expected before H2 2026 under the **Irish Presidency**.

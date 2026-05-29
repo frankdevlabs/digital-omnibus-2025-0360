@@ -29,6 +29,11 @@ before refusal (¶56, ¶58). Crucially, **keep Art 12(5) mirrored in Art 57(4)**
 the same conditions, and address SA **resourcing** (¶59).
 → [JO 2/2026 digest: access requests](../advisory/edpb-edps-jo-2-2026.md#access-requests)
 
+## EESC
+**EESC (INT/1108)** — the right of access is an **enabling right** and should be **fully ensured** where
+the data subject pursues a legitimate purpose (notably workers' rights, health and safety); the **burden
+of proving abuse stays with the controller**. → [digest](../advisory/eesc-int1108.md)
+
 ## Status
 **Contested.** Council has softened the Commission ("intention" + burden on controller) but the provision
 survives. noyb's empirical data (83.5% of requests not properly answered) is the centrepiece of opposition.

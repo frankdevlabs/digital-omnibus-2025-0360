@@ -29,6 +29,11 @@ terms**, and confirm ADM is "necessary" only where **no equally effective, less-
 (Arts 5(1)(c), 6(1)(b)) (¶70–72).
 → [JO 2/2026 digest: automated decisions](../advisory/edpb-edps-jo-2-2026.md#automated-decisions)
 
+## EESC
+**EESC (INT/1108)** — automated decision-making must respect **data minimisation** (Art 5(1)) and be used
+only where it adds clear value and is necessary and proportionate; **human decision-making is preferred**
+where reasonable. → [digest](../advisory/eesc-int1108.md)
+
 ## Status
 **De-escalated by Council.** Among the less contentious items now; unlikely to be a major trilogue battle.
 

@@ -40,6 +40,11 @@ exemption** (¶108–117).
 → [JO 2/2026 digest: ePrivacy terminal equipment](../advisory/edpb-edps-jo-2-2026.md#eprivacy),
 [machine-readable signals](../advisory/edpb-edps-jo-2-2026.md#machine-readable-signals)
 
+## EESC
+**EESC (INT/1108)** — encourages exploring **simplified consent in low-risk contexts** through a
+proportionate, risk-based solution that still preserves privacy protection.
+→ [digest](../advisory/eesc-int1108.md)
+
 ## Status
 **Major battle, but reframed.** The conceptual fight ("cookies into GDPR") is — for now — resolved by the
 Council keeping cookies in ePrivacy. The live issue is the **machine-readable signal** article and its

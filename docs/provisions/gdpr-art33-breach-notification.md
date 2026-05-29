@@ -31,6 +31,13 @@ preparation *and* approval** (and the **EDPS** for the EUDPR equivalents) (¶82�
 → [JO 2/2026 digest: breach notification](../advisory/edpb-edps-jo-2-2026.md#breach-notification),
 [DPIA](../advisory/edpb-edps-jo-2-2026.md#dpia)
 
+## ECB
+**ECB (CON/2026/9)** — flags that a single breach could otherwise trigger **up to 22 near-identical
+notifications** across the Eurosystem (ECB + NCBs as joint controllers); proposes that joint controllers
+be free to file **one notification via the single-entry point** on behalf of all, and that no
+notification be required where the breach is unlikely to risk rights and freedoms. Also asks that the
+**EUDPR** be added to the acts covered by the SEP. → [digest](../advisory/ecb-con-2026-9.md)
+
 ## Status
 **Likely consensus.** Plan compliance against high-risk + 96h + entry-point routing; note 30-month
 switch-over to the entry point ([final provisions](../../extracts/council/ST-9547-2026_final-art10-11.md)).

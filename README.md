@@ -32,8 +32,9 @@ The repo deliberately separates three layers so that links stay stable over time
 - **[`TIMELINE.md`](TIMELINE.md)** — full chronology, every entry linked to a source.
 - **[`docs/summary.md`](docs/summary.md)** — the plain-language summary.
 - **[`docs/commission-proposal.md`](docs/commission-proposal.md)** — digest of the Commission proposal's explanatory memorandum.
+- **[`docs/advisory/`](docs/advisory/)** — digests of the advisory-body opinions: EDPB–EDPS Joint Opinion 2/2026, ECB Opinion CON/2026/9, EESC opinion INT/1108.
 - **[`docs/institutional-positions.md`](docs/institutional-positions.md)** — Commission vs Council vs Parliament comparison table.
-- **[`docs/member-state-positions.md`](docs/member-state-positions.md)** — what individual Council delegations (FR, PL, RO) are saying.
+- **[`docs/member-state-positions.md`](docs/member-state-positions.md)** — what individual Council delegations (FR, PL, RO, DE, EE, CZ, AT, DK) are saying.
 - **[`docs/fault-lines.md`](docs/fault-lines.md)** — the contested issues likely to dominate trilogue.
 - **[`docs/stakeholders.md`](docs/stakeholders.md)** — EDPB/EDPS, noyb, EDRi, BEUC, industry.
 - **[`docs/provisions/`](docs/provisions/)** — one file per tracked provision (Art 4, 9, 12/57, 22, 33, 88a/88b, 88c, single-entry point).

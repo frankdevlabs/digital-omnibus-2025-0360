@@ -63,7 +63,8 @@ approach and no trilogue** has begun. Cyprus has publicly conceded the file will
 - **ECB Opinion CON/2026/9** (10 Mar 2026) — supportive, but asks to **carve DORA out of the
   single-entry-point regime** (at least initially) and flags joint-controllership breach-reporting
   duplication ([digest](docs/advisory/ecb-con-2026-9.md)).
-- **Member-State delegation comments** (FR/PL/RO, DE, EE, DK) are tracked in
+- **Member-State delegation comments** (FR, PL, RO, DE, EE, CZ, AT, DK — plus two consolidated
+  coalitions resisting the P2B repeal) are tracked in
   [`docs/member-state-positions.md`](docs/member-state-positions.md); the formal Council working-party
   and Coreper steps are in [`TIMELINE.md`](TIMELINE.md).
 

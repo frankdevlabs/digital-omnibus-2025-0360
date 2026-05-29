@@ -11,9 +11,27 @@ Positions of regulators, civil society and industry. Links resolve via [`../sour
   **Welcome** the high-risk/96-hour breach-notification threshold, the EU-wide DPIA list, the
   biometric-verification derogation, and the single-entry point (with safeguards).
   → [digest](advisory/edpb-edps-jo-2-2026.md)
-- **ECB — Opinion (10 Mar 2026).** Financial-stability-relevant aspects (DORA single-entry point,
-  abuse-of-rights).
-- **EESC — Opinion (18 Mar 2026).**
+- **ECB — Opinion CON/2026/9 (10 Mar 2026).** Mandatory consultee; **fully supports** the proposal as
+  a "first step" to simplify the digital rulebook. On the data/cyber strand it welcomes the single-entry
+  point and "report once, share many", but asks to **exclude DORA** from the regime for now (separate
+  taxonomies/templates mean the SEP would not actually cut the reporting burden, and DORA reports are
+  time-critical). Flags that a single breach could otherwise trigger **up to 22 near-identical
+  notifications** across the Eurosystem (proposes one joint-controller filing) and recommends adding
+  the **EUDPR** to the SEP. → [digest](advisory/ecb-con-2026-9.md)
+- **EESC — Opinion INT/1108 (18 Mar 2026).** Advisory body (rapporteur Heiko Willems). **Broadly
+  supports** simplification as "a first step in the right direction", provided it does **not lower
+  standards** — pairing "simplicity by design" with "rights by design". Strong support for a genuinely
+  interoperable single-entry point (English submissions, reuse of information, need-to-know access);
+  insists the personal-data definition stay **objective and broad**; the burden of proving an access
+  request abusive **stays with the controller**; mandatory data-sharing limited to where strictly
+  necessary, with a stronger European Data Innovation Board. → [digest](advisory/eesc-int1108.md)
+
+## Member States
+
+Individual Council delegations have filed written comments via the Antici Group (Simplification) —
+**WK 3735/26** on the cyber/data strand and **WK 3736/26** on the GDPR/P2B & ePrivacy strand. FR, PL,
+RO, DE, EE, CZ, AT and DK are summarised individually, alongside two consolidated coalitions that both
+resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.md)
 
 ## Civil society
 

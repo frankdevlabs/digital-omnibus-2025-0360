@@ -1,6 +1,6 @@
 # Status snapshot
 
-**As of:** 27 May 2026
+**As of:** 29 May 2026
 **File:** 2025/0360 (COD) — Commission proposal COM(2025) 837 final (19 November 2025)
 **Legal bases:** Articles 16(2) and 114 TFEU
 
@@ -11,9 +11,10 @@
 
 ## One-line status
 
-Council **working-party stage** (third Cyprus Presidency compromise text); European Parliament
-**joint ITRE/LIBE scrutiny, no draft report yet**; **no general approach and no trilogue** has begun.
-Cyprus has publicly conceded the file will pass to the **Irish Presidency (from 1 July 2026)** unclosed.
+Council **working-party stage** (third Cyprus Presidency compromise text); European Parliament at
+**committee referral only — Oeil status *Awaiting committee decision*, no draft report**; **no general
+approach and no trilogue** has begun. Cyprus has publicly conceded the file will pass to the
+**Irish Presidency (from 1 July 2026)** unclosed.
 
 ## Where each institution stands
 
@@ -22,6 +23,8 @@ Cyprus has publicly conceded the file will pass to the **Irish Presidency (from 
 - Framing: "simplicity by design", competitiveness (Draghi), ≥25% burden reduction (35% for SMEs).
 - Owners: EVP Henna Virkkunen (Tech Sovereignty), Commissioner Michael McGrath (Justice/DG JUST),
   with DG CNECT. Maintains it codifies CJEU case law and does not lower GDPR standards.
+  (On the [Oeil procedure file](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD))
+  the file is formally registered to **DG CNECT** with Commissioner **Valdis Dombrovskis**.)
 - The proposal is now mirrored in this repo: source committed under [`sources/commission/`](sources/),
   base-text operative extracts under [`extracts/commission/`](extracts/commission/) (the diff baseline for
   the Council texts), and an explanatory-memorandum digest in
@@ -37,10 +40,19 @@ Cyprus has publicly conceded the file will pass to the **Irish Presidency (from 
 - No general approach expected before H2 2026 under the **Irish Presidency**.
 
 ### European Parliament
-- **Joint committee** under Rule 58: **ITRE (lead)** + **LIBE**; **JURI** opinion.
-- Rapporteurs: **Aura Salla** (EPP, FI / ITRE) and **Marina Kaljurand** (S&D, EE / LIBE);
-  JURI opinion rapporteur **Ton Diepeveen** (PfE, NL).
-- **No joint draft report tabled** as of 27 May 2026. Oeil status: *Awaiting committee decision*.
+- The EP has taken **no substantive step**. The
+  [Oeil procedure file](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD))
+  ("Simplification of the digital legislative framework – Digital Omnibus (Omnibus VII)") records
+  status ***Awaiting committee decision*** and exactly **two key events**:
+  - `19/11/2025` — Legislative proposal published (COM(2025) 0837)
+  - `19/01/2026` — Committee referral announced in Parliament, 1st reading
+- Everything below is a **committee-internal appointment**, *not* a procedural milestone — there is
+  no committee decision, **no draft report**, and no vote.
+- **Joint committee responsible** (Rule 59): **ITRE** — **Aura Salla** (EPP, FI) and **LIBE** —
+  **Marina Kaljurand** (S&D, EE), both appointed **25/02/2026**.
+- **Committees for opinion:** **JURI** — **Brando Benifei** (S&D), appointed 24/02/2026;
+  **IMCO** — **Alex Agius Saliba** (S&D), appointed 02/03/2026.
+- Committee dossier **CJ72/10/04598**.
 - Salla's appointment is contested (prior Meta EU public-policy role) — civil-society call to withdraw.
 
 ## Next milestones to watch

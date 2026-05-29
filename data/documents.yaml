@@ -37,7 +37,14 @@ documents:
     date: 2026-02-10
     limite: false
     url: https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-22026-proposal_en
-    notes: Strongly opposes the Art 4 personal-data redefinition and the AI legitimate-interest article.
+    local: sources/edpb-edps/EDPB-EDPS-JO-2-2026_opinion_2026-02-10.pdf
+    notes: >-
+      Strongly urges co-legislators not to adopt the Art 4 personal-data redefinition (and to delete the
+      Art 41a implementing-act power); finds a standalone AI legitimate-interest article unnecessary
+      (Opinion 28/2024). Welcomes the scientific-research definition, biometric-authentication exception,
+      96h breach deadline + high-risk threshold, and the single-entry point — but wants the EDPB (and the
+      EDPS for the EUDPR) to prepare *and approve* the breach/DPIA templates and lists. Digest:
+      docs/advisory/edpb-edps-jo-2-2026.md.
 
   - id: ST-6406-2026
     title: "Presidency compromise text (Omnibus VII - Digital, GDPR/P2B)"

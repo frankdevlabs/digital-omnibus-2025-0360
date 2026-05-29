@@ -22,6 +22,10 @@ Cyprus has publicly conceded the file will pass to the **Irish Presidency (from 
 - Framing: "simplicity by design", competitiveness (Draghi), ≥25% burden reduction (35% for SMEs).
 - Owners: EVP Henna Virkkunen (Tech Sovereignty), Commissioner Michael McGrath (Justice/DG JUST),
   with DG CNECT. Maintains it codifies CJEU case law and does not lower GDPR standards.
+- The proposal is now mirrored in this repo: source committed under [`sources/commission/`](sources/),
+  base-text operative extracts under [`extracts/commission/`](extracts/commission/) (the diff baseline for
+  the Council texts), and an explanatory-memorandum digest in
+  [`docs/commission-proposal.md`](docs/commission-proposal.md).
 
 ### Council of the EU
 - Handled in the **Antici Group on Simplification (AGS)**, with DATAPROTECT / CYBER / TELECOM / COMPET input.

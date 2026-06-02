@@ -66,7 +66,8 @@ personal data **defines the material scope of EU data-protection law**, which mu
 supervisory authorities under judicial control** (Art 8(3) Charter) and the EDPB's consistency role, not
 the Commission. The "may be used as an element" wording leaves the legal effect (rebuttable presumption?
 one factor?) unclear. → **Delete Art 41a** (¶25).
-See [Art 4 provision](../provisions/gdpr-art4-personal-data.md).
+See [pseudonymisation & data-protection-by-design provision](../provisions/gdpr-pseudonymisation-by-design.md) ·
+[Art 4 provision](../provisions/gdpr-art4-personal-data.md).
 
 <a id="scientific-research"></a>
 ## Scientific research — **welcomed, with improvements** (¶26–35)
@@ -77,6 +78,7 @@ verifiable, transparent* criteria **from recitals into the enacting terms**; mov
 interest" phrases **out of the definition** into recitals (they are context, not qualifying criteria, and
 risk excluding humanities/social-science research) (¶29); extend the **duty-to-inform derogation**
 (new Art 13(5)) to data originally collected from the data subject via "where and insofar" wording (¶33).
+See [research/secondary-use provision](../provisions/gdpr-research-secondary-use.md).
 
 <a id="biometric"></a>
 ## Biometric authentication exception (Art 9(2)(l)) — **welcomed** (¶36–38)
@@ -133,6 +135,8 @@ Welcome simplifying information duties (esp. for SMEs) where the data subject al
 **but** clarify "**not data-intensive activity**" and "**clear and circumscribed relationship**" (¶62);
 **drop "reasonable grounds to assume"** (¶62); require that the controller **still provide full Art 13 info
 on request**, and tell the data subject so (¶63); and **align EUDPR Art 15(4)** with the result (¶64).
+See [research/secondary-use provision](../provisions/gdpr-research-secondary-use.md) ·
+[EUDPR mirror](../provisions/eudpr-mirror.md).
 
 <a id="automated-decisions"></a>
 ## Automated decision-making (Art 22) — **retain the in-principle prohibition** (¶65–72)
@@ -171,7 +175,7 @@ template and methodology** (¶90, ¶94); the methodology should be a broad, prac
 checklist (¶93). The amendment to **EUDPR Art 39 is neither necessary nor appropriate** — the EDPS already
 adopts EUI DPIA lists — so the co-legislators **should not adopt it**; an EUDPR methodology should be
 adopted by the **EDPS** (¶91, ¶95).
-See [Art 33 provision](../provisions/gdpr-art33-breach-notification.md) (DPIA/template context).
+See [Art 35 DPIA provision](../provisions/gdpr-art35-dpia.md) · [EDPB governance](../provisions/gdpr-edpb-governance.md).
 
 <a id="eprivacy"></a>
 ## ePrivacy: protection of terminal equipment (Art 88a / Art 5(3)) — **support, fragmentation concern** (¶96–107)

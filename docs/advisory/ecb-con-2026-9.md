@@ -28,7 +28,8 @@ opinion is an advisory input and not part of the Commission proposal.
 The ECB **fully supports** the proposed regulation as *"an important reform"* and a *"first step"* to
 simplify and optimise the digital rulebook, which has become *"complex … fragmented and overlapping"*.
 It welcomes the consolidation of data-sharing rules in the Data Act, clearer definitions, and the
-repeal of outdated instruments (notably Reg (EU) 2018/1807 on the free flow of non-personal data).
+repeal of outdated instruments (notably Reg (EU) 2018/1807 on the free flow of non-personal data)
+— see the [repeals & final-provisions provision](../provisions/final-repeals-p2b.md).
 **However**, it has concerns *"in specific cases where it does not alleviate the burden of regulatory
 compliance"* and offers technical observations — most pointedly on **DORA / incident reporting**.
 
@@ -48,7 +49,7 @@ compliance"* and offers technical observations — most pointedly on **DORA / in
 ### Data protection — GDPR / EUDPR coherence (§3.1–3.12)
 - The ECB processes under the **EUDPR** while NCBs/NCAs process under the **GDPR**, so one operation is
   governed by two instruments (e.g. TIPS, the future digital euro). It **welcomes the GDPR and EUDPR
-  being amended in parallel** for coherence.
+  being amended in parallel** for coherence. → [EUDPR mirror provision](../provisions/eudpr-mirror.md)
 - **Single entry point (SEP) for breach notification:** supports it and the *"report once, share many"*
   principle. → [single-entry-point provision](../provisions/cyber-single-entry-point.md) ·
   [Art 33 breach-notification provision](../provisions/gdpr-art33-breach-notification.md)

@@ -37,7 +37,12 @@ The repo deliberately separates three layers so that links stay stable over time
 - **[`docs/member-state-positions.md`](docs/member-state-positions.md)** — what individual Council delegations (FR, PL, RO, DE, EE, CZ, AT, DK) are saying.
 - **[`docs/fault-lines.md`](docs/fault-lines.md)** — the contested issues likely to dominate trilogue.
 - **[`docs/stakeholders.md`](docs/stakeholders.md)** — EDPB/EDPS, noyb, EDRi, BEUC, industry.
-- **[`docs/provisions/`](docs/provisions/)** — one file per tracked provision (Art 4, 9, 12/57, 22, 33, 88a/88b, 88c, single-entry point).
+- **[`docs/provisions/`](docs/provisions/)** — one file per tracked provision: GDPR Art 4, 9, 12/57, 22, 33,
+  88a/88b, 88c, the cyber single-entry point, plus the research/secondary-use package (Arts 4(38), 5(1)(b),
+  13(4)–(5)), pseudonymisation & data-protection-by-design (Arts 29a, 25), Art 35 DPIA, EDPB
+  tasks/consistency & DPO contact (Arts 64, 70, 37(7)), the EUDPR mirror (Omnibus Art 4), and the
+  repeals/final provisions (Omnibus Arts 10–11, incl. P2B). Data Act (Art 1) and SDG (Art 2) carry no
+  operative amendment in ST 9547/26, so they have instrument pages rather than provision files.
 - **[`docs/instruments/`](docs/instruments/)** — what changes per amended/repealed instrument.
 - **[`sources/README.md`](sources/README.md)** — the document register.
 - **[`extracts/commission/`](extracts/commission/)** — base-text extracts of the Commission proposal COM(2025) 837 (the diff baseline).

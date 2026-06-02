@@ -20,6 +20,8 @@ criteria, with an EDPB opinion. Recitals 27a/27b. Cites CJEU *EDPS v SRB* (C-413
 - A clarifying recital remains, pointing back to existing Recital 26.
 - → [Operative text](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-1--article-4-definitions),
   [Art 29a](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-10--article-29a-pseudonymisation)
+- → See the dedicated [pseudonymisation & data-protection-by-design provision](gdpr-pseudonymisation-by-design.md)
+  for the mechanics of new Art 29a and Art 25.
 
 ## Parliament (provisional)
 No draft report. Co-rapporteur Kaljurand and centre-left groups hostile to redefinition; likely to back

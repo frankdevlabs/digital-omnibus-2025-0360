@@ -43,12 +43,14 @@ by design"* with a *"rights by design"* approach.
   [GDPR extract point 1](../../extracts/commission/COM-2025-837_gdpr-art3-amendments.md#point-1--article-4-definitions)
 - **Pseudonymisation / anonymisation:** supports Commission **implementing acts** clarifying when
   pseudonymised data may be treated as anonymised for other entities — important for AI training while keeping
-  privacy safeguards.
+  privacy safeguards (note: the Council instead moved this to an EDPB-opinion model).
+  → [pseudonymisation & by-design provision](../provisions/gdpr-pseudonymisation-by-design.md)
 - **Right of access:** an *enabling right*; should be **fully ensured** where the data subject pursues a
   legitimate purpose (esp. workers' rights, health and safety); the **burden to prove abuse stays with the
   controller**. → [Art 12/57 provision](../provisions/gdpr-art12-57-abusive-requests.md)
 - **Scientific research:** the definition should keep its **commonly accepted meaning** (per EDPB and CJEU
   case-law) while enabling industrial research; warns against broad/absolute limitations of Charter Arts 7–8.
+  → [research/secondary-use provision](../provisions/gdpr-research-secondary-use.md)
 - **Article 22 (automated decisions):** must respect **data minimisation** (Art 5(1)); ADM only where it adds
   clear value and is necessary and proportionate; **human decision-making preferred** where reasonable. →
   [Art 22 provision](../provisions/gdpr-art22-automated-decisions.md)

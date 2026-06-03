@@ -30,6 +30,8 @@ preparation *and* approval** (and the **EDPS** for the EUDPR equivalents) (¶82�
 **more harmonisation** with the shorter NIS2/DORA/eIDAS/CER timelines (¶79).
 → [JO 2/2026 digest: breach notification](../advisory/edpb-edps-jo-2-2026.md#breach-notification),
 [DPIA](../advisory/edpb-edps-jo-2-2026.md#dpia)
+→ See also the dedicated [Art 35 DPIA](gdpr-art35-dpia.md) and [EDPB governance](gdpr-edpb-governance.md)
+provisions for the template/lists EDPB-vs-Commission ownership question.
 
 ## ECB
 **ECB (CON/2026/9)** — flags that a single breach could otherwise trigger **up to 22 near-identical

@@ -1,7 +1,9 @@
 # Repealed / amended data-acquis instruments
 
-Handled by **Article 10** of the Omnibus. Operative text:
+Handled by **Articles 10–11** of the Omnibus. Operative text:
 [../../extracts/council/ST-9547-2026_final-art10-11.md](../../extracts/council/ST-9547-2026_final-art10-11.md#article-10-amendments-repeals-transitory).
+Analysis (incl. P2B, application dates and the Council/Member-State split):
+[repeals & final-provisions provision](../provisions/final-repeals-p2b.md).
 
 | Instrument | Commission intent | ST 9547/26 outcome |
 |---|---|---|

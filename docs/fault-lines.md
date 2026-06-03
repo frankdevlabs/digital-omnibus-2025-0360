@@ -17,7 +17,8 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
 - **Member States (WK 3736/26):** FR and PL both welcome the deletion; FR wants a *binding* EDPB opinion
   on pseudonymisation, while PL **opposes deleting Art 41a** and wants any guidance to leave Art 4(1)
   untouched. See [`member-state-positions.md`](member-state-positions.md).
-- → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md)
+- → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md),
+  [`provisions/gdpr-pseudonymisation-by-design.md`](provisions/gdpr-pseudonymisation-by-design.md)
 
 ## 2. Legitimate interest for AI development and the sensitive-data carve-out
 - **Commission:** standalone Art 88c making AI development/operation a legitimate interest under
@@ -61,6 +62,8 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
 - → [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md)
 
 ## Secondary tensions
-- **Single-entry point** architecture and ENISA resourcing (broadly supported, but operational doubts).
+- **Single-entry point** architecture and ENISA resourcing (broadly supported, but operational doubts)
+  → [`provisions/cyber-single-entry-point.md`](provisions/cyber-single-entry-point.md).
 - **Repeal scope** of the data acquis — P2B is only **partially** amended in the May text, and
-  data-altruism provisions (DGA) attract Member State defence.
+  data-altruism provisions (DGA) attract Member State defence
+  → [`provisions/final-repeals-p2b.md`](provisions/final-repeals-p2b.md).

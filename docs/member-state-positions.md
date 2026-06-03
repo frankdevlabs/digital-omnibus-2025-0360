@@ -51,7 +51,8 @@ as further `WK` addenda are released.
 - **RO** — Supports the identifiability criteria ("means reasonably likely to be used" by the
   controller) as **reducing uncertainty for SMEs**, which lack the capacity for complex
   re-identification assessments; guidance should be **proportionate with simplified SME pathways**.
-- → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md) ·
+- → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md),
+  [`provisions/gdpr-pseudonymisation-by-design.md`](provisions/gdpr-pseudonymisation-by-design.md) ·
   extract [point 1](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-1--article-4-definitions),
   [point 10 (Art 41a)](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-10--article-41a-pseudonymisation)
 
@@ -65,8 +66,8 @@ as further `WK` addenda are released.
   to Art 89(1).
 - **RO** — Wants the regime to expressly cover **"innovation activities carried out by SMEs, such as
   product development and applied research,"** so SMEs have real access to the research-friendly regime.
-- → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md)
-  (research definition) · extract [point 1](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-1--article-4-definitions)
+- → [`provisions/gdpr-research-secondary-use.md`](provisions/gdpr-research-secondary-use.md)
+  (research definition, Arts 4(38)/5(1)(b)/13) · extract [point 1](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-1--article-4-definitions)
 
 ## Special categories in AI training (rec 33, Art 9(2)(k), Art 9(5))
 
@@ -116,7 +117,7 @@ as further `WK` addenda are released.
   categories/complex operations excluded) as improving legal certainty, but the exemption should stay
   **strictly limited to genuinely simple, low-risk situations** and the Art 13(5) research derogation
   **exceptional and case-by-case**, consistent with the Art 5(1)(a) transparency principle and Art 89.
-- → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md) (transparency context);
+- → [`provisions/gdpr-research-secondary-use.md`](provisions/gdpr-research-secondary-use.md) (transparency exemptions);
   extract [point 5](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-5--article-13-4-information-obligations)
 
 ## Automated decision-making (rec 38, Art 22)
@@ -151,8 +152,8 @@ as further `WK` addenda are released.
   "EDPB establishes" model — asks to **revert to the Commission proposal** so implementation is aligned
   across all Member States; the lists/template must not replace individual risk assessment.
 - **RO** — Wants **"light DPIA templates"** — simplified assessment models, in particular for SMEs.
-- → [`provisions/gdpr-art33-breach-notification.md`](provisions/gdpr-art33-breach-notification.md)
-  (DPIA/breach governance); extract [point 9](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-9--article-35-dpia-lists)
+- → [`provisions/gdpr-art35-dpia.md`](provisions/gdpr-art35-dpia.md);
+  extract [point 9](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-9--article-35-dpia-lists)
 
 ## Consistency mechanism & EDPB tasks (Art 32, Art 57, Art 64/65, Art 70)
 
@@ -162,8 +163,9 @@ as further `WK` addenda are released.
   matters already covered by the EDPB; and **extend the Art 64/65 consistency mechanism so that
   controllers and processors can themselves ask the EDPB for an opinion** on cross-border matters
   — strengthening EDPB-led convergence and legal certainty across the single market.
-- → [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md)
-  (Art 57 context); extract [point 11](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-11--article-57-supervisory-authority-requests)
+- → [`provisions/gdpr-edpb-governance.md`](provisions/gdpr-edpb-governance.md) (EDPB tasks & consistency),
+  [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md) (Art 57);
+  extract [point 11](../extracts/council/ST-6406-2026_gdpr-art3-amendments.md#point-11--article-57-supervisory-authority-requests)
 
 ## AI legitimate interest (rec 30/31, Art 88c)
 
@@ -230,6 +232,7 @@ consolidated **ADD 1** carries two joint submissions that both push back on the 
 
 So on P2B the Council splits: **most delegations want the protections retained** (some permanently),
 **Germany** would extend the sunset to 2032, and **Estonia** backs the clean repeal.
+→ [`provisions/final-repeals-p2b.md`](provisions/final-repeals-p2b.md).
 
 ### Cyber/data strand (WK 3735/26)
 
@@ -259,6 +262,9 @@ So on P2B the Council splits: **most delegations want the protections retained**
   [`provisions/gdpr-art88c-ai-legitimate-interest.md`](provisions/gdpr-art88c-ai-legitimate-interest.md)
 - Cyber/data (CZ, EE, AT, DK, ES, FI) → [`provisions/cyber-single-entry-point.md`](provisions/cyber-single-entry-point.md),
   [`instruments/data-act-2023-2854.md`](instruments/data-act-2023-2854.md)
+- P2B repeal (AT, ES, LV, SE; BE, CZ, DK, FI, IE, IT, LU, NL, SI; DE; EE) →
+  [`provisions/final-repeals-p2b.md`](provisions/final-repeals-p2b.md),
+  [`instruments/repealed.md`](instruments/repealed.md)
 
 ---
 

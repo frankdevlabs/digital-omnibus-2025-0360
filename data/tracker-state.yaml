@@ -1,0 +1,105 @@
+# Digital Omnibus tracker state (file 2025/0360 COD)
+# Auto-maintained by the daily tracker Routine. Do not edit by hand.
+last_run: 2026-06-03T09:45:39Z
+sources:
+  T1-01:
+    last_seen_hash: "sha256:cbe0f2689b6f79bb149cd2e148ed4ed1c537f004336fffd825377314d264930c"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-02:
+    last_seen_hash: "sha256:974e3b589432389e3a8840a56812934b757a6352709b2953b8021e2982036bf9"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-03:
+    last_seen_hash: "sha256:1e73de31740a99bc5bc9b21e577b193f27e74760f23194212e5a1979cd6e22ac"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-04:
+    last_seen_hash: "sha256:870861a58d4ed66ba49f2060861dd519f08524773155ff6e3fa1c205fe554f97"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-05:
+    last_seen_hash: "sha256:f20edbb550856119b41ead33e6f8139b8bc8e390ac9ac955afa239672214541d"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-06:
+    last_seen_hash: "sha256:2acefe29f882a7f46bc73b9640a0cacedbc268323ee7e05cd1185ad3862940a2"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-07:
+    last_seen_hash: "sha256:73620eff9b1bf1e3cc13af27bb467128f08d1d27de5f66bca2254b9bf68c408d"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-08:
+    last_seen_hash: "sha256:e6ac5b9a05e096e66e9200648a6c3ca01b4b837ec16874206caf40b59c9ebade"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-09:
+    last_seen_hash: "sha256:fb3c87a8529e132aae6fd644cea77ed55f8beb554597134c0af3a8204df3a447"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-10:
+    last_seen_hash: "sha256:d52eec89e7b96ef3ee7f90d4545f6d751108a8096c356bf0117e93d91425df5f"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-11:
+    last_seen_hash: "sha256:4d76e434b4627b481bc1a8abddc58c7ce51896bdb0da39d13afa17305eeb39bc"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-12:
+    last_seen_hash: "sha256:0af126b0809bb5a4f1620ca6d17d937f3f36bb763a56e99b0df98ad50f4ab7f0"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-13:
+    last_seen_hash: "sha256:9d01891bb0634dbe54ae5a1e61d2c5a8687e12b524b7772d6e79ead5bcb9e14b"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-15:
+    last_seen_hash: "sha256:b06b0a9e524da0c8a33b983130bcf392e32260b8ddfa966fe4b4ddd1566007c7"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-16:
+    last_seen_hash: "sha256:65a3220a5dce6fced6d9c09ec9df6eb0019e299aecb5ef1e39ef9ee3b9b7684b"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-17:
+    last_seen_hash: "sha256:0a737725c6617701adab6d4842d29e99a7466157c7cb9ef36b06849a8b2fc150"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T1-18:
+    last_seen_hash: "sha256:53c2eb0d92d2ef1f7b25fe2ef5d5ed7bbf643b7d23670552b3e0123bdec541bf"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T2-01:
+    last_seen_hash: "sha256:763d5242099cccf0a961d82f3551e48c8ade8471bc071776b958e25ccbe13385"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T2-02:
+    last_seen_hash: "sha256:f14f020cb3a8084987ee7b2c0605100b85d5a1634788c1496d4507fce9bb2e13"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T2-03:
+    last_seen_hash: "sha256:694d9cd9f8a30ccb215a948c6b534f9a054fc1240156e980eba6ac2092c740ae"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T2-06:
+    last_seen_hash: "sha256:7f17406f7aeffb0121a43566be4c6356501c2b5322a8fa765fe10229551ba356"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T2-08:
+    last_seen_hash: "sha256:970efc3843640f3c43144c6d4a36f6e281605f39ce4c8a60cf16a10785bfc4d4"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T2-09:
+    last_seen_hash: "sha256:91cd45b5137003cb0684a1111970e79d7cce35a1b1251d83370b94d08145173a"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T2-10:
+    last_seen_hash: "sha256:a0906f9244fc333a6ca013ccb2c0c1c5ef0e10bd14701fb20f3b58ae876a1646"
+    last_seen_at: 2026-06-03T09:45:39Z
+  T3-01:
+    last_seen_indexed_at: 2026-06-02T23:45:05.975Z
+    did: did:plc:wxpnu3arxymnfzh7zm2vx4cn
+  T3-02:
+    last_seen_indexed_at: 2026-06-03T09:41:17.664Z
+    did: did:plc:6tig4nnvqut4jhyxmvqbxbag
+  T3-03:
+    last_seen_indexed_at: 2026-03-11T20:09:38.770Z
+    did: did:plc:u7j6gujy5iyayifj4wn4zwj4
+  T3-04:
+    last_seen_indexed_at: 2026-04-26T14:16:19.850Z
+    did: did:plc:6vzpi3eta33zlyqt2d4zt6aj
+  T3-05:
+    last_seen_indexed_at: 2026-06-02T06:58:29.264Z
+    did: did:plc:ujstglmdsoymx3t2yffcvgtm
+  T3-06:
+    last_seen_indexed_at: 2026-05-28T13:58:42.373Z
+    did: did:plc:66ealeut54i3dvgseb4gcn3z
+  T3-07:
+    last_seen_indexed_at: 2026-06-02T14:39:57.873Z
+    did: did:plc:s2xjhqmjyvk54jw2bat5yyyt
+  T3-08:
+    last_seen_indexed_at: 2026-05-26T11:15:21.863Z
+    did: did:plc:weedlv2mczjipzyjs324e6r5
+# Sources not yet baselined (unreachable on this baseline run; will baseline on next successful fetch):
+#   T1-14
+#   T2-04
+#   T2-05
+#   T2-07

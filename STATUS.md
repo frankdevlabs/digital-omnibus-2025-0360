@@ -1,6 +1,6 @@
 # Status snapshot
 
-**As of:** 29 May 2026
+**As of:** 4 June 2026
 **File:** 2025/0360 (COD) — Commission proposal COM(2025) 837 final (19 November 2025)
 **Legal bases:** Articles 16(2) and 114 TFEU
 
@@ -78,6 +78,9 @@ approach and no trilogue** has begun. Cyprus has publicly conceded the file will
 - [ ] **Formal Telecom Council, 9 June 2026** — Digital Omnibus on the agenda (per the Dutch
       annotated agenda; verify whether it is a Presidency progress report or a substantive
       discussion — sourced so far only via the Tweede Kamer, not the Council).
+- [ ] **Eerste Kamer (NL) written consultation input deadline, 30 June 2026** — DIGI and
+      EZ/KGG committees collecting further input (dossier E260003), pending follow-up
+      ministerial letters from the State Secretary of Economic Affairs.
 - [ ] Publication of the joint ITRE/LIBE **draft report** (Parliament's first formal position).
 - [ ] **Council general approach** (likely under Irish Presidency, H2 2026).
 - [ ] Start of **trilogue** (earliest Q4 2026).

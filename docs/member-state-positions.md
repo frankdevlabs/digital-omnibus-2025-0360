@@ -315,6 +315,14 @@ This is consistent with the later NL parliamentary line: a Tweede Kamer motion t
 GDPR changes out of the Omnibus (Van den Berg, 21501-33-1206) was tabled but **withdrawn** at the 4 June
 2026 vote — see [`../TIMELINE.md`](../TIMELINE.md) (2026-06-03).
 
+**Eerste Kamer scrutiny (2 June 2026):** The DIGI and EZ/KGG committees of the Eerste Kamer (Senate)
+decided — pending further ministerial letters from the State Secretary of Economic Affairs (who responded
+to the committees' April questions on 22 May 2026) — to allow contributions for a further *nader
+schriftelijk overleg* (written consultation) by **30 June 2026** (dossier E260003). The Senate's scrutiny
+track runs parallel to the Tweede Kamer process (which concluded its pre-Telecomraad written consultation
+on 3 June) ahead of the formal Telecom Council on 9 June 2026.
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-06-02)
+
 ---
 
 ## How this fed the later compromise

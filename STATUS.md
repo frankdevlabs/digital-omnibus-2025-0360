@@ -50,6 +50,7 @@ approach and no trilogue** has begun. Cyprus has publicly conceded the file will
   no committee decision, **no draft report**, and no vote.
 - **Joint committee responsible** (Rule 59): **ITRE** — **Aura Salla** (EPP, FI) and **LIBE** —
   **Marina Kaljurand** (S&D, EE), both appointed **25/02/2026**.
+- **LIBE shadow rapporteur: Markéta Gregorová** (Greens-EFA, CZ) — confirmed via OEIL transparency-register entries (May 2026).
 - **Committees for opinion:** **JURI** — **Brando Benifei** (S&D), appointed 24/02/2026;
   **IMCO** — **Alex Agius Saliba** (S&D), appointed 02/03/2026.
 - Committee dossier **CJ72/10/04598**.

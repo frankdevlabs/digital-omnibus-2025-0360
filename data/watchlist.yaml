@@ -1,0 +1,268 @@
+# Tracker watchlist for file 2025/0360 (COD).
+#
+# Maps each tracker code (T1-*/T2-*/T3-*, as used in data/tracker-state.yaml and
+# in the "[tracker] ..." GitHub issues) to its watched source and the downstream
+# analysis docs to review when it produces a hit. This mirrors the source table
+# in the daily-tracker cron prompt (~/law-tracker/prompt.md), which is the only
+# other place the mapping lives — keep the two in sync when sources change.
+#
+# Consumed by .claude/skills/resolve-tracker-issue (tracker_issues.py joins each
+# flagged issue to its `affects` list so the resolver knows what to integrate).
+#
+# Fields per source:
+#   tier        T1 | T2 | T3
+#   kind        institutional | stakeholder | social
+#   label       human-readable source name (matches the issue body "**Source:**")
+#   url         watched URL (T1/T2); omitted for T3 (Bluesky uses handle/did)
+#   handle/did  Bluesky actor (T3 only)
+#   document_id optional join to data/documents.yaml (when the source IS a doc)
+#   affects     downstream files/dirs to review on a substantive hit. Directories
+#               (extracts/council/, docs/provisions/) mean "the relevant file(s)
+#               within" — the resolver picks the specific provision by topic.
+#   notes       fetch quirks / scope rules carried over from the cron prompt
+
+sources:
+  # --- Tier 1: institutional ---------------------------------------------------
+  T1-01:
+    tier: T1
+    kind: institutional
+    label: "OEIL — Parliament procedure file (HTML)"
+    url: "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)"
+    document_id: OEIL-2025-0360
+    affects: [STATUS.md, TIMELINE.md]
+  T1-02:
+    tier: T1
+    kind: institutional
+    label: "OEIL — Parliament procedure file PDF"
+    url: "https://oeil.europarl.europa.eu/oeil/en/procedure-file/pdf?reference=2025/0360(COD)"
+    document_id: OEIL-2025-0360
+    affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+  T1-03:
+    tier: T1
+    kind: institutional
+    label: "EUR-Lex Cellar — Commission proposal COM(2025) 837 (CELEX 52025PC0837)"
+    url: "https://publications.europa.eu/resource/celex/52025PC0837"
+    document_id: COM-2025-837
+    affects: [extracts/commission/, STATUS.md, TIMELINE.md]
+    notes: "EUR-Lex legal-content pages are AWS-WAF-blocked; this Cellar endpoint is the machine-readable fallback. The base text rarely changes."
+  T1-04:
+    tier: T1
+    kind: institutional
+    label: "EP Legislative Train — digital package"
+    url: "https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-digital-package"
+    document_id: EP-LEGTRAIN
+    affects: [STATUS.md, TIMELINE.md]
+  T1-05:
+    tier: T1
+    kind: institutional
+    label: "EP ITRE committee — latest documents"
+    url: "https://www.europarl.europa.eu/committees/en/itre/documents/latest-documents"
+    affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+    notes: "Rotating-widget false-positive trap (~30%); confirm the change concerns 2025/0360 before acting."
+  T1-06:
+    tier: T1
+    kind: institutional
+    label: "EP ITRE committee — press releases"
+    url: "https://www.europarl.europa.eu/committees/en/itre/home/press-releases"
+    affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+    notes: "Rotating-widget false-positive trap; verify relevance first."
+  T1-07:
+    tier: T1
+    kind: institutional
+    label: "EP LIBE committee — press releases"
+    url: "https://www.europarl.europa.eu/committees/en/libe/home/press-releases"
+    affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+    notes: "Rotating-widget false-positive trap; verify relevance first."
+  T1-08:
+    tier: T1
+    kind: institutional
+    label: "Austrian Parliament — EU dossier 65565"
+    url: "https://www.parlament.gv.at/gegenstand/XXVIII/EU/65565"
+    affects: [extracts/council/, STATUS.md, TIMELINE.md, docs/member-state-positions.md]
+    notes: "Hosts Council documents; a hit may surface a new ST text."
+  T1-09:
+    tier: T1
+    kind: institutional
+    label: "Austrian Parliament — EU dossier 73322"
+    url: "https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322"
+    affects: [extracts/council/, docs/provisions/, STATUS.md, TIMELINE.md, docs/institutional-positions.md, data/positions.csv]
+    notes: "HIGHEST PRIORITY for new Council LIMITE compromise texts. A new ST version → hand off to the transcribe-council-extract skill, then cascade through provisions/positions."
+  T1-10:
+    tier: T1
+    kind: institutional
+    label: "Eerste Kamer — e-dossier E260003 (Digitaal Pakket)"
+    url: "https://www.eerstekamer.nl/eu/edossier/e260003_digitaal_pakket_van_de"
+    affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+    notes: "Dutch-language scope rule: in-scope only if it names the digital/data Omnibus, not solely the AI-Act file 2025/0359."
+  T1-11:
+    tier: T1
+    kind: institutional
+    label: "Eerste Kamer — sources bij e-dossier"
+    url: "https://www.eerstekamer.nl/eu/bronnen_bij_edossier?key=vmupdq5gpenl"
+    affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+    notes: "Dutch-language scope rule applies."
+  T1-12:
+    tier: T1
+    kind: institutional
+    label: "EDPB — news RSS"
+    url: "https://www.edpb.europa.eu/feed/news_en"
+    affects: [docs/advisory/edpb-edps-jo-2-2026.md, docs/institutional-positions.md, TIMELINE.md]
+  T1-13:
+    tier: T1
+    kind: institutional
+    label: "EDPB–EDPS Joint Opinion 2/2026"
+    url: "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-22026-proposal_en"
+    document_id: EDPB-EDPS-JO-2-2026
+    affects: [docs/advisory/edpb-edps-jo-2-2026.md, docs/institutional-positions.md]
+  T1-14:
+    tier: T1
+    kind: institutional
+    label: "Autoriteit Persoonsgegevens (NL DPA) — RSS"
+    url: "https://www.autoriteitpersoonsgegevens.nl/nl/rss"
+    affects: [docs/member-state-positions.md, docs/institutional-positions.md, TIMELINE.md]
+    notes: "Dutch-language scope rule applies. 5xx fallback: /nl/actueel HTML."
+  T1-15:
+    tier: T1
+    kind: institutional
+    label: "MediaLaws — Digital Omnibus legislative tracker (third-party)"
+    url: "https://www.medialaws.eu/digital-omnibus-legislative-tracker/"
+    document_id: LAWTRACKER-2025-360
+    affects: [TIMELINE.md]
+    notes: "Third-party tracker — use as a cross-check / lead, not as a primary source. Confirm against an institutional source before integrating."
+  T1-16:
+    tier: T1
+    kind: institutional
+    label: "Tweede Kamer — search 'omnibus digitaal'"
+    url: "https://www.tweedekamer.nl/zoeken?qry=omnibus+digitaal&srt=date%3Adesc%3Adate&cfg=tksearch&sta=1"
+    affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+    notes: "Dutch-language scope rule applies."
+  T1-17:
+    tier: T1
+    kind: institutional
+    label: "Tweede Kamer — commissie Digitale Zaken (uitgelicht)"
+    url: "https://www.tweedekamer.nl/kamerleden_en_commissies/commissies/diza/uitgelicht"
+    affects: [docs/member-state-positions.md, TIMELINE.md]
+  T1-18:
+    tier: T1
+    kind: institutional
+    label: "Tweede Kamer — commissie DiZa meetings"
+    url: "https://www.tweedekamer.nl/debat_en_vergadering/commissievergaderingen?fld_prl_voortouwcommissie=vaste+commissie+voor+Digitale+Zaken&srt=date%3Aasc%3Adate"
+    affects: [TIMELINE.md, docs/member-state-positions.md]
+    notes: "Hits usually carry the next scheduled meeting date → TIMELINE entry."
+
+  # --- Tier 2: NGO / journalism / law firm -------------------------------------
+  T2-01:
+    tier: T2
+    kind: stakeholder
+    label: "noyb — RSS"
+    url: "https://noyb.eu/en/rss"
+    affects: [docs/stakeholders.md, docs/fault-lines.md]
+  T2-02:
+    tier: T2
+    kind: stakeholder
+    label: "EDRi — feed"
+    url: "https://edri.org/feed/"
+    affects: [docs/stakeholders.md, docs/fault-lines.md]
+  T2-03:
+    tier: T2
+    kind: stakeholder
+    label: "netzpolitik.org — feed"
+    url: "https://netzpolitik.org/feed/"
+    affects: [docs/stakeholders.md]
+  T2-04:
+    tier: T2
+    kind: stakeholder
+    label: "EURACTIV — tech feed"
+    url: "https://www.euractiv.com/sections/tech/feed"
+    affects: [docs/stakeholders.md]
+    notes: "Section feed 403s under Cloudflare; commonly unreachable (source-health)."
+  T2-05:
+    tier: T2
+    kind: stakeholder
+    label: "BEUC — Digital Rights feed"
+    url: "https://www.beuc.eu/rss/news-events/Digital+Rights"
+    affects: [docs/stakeholders.md]
+    notes: "5xx fallback: all-news firehose https://www.beuc.eu/rss/news-events."
+  T2-06:
+    tier: T2
+    kind: stakeholder
+    label: "AlgorithmWatch — feed"
+    url: "https://algorithmwatch.org/en/feed/"
+    affects: [docs/stakeholders.md]
+  T2-07:
+    tier: T2
+    kind: stakeholder
+    label: "Bits of Freedom — feed"
+    url: "https://www.bitsoffreedom.nl/?feed=rss2"
+    affects: [docs/stakeholders.md, docs/member-state-positions.md]
+    notes: "Dutch-language scope rule applies. /feed/ 403s under Cloudflare; this query-form variant usually passes."
+  T2-08:
+    tier: T2
+    kind: stakeholder
+    label: "heise online — Atom feed"
+    url: "https://www.heise.de/rss/heise-atom.xml"
+    affects: [docs/stakeholders.md]
+  T2-09:
+    tier: T2
+    kind: stakeholder
+    label: "DLA Piper — Privacy Matters blog feed"
+    url: "https://privacymatters.dlapiper.com/feed/"
+    affects: [docs/stakeholders.md]
+
+  # --- Tier 3: Bluesky watchlist -----------------------------------------------
+  T3-01:
+    tier: T3
+    kind: social
+    label: "Bluesky — montezumachavez.bsky.social"
+    handle: "montezumachavez.bsky.social"
+    did: "did:plc:wxpnu3arxymnfzh7zm2vx4cn"
+    affects: [docs/stakeholders.md]
+  T3-02:
+    tier: T3
+    kind: social
+    label: "Bluesky — noyb.eu"
+    handle: "noyb.eu"
+    did: "did:plc:6tig4nnvqut4jhyxmvqbxbag"
+    affects: [docs/stakeholders.md, docs/fault-lines.md]
+  T3-03:
+    tier: T3
+    kind: social
+    label: "Bluesky — maxschrems.bsky.social"
+    handle: "maxschrems.bsky.social"
+    did: "did:plc:u7j6gujy5iyayifj4wn4zwj4"
+    affects: [docs/stakeholders.md]
+  T3-04:
+    tier: T3
+    kind: social
+    label: "Bluesky — gzf.bsky.social"
+    handle: "gzf.bsky.social"
+    did: "did:plc:6vzpi3eta33zlyqt2d4zt6aj"
+    affects: [docs/stakeholders.md]
+  T3-05:
+    tier: T3
+    kind: social
+    label: "Bluesky — michae.lv"
+    handle: "michae.lv"
+    did: "did:plc:ujstglmdsoymx3t2yffcvgtm"
+    affects: [docs/stakeholders.md]
+  T3-06:
+    tier: T3
+    kind: social
+    label: "Bluesky — alexfanta.bsky.social"
+    handle: "alexfanta.bsky.social"
+    did: "did:plc:66ealeut54i3dvgseb4gcn3z"
+    affects: [docs/stakeholders.md]
+  T3-07:
+    tier: T3
+    kind: social
+    label: "Bluesky — lukaszolejnik.bsky.social"
+    handle: "lukaszolejnik.bsky.social"
+    did: "did:plc:s2xjhqmjyvk54jw2bat5yyyt"
+    affects: [docs/stakeholders.md]
+  T3-08:
+    tier: T3
+    kind: social
+    label: "Bluesky — jvh.bsky.social"
+    handle: "jvh.bsky.social"
+    did: "did:plc:weedlv2mczjipzyjs324e6r5"
+    affects: [docs/stakeholders.md]

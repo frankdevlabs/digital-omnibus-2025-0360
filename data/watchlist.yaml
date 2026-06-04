@@ -118,9 +118,9 @@ sources:
     tier: T1
     kind: institutional
     label: "Autoriteit Persoonsgegevens (NL DPA) — RSS"
-    url: "https://www.autoriteitpersoonsgegevens.nl/nl/rss"
+    url: "https://www.autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
     affects: [docs/member-state-positions.md, docs/institutional-positions.md, TIMELINE.md]
-    notes: "Dutch-language scope rule applies. 5xx fallback: /nl/actueel HTML."
+    notes: "Dutch-language scope rule applies. Canonical feed URL; old /nl/rss path 302-redirects here (use -L). Persistent 5xx fallback: /nl/actueel HTML."
   T1-15:
     tier: T1
     kind: institutional
@@ -169,20 +169,13 @@ sources:
     label: "netzpolitik.org — feed"
     url: "https://netzpolitik.org/feed/"
     affects: [docs/stakeholders.md]
-  T2-04:
-    tier: T2
-    kind: stakeholder
-    label: "EURACTIV — tech feed"
-    url: "https://www.euractiv.com/sections/tech/feed"
-    affects: [docs/stakeholders.md]
-    notes: "Section feed 403s under Cloudflare; commonly unreachable (source-health)."
   T2-05:
     tier: T2
     kind: stakeholder
     label: "BEUC — Digital Rights feed"
     url: "https://www.beuc.eu/rss/news-events/Digital+Rights"
     affects: [docs/stakeholders.md]
-    notes: "5xx fallback: all-news firehose https://www.beuc.eu/rss/news-events."
+    notes: "Past 503s were transient. The all-news fallback (…/rss/news-events) now 404s — do not use."
   T2-06:
     tier: T2
     kind: stakeholder
@@ -193,9 +186,9 @@ sources:
     tier: T2
     kind: stakeholder
     label: "Bits of Freedom — feed"
-    url: "https://www.bitsoffreedom.nl/?feed=rss2"
+    url: "https://www.bitsoffreedom.nl/feed/"
     affects: [docs/stakeholders.md, docs/member-state-positions.md]
-    notes: "Dutch-language scope rule applies. /feed/ 403s under Cloudflare; this query-form variant usually passes."
+    notes: "Dutch-language scope rule applies. Canonical feed URL; old ?feed=rss2 query form 301-redirects here (use -L)."
   T2-08:
     tier: T2
     kind: stakeholder

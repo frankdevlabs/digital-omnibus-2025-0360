@@ -47,11 +47,13 @@ authoritative copy. Dates in ISO format. Newest events at the bottom of each yea
 | 2026-05-21 | **Council compromise text ST 9547/26** + Presidency note WK 7178/26 | [register: ST-9547-2026](sources/README.md) |
 | 2026-05-22 | AGS meeting agenda CM 2918/26 published | [register: CM-2918-2026](sources/README.md) |
 | 2026-05-27 | **AGS exchange of views on ST 9547/26** (not a general approach) | [register](sources/README.md) |
+| 2026-06-03 | **NL States-General scrutiny** — written consultation (*schriftelijk overleg*) on the annotated agenda for the **formal Telecom Council of 9 June 2026**; the Digital Omnibus is among the topics and the Dutch government's line stresses EU competitiveness ("concurrerend digitaal ecosysteem"). A Tweede Kamer motion to keep fundamental GDPR changes out of the Omnibus (Van den Berg, 21501-33-1206) was **withdrawn** at the 4 June vote | [Tweede Kamer](https://www.tweedekamer.nl/zoeken?qry=omnibus+digitaal&srt=date%3Adesc%3Adate&cfg=tksearch&sta=1) |
 
 ## Expected / forward look
 
 | Period | Expected event |
 |---|---|
+| 2026-06-09 | **Formal Telecom Council (Telecomraad)** — Digital Omnibus on the agenda per the Dutch annotated agenda (national-parliament source `T1-16`; verify scope against the Council/Consilium agenda — likely a Presidency progress report, not a general approach) |
 | 2026-07-01 | Irish Presidency takes over the file |
 | 2026 H2 | Possible Council **general approach** under Irish Presidency |
 | 2026 Q3/Q4 | Parliament joint ITRE/LIBE **draft report** and committee vote |

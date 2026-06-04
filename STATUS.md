@@ -70,6 +70,9 @@ approach and no trilogue** has begun. Cyprus has publicly conceded the file will
 
 ## Next milestones to watch
 
+- [ ] **Formal Telecom Council, 9 June 2026** — Digital Omnibus on the agenda (per the Dutch
+      annotated agenda; verify whether it is a Presidency progress report or a substantive
+      discussion — sourced so far only via the Tweede Kamer, not the Council).
 - [ ] Publication of the joint ITRE/LIBE **draft report** (Parliament's first formal position).
 - [ ] **Council general approach** (likely under Irish Presidency, H2 2026).
 - [ ] Start of **trilogue** (earliest Q4 2026).

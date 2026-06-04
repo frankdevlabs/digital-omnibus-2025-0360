@@ -13,7 +13,6 @@ sources:
   T1-02:
     last_seen_hash: "sha256:e1b03487ba074fa255deb71e23d69ce21b9ac4189c3ae3686ca7c3b83517f318"
     last_seen_at: 2026-06-03T11:39:42Z
-  # T1-03 (eur-lex CELEX 52025PC0837): unreachable (AWS WAF challenge / HTTP 202); no baseline yet.
   T1-04:
     last_seen_hash: "sha256:55529d63439151cbfecf9e760e6ea7151a4ea89ac1f6c28a51802f1436e13c5c"
     last_seen_at: 2026-06-03T11:39:42Z
@@ -44,7 +43,6 @@ sources:
   T1-13:
     last_seen_hash: "sha256:ff385d6e7b233ea5c9f79c9481c2e2857632a307aa6a6aa5f8aa7b8ea3649a4a"
     last_seen_at: 2026-06-03T11:39:42Z
-  # T1-14 (autoriteitpersoonsgegevens.nl/nl/rss): unreachable (HTTP 503); no baseline yet.
   T1-15:
     last_seen_hash: "sha256:72ced52b6857566ab18e836caf913f51d168aedd30e381276972c239beea1736"
     last_seen_at: 2026-06-03T11:39:42Z
@@ -66,12 +64,9 @@ sources:
   T2-03:
     last_seen_hash: "sha256:23691b3e23127d3fb2e60604d33d227bfe75dcb146d70b0ce8c2b8caaf1ce61b"
     last_seen_at: 2026-06-03T11:39:42Z
-  # T2-04 (euractiv tech feed): unreachable (HTTP 403); no baseline yet.
-  # T2-05 (beuc Digital Rights feed): unreachable (HTTP 503); no baseline yet.
   T2-06:
     last_seen_hash: "sha256:de4dead27439673502f9d981d55eec05184a3fd41ccd85fea23afbb39c64fe5b"
     last_seen_at: 2026-06-03T11:39:42Z
-  # T2-07 (bitsoffreedom.nl/feed): unreachable (HTTP 403); no baseline yet.
   T2-08:
     last_seen_hash: "sha256:dc900b5af851aa8960911cf8bcb8428cd844f25a1bd5002105fbd8ef346b241b"
     last_seen_at: 2026-06-03T11:39:42Z

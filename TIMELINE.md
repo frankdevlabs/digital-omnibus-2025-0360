@@ -40,6 +40,7 @@ authoritative copy. Dates in ISO format. Newest events at the bottom of each yea
 | 2026-03-10 | **ECB Opinion CON/2026/9** adopted (requested by EP 9 Dec 2025; ECB broadly supports the proposal) — transmitted to Council via cover note ST 7244/26 (11 Mar) | [register: ECB-CON-2026-9](sources/README.md) · [digest](docs/advisory/ecb-con-2026-9.md) |
 | 2026-03-18 | **EESC opinion INT/1108** adopted (plenary) | [register: EESC-2025-03929](sources/README.md) · [digest](docs/advisory/eesc-int1108.md) |
 | 2026-03-30 | Delegations' comments **WK 3736/26 ADD 4** (FR, PL, RO on GDPR/P2B & ePrivacy) | [register: WK-3736-2026](sources/README.md) · [positions](docs/member-state-positions.md) |
+| 2026-04-08 | **Netherlands non-paper on the GDPR changes in the Digital Omnibus** (Staatssecretaris Van Bruggen, Justice & Security) sent to the Tweede + Eerste Kamer — pro-simplification but argues for a "clean cut" of the fundamental-rights GDPR changes out of the Omnibus | [register: NL-NONPAPER-2026-04-08](sources/README.md#member-state-positions) · [positions](docs/member-state-positions.md#netherlands-nl--national-non-paper-8-april-2026) |
 | 2026-04-17 | **Council compromise text ST 8261/1/26 REV 1** (for AGS 24 Apr) | [register: ST-8261-1-26-REV1](sources/README.md) |
 | 2026-04-24 | AGS exchange of views on ST 8261/1/26 REV 1 | [register](sources/README.md) |
 | 2026-05-07 | (Sister file 2025/0359 — AI Act) provisional trilogue agreement reached | [register](sources/README.md) |

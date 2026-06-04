@@ -56,6 +56,16 @@ number, not asserted as live), and a national-parliament record or public mirror
 | — | Legislative Train entry | 2026-04-20 | [legislative-train](https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-digital-package) |
 | — | EU Law Tracker procedure 2025/360 | 2026-05-01 | [law-tracker](https://law-tracker.europa.eu/procedure/2025_360?lang=en) |
 
+## Member-state positions
+
+National-government positions on the file, as distinct from Council *delegation* comments circulated
+through the `WK` consultation stream (those are noted under [Council documents](#council-documents) and
+summarised in [`../docs/member-state-positions.md`](../docs/member-state-positions.md)).
+
+| State | Item | Date | Hosted file | Provenance |
+|---|---|---|---|---|
+| Netherlands (NL) | **Non-paper on the far-reaching GDPR changes in the Digital Omnibus** (Staatssecretaris Van Bruggen, Justice & Security) — "clean cut" of the fundamental-rights GDPR changes out of the Omnibus | 2026-04-08 | [`member-states/NL-NONPAPER-2026-04-08_non-paper-gdpr-changes_2026-04-08.pdf`](member-states/NL-NONPAPER-2026-04-08_non-paper-gdpr-changes_2026-04-08.pdf) · [Kamerbrief](member-states/NL-NONPAPER-2026-04-08_kamerbrief_2026-04-08.pdf) | [rijksoverheid.nl](https://www.rijksoverheid.nl/documenten/2026/04/08/tk-non-paper-digitale-omnibus-avg) · sent to Tweede + Eerste Kamer · positions in [`../docs/member-state-positions.md`](../docs/member-state-positions.md#netherlands-nl--national-non-paper-8-april-2026) |
+
 ## EDPB / EDPS
 
 | ID | Title | Date | Hosted file | Link |

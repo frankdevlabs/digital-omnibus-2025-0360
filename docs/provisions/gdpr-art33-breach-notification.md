@@ -52,6 +52,9 @@ switch-over to the entry point ([final provisions](../../extracts/council/ST-954
   individual risk assessment.
 - **RO** — flags the same **72h/96h ambiguity** and asks for clarification.
 - **FR** — notes recital 39's opening sentences are explanatory rather than recital-like.
+- **NL** *(national non-paper, 8 Apr 2026)* — welcomes the Presidency improvement to **Art 33** and keeps
+  it **in scope** for the AGS simplification track (one of the genuine-simplification items, alongside the
+  rest of the breach/DPIA cluster).
 - → [`../member-state-positions.md`](../member-state-positions.md)
 
 ## Open questions

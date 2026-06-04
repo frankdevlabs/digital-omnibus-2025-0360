@@ -58,6 +58,9 @@ to reintroduce a softer Art 4 clarification under the Irish Presidency or by ind
 - **DE** — insists the **SRB judgment / "relative anonymity"** be properly reflected in Art 4; concerned
   the Commission text did **not** track the CJEU case law (WK 3736/26 ADD 2). *(Cuts against PL's wish to
   avoid any "relative personal data" framing — a live tension.)*
+- **NL** *(national non-paper, 8 Apr 2026)* — welcomes the Presidency deletion of the Art 4(1)
+  redefinition and of Art 4(38); treats both as **fundamental-rights changes that should be taken out of
+  the Omnibus** for a separate process with an impact assessment + EDPB/EDPS opinion.
 - → [`../member-state-positions.md`](../member-state-positions.md)
 
 ## Open questions

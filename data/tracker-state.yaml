@@ -1,81 +1,84 @@
 # Digital Omnibus tracker state (file 2025/0360 COD)
 # Auto-maintained by the daily tracker Routine. Do not edit by hand.
-# Note: hashes re-baselined 2026-06-03 to the spec-compliant, deterministic
-# normalization (strip scripts / csrf+viewport-date meta / hidden inputs /
-# digit runs >8 / collapse whitespace). The earlier baseline's hashes were
-# produced by an incompatible normalization and disagreed with every source;
-# no content issues were opened for that artifact.
-last_run: 2026-06-03T11:39:42Z
+# Note: hashes use the spec-compliant deterministic normalization (strip
+# scripts/styles, csrf+viewport-date meta, hidden inputs, digit runs >8,
+# collapse whitespace). 2026-06-04 run: T1-03 baselined via the Cellar API
+# (notice=object) after recovering from the prior AWS-WAF failure.
+last_run: 2026-06-04T11:24:46Z
 sources:
   T1-01:
-    last_seen_hash: "sha256:59d318ea0d235325716f242be98e3dda00452304505eda367071cce48b7eca6a"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:a509eac3568a26e75298464afdadbb7cc5aa66a212098b06750f1e614197e1bd"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-02:
-    last_seen_hash: "sha256:e1b03487ba074fa255deb71e23d69ce21b9ac4189c3ae3686ca7c3b83517f318"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:b76691a450c3b0f71b454b1841e7c3d52b453bb94974f6f462eb238a8f927d8d"
+    last_seen_at: 2026-06-04T11:24:46Z
+  T1-03:
+    last_seen_hash: "sha256:1fce8b1a50192f2c2e9c3e69234c960ca56d51b4b97b63f03072da5ca420b0f6"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-04:
-    last_seen_hash: "sha256:55529d63439151cbfecf9e760e6ea7151a4ea89ac1f6c28a51802f1436e13c5c"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:494dc1290c60e9923e3d2a2aef7ad673c8759047097b948cacb211dab2b6ef09"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-05:
-    last_seen_hash: "sha256:153a3236059c60d2438b224e899bea9e98188e1563614a3115156c5e5713d81f"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:d965d447a9a89a3470dc559a9d8c7fdfc64d806e36c22b6915f141c797f0a9c6"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-06:
-    last_seen_hash: "sha256:d2e7d17f3ddb8fb06b1c75c507eaee4a0f48c45c4faec174609b4da0154b50fb"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:1a875e0a4ad34a886339412cf0f51c3cdc6e81531195f50947bed6085e485e45"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-07:
-    last_seen_hash: "sha256:a68e0f6ad19e307cd7e85d9717fb185a12105e851c02338bd15911896a79e28f"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:da77f740a05f5bf565c761b0a0ed545e06dab0d270dbf15785752d49249e7259"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-08:
-    last_seen_hash: "sha256:095936fccfba1e3cd61df88762cbeb41a04045211c107d54b48a505cf71f9ff3"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:6b45447dcea6227c01b1c533a1a770e2139860e20df8b4b2699b393069e616bb"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-09:
-    last_seen_hash: "sha256:e9355919645e673b7574b8e38a546367a01290cca8990d638be15ee2036e3a01"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:ea88d5b25fd1d148c45eb28b9b4a1f234ab3d5d1d115c63995ea97a116af8873"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-10:
-    last_seen_hash: "sha256:6da1d2beeacf80ff5423bf336530b24547c7bf9965758dca9adf5fc8002afc08"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:dda780d84173a1a082c427bae5548765a0faaa2a9ae0f23538567814d363fab0"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-11:
-    last_seen_hash: "sha256:68f3881edd0dab33e985b2f42d009a8ac22c3e01b9812c220d96d07d307e6910"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:b23f507f195941a666e37d6982aa071312f3f0c91b8edaa54190aac97f88992b"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-12:
-    last_seen_hash: "sha256:c431d4d42a29a168c902be5ad010530598eac9d9b40b3db5c8b2150b5840a272"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:1df11d288c9dc2685567c25374deca93df8b7192714a90fccbc41d7d5885a6ba"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-13:
-    last_seen_hash: "sha256:ff385d6e7b233ea5c9f79c9481c2e2857632a307aa6a6aa5f8aa7b8ea3649a4a"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:5458291525a936eb664dd8ec16d7806703099fa0fa17f47d4c6c19e63ca44ebf"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-15:
-    last_seen_hash: "sha256:72ced52b6857566ab18e836caf913f51d168aedd30e381276972c239beea1736"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:0158375ea855a918ce4ffb7efb968f98174e0d2862770e0151246b118a6b7407"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-16:
-    last_seen_hash: "sha256:ae138244744e8455309a8f74df5028aee6337608b68f265658ffb07c5981b51f"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:97e52c0c2bbca64da3b6b86724689b87536121c43633787aac78efd250c87e2f"
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-17:
     last_seen_hash: "sha256:c63e496a81ff7d2a21274157968f5e8120b8d80efb13be36adbe9ba804013b68"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_at: 2026-06-04T11:24:46Z
   T1-18:
-    last_seen_hash: "sha256:cfb0a78ef9b71b5898c8dab8e3cec15f149b30f461bc3c3ffe5bf4fe145b0f3c"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:40d53340b4e30c9bcad83d3d2c469c8735dbb1ad6cf0f8347ec990fbc45ee149"
+    last_seen_at: 2026-06-04T11:24:46Z
   T2-01:
-    last_seen_hash: "sha256:b04cfe84b3f4b5085bc6af4640c81c88812072386f5ab661e8f12904a16a37f4"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:03e4aec182d96c7158402ebb923d1018ba599ad1b216a0248a85bce0ee076a7d"
+    last_seen_at: 2026-06-04T11:24:46Z
   T2-02:
-    last_seen_hash: "sha256:f7bb5d99a7950c2bff9d4b8c2156da444aead22995bf4f6e6239a0ebe4d93236"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:3ed1b1384896ede61929651c27d4a993c06a343fb44afa95ee371c99aab0c8ef"
+    last_seen_at: 2026-06-04T11:24:46Z
   T2-03:
-    last_seen_hash: "sha256:23691b3e23127d3fb2e60604d33d227bfe75dcb146d70b0ce8c2b8caaf1ce61b"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:42f52206c67c872a7ecc5873d6787f3daa50d562f611006afb039315212d8cec"
+    last_seen_at: 2026-06-04T11:24:46Z
   T2-06:
-    last_seen_hash: "sha256:de4dead27439673502f9d981d55eec05184a3fd41ccd85fea23afbb39c64fe5b"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:5a5b1cba7b5c13a448eaf717da14e53f1d8b07e0e64b41dec2e55e487e85155f"
+    last_seen_at: 2026-06-04T11:24:46Z
   T2-08:
-    last_seen_hash: "sha256:dc900b5af851aa8960911cf8bcb8428cd844f25a1bd5002105fbd8ef346b241b"
-    last_seen_at: 2026-06-03T11:39:42Z
+    last_seen_hash: "sha256:34531b6bef94d7db5ee0381b6950c2c2ad6bab274fa03a670cc5f3a80eb2dcb6"
+    last_seen_at: 2026-06-04T11:24:46Z
   T2-09:
-    last_seen_hash: "sha256:044196e873d7e21a1cf4fa87b54c6b7123f7fdd6e3f9bcd3223deddeeaba6bd3"
-    last_seen_at: 2026-06-03T11:39:42Z
-  # T2-10 (twobirds watch RSS): feed now 302-redirects to www.twobirds.com homepage (defunct); treated as unreachable, prior hash dropped.
+    last_seen_hash: "sha256:94f8246ecb791e1370d3dc9d2987b7dbcd410d8e3a487a2ecbf4d33a7c68144e"
+    last_seen_at: 2026-06-04T11:24:46Z
+  # T1-14, T2-04, T2-05, T2-07: unreachable via this environment's egress policy this run; no baseline stored.
+  # T2-10 (twobirds watch RSS): feed defunct (302 -> homepage); treated as unreachable, no hash.
   T3-01:
-    last_seen_indexed_at: 2026-06-03T10:54:45.766Z
+    last_seen_indexed_at: 2026-06-03T20:25:17.863Z
     did: did:plc:wxpnu3arxymnfzh7zm2vx4cn
   T3-02:
     last_seen_indexed_at: 2026-06-03T09:41:17.664Z
@@ -87,7 +90,7 @@ sources:
     last_seen_indexed_at: 2026-04-26T14:16:19.850Z
     did: did:plc:6vzpi3eta33zlyqt2d4zt6aj
   T3-05:
-    last_seen_indexed_at: 2026-06-02T06:58:29.264Z
+    last_seen_indexed_at: 2026-06-04T06:27:11.169Z
     did: did:plc:ujstglmdsoymx3t2yffcvgtm
   T3-06:
     last_seen_indexed_at: 2026-05-28T13:58:42.373Z

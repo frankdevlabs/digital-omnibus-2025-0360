@@ -239,3 +239,26 @@ documents:
     limite: false
     url: https://law-tracker.europa.eu/procedure/2025_360?lang=en
     notes: Cross-institutional procedure tracker.
+
+  - id: NL-NONPAPER-2026-04-08
+    title: "Netherlands non-paper on the proposed far-reaching GDPR changes in the Digital Omnibus"
+    body: Netherlands
+    date: 2026-04-08
+    limite: false
+    url: https://www.rijksoverheid.nl/documenten/2026/04/08/tk-non-paper-digitale-omnibus-avg
+    non_paper_pdf: https://open.overheid.nl/documenten/541fa2e8-5931-4b5a-b760-953e16b33b44/file
+    kamerbrief_pdf: https://open.overheid.nl/documenten/c7166e7e-2d2d-4628-8f55-ea4697d83899/file
+    local: sources/member-states/NL-NONPAPER-2026-04-08_non-paper-gdpr-changes_2026-04-08.pdf
+    local_cover: sources/member-states/NL-NONPAPER-2026-04-08_kamerbrief_2026-04-08.pdf
+    notes: >-
+      NL national-government position (Staatssecretaris Van Bruggen, Justice & Security), sent to the
+      Tweede + Eerste Kamer 8 Apr 2026 with a Kamerbrief and a Beslisnota (decision note). The non-paper
+      itself is headed "Draft … (TBC)". Pro-simplification, but argues for a "clean cut": carve the
+      fundamental-rights GDPR changes (Art 4(1), 4(38), 9(2)(k), 9(5), 12(5) if the original Commission
+      version is pursued, 13(4)/13(5), 41a, 88c) out of the Omnibus for a separate process with an impact
+      assessment + stakeholder consultation + EDPB/EDPS opinion; keep the genuine-simplification items
+      (Art 4(32)-(37), 5(1)(b), 9(2)(l), 22, 33, 35, 88a/88b; ePrivacy Art 4 deleted and Art 5(3)) in the
+      AGS negotiation. Welcomes the Presidency deletion of the Art 4(1) redefinition and of 4(38)/41a and
+      improvements to Arts 12(5)/33/35. Cites EDPB-EDPS JO 2/2026 and the EE/FI/LV/LT/NL/SE "European
+      Strategic Competitiveness" non-paper (5 Feb 2026). Summary in docs/member-state-positions.md
+      (Netherlands section). Beslisnota: https://www.rijksoverheid.nl/documenten/2026/04/08/tk-beslisnota-non-paper-omnibus

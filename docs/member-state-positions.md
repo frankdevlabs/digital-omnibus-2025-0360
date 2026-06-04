@@ -4,7 +4,8 @@ What individual Member States are saying in the Council working party, as distin
 *Presidency* compromise text (tracked in [`institutional-positions.md`](institutional-positions.md)
 and the [`../extracts/council/`](../extracts/council/) extracts). This page is built from
 **delegation comment documents** circulated to the Antici Group (Simplification); it will grow
-as further `WK` addenda are released.
+as further `WK` addenda are released. A separate, clearly-marked section also captures **national
+non-papers** published outside that stream — see [Netherlands (NL)](#netherlands-nl--national-non-paper-8-april-2026).
 
 > **Source:** Council working document **WK 3736/26 ADD 4** (LIMITE), Brussels, 30 March 2026 —
 > *consolidated written comments on the GDPR/P2B & ePrivacy files, FR, PL and RO comments on
@@ -265,6 +266,54 @@ So on P2B the Council splits: **most delegations want the protections retained**
 - P2B repeal (AT, ES, LV, SE; BE, CZ, DK, FI, IE, IT, LU, NL, SI; DE; EE) →
   [`provisions/final-repeals-p2b.md`](provisions/final-repeals-p2b.md),
   [`instruments/repealed.md`](instruments/repealed.md)
+
+---
+
+## Netherlands (NL) — national non-paper (8 April 2026)
+
+A **national-government position**, distinct from the `WK` Council-delegation stream above: the
+Netherlands circulated a non-paper to the Commission and Member States and, on **8 April 2026**, the
+**State Secretary for Justice & Security (Van Bruggen)** sent it to the **Tweede + Eerste Kamer** with a
+Kamerbrief and a Beslisnota (decision note).
+
+> **Source:** *"Draft non-paper by the NL (TBC) on the proposed far-reaching changes to the GDPR in the
+> Digital Omnibus"* — published on [rijksoverheid.nl](https://www.rijksoverheid.nl/documenten/2026/04/08/tk-non-paper-digitale-omnibus-avg).
+> Register entry [`NL-NONPAPER-2026-04-08`](../sources/README.md#member-state-positions); committed PDF
+> [`../sources/member-states/NL-NONPAPER-2026-04-08_non-paper-gdpr-changes_2026-04-08.pdf`](../sources/member-states/NL-NONPAPER-2026-04-08_non-paper-gdpr-changes_2026-04-08.pdf).
+> The non-paper is headed "Draft … (TBC)"; article numbers below are the non-paper's own. This is a
+> working summary — verify against the source before relying on it. See [`../NOTICE`](../NOTICE).
+
+**Overall thrust — pro-simplification, but "a clean cut".** NL welcomes the Digital Omnibus and wants the
+AGS simplification work to continue *swiftly* (citing Draghi competitiveness and the EE/FI/LV/LT/NL/SE
+"European Strategic Competitiveness" non-paper of 5 Feb 2026). But, echoing the **EDPB–EDPS Joint Opinion
+2/2026**, it judges that several proposed GDPR changes "go beyond the objectives of simplifying, clarifying
+and streamlining" and touch the core of the Charter right to data protection without clearly cutting
+administrative burden. To avoid these delaying the whole Omnibus, NL proposes to **split the file**: keep
+the genuine-simplification items in the AGS, and **remove the fundamental-rights changes** for a separate
+process with a proper impact assessment, stakeholder consultation and an EDPB/EDPS opinion.
+
+**Welcomes the Presidency's retreats so far** — the deletion of the **Art 4(1)** personal-data
+redefinition from the first Presidency compromise (lets the discussion "focus on simplification again"),
+the deletion of **Art 4(38)** and **Art 41a**, and the improvements to **Arts 12(5), 33 and 35** that took
+the EDPB/EDPS Opinion into account.
+
+The NL proposed process for the rest of the negotiations:
+
+| Track | GDPR / ePrivacy articles | NL ask |
+|---|---|---|
+| **Keep in scope** — negotiate in the AGS | GDPR **4(32)–4(37), 5(1)(b), 9(2)(l), 22, 33, 35, 88a, 88b**; **ePrivacy Art 4** (deleted) and **Art 5(3)** | Ambitious, constructive simplification negotiations. |
+| **Take out of scope** — fundamental-rights changes | GDPR **4(1), 4(38), 9(2)(k), 9(5), 12(5)** (if the original Commission version is pursued), **13(4)/13(5), 41a, 88c** | Delete from the Omnibus; handle in a separate process with impact assessment, stakeholder consultation and EDPB/EDPS opinion. |
+
+→ [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md) (Art 4(1)/4(38) — out of scope),
+[`provisions/gdpr-art9-special-categories-ai.md`](provisions/gdpr-art9-special-categories-ai.md) (Art 9(2)(k)/9(5) out, 9(2)(l) in),
+[`provisions/gdpr-art33-breach-notification.md`](provisions/gdpr-art33-breach-notification.md) (Art 33 — in scope, welcomed),
+[`provisions/gdpr-art35-dpia.md`](provisions/gdpr-art35-dpia.md) (Art 35 — in scope),
+[`provisions/gdpr-art88c-ai-legitimate-interest.md`](provisions/gdpr-art88c-ai-legitimate-interest.md) (Art 88c — out of scope),
+[`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md) (Art 88a/88b + ePrivacy 5(3) — in scope).
+
+This is consistent with the later NL parliamentary line: a Tweede Kamer motion to keep the fundamental
+GDPR changes out of the Omnibus (Van den Berg, 21501-33-1206) was tabled but **withdrawn** at the 4 June
+2026 vote — see [`../TIMELINE.md`](../TIMELINE.md) (2026-06-03).
 
 ---
 

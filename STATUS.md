@@ -63,7 +63,12 @@ approach and no trilogue** has begun. Cyprus has publicly conceded the file will
 - **ECB Opinion CON/2026/9** (10 Mar 2026) — supportive, but asks to **carve DORA out of the
   single-entry-point regime** (at least initially) and flags joint-controllership breach-reporting
   duplication ([digest](docs/advisory/ecb-con-2026-9.md)).
-- **Member-State delegation comments** (FR, PL, RO, DE, EE, CZ, AT, DK — plus two consolidated
+- **Netherlands non-paper** (8 Apr 2026, State Secretary for Justice & Security) — pro-simplification
+  but wants a **"clean cut"**: keep the genuine-simplification items in the AGS and **take the
+  fundamental-rights GDPR changes** (Art 4(1), 4(38), 9(2)(k), 9(5), 12(5), 13(4)/(5), 41a, 88c) **out
+  of the Omnibus** for a separate process with an impact assessment + EDPB/EDPS opinion
+  ([summary](docs/member-state-positions.md#netherlands-nl--national-non-paper-8-april-2026)).
+- **Member-State delegation comments** (FR, PL, RO, DE, EE, CZ, AT, DK, NL — plus two consolidated
   coalitions resisting the P2B repeal) are tracked in
   [`docs/member-state-positions.md`](docs/member-state-positions.md); the formal Council working-party
   and Coreper steps are in [`TIMELINE.md`](TIMELINE.md).

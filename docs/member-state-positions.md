@@ -325,6 +325,9 @@ by **30 June 2026** (dossier E260003). The decision is recorded in the *korte aa
 on 9 June 2026.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-05-22, 2026-06-02)
 
+**Tweede Kamer tweeminutendebat (9 June 2026, 19:30–19:50):** A plenary two-minute debate was scheduled in the Tweede Kamer for the evening of 9 June 2026, following the formal Telecom Council, allowing members to raise points or submit motions on the Council outcome.
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-06-09 forward-look)
+
 ---
 
 ## How this fed the later compromise

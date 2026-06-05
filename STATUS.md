@@ -78,7 +78,8 @@ approach and no trilogue** has begun. Cyprus has publicly conceded the file will
 
 - [ ] **Formal Telecom Council, 9 June 2026** — Digital Omnibus on the agenda (per the Dutch
       annotated agenda; verify whether it is a Presidency progress report or a substantive
-      discussion — sourced so far only via the Tweede Kamer, not the Council).
+      discussion — sourced so far only via the Tweede Kamer, not the Council); followed that
+      evening by a Tweede Kamer **tweeminutendebat** (plenary two-minute debate, 19:30–19:50).
 - [ ] **Eerste Kamer (NL) written consultation input deadline, 30 June 2026** — DIGI and
       EZ/KGG committees collecting further input (dossier E260003), pending follow-up
       ministerial letters from the State Secretary of Economic Affairs.

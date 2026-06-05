@@ -53,7 +53,7 @@ concedes the file passes **unclosed to the Irish Presidency (from 1 July 2026)**
 
 ## Next milestones to watch
 
-- [ ] **Formal Telecom Council, 9 June 2026** — Digital Omnibus on the agenda (per the Dutch annotated agenda; verify Presidency progress report vs substantive discussion — sourced so far only via the Tweede Kamer).
+- [ ] **Formal Telecom Council, 9 June 2026** — Digital Omnibus on the agenda (per the Dutch annotated agenda; verify Presidency progress report vs substantive discussion — sourced so far only via the Tweede Kamer); followed that evening by a Tweede Kamer **tweeminutendebat** (plenary two-minute debate, 19:30–19:50).
 - [ ] **Eerste Kamer (NL) written-consultation deadline, 30 June 2026** — DIGI + EZ/KGG committees, dossier [E260003](https://www.eerstekamer.nl/eu/edossier/e260003_digitaal_pakket_van_de).
 - [ ] Joint **ITRE/LIBE draft report** (Parliament's first formal position).
 - [ ] **Council general approach** (likely Irish Presidency, H2 2026).

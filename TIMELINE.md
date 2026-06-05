@@ -48,15 +48,16 @@ authoritative copy. Dates in ISO format. Newest events at the bottom of each yea
 | 2026-05-08 | **Council working party** deliberations on **ST 8261/1/26 REV 1** (note WK 6156/26; agenda CM 2577/26) | [register: ST-8261-1-26-REV1](sources/README.md) |
 | 2026-05-21 | **Council compromise text ST 9547/26** + Presidency note WK 7178/26 | [register: ST-9547-2026](sources/README.md) |
 | 2026-05-22 | AGS meeting agenda CM 2918/26 published | [register: CM-2918-2026](sources/README.md) |
+| 2026-05-22 | **NL Eerste Kamer** — *verslag van nader schriftelijk overleg* (36.890, EK, T) published: report of the written consultation between the DIGI and EZ/KGG committees and the State Secretaries of EZ and J&V on the **Omnibus Digitaal**, Omnibus AI and Data Union Strategy | [Eerste Kamer bronnen E260003](https://www.eerstekamer.nl/eu/bronnen_bij_edossier?key=vmupdq5gpenl) |
 | 2026-05-27 | **AGS exchange of views on ST 9547/26** (not a general approach) | [register](sources/README.md) |
-| 2026-06-02 | **NL Eerste Kamer scrutiny** — DIGI and EZ/KGG committees decided, pending further ministerial letters from the State Secretary of Economic Affairs (who responded to April questions on 22 May 2026), to allow contributions for a **further written consultation (*nader schriftelijk overleg*) by 30 June 2026** (dossier E260003) | [Eerste Kamer e-dossier E260003](https://www.eerstekamer.nl/eu/edossier/e260003_digitaal_pakket_van_de) |
+| 2026-06-02 | **NL Eerste Kamer scrutiny** — DIGI and EZ/KGG committees decided (korte aantekeningen DIGI/EZ-KGG 2 Jun), pending further ministerial letters from the State Secretary of Economic Affairs (who responded to April questions on 22 May 2026 — verslag 36.890 EK T, see above), to allow contributions for a **further written consultation (*nader schriftelijk overleg*) by 30 June 2026** (dossier E260003) | [Eerste Kamer bronnen E260003](https://www.eerstekamer.nl/eu/bronnen_bij_edossier?key=vmupdq5gpenl) |
 | 2026-06-03 | **NL States-General scrutiny** — written consultation (*schriftelijk overleg*) on the annotated agenda for the **formal Telecom Council of 9 June 2026**; the Digital Omnibus is among the topics and the Dutch government's line stresses EU competitiveness ("concurrerend digitaal ecosysteem"). A Tweede Kamer motion to keep fundamental GDPR changes out of the Omnibus (Van den Berg, 21501-33-1206) was **withdrawn** at the 4 June vote | [Tweede Kamer](https://www.tweedekamer.nl/zoeken?qry=omnibus+digitaal&srt=date%3Adesc%3Adate&cfg=tksearch&sta=1) |
 
 ## Expected / forward look
 
 | Period | Expected event |
 |---|---|
-| 2026-06-09 | **Formal Telecom Council (Telecomraad)** — Digital Omnibus on the agenda per the Dutch annotated agenda (national-parliament source `T1-16`; verify scope against the Council/Consilium agenda — likely a Presidency progress report, not a general approach) |
+| 2026-06-09 | **Formal Telecom Council (Telecomraad)** — Digital Omnibus on the agenda per the Dutch annotated agenda (national-parliament source `T1-16`; verify scope against the Council/Consilium agenda — likely a Presidency progress report, not a general approach); followed that evening by a Tweede Kamer **tweeminutendebat** (plenary two-minute debate, 19:30–19:50) on the Telecom Council outcome ([Tweede Kamer](https://www.tweedekamer.nl/zoeken?qry=omnibus+digitaal&srt=date%3Adesc%3Adate&cfg=tksearch&sta=1)) |
 | 2026-07-01 | Irish Presidency takes over the file |
 | 2026 H2 | Possible Council **general approach** under Irish Presidency |
 | 2026 Q3/Q4 | Parliament joint ITRE/LIBE **draft report** and committee vote |

@@ -317,11 +317,16 @@ GDPR changes out of the Omnibus (Van den Berg, 21501-33-1206) was tabled but **w
 
 **Eerste Kamer scrutiny (2 June 2026):** The DIGI and EZ/KGG committees of the Eerste Kamer (Senate)
 decided — pending further ministerial letters from the State Secretary of Economic Affairs (who responded
-to the committees' April questions on 22 May 2026) — to allow contributions for a further *nader
-schriftelijk overleg* (written consultation) by **30 June 2026** (dossier E260003). The Senate's scrutiny
-track runs parallel to the Tweede Kamer process (which concluded its pre-Telecomraad written consultation
-on 3 June) ahead of the formal Telecom Council on 9 June 2026.
-→ [`../TIMELINE.md`](../TIMELINE.md) (2026-06-02)
+to the committees' April questions on 22 May 2026 in the *verslag van nader schriftelijk overleg*,
+36.890, EK, T) — to allow contributions for a further *nader schriftelijk overleg* (written consultation)
+by **30 June 2026** (dossier E260003). The decision is recorded in the *korte aantekeningen* of the
+2 June 2026 DIGI/EZ-KGG meeting. The Senate's scrutiny track runs parallel to the Tweede Kamer process
+(which concluded its pre-Telecomraad written consultation on 3 June) ahead of the formal Telecom Council
+on 9 June 2026.
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-05-22, 2026-06-02)
+
+**Tweede Kamer tweeminutendebat (9 June 2026, 19:30–19:50):** A plenary two-minute debate was scheduled in the Tweede Kamer for the evening of 9 June 2026, following the formal Telecom Council, allowing members to raise points or submit motions on the Council outcome.
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-06-09 forward-look)
 
 ---
 

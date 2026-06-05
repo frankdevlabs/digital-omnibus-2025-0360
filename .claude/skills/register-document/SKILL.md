@@ -80,14 +80,14 @@ If no URL/path is given, ask for one (or the document metadata) and stop.
 
 5. **Route the substance** to the right layer:
    - Procedural milestone → add a dated row to `TIMELINE.md` (in date order) and, if it changes the
-     picture, a bullet in `STATUS.md`.
+     picture, update the relevant institution field (or **Next milestones**) in `STATUS.md`.
    - Advisory body (EDPB-EDPS / ECB / EESC) → write/extend `docs/advisory/<slug>.md` and
      `docs/institutional-positions.md`.
    - **Member-state / national-government position** → add a section to
      `docs/member-state-positions.md` (its own clearly-attributed block for national non-papers, separate
      from the `WK` delegation stream) and cross-link the relevant `docs/provisions/*.md`.
    - Stakeholder → `docs/stakeholders.md` (+ `docs/fault-lines.md` for noyb/EDRi).
-   - Before asserting any feature of "the proposal", check `STATUS.md`'s "What changed in ST 9547/26"
+   - Before asserting any feature of "the proposal", check `STATUS.md`'s "What changed"
      table — several widely-reported features were deleted/moved.
 
 6. **If the document is a full Council compromise text** (a new ST LIMITE text) → register it here, then
@@ -122,8 +122,8 @@ A national-government non-paper, published on rijksoverheid.nl and sent to the T
   `local_cover` Kamerbrief.
 - Entry appended to `data/documents.yaml`; new `## Member-state positions` section in
   `sources/README.md`.
-- Substance routed to a dedicated **Netherlands** section in `docs/member-state-positions.md`, an NL
-  bullet in `STATUS.md`, a dated `TIMELINE.md` row, and NL cross-links in
+- Substance routed to a dedicated **Netherlands** section in `docs/member-state-positions.md`, the
+  **Member States** row in `STATUS.md`, a dated `TIMELINE.md` row, and NL cross-links in
   `docs/provisions/gdpr-art4-personal-data.md` and `gdpr-art33-breach-notification.md`.
 
 ## Conventions (inherited from the repo)

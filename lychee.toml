@@ -4,6 +4,8 @@ accept = [200, 202, 206, 403, 429]
 max_retries = 3
 retry_wait_time = 2
 timeout = 30
+# Placeholder templates carry <PLACEHOLDER> link destinations, not real links — don't scan them.
+exclude_path = ["STATUS.template.md"]
 exclude = [
   "^https://data\\.consilium\\.europa\\.eu",   # register 404s for unreleased LIMITE docs (cited by number)
   "^https://eur-lex\\.europa\\.eu",            # returns 202 to automated clients

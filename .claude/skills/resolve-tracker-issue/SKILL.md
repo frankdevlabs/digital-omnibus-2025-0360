@@ -67,12 +67,13 @@ The entry point is the `/tracker-issue` command (or invoke this skill directly).
 Decide whether the change is **substantive** (a real procedural step or position) or
 **noise** (rotating widget, transparency-meeting log, unchanged re-publish — common for
 T1-05/06/07). If substantive:
-- New procedural fact (committee referral, rapporteur, vote, meeting date) → update
-  `STATUS.md` and add a sourced row to `TIMELINE.md`.
+- New procedural fact (committee referral, rapporteur, vote, meeting date) → update the
+  relevant institution field (and **Next milestones**) in `STATUS.md` and add a sourced
+  row to `TIMELINE.md`.
 - New advisory output (EDPB/EDPS, ECB, EESC) → update the matching `docs/advisory/*.md`
   and `docs/institutional-positions.md`; register the document in `data/documents.yaml`
   (then regenerate the `sources/README.md` table) if it is a new committed document.
-- Always check `TIMELINE.md`'s "What changed in ST 9547/26" table before asserting a
+- Always check `STATUS.md`'s "What changed" table before asserting a
   feature of the proposal — several widely-reported features were deleted/moved.
 
 ### `council-text` — Tier-1 Council source (T1-08/T1-09), highest priority

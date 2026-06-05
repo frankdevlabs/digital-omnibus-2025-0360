@@ -36,9 +36,10 @@ version are always: `_gdpr-art3-amendments`, `_eprivacy-art5`, `_cyber-art6-9`, 
   agent that hashes watched source pages T1-*/T2-*/T3-*). The header says "Do not edit by hand" — respect it.
 - **`data/positions.csv`** backs the institutional/provision comparison; keep it in sync with the
   `docs/provisions/*` and `docs/institutional-positions.md` prose.
-- **`STATUS.md`** is the one-screen current snapshot; **`TIMELINE.md`** is the full sourced chronology.
-  Its "What changed in ST 9547/26" table is the authority on what moved vs earlier reporting — consult it
-  before asserting a feature of the proposal (several widely-reported features were deleted/moved by May).
+- **`STATUS.md`** is the one-screen current snapshot (format spec: `docs/reporting-standard.md`);
+  **`TIMELINE.md`** is the full sourced chronology. `STATUS.md`'s "What changed" table is the authority on
+  what moved vs earlier reporting — consult it before asserting a feature of the proposal (several
+  widely-reported features were deleted/moved by May).
 
 ## Adding a Council compromise text (the core workflow)
 

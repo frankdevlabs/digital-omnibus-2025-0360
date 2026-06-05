@@ -323,6 +323,9 @@ track runs parallel to the Tweede Kamer process (which concluded its pre-Telecom
 on 3 June) ahead of the formal Telecom Council on 9 June 2026.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-02)
 
+**Tweede Kamer tweeminutendebat (9 June 2026, 19:30–19:50):** A plenary two-minute debate was scheduled in the Tweede Kamer for the evening of 9 June 2026, following the formal Telecom Council, allowing members to raise points or submit motions on the Council outcome.
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-06-09 forward-look)
+
 ---
 
 ## How this fed the later compromise

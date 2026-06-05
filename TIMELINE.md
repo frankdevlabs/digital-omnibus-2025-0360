@@ -56,7 +56,7 @@ authoritative copy. Dates in ISO format. Newest events at the bottom of each yea
 
 | Period | Expected event |
 |---|---|
-| 2026-06-09 | **Formal Telecom Council (Telecomraad)** — Digital Omnibus on the agenda per the Dutch annotated agenda (national-parliament source `T1-16`; verify scope against the Council/Consilium agenda — likely a Presidency progress report, not a general approach) |
+| 2026-06-09 | **Formal Telecom Council (Telecomraad)** — Digital Omnibus on the agenda per the Dutch annotated agenda (national-parliament source `T1-16`; verify scope against the Council/Consilium agenda — likely a Presidency progress report, not a general approach); followed that evening by a Tweede Kamer **tweeminutendebat** (plenary two-minute debate, 19:30–19:50) on the Telecom Council outcome ([Tweede Kamer](https://www.tweedekamer.nl/zoeken?qry=omnibus+digitaal&srt=date%3Adesc%3Adate&cfg=tksearch&sta=1)) |
 | 2026-07-01 | Irish Presidency takes over the file |
 | 2026 H2 | Possible Council **general approach** under Irish Presidency |
 | 2026 Q3/Q4 | Parliament joint ITRE/LIBE **draft report** and committee vote |

@@ -37,9 +37,10 @@ version are always: `_gdpr-art3-amendments`, `_eprivacy-art5`, `_cyber-art6-9`, 
 - **`data/positions.csv`** backs the institutional/provision comparison; keep it in sync with the
   `docs/provisions/*` and `docs/institutional-positions.md` prose.
 - **`STATUS.md`** is the one-screen current snapshot (format spec: `docs/reporting-standard.md`);
-  **`TIMELINE.md`** is the full sourced chronology. `STATUS.md`'s "What changed" table is the authority on
-  what moved vs earlier reporting — consult it before asserting a feature of the proposal (several
-  widely-reported features were deleted/moved by May).
+  **`TIMELINE.md`** is the full sourced chronology. `STATUS.md`'s "What changed" table (headline subset) and
+  its full counterpart **`docs/what-changed.md`** (all 17 provisions, deep-linked to the operative extracts)
+  are the authority on what moved vs earlier reporting — consult them before asserting a feature of the
+  proposal (several widely-reported features were deleted/moved by May).
 
 ## Adding a Council compromise text (the core workflow)
 

@@ -64,20 +64,21 @@ concedes the file passes **unclosed to the Irish Presidency (from 1 July 2026)**
 
 ## What changed in the latest text vs earlier reporting
 
-Operative text: **ST 9547/26 (21 May 2026)**. Several widely-reported features of the Commission proposal and
-the **February** compromise **moved** by this text — this table is the authority on what moved; corrections
-are built into the [extracts](extracts/council/) and [`data/positions.csv`](data/positions.csv).
+Each row traces a provision **current law → Commission proposal (COM(2025) 837) → latest Council text
+(ST 9547/26)**, so it is clear *which institution changed what* — e.g. the **96h breach deadline and
+high-risk-only threshold were already in the Commission proposal**, not Council changes. This is the headline
+set; the **full 17-provision, source-linked table is in [`docs/what-changed.md`](docs/what-changed.md)**.
+Operative text: [extracts](extracts/council/) · positions: [`data/positions.csv`](data/positions.csv).
 
-| Topic | Earlier reporting (Commission / Feb) | Latest operative text (ST 9547/26) |
+| Provision | Current law → Commission proposal (Nov 2025) | Latest Council text (ST 9547/26, May 2026) |
 |---|---|---|
-| **Art 4 personal-data redefinition** | Adds relative-controller clause | **Deleted** (point 1(a) struck); Art 4(1) unchanged |
-| **Scientific-research definition (Art 4(38))** | Reported deleted in Feb | **Re-included, reworked** in the May text |
-| **Cookies — GDPR Art 88a** | Cookie consent moved *into* the GDPR | **Deleted** — kept in **ePrivacy Art 5(3)** (amended by Omnibus Art 5) |
-| **AI legitimate interest — GDPR Art 88c** | New standalone Art 6(1)(f) article | **Deleted** — basis now only in **recital 33a**; recitals 30 & 31 also deleted |
-| **Machine-readable consent — Art 88b** | New browser/OS consent-signal duties | **Retained** (renumbered; verify final number) |
-| **Art 22 automated decisions** | Rewrite weakening contractual-necessity test | **Largely restored** to current GDPR; the "(a) regardless of whether…" clause deleted |
-| **P2B Regulation 2019/1150** | Reported repealed | **Partially amended** — Arts 2(11)/2(12), 6, 8–10, 12–14, 16–18 deleted; not wholly repealed |
-| **Breach notification (Art 33)** | 72h, broad threshold | **96h**, **high-risk-only** threshold, via national entry point |
-| **National-entry-point reporting** | 24 months | **30 months** from entry into force |
+| [**Personal data (Art 4(1))**](docs/provisions/gdpr-art4-personal-data.md) | Current "identified/identifiable" (Recital 26); **Commission** adds a relative/controller-centric clause. | **Deleted** (point 1(a) struck) → Art 4(1) reverts to current law; Art 41a dropped for a new Art 29a EDPB route. |
+| [**Scientific research (Art 4(38))**](docs/provisions/gdpr-research-secondary-use.md) | No statutory definition today; **Commission** adds one (with a commercial-interest carve-out). | **Deleted in Feb, re-included & tightened in May** — "autonomous and independent"; commercial-interest sentence dropped. |
+| [**Cookies (Art 88a / ePrivacy Art 5(3))**](docs/provisions/gdpr-art88a-88b-cookies.md) | Consent lives in ePrivacy Art 5(3); **Commission** moves it *into* the GDPR (new Art 88a). | **Art 88a deleted** — consent **kept in ePrivacy Art 5(3)** (exempt list + 6-month no-repeat retained). |
+| [**Machine-readable consent (Art 88b)**](docs/provisions/gdpr-art88a-88b-cookies.md) | No such duty today; **Commission** adds browser/OS consent-signal duties. | **Retained** (renumbered after Art 88a's deletion; final number unsettled). |
+| [**AI legitimate interest (Art 88c)**](docs/provisions/gdpr-art88c-ai-legitimate-interest.md) | No AI-specific basis (ordinary Art 6(1)(f) + Opinion 28/2024); **Commission** adds a standalone article + recitals 30 & 31. | **Deleted** — survives only in interpretive **recital 33a**; recitals 30 & 31 also deleted. |
+| [**Automated decisions (Art 22)**](docs/provisions/gdpr-art22-automated-decisions.md) | Right-based, save (a)/(b)/(c); **Commission** rewrites it permissive + adds the "(a) regardless of whether…" clause. | **Largely restored to current GDPR**; the "regardless of whether…" clause and Recital 38 deleted. |
+| [**Breach notification (Art 33)**](docs/provisions/gdpr-art33-breach-notification.md) | Current GDPR **72h**; **the Commission already moved to 96h + high-risk-only**, via the EU single-entry point (Art 23a). | **96h / high-risk-only kept** (a Commission change). Council switched to the **national** entry point (Art 23b) + 24 → 30-month switch-over. |
+| [**P2B Regulation 2019/1150**](docs/provisions/final-repeals-p2b.md) | In force; **Commission** proposes **full repeal** (+ derogation to 31 Dec 2032). | **Not repealed — partially amended** (Arts 2(11)/2(12), 6, 8–10, 12–14, 16–18 deleted; 2032 derogation dropped). |
 
-Faithful operative text behind each row: [`extracts/council/ST-9547-2026_gdpr-art3-amendments.md`](extracts/council/ST-9547-2026_gdpr-art3-amendments.md).
+**Full diff** (all 17 provisions, with deep links to the operative text): [`docs/what-changed.md`](docs/what-changed.md).

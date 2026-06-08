@@ -73,7 +73,7 @@ T1-05/06/07). If substantive:
 - New advisory output (EDPB/EDPS, ECB, EESC) → update the matching `docs/advisory/*.md`
   and `docs/institutional-positions.md`; register the document in `data/documents.yaml`
   (then regenerate the `sources/README.md` table) if it is a new committed document.
-- Always check `STATUS.md`'s "What changed" table before asserting a
+- Always check `STATUS.md`'s "What changed" table (full version: `docs/what-changed.md`) before asserting a
   feature of the proposal — several widely-reported features were deleted/moved.
 
 ### `council-text` — Tier-1 Council source (T1-08/T1-09), highest priority
@@ -82,7 +82,7 @@ A new ST LIMITE compromise text is the heaviest case:
 - **Hand off transcription to the `transcribe-council-extract` skill** — do not transcribe
   by hand. Produce the five-file extract set under `extracts/council/ST-<nnnn>-<yyyy>...`.
 - Cascade: update the affected `docs/provisions/*.md`, `docs/institutional-positions.md`,
-  `data/positions.csv`, `STATUS.md`, `TIMELINE.md`.
+  `data/positions.csv`, `STATUS.md` + the full `docs/what-changed.md` diff table, `TIMELINE.md`.
 - Because this spans many files, a `--fix` run here is large; prefer producing the plan and
   letting a human drive the transcription, unless explicitly told to apply.
 

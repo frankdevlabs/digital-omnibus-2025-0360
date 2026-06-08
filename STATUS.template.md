@@ -86,14 +86,23 @@
 <!-- OPTIONAL but recommended once a compromise text diverges from first reporting. The "myth-buster":
      stops people asserting features that were later deleted/moved. Keep the HEADING generic ("the latest
      text") so it survives new versions; name the specific version in the intro line. This is the authority
-     on what moved — referenced by CLAUDE.md and the skills. Omit the section only if nothing has diverged. -->
+     on what moved — referenced by CLAUDE.md and the skills. Omit the section only if nothing has diverged.
 
-Operative text: **<LATEST-TEXT + date>**. Several widely-reported features of <earlier baseline> **moved**
-by this text — this table is the authority on what moved; corrections are built into the
-[extracts](extracts/) and [`data/positions.csv`](data/positions.csv).
+     Columns trace PROVENANCE in three lanes: Provision | Current law -> Commission proposal | Latest text.
+     RULE: state the current-law baseline AND the proposal SEPARATELY — never fold a status-quo figure into
+     the "proposal" cell (e.g. a current-law deadline is not the Commission's amended deadline).
+     INTERACTIVITY: link the provision cell to its docs/provisions/ page, and end each cell with a deep link
+     into the operative text (extracts/.../file.md#anchor — prefer a stable <a id=...> anchor).
+     LEAN + FULL: when many provisions changed, keep only a HEADLINE subset here + a pointer, and put the
+     full provision-by-provision table in docs/what-changed.md (see docs/reporting-standard.md). -->
 
-| Topic | Earlier reporting (<baseline>) | Latest operative text (<LATEST-TEXT>) |
+Each row traces a provision **current law → Commission proposal (<COM-ID>) → latest <co-legislator> text
+(<LATEST-TEXT>)**, so it is clear *which institution changed what*. This is the headline set; the full
+provision-by-provision table is in [`docs/what-changed.md`](docs/what-changed.md). Operative text:
+[extracts](extracts/) · positions: [`data/positions.csv`](data/positions.csv).
+
+| Provision | Current law → Commission proposal (<date>) | Latest <co-legislator> text (<LATEST-TEXT>) |
 |---|---|---|
-| **<provision>** | <what was reported> | <what the operative text actually says> |
+| [**<provision (Art …)>**](docs/provisions/<slug>.md) | <current-law baseline>; **Commission** <what it proposes> | <what the latest text actually does> |
 
-Faithful operative text behind each row: [`extracts/<path-to-amendments-file>.md`](extracts/).
+**Full diff** (all provisions, with deep links to the operative text): [`docs/what-changed.md`](docs/what-changed.md).

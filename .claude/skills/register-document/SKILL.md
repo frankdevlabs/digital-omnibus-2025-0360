@@ -88,7 +88,7 @@ If no URL/path is given, ask for one (or the document metadata) and stop.
      from the `WK` delegation stream) and cross-link the relevant `docs/provisions/*.md`.
    - Stakeholder → `docs/stakeholders.md` (+ `docs/fault-lines.md` for noyb/EDRi).
    - Before asserting any feature of "the proposal", check `STATUS.md`'s "What changed"
-     table — several widely-reported features were deleted/moved.
+     table (full version: `docs/what-changed.md`) — several widely-reported features were deleted/moved.
 
 6. **If the document is a full Council compromise text** (a new ST LIMITE text) → register it here, then
    **hand transcription to the `transcribe-council-extract` skill** for the `extracts/council/` set.

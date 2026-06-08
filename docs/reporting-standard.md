@@ -52,11 +52,28 @@ milestones to it by name.
 
 ## "What changed in the latest text vs earlier reporting"
 
-The myth-buster: a table of features that moved between first reporting and the latest operative text, so
+The myth-buster: a table of provisions that moved between first reporting and the latest operative text, so
 nobody asserts a deleted/moved feature. Keep the **heading generic** (`the latest text`) and name the
 specific version in the intro line — this way the heading and every reference to it survive a new compromise
 text. This table is the **authority on what moved**; it is referenced from [`CLAUDE.md`](../CLAUDE.md) and the
 skills. Omit the whole section only while nothing has diverged from first reporting.
+
+**Columns trace provenance, three lanes:** `Provision | Current law → Commission proposal | Latest
+[co-legislator] text`. The point is to show *which institution changed what* — so always **state the
+current-law baseline AND the proposal separately; never fold a status-quo figure into the "proposal" cell**
+(e.g. GDPR's 72h breach deadline is *current law*, not the Commission's 96h proposal — getting this wrong is
+the classic error this table exists to prevent).
+
+**Two links per row (interactivity).** Link the **provision** cell to its [`docs/provisions/`](provisions/)
+analysis page, and end each substantive cell with a deep link into the operative text — the Commission column
+into [`extracts/commission/`](../extracts/commission/), the latest-text column into the matching
+[`extracts/`](../extracts/) `#anchor` (prefer a stable explicit `<a id=…>` anchor over a heading slug).
+
+**Lean summary + full detail.** When a file has many changed provisions, `STATUS.md` carries only a **headline
+subset** (the high-salience / contested provisions) plus a pointer; the **full provision-by-provision table**
+lives in [`docs/what-changed.md`](what-changed.md) (covering every row in [`positions.csv`](../data/positions.csv),
+grouped by instrument). `what-changed.md` is then the comprehensive authority; the `STATUS.md` table is its
+at-a-glance extract. Refresh **both** on a new compromise text.
 
 ## Linking convention
 
@@ -86,4 +103,4 @@ freshness signal. (Documented, not automated — the repo has no build step.)
 | Procedural milestone (referral, vote, meeting, appointment) | the actor's **Latest act** / **Next** field; add a `[ ]` to **Next milestones** if forward-looking | a sourced row in [`TIMELINE.md`](../TIMELINE.md) |
 | New advisory opinion (EDPB/EDPS, ECB, EESC, CoR…) | a row in the **Advisory bodies** table | a [`docs/advisory/`](advisory/) digest |
 | Member-state signal (non-paper, delegation comments) | the **Member States** row | [`member-state-positions.md`](member-state-positions.md) |
-| New Council compromise text | dashboard **Latest text** + Council **Latest act**; refresh the **What changed** table | [`positions.csv`](../data/positions.csv), [`extracts/council/`](../extracts/council/) |
+| New Council compromise text | dashboard **Latest text** + Council **Latest act**; refresh the **What changed** headline table | the full [`docs/what-changed.md`](what-changed.md) table, [`positions.csv`](../data/positions.csv), [`extracts/council/`](../extracts/council/) |

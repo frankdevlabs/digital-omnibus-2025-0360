@@ -38,7 +38,7 @@ def anchors_for(path):
     return out
 
 files = [p for p in glob.glob(os.path.join(ROOT, "**", "*.md"), recursive=True)
-         if ".git" not in p]
+         if ".git" not in p and not p.endswith(".template.md")]  # skip placeholder templates
 anchor_cache = {}
 broken = []
 checked = 0

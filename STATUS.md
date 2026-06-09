@@ -7,7 +7,7 @@
 | **Legal bases** | Articles 16(2) and 114 TFEU |
 | **OLP stage** | 1st reading — Council **working-party stage**; EP **committee referral only** (no draft report); **no general approach, no trilogue** |
 | **Latest text** | Council **ST 9547/26** (21 May 2026) — [operative extracts](extracts/council/) · [register](sources/README.md) |
-| **As of** | **5 June 2026** (= `data/tracker-state.yaml` `last_run`) |
+| **As of** | **9 June 2026** (= `data/tracker-state.yaml` `last_run`) |
 
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). Procedure is sourced from
 > [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md); Council substance reflects the operative text of
@@ -53,12 +53,12 @@ concedes the file passes **unclosed to the Irish Presidency (from 1 July 2026)**
 
 ## Next milestones to watch
 
-- [ ] **Formal Telecom Council, 9 June 2026** — Digital Omnibus on the agenda (per the Dutch annotated agenda; verify Presidency progress report vs substantive discussion — sourced so far only via the Tweede Kamer); followed that evening by a Tweede Kamer **tweeminutendebat** (plenary two-minute debate, 19:30–19:50).
+- [x] **Formal Telecom Council, 9 June 2026** — met today; Presidency progress report to ministers (no general approach; file passes unclosed to Irish Presidency). Tweede Kamer tweeminutendebat report (ongecorrigeerd) published — [triage #38](docs/triage/2026-06-09-issue-38.md). Verify Council outcome from Consilium press release.
 - [ ] **Eerste Kamer (NL) written-consultation deadline, 30 June 2026** — DIGI + EZ/KGG committees, dossier [E260003](https://www.eerstekamer.nl/eu/edossier/e260003_digitaal_pakket_van_de).
 - [ ] Joint **ITRE/LIBE draft report** (Parliament's first formal position).
 - [ ] **Council general approach** (likely Irish Presidency, H2 2026).
 - [ ] **Trilogue** start (earliest Q4 2026).
-- [ ] EDPB **DPIA-template consultation** (deadline ~9 June 2026) + updated pseudonymisation guideline.
+- [ ] EDPB **DPIA-template consultation** (deadline ~9 June 2026 — check whether published) + updated pseudonymisation guideline.
 - [ ] Any reopening of the **Art 4 personal-data** redefinition (currently deleted in the Council text).
 - [ ] Whether the Council **carves DORA out of the single entry point** (ECB CON/2026/9 ask).
 

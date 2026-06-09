@@ -325,8 +325,8 @@ by **30 June 2026** (dossier E260003). The decision is recorded in the *korte aa
 on 9 June 2026.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-05-22, 2026-06-02)
 
-**Tweede Kamer tweeminutendebat (9 June 2026, 19:30–19:50):** A plenary two-minute debate was scheduled in the Tweede Kamer for the evening of 9 June 2026, following the formal Telecom Council, allowing members to raise points or submit motions on the Council outcome.
-→ [`../TIMELINE.md`](../TIMELINE.md) (2026-06-09 forward-look)
+**Tweede Kamer tweeminutendebat (3 June 2026, pre-Council):** A plenary two-minute debate took place on 3 June 2026 ahead of the formal Telecom Council of 9 June. Two motions were submitted: 21501-33-1205 (Kathmann — positive stance toward EU ICT-supplier preference; outcome TBC) and 21501-33-1206 (Van den Berg — keep fundamental GDPR changes out of the Omnibus; **withdrawn** at the 4 June vote). The ongecorrigeerd debate report (2026D27237) and stemmingsuitslagen (2026P09467) are published.
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-06-03, 2026-06-09)
 
 ---
 

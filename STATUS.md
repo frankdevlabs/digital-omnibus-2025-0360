@@ -53,7 +53,7 @@ concedes the file passes **unclosed to the Irish Presidency (from 1 July 2026)**
 
 ## Next milestones to watch
 
-- [x] **Formal Telecom Council, 9 June 2026** — met today; Presidency progress report to ministers (no general approach; file passes unclosed to Irish Presidency). Tweede Kamer tweeminutendebat report (ongecorrigeerd) published — [triage #38](docs/triage/2026-06-09-issue-38.md). Verify Council outcome from Consilium press release.
+- [x] **Formal Telecom Council, 9 June 2026** — outcome verified (main results, 10 June): the Digital Omnibus featured only as an **AOB information point** ("the presidency informed member states on current legislative proposals such as the digital omnibus") — *not* a progress report on the agenda (those went to the Digital Networks Act and the cybersecurity package); no general approach, file passes unclosed to the Irish Presidency. The day's policy debate was on technological sovereignty (ministers welcomed the Tech Sovereignty Package — context for the sibling CADA file, not this one). Tweede Kamer tweeminutendebat report (ongecorrigeerd) published — [triage #38](docs/triage/2026-06-09-issue-38.md) · [main results (IEU mirror)](https://ieu-monitoring.com/editorial/main-results-of-the-eu-telecommunications-council-on-9-june-2026/1243080).
 - [ ] **Eerste Kamer (NL) written-consultation deadline, 30 June 2026** — DIGI + EZ/KGG committees, dossier [E260003](https://www.eerstekamer.nl/eu/edossier/e260003_digitaal_pakket_van_de).
 - [ ] Joint **ITRE/LIBE draft report** (Parliament's first formal position).
 - [ ] **Council general approach** (likely Irish Presidency, H2 2026).

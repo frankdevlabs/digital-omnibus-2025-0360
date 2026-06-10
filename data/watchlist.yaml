@@ -201,6 +201,13 @@ sources:
     label: "DLA Piper — Privacy Matters blog feed"
     url: "https://privacymatters.dlapiper.com/feed/"
     affects: [docs/stakeholders.md]
+  T2-10:
+    tier: T2
+    kind: stakeholder
+    label: "INSIGHT EU MONITORING — RSS"
+    url: "https://ieu-monitoring.com/feed/"
+    affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
+    notes: "Workaround for Consilium's browser-check bot-block: mirrors Council meeting outcomes/main results (incl. Telecom/TTE Council 'main results' pages, which the tracker cannot fetch from consilium.europa.eu directly). A match on a Telecom/TTE Council item is Tier-1-grade signal — label it council."
 
   # --- Tier 3: Bluesky watchlist -----------------------------------------------
   T3-01:

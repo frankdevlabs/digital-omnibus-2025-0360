@@ -2,100 +2,110 @@
 # Auto-maintained by the daily tracker Routine. Do not edit by hand.
 # Note: hashes use the spec-compliant deterministic normalization (strip
 # scripts/styles, csrf+viewport-date meta, hidden inputs, digit runs >8,
-# collapse whitespace). 2026-06-09 run: T1-06/T1-10/T1-11/T1-12/T1-14/T1-17
-# unchanged vs Jun-08 baseline; T1-04/T1-05/T1-07/T1-08/T1-09/T1-13/T1-15/
-# T1-18 hash changes assessed as false positives (dynamic nav/rotating sidebar);
-# T1-01/T1-02 changed but no new meetings after 04/06; T1-03 Cellar XML resumed
-# after Jun-08 outage; T2-01/T2-03/T2-06/T2-07/T2-08 no new keyword matches;
-# T3-01 new GDPR/CJEU post (not 2025/0360 specific); T3-02/T3-03 CRIF lawsuit
-# posts (not 2025/0360); genuine hit: T1-16 (Telecomraad formeel 9 juni plenary
-# report + voting results) → issue #38.
-last_run: 2026-06-09T10:30:00Z
+# collapse whitespace). 2026-06-10 run: 0 genuine hits. T1-01/T1-02: hash
+# changed, latest events still June 4 (CPME/Siemens AG) already in #36/#37,
+# PDF/HTML regenerated; T1-03: hash changed due to Accept-header bug fix
+# (was sending double Accept causing 300; correct Accept gives clean XML,
+# LASTMODIFICATIONDATE 2025-11-19 unchanged); T1-04: "As of 22/05/2026"
+# unchanged, dynamic page noise; T1-05/T1-06: known rotating-content
+# false-positive trap; T1-08/T1-09: dynamic date.created meta tag
+# (content dates still May 2026); T1-10/T1-11: Laatste revisie changed to
+# 09-06-2026 but substantive content same as issue #31 (closed Jun 5,
+# June 2 Commission letter + State Secretary consultation already covered);
+# T1-12: EDPB RSS newest item May 5, hash diff from dynamic element;
+# T1-13: EDPB opinion page Drupal dynamic content, no new documents;
+# T1-15: MediaLaws hash changed, last_updated still "3 June 2026";
+# T1-16: TK search still shows Telecomraad Formeel 9 juni (→ issue #38);
+# T1-18: dynamic filter UI; T2-01: CRIF case new item, not Digital Omnibus;
+# T2-02/T2-05/T2-06: new items not matching Digital Omnibus filter;
+# T2-03/T2-07/T2-08/T2-09: no keyword matches; T3-02: CRIF lawsuit posts
+# (filter matched "noyb" but not 0360); T3-07: new posts, no keyword match.
+last_run: 2026-06-10T11:15:04Z
 sources:
   T1-01:
-    last_seen_hash: "sha256:44f23b4a0da08a32a17427efde41c9c5f0ecef4cc45ad852e255d05012139cf8"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:958c4d54624ad71763e928ff746a7930ab22deeb0b754e32723cefad0ca01786"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-02:
-    last_seen_hash: "sha256:5df1db199288d2bd0af1337487d975b8adfd6e8261dd36b326ff0fc4fd1e2e2f"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:3e15b3b8b2ac4ded65a0e71295607f275235d0c2522e35143c9f7cf7fd5442ca"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-03:
-    last_seen_hash: "sha256:d8883756d70524234adb293c8d5b10186ba609ac26267a1d195420b80587cb64"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:1873661d8b997ad7d44ece073d3b24c7a2d7b44631aa77e4e4a5423fad878d25"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-04:
-    last_seen_hash: "sha256:61b97dab353652c6aa6206d4b8acd4b7cd49b82c09bf2132763785cd5af821b0"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:cafc7b6dd921e5b5e0c296cc0b4f789e576fd407e2639827384814515ad35547"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-05:
-    last_seen_hash: "sha256:f002d7ff97e3ee427b609ea8167734b0d733f9e823383410f915bd0d384e1e28"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:695ff98e8e52457d79b6ac50c097bea2b2ddd2099fce8c61dda74919d42e83fc"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-06:
-    last_seen_hash: "sha256:d2e7d17f3ddb8fb06b1c75c507eaee4a0f48c45c4faec174609b4da0154b50fb"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:a4562e3a411d8d12c8adcb8498468bcaf79d1978f66372d478179bebc9f3fe6b"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-07:
     last_seen_hash: "sha256:b93c92377a27389c38a8445b3d53cd30b882adbe27574e6322f905c9f41b0cdb"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-08:
-    last_seen_hash: "sha256:da0230f6eec3bce5b9d297bd1f7c43931dea6b7ba6bf239ebc11307a38948bf8"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:4414a7a66a7efa807fe7b633f4399a11c8d37b25a129519d66b56908b08f01fb"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-09:
-    last_seen_hash: "sha256:f8db0e566d81afde06b54863f067f82210a2caa2778ffe893d02aa9ec06c7c87"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:7ec4d5a7e221dc67b4f93feee6dae7a98151a61baeb878fae9d8a97f4668d38d"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-10:
-    last_seen_hash: "sha256:b273fd113ef2f5d36d222626419664bc59ed7c7d9c345e0b6e252e9b42ac0bd5"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:3e7474e076722e24653fb576743613d54c9402b7c64611c2aa552ad704ca9d9b"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-11:
-    last_seen_hash: "sha256:43dd29bc963a211a68da902041ab096a57e6ec5b262c0f19455296c7c274cc63"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:b9d676a5209162648b4f6cd013d9dc8af322aa4902ac4050d48c75721b14f9a2"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-12:
-    last_seen_hash: "sha256:7438c317360e5187a371e30b068af40c6e7c5f5168da0000a199bb53fb6f77e2"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:415359c7a134eeb534c0253f27e4e629f9aef789355d670e61ec681067167ee3"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-13:
-    last_seen_hash: "sha256:b3a5aa61e4c555ff8ea45109f6342eb8f840e8a0dc4be73198687434d4e3c8ad"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:fcaaceb328c084be7fcc67c658c371a9711dabe8d32d044acfe87de6cc10fb73"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-14:
-    last_seen_hash: "sha256:93ceb56a23da910ef8b84e9b3b6786d185010095a4182fe2b256df18d3652614"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:39172087b89aa9b46f61f702e5472fb524c70135f1e142ce8feddb5b5ab81f75"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-15:
-    last_seen_hash: "sha256:2772f204aba78fa2a1614ab690174a7ae4f1648b06ace50a5101a9330d0236ae"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:4c92c745a304790d11757af980696f381127465888f93649d0e7966b88ebc2da"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-16:
-    last_seen_hash: "sha256:d00dd3bf7ebe28e00eb63fd53dd09b5e97819ceb8db3b84f14179c0c37ebf493"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:12c99df5c70f52b1c15cbca8e2a34ee8193e2110a2d8fb6fcfe562f634633d13"
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-17:
     last_seen_hash: "sha256:c63e496a81ff7d2a21274157968f5e8120b8d80efb13be36adbe9ba804013b68"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_at: 2026-06-10T11:15:04Z
   T1-18:
-    last_seen_hash: "sha256:8e48713e7adbac9574cdaf71fa1e0559534f2c0683b9240f0726246d395c1035"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:7231395d913d9784d6ed4d5b45e7c3c5faa86c31ec45c14df74b76a3c43b4425"
+    last_seen_at: 2026-06-10T11:15:04Z
   T2-01:
-    last_seen_hash: "sha256:871bedd55907b952c2626dc000e2ed7e7a539100ae9506e95284d6b8ff652953"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:0e2005566360e01bf915da91bfc2632f537005cee47aab23921b67cb27a1d150"
+    last_seen_at: 2026-06-10T11:15:04Z
   T2-02:
-    last_seen_hash: "sha256:3ed1b1384896ede61929651c27d4a993c06a343fb44afa95ee371c99aab0c8ef"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:471984770c4166e9b79edf7b41096247f629e44dc7deb8ffc78a3923de0d492f"
+    last_seen_at: 2026-06-10T11:15:04Z
   T2-03:
-    last_seen_hash: "sha256:5f792c53fd8779d4dacabdd06f4fd55e1c23f6994327fd2c2c56e6a58c8a90af"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:bbf8f6de4733394ef6dc118c8fbc4447e4d0e10eb534ed8a03be3939af99eecf"
+    last_seen_at: 2026-06-10T11:15:04Z
   # T2-04: Cloudflare-blocked on every run; treat as unreachable, no hash stored.
   T2-05:
-    last_seen_hash: "sha256:93c0fd219e443e0ae900a944aef06a1fc579f700e47b638a381e492c29fd96e0"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:e96b5bd141bc26850ae1cd692d6ad36800b03f75d7529cd057d9dc8c9826a728"
+    last_seen_at: 2026-06-10T11:15:04Z
   T2-06:
-    last_seen_hash: "sha256:cedee2e0ce04cf52d64023eb9d413e95564b3fd62a1bba90296785cb44eecccd"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:afb07656e51c3c66146f1821ab8c764be800a083dc759293ab15e5ef38ecfa61"
+    last_seen_at: 2026-06-10T11:15:04Z
   T2-07:
-    last_seen_hash: "sha256:7920d252ac894a3b8b454fd7b5334ae0b269a8854e434c8de20181a4bbefe575"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:6171f394c575345f896600158ffad52b2fa4e506b3a70f407ad762a743397fe7"
+    last_seen_at: 2026-06-10T11:15:04Z
   T2-08:
-    last_seen_hash: "sha256:0684b54f3cbc0fab431f2feb432b63999a233a4438acf877cd6219c15e297021"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:2404145c220d905131b70321cd2e3a8de35cb6ec2309658833cb2cf51c3777c0"
+    last_seen_at: 2026-06-10T11:15:04Z
   T2-09:
-    last_seen_hash: "sha256:94f8246ecb791e1370d3dc9d2987b7dbcd410d8e3a487a2ecbf4d33a7c68144e"
-    last_seen_at: 2026-06-09T10:30:00Z
+    last_seen_hash: "sha256:0404fe27c75ec15f35719730993a9de641164217d6e51d9ed178b6dea676a46c"
+    last_seen_at: 2026-06-10T11:15:04Z
   T3-01:
-    last_seen_indexed_at: 2026-06-08T19:58:54.073Z
+    last_seen_indexed_at: 2026-06-09T21:27:12.967Z
     did: did:plc:wxpnu3arxymnfzh7zm2vx4cn
   T3-02:
-    last_seen_indexed_at: 2026-06-09T10:15:10.869Z
+    last_seen_indexed_at: 2026-06-10T07:13:01.262Z
     did: did:plc:6tig4nnvqut4jhyxmvqbxbag
   T3-03:
     last_seen_indexed_at: 2026-06-09T05:38:36.268Z
@@ -110,7 +120,7 @@ sources:
     last_seen_indexed_at: 2026-06-05T06:58:35.864Z
     did: did:plc:66ealeut54i3dvgseb4gcn3z
   T3-07:
-    last_seen_indexed_at: 2026-06-09T10:07:22.270Z
+    last_seen_indexed_at: 2026-06-10T06:13:43.367Z
     did: did:plc:s2xjhqmjyvk54jw2bat5yyyt
   T3-08:
     last_seen_indexed_at: 2026-06-05T11:39:54.270Z

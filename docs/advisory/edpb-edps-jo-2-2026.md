@@ -57,6 +57,12 @@ cannot identify the person, and does not become personal merely because a *subse
 → **They strongly urge the co-legislators not to adopt the change** (¶21).
 See [Art 4 provision](../provisions/gdpr-art4-personal-data.md).
 
+> **Reaffirmed (10 June 2026):** at its plenary the EDPB met **Commissioner McGrath**; with the Digital
+> Omnibus "among the key topics", the Board restated that it is "crucial not to adopt the proposed
+> amendments to the definition of personal data, as they risk significantly weakening individual data
+> protection" — see [TIMELINE](../../TIMELINE.md).
+> ([EDPB news, 10 Jun 2026](https://www.edpb.europa.eu/news/news/2026/edpb-meets-eu-commissioner-mcgrath-and-adopts-common-data-breach-notification_en))
+
 <a id="implementing-act-pseudonymisation"></a>
 ## Pseudonymisation by implementing act (Art 41a) — **opposed** (¶22–25)
 

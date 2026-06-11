@@ -16,7 +16,9 @@ Per-provision detail lives in [`provisions/`](provisions/). Machine-readable ver
 [`member-state-positions.md`](member-state-positions.md). The **EDPB–EDPS** column distils
 **Joint Opinion 2/2026** — full digest in [`advisory/edpb-edps-jo-2-2026.md`](advisory/edpb-edps-jo-2-2026.md);
 the ECB ([CON/2026/9](advisory/ecb-con-2026-9.md)) and EESC ([INT/1108](advisory/eesc-int1108.md))
-opinions are digested under [`advisory/`](advisory/).
+opinions are digested under [`advisory/`](advisory/). The EDPB **reaffirmed** its opposition to the
+personal-data redefinition at its **10 June 2026 plenary** (meeting with Commissioner McGrath) —
+see [`../TIMELINE.md`](../TIMELINE.md).
 
 | Topic | Commission (COM(2025) 837) | Council (ST 9547/26) | Parliament (provisional) | EDPB–EDPS |
 |---|---|---|---|---|

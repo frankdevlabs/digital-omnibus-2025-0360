@@ -149,6 +149,19 @@ sources:
     url: "https://www.tweedekamer.nl/debat_en_vergadering/commissievergaderingen?fld_prl_voortouwcommissie=vaste+commissie+voor+Digitale+Zaken&srt=date%3Aasc%3Adate"
     affects: [TIMELINE.md, docs/member-state-positions.md]
     notes: "Hits usually carry the next scheduled meeting date → TIMELINE entry."
+  T1-19:
+    tier: T1
+    kind: institutional
+    label: "officielebekendmakingen.nl — Kamervragen (vragen + Aanhangsel) Omnibus / privacy"
+    url: "https://zoek.officielebekendmakingen.nl/rss?q=(c.product-area==%22officielepublicaties%22)and(((w.publicatienaam==%22Kamervragen+(Aanhangsel)%22)or(w.publicatienaam==%22Kamervragen+zonder+antwoord%22)))and((cql.textAndIndexes=%22Omnibus%22)and((cql.textAndIndexes=%22privacy%22)or(cql.textAndIndexes=%22gegevensbescherming%22)or(cql.textAndIndexes=%22AVG%22)))&svel=Publicatiedatum&svol=Aflopend"
+    affects: [docs/member-state-positions.md, STATUS.md, TIMELINE.md]
+    notes: >-
+      RSS, newest-first. Tweede Kamer Kamervragen on the data-protection Omnibus: kv-tk-… = schriftelijke
+      vragen (question filed), ah-tk-… = the Aanhangsel answer (incl. uitstel-beantwoording). Dutch-language
+      scope rule: in-scope ONLY if the item concerns file 2025/0360 (GDPR/AVG, ePrivacy, Data Act, cyber),
+      NOT solely the sibling AI-Act Omnibus 2025/0359. Filter on the <description> line. Known thread: lid
+      Kathmann on 'het slopen van de privacybescherming in de nieuwe Europese Omnibus-wetgeving'. Route
+      substance to docs/member-state-positions.md.
 
   # --- Tier 2: NGO / journalism / law firm -------------------------------------
   T2-01:

@@ -3,11 +3,14 @@
 This is the core comparison. The **Council** column reflects the operative text of **ST 9547/26
 (21 May 2026)** as transcribed in [`../extracts/council/`](../extracts/council/) — which differs
 from earlier reporting on several points (see [`../STATUS.md`](../STATUS.md)). The **Parliament**
-column is provisional: the EP has taken no substantive step — the
+column is provisional: the EP has taken no formal position — the
 [Oeil procedure file](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD))
 shows status *Awaiting committee decision* with no key event beyond the 19 Jan 2026 committee
-referral, and no joint ITRE/LIBE draft report exists yet. Entries therefore reflect rapporteur
-statements, committee debate and group signals only.
+referral, and no joint ITRE/LIBE draft report exists yet. The first committee-for-opinion text — the
+**JURI draft opinion** (rapporteur Benifei, S&D, [PE789.142v01-00, 5 Jun 2026](https://www.europarl.europa.eu/doceo/document/JURI-PA-789142_EN.pdf);
+[register](../sources/README.md#european-parliament)) — has been drafted, but its operative content is
+not yet retrieved (doceo bot-block), so it is **not** reflected in the per-provision cells below.
+Entries therefore reflect rapporteur statements, committee debate and group signals only.
 
 Per-provision detail lives in [`provisions/`](provisions/). Machine-readable version:
 [`../data/positions.csv`](../data/positions.csv) — which additionally carries **ECB**, **EESC** and

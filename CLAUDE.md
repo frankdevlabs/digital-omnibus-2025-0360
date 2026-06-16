@@ -27,6 +27,10 @@ The repo deliberately separates three layers so links stay stable as the file ev
 `extracts/council/` holds one five-file set **per Council compromise version** (`ST-6406`, `ST-8261-1-26-REV1`,
 `ST-9547` …), structured identically so `git diff` between versions is meaningful. The five files per
 version are always: `_gdpr-art3-amendments`, `_eprivacy-art5`, `_cyber-art6-9`, `_final-art10-11`, `_recitals`.
+`extracts/parliament/` holds **EP committee texts** (draft opinions, draft reports, tabled amendments),
+**one file per committee document** (`JURI-PA-789142_draft-opinion.md`, …). These are *not* consolidated
+like the Council texts — they are discrete numbered amendments in two-column tables, transcribed as
+tabled (see `extracts/parliament/_TRANSCRIPTION_GUIDE.md`).
 
 ## Single sources of truth (don't hand-edit downstream copies)
 
@@ -72,6 +76,25 @@ Transcribe the **consolidated** result (changes applied, markup not reproduced),
 onto an earlier text). Mark whole-provision deletions `[DELETED in ST <nnnn>/26]`, undecided source
 brackets `[...]` preserved as-is, illegible passages `[illegible in source]`. Then branch
 `extracts/st-<nnnn>-<yyyy>`, commit the five files (not the `/tmp` PNGs), and PR to `main`.
+
+## Adding an EP committee text (draft opinion / report / amendments)
+
+When a Parliament committee text on the file appears (JURI/LIBE/ITRE/IMCO), **use the
+`transcribe-parliament-extract` skill**; rules live in `extracts/parliament/_TRANSCRIPTION_GUIDE.md`.
+Unlike Council texts there is no tracked-change redline to recover — transcribe the discrete
+amendments as tabled (so `pdf_changes.py` does **not** apply; use `render_pdf.py` + `linkcheck.py`).
+
+Two recurring traps:
+- **Scope.** A committee can opine on *both* omnibus files — confirm the doc's own interinstitutional
+  reference is **2025/0360(COD)** (data/cyber, incl. the **Data Act** strand of COM(2025) 837), not
+  **2025/0359(COD)** (AI Act). Check the rapporteur too (JURI on 0360 = Benifei; JURI on 0359 =
+  Lagodinsky). A listing-page summary can mis-attribute a row; the cover page is the tie-breaker.
+- **doceo is WAF-blocked.** `www.europarl.europa.eu/doceo/...` returns HTTP 202 (AWS-WAF JS challenge)
+  to all non-browser clients, for both `.pdf` and `.docx` — `curl`/WebFetch get 0 bytes. Confirm
+  existence/metadata via the committee *documents* pages and OEIL, but obtain the operative text via a
+  **browser download** or a non-WAF mirror, commit it under `sources/parliament/`, then transcribe. If
+  only metadata is confirmed, register metadata-only and set `pending_operative_text: true` — never
+  assert per-provision content from a screenshot or a journalist's summary.
 
 ## Conventions
 

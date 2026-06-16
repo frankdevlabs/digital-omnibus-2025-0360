@@ -106,7 +106,6 @@ sources:
   T2-03:
     last_seen_hash: "sha256:5dedbad26e065062885be316cf9279415c6cc6ac10e63423fa1f69ea314eb3dc"
     last_seen_at: 2026-06-16T11:07:17Z
-  # T2-04: Cloudflare-blocked on every run; treat as unreachable, no hash stored.
   T2-05:
     last_seen_hash: "sha256:88cf21de54e9a55e10047f53d2a839968b6ddc4f995c522ac692c0b53bbe3eb2"
     last_seen_at: 2026-06-16T11:07:17Z

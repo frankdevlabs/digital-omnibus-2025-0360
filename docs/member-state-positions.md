@@ -328,6 +328,16 @@ on 9 June 2026.
 **Tweede Kamer tweeminutendebat (3 June 2026, pre-Council):** A plenary two-minute debate took place on 3 June 2026 ahead of the formal Telecom Council of 9 June. Two motions were submitted: 21501-33-1205 (Kathmann — positive stance toward EU ICT-supplier preference; outcome TBC) and 21501-33-1206 (Van den Berg — keep fundamental GDPR changes out of the Omnibus; **withdrawn** at the 4 June vote). The ongecorrigeerd debate report (2026D27237) and stemmingsuitslagen (2026P09467) are published.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-03, 2026-06-09)
 
+**Tweede Kamer Kamervragen — Kathmann on the GDPR-weakening concern (Jan 2026):** The same MP filed written
+questions (`kv-tk-2025Z19922`, 17 Nov 2025) "over het slopen van de privacybescherming in de nieuwe Europese
+Omnibus-wetgeving" — directly on the AVG/GDPR-weakening concern central to file 2025/0360. After an uitstel
+(`ah-tk-20252026-583`, 8 Dec 2025), the government answered on **5 January 2026** (`ah-tk-20252026-792`).
+Register entry [`ah-tk-20252026-792`](../sources/README.md#advisory-bodies--national-parliaments);
+source on [officielebekendmakingen.nl](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-792.html).
+Verify the answer text before citing the specific government position. This thread is now watched via
+tracker source **T1-19** (officielebekendmakingen.nl Kamervragen RSS).
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-01-05)
+
 ---
 
 ## How this fed the later compromise

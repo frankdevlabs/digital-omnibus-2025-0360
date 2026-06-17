@@ -1,6 +1,10 @@
 # Document register for file 2025/0360 (COD).
 # This YAML is the single source of truth; sources/README.md is its rendered table.
-# Fields: id, title, body, date (ISO), limite (bool), url (authoritative), mirror (public copy if LIMITE), local (path if committed), notes
+# Common fields: id, title, body, date (ISO), limite (bool), url (authoritative), mirror (public
+#   copy if LIMITE), local (path if committed), lead_source (credit for a Tier-2/3/external lead that
+#   surfaced the doc — name+handle, watchlist code, tip URL+date), notes.
+# Not exhaustive — see .claude/skills/register-document/SKILL.md for the full field reference
+#   (access, register, celex, national_parliament, local_cover/_annex/_init/_add1…, etc.).
 
 documents:
   - id: COM-2025-47

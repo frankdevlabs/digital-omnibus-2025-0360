@@ -55,7 +55,7 @@ number, not asserted as live), and a national-parliament record or public mirror
 | 2025/0360(COD) | Oeil procedure file | 2026-01-19 | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)) |
 | — | Legislative Train entry | 2026-04-20 | [legislative-train](https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-digital-package) |
 | — | EU Law Tracker procedure 2025/360 | 2026-05-01 | [law-tracker](https://law-tracker.europa.eu/procedure/2025_360?lang=en) |
-| PE 789.142 | **JURI draft opinion** (Committee on Legal Affairs, rapporteur Benifei) — for ITRE/LIBE; 68 amendments on the data-acquis strand ([extract](../extracts/parliament/JURI-PA-789142_draft-opinion.md)) | 2026-06-05 | [PDF](parliament/JURI-PA-789142_draft-opinion_2026-06-05.pdf) · [doceo](https://www.europarl.europa.eu/doceo/document/JURI-PA-789142_EN.pdf) |
+| PE 789.142 | **JURI draft opinion** (Committee on Legal Affairs, rapporteur Benifei) — for ITRE/LIBE; 68 amendments on the data-acquis strand ([extract](../extracts/parliament/JURI-PA-789142_draft-opinion.md)); lead: [@montezumachavez](https://bsky.app/profile/montezumachavez.bsky.social/post/3mo4ae7izjs2h) (`T3-01`) | 2026-06-05 | [PDF](parliament/JURI-PA-789142_draft-opinion_2026-06-05.pdf) · [doceo](https://www.europarl.europa.eu/doceo/document/JURI-PA-789142_EN.pdf) |
 
 ## Member-state positions
 

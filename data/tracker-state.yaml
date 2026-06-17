@@ -54,7 +54,7 @@ sources:
     last_seen_hash: "sha256:1146cc7f6444c73e32f9faefbd6fa2ab938f0003d016d9b648dbae4e0638cb25"
     last_seen_at: 2026-06-17T11:07:52Z
   T1-05:
-    last_seen_hash: "sha256:19d8efb46b09fb26844f246ede8a412f18aaa46fd4928d6e6f2b05772a1e64c8"
+    seen_refs: []   # in-scope 2025/0360 ITRE docs already issued (none yet); was whole-page hash
     last_seen_at: 2026-06-17T11:07:52Z
   T1-06:
     last_seen_hash: "sha256:5739a38d400d2ec6871f6cf0628deadbb573cbcb4af579a584f0b92d9055b7a7"
@@ -98,6 +98,15 @@ sources:
   T1-19:
     # Recovered 2026-06-17 (HTTP 200, hash == 06-15 baseline, no new items); see #49.
     last_seen_hash: "sha256:fe1110ad69eaae4fefd3630e4b3a50df8ea91b116890c53db2429fe51c407039"
+    last_seen_at: 2026-06-17T11:07:52Z
+  T1-20:
+    # Per-document detection (ep_committee_docs.py). Seeded with the JURI draft
+    # opinion that reached us via Bluesky first (issue #47) so it isn't re-issued.
+    seen_refs:
+      - PE789.142v01-00
+    last_seen_at: 2026-06-17T11:07:52Z
+  T1-21:
+    seen_refs: []   # in-scope 2025/0360 LIBE docs already issued (none yet; McNamara reports are 0359)
     last_seen_at: 2026-06-17T11:07:52Z
   T2-01:
     last_seen_hash: "sha256:99e9f2ba9007a695d540768259b23ce9320592a19099370c6050d56e74f484c2"

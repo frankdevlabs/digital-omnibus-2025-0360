@@ -55,10 +55,10 @@ sources:
   T1-05:
     tier: T1
     kind: institutional
-    label: "EP ITRE committee — latest documents"
-    url: "https://www.europarl.europa.eu/committees/en/itre/documents/latest-documents"
-    affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
-    notes: "Rotating-widget false-positive trap (~30%); confirm the change concerns 2025/0360 before acting."
+    label: "EP ITRE committee — documents (co-lead on 2025/0360)"
+    url: "https://www.europarl.europa.eu/committees/en/documents/latest-documents?committeeMnemoCode=ITRE"
+    affects: [extracts/parliament/, docs/provisions/, docs/instruments/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
+    notes: "Per-document detection via ~/law-tracker/lib/ep_committee_docs.py (parses es_document blocks; --match-title '(?i)digital omnibus(?! on ai)' keeps 2025/0360 and drops the AI file 2025/0359). State tracks seen_refs, not a page hash — no rotating-widget false positives. An ITRE committee text → parliament-text playbook → transcribe-parliament-extract; doceo PDF/DOCX needs a browser download (202/WAF)."
   T1-06:
     tier: T1
     kind: institutional
@@ -166,16 +166,16 @@ sources:
     tier: T1
     kind: institutional
     label: "EP JURI committee — documents (draft opinions)"
-    url: "https://www.europarl.europa.eu/committees/en/juri/documents/latest-documents"
+    url: "https://www.europarl.europa.eu/committees/en/documents/latest-documents?committeeMnemoCode=JURI"
     affects: [extracts/parliament/, docs/provisions/, docs/instruments/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
-    notes: "EP committee operative texts (e.g. JURI draft opinion PE789.142, Benifei, on 2025/0360 — Data Act/trade-secrets strand). A hit → parliament-text playbook → hand off to transcribe-parliament-extract. Confirm 2025/0360 (not 2025/0359 AI) on the doc itself. doceo bot-blocks the PDF/DOCX (HTTP 202/WAF): the listing confirms metadata; operative text needs a browser download or mirror."
+    notes: "Per-document detection via ~/law-tracker/lib/ep_committee_docs.py (parses es_document blocks; --match-title '(?i)digital omnibus(?! on ai)' keeps 2025/0360 and drops the AI file 2025/0359, rapporteur Lagodinsky). State tracks seen_refs, not a page hash. This is the source that should have caught JURI draft opinion PE789.142 (Benifei) before Bluesky did. A hit → parliament-text playbook → transcribe-parliament-extract. doceo bot-blocks the PDF/DOCX (HTTP 202/WAF): the listing confirms metadata; operative text needs a browser download or mirror."
   T1-21:
     tier: T1
     kind: institutional
     label: "EP LIBE committee — documents (draft opinions / reports / amendments)"
-    url: "https://www.europarl.europa.eu/committees/en/libe/documents/latest-documents"
+    url: "https://www.europarl.europa.eu/committees/en/documents/latest-documents?committeeMnemoCode=LIBE"
     affects: [extracts/parliament/, docs/provisions/, docs/instruments/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
-    notes: "LIBE is co-lead (joint ITRE/LIBE). A draft report / tabled amendments → parliament-text playbook → transcribe-parliament-extract. Same doceo WAF caveat as T1-20. (ITRE committee documents are watched at T1-05.)"
+    notes: "LIBE is co-lead (joint ITRE/LIBE). Per-document detection via ~/law-tracker/lib/ep_committee_docs.py (--match-title '(?i)digital omnibus(?! on ai)' keeps 2025/0360 and drops 0359 'Digital Omnibus on AI', rapporteur McNamara). State tracks seen_refs, not a page hash. A draft report / tabled amendments → parliament-text playbook → transcribe-parliament-extract. Same doceo WAF caveat as T1-20. (ITRE committee documents are watched at T1-05.)"
 
   # --- Tier 2: NGO / journalism / law firm -------------------------------------
   T2-01:

@@ -1,6 +1,7 @@
 > **JURI draft opinion — PE789.142v01-00** · Committee on Legal Affairs · rapporteur **Brando Benifei** · **5 June 2026**
 > Draft opinion for the lead joint **ITRE/LIBE**, on the Digital Omnibus **COM(2025) 0837 – C10-0303/2025 – 2025/0360(COD)**.
 > Working transcription, not an official text — verify against the authoritative document (`JURI-PA-789142_EN.pdf` / doceo). See [`../../NOTICE`](../../NOTICE).
+> **Lead:** surfaced by **Luis Alberto Montezuma** ([@montezumachavez.bsky.social](https://bsky.app/profile/montezumachavez.bsky.social/post/3mo4ae7izjs2h), watchlist `T3-01`), [triage #47](../../docs/triage/2026-06-15-issue-47.md).
 
 ## Short justification
 

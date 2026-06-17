@@ -54,7 +54,7 @@ If no URL/path is given, ask for one (or the document metadata) and stop.
    |---|---|---|
    | Commission | `sources/commission/` | `COM-2025-837_proposal_2025-11-19.docx` |
    | Council (ST / WK / CM) | `sources/council/` | `ST-9547-2026_council-presidency-compromise_2026-05-21.pdf` |
-   | Parliament | `sources/parliament/` | (often link-only — no committed file) |
+   | Parliament | `sources/parliament/` | `JURI-PA-789142_draft-opinion_2026-06-05.pdf` (committee operative text — commit it; metadata-only/link if text not retrievable) |
    | EDPB-EDPS | `sources/edpb-edps/` | `EDPB-EDPS-JO-2-2026_opinion_2026-02-10.pdf` |
    | ECB / EESC / CoR (advisory) | `sources/advisory/` | `ECB-CON-2026-9_opinion_2026-03-10.pdf` |
    | a Member State (national gov / non-paper) | `sources/member-states/` | `NL-NONPAPER-2026-04-08_non-paper-gdpr-changes_2026-04-08.pdf` |
@@ -90,9 +90,15 @@ If no URL/path is given, ask for one (or the document metadata) and stop.
    - Before asserting any feature of "the proposal", check `STATUS.md`'s "What changed"
      table (full version: `docs/what-changed.md`) — several widely-reported features were deleted/moved.
 
-6. **If the document is a full Council compromise text** (a new ST LIMITE text) → register it here, then
-   **hand transcription to the `transcribe-council-extract` skill** for the `extracts/council/` set.
-   Do not transcribe operative text in this skill.
+6. **If the document carries operative text, hand transcription off — don't transcribe here:**
+   - A full **Council compromise text** (new ST LIMITE text) → **`transcribe-council-extract`**
+     (`extracts/council/` five-file set).
+   - An **EP committee text** (JURI/LIBE/ITRE/IMCO draft opinion, draft report, or tabled amendments)
+     → **`transcribe-parliament-extract`** (`extracts/parliament/<DOC-ID>_<desc>.md`, per-amendment).
+     `doceo` bot-blocks automated fetches (HTTP 202 / AWS-WAF) for both PDF and DOCX, so the file must
+     come from a browser download or a non-WAF mirror. If only cover-page metadata is confirmed,
+     register metadata-only and set `pending_operative_text: true` (see `resolve-tracker-issue`) —
+     do not assert operative content from a screenshot or summary.
 
 7. **Link-check.** `python3 .claude/skills/transcribe-council-extract/linkcheck.py .` — must end
    "0 broken". Also sanity-check the YAML:

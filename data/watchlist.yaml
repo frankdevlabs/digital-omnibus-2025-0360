@@ -162,6 +162,20 @@ sources:
       NOT solely the sibling AI-Act Omnibus 2025/0359. Filter on the <description> line. Known thread: lid
       Kathmann on 'het slopen van de privacybescherming in de nieuwe Europese Omnibus-wetgeving'. Route
       substance to docs/member-state-positions.md.
+  T1-20:
+    tier: T1
+    kind: institutional
+    label: "EP JURI committee — documents (draft opinions)"
+    url: "https://www.europarl.europa.eu/committees/en/juri/documents/latest-documents"
+    affects: [extracts/parliament/, docs/provisions/, docs/instruments/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
+    notes: "EP committee operative texts (e.g. JURI draft opinion PE789.142, Benifei, on 2025/0360 — Data Act/trade-secrets strand). A hit → parliament-text playbook → hand off to transcribe-parliament-extract. Confirm 2025/0360 (not 2025/0359 AI) on the doc itself. doceo bot-blocks the PDF/DOCX (HTTP 202/WAF): the listing confirms metadata; operative text needs a browser download or mirror."
+  T1-21:
+    tier: T1
+    kind: institutional
+    label: "EP LIBE committee — documents (draft opinions / reports / amendments)"
+    url: "https://www.europarl.europa.eu/committees/en/libe/documents/latest-documents"
+    affects: [extracts/parliament/, docs/provisions/, docs/instruments/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
+    notes: "LIBE is co-lead (joint ITRE/LIBE). A draft report / tabled amendments → parliament-text playbook → transcribe-parliament-extract. Same doceo WAF caveat as T1-20. (ITRE committee documents are watched at T1-05.)"
 
   # --- Tier 2: NGO / journalism / law firm -------------------------------------
   T2-01:
@@ -229,7 +243,8 @@ sources:
     label: "Bluesky — montezumachavez.bsky.social"
     handle: "montezumachavez.bsky.social"
     did: "did:plc:wxpnu3arxymnfzh7zm2vx4cn"
-    affects: [docs/stakeholders.md]
+    affects: [docs/stakeholders.md, extracts/parliament/, docs/provisions/, docs/instruments/, STATUS.md, TIMELINE.md]
+    notes: "An EU privacy lawyer — has surfaced Tier-1-grade substance (e.g. issue #47: a JURI draft opinion). Treat by the substance, not the tier: if a post points to a primary EP/Council/advisory document, upgrade to the matching institutional/parliament-text/council-text playbook (see SKILL.md). The Bluesky post itself is a lead, not a source for operative text."
   T3-02:
     tier: T3
     kind: social

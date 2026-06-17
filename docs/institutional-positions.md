@@ -3,11 +3,19 @@
 This is the core comparison. The **Council** column reflects the operative text of **ST 9547/26
 (21 May 2026)** as transcribed in [`../extracts/council/`](../extracts/council/) — which differs
 from earlier reporting on several points (see [`../STATUS.md`](../STATUS.md)). The **Parliament**
-column is provisional: the EP has taken no substantive step — the
+column is provisional: the EP has taken no formal position — the
 [Oeil procedure file](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD))
 shows status *Awaiting committee decision* with no key event beyond the 19 Jan 2026 committee
-referral, and no joint ITRE/LIBE draft report exists yet. Entries therefore reflect rapporteur
-statements, committee debate and group signals only.
+referral, and no joint ITRE/LIBE draft report exists yet. The first committee-for-opinion text — the
+**JURI draft opinion** (rapporteur Benifei, S&D, PE789.142v01-00, 5 Jun 2026;
+[register](../sources/README.md#european-parliament)) — is now transcribed
+([extract, 68 amendments](../extracts/parliament/JURI-PA-789142_draft-opinion.md)). It targets the
+**data-acquis strand** (Data Act / DGA / P2B / Open Data), **not** the GDPR-strand provisions in the
+table below, so those cells still reflect rapporteur statements, committee debate and group signals
+only. The JURI position is captured on the affected pages instead:
+[Data Act](instruments/data-act-2023-2854.md#parliament--juri-draft-opinion) and the
+[P2B repeal](provisions/final-repeals-p2b.md#parliament--juri-draft-opinion). The joint ITRE/LIBE
+draft report — Parliament's first cross-strand position — is still pending.
 
 Per-provision detail lives in [`provisions/`](provisions/). Machine-readable version:
 [`../data/positions.csv`](../data/positions.csv) — which additionally carries **ECB**, **EESC** and

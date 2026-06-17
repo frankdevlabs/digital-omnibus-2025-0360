@@ -320,7 +320,10 @@ decided — pending further ministerial letters from the State Secretary of Econ
 to the committees' April questions on 22 May 2026 in the *verslag van nader schriftelijk overleg*,
 36.890, EK, T) — to allow contributions for a further *nader schriftelijk overleg* (written consultation)
 by **30 June 2026** (dossier E260003). The decision is recorded in the *korte aantekeningen* of the
-2 June 2026 DIGI/EZ-KGG meeting. The Senate's scrutiny track runs parallel to the Tweede Kamer process
+2 June 2026 DIGI/EZ-KGG meeting. The same day the dossier also received the **European Commission's
+reaction letter (36.890, EK, V, 2 June 2026)** — the Commission's answers to the committees' questions
+on the *Omnibus Digitaal*, Omnibus AI and Data Union Strategy, a distinct sub-document from the
+22 May *verslag* (36.890, EK, T). The Senate's scrutiny track runs parallel to the Tweede Kamer process
 (which concluded its pre-Telecomraad written consultation on 3 June) ahead of the formal Telecom Council
 on 9 June 2026.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-05-22, 2026-06-02)

@@ -1,6 +1,10 @@
 # Document register for file 2025/0360 (COD).
 # This YAML is the single source of truth; sources/README.md is its rendered table.
-# Fields: id, title, body, date (ISO), limite (bool), url (authoritative), mirror (public copy if LIMITE), local (path if committed), notes
+# Common fields: id, title, body, date (ISO), limite (bool), url (authoritative), mirror (public
+#   copy if LIMITE), local (path if committed), lead_source (credit for a Tier-2/3/external lead that
+#   surfaced the doc — name+handle, watchlist code, tip URL+date), notes.
+# Not exhaustive — see .claude/skills/register-document/SKILL.md for the full field reference
+#   (access, register, celex, national_parliament, local_cover/_annex/_init/_add1…, etc.).
 
 documents:
   - id: COM-2025-47
@@ -231,6 +235,11 @@ documents:
     limite: false
     url: https://www.europarl.europa.eu/doceo/document/JURI-PA-789142_EN.pdf
     local: sources/parliament/JURI-PA-789142_draft-opinion_2026-06-05.pdf
+    lead_source: >-
+      Luis Alberto Montezuma (@montezumachavez.bsky.social, watchlist T3-01) — Bluesky post
+      2026-06-12, https://bsky.app/profile/montezumachavez.bsky.social/post/3mo4ae7izjs2h
+      (linked the doceo PDF + cover-page screenshot). Credited lead: this committee text reached
+      the tracker only via his post, ahead of any institutional EP-documents feed.
     notes: >-
       First formal EP committee output on file 2025/0360 — a draft opinion of the Committee on Legal
       Affairs (JURI), rapporteur Brando Benifei (S&D), PE789.142v01-00 (PA\1345001EN.docx), for the

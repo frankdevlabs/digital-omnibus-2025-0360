@@ -71,6 +71,14 @@ If no URL/path is given, ask for one (or the document metadata) and stop.
    - `access` (omit = fully public). Allowed values seen in the file:
      `cite-only`, `screenshot-only`, `not-public`, `public-released`, `public-via-register`,
      `public-via-journalist`, `public-via-national-parliament`.
+   - `lead_source` (`>-` block, optional) — **credit the lead that surfaced the document** when it
+     reached the repo via something other than its own institutional feed: who/what flagged it
+     (name + handle/outlet), the watchlist code (e.g. `T3-01`), the tip URL + date, and one clause on
+     why it counts as the lead (e.g. "ahead of any institutional EP-documents feed"). Set it whenever
+     the `register-document` run was triggered by a `resolve-tracker-issue` hit on a Tier-2/Tier-3
+     source, or by any external tip-off rather than a Tier-1 institutional source. Render it in the
+     `sources/README.md` row as `lead: [@handle](tip-url) (\`code\`)`. (First use: `JURI-PA-789142`,
+     surfaced by `@montezumachavez.bsky.social` / `T3-01`.)
    - `notes` (`>-` block): what it is, the substantive stance in 2–4 sentences, cross-links to the
      digest/positions page. New `body` values (e.g. `Netherlands`) are allowed.
 

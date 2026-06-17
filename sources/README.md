@@ -82,6 +82,7 @@ summarised in [`../docs/member-state-positions.md`](../docs/member-state-positio
 | Committee of the Regions | Mandatory consultee (Art named in COM(2025) 837); no opinion tracked yet | — | — | — |
 | Czech Senate | Protocol 2 contribution | 2026-02-13 | — | — |
 | Italian Camera dei Deputati | Observations | 2026-02-24 | — | — |
+| Tweede Kamer (NL) | **Kamervragen (lid Kathmann)** on "het slopen van de privacybescherming" in the Digital Omnibus — government answer (`ah-tk-20252026-792`; orig. question `kv-tk-2025Z19922`, 17 Nov 2025) | 2026-01-05 | — | [officielebekendmakingen.nl](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-792.html) · positions in [`../docs/member-state-positions.md`](../docs/member-state-positions.md) |
 
 ## Stakeholders
 

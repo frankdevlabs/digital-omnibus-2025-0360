@@ -22,6 +22,7 @@ authoritative copy. Dates in ISO format. Newest events at the bottom of each yea
 | Date | Event | Source |
 |---|---|---|
 | 2026-01-01 | Cyprus assumes the Council Presidency | — |
+| 2026-01-05 | **Tweede Kamer Kamervragen answered** — government reply (`ah-tk-20252026-792`) to written questions by **lid Kathmann** "over het slopen van de privacybescherming in de nieuwe Europese Omnibus-wetgeving" (orig. question `kv-tk-2025Z19922`, 17 Nov 2025; uitstel `ah-tk-20252026-583`, 8 Dec 2025) — directly on the GDPR/AVG-weakening concern central to 2025/0360 | [register: ah-tk-20252026-792](sources/README.md) · [positions](docs/member-state-positions.md) |
 | 2026-01-09 | **Council working party** — Cyprus circulates first discussion document to capitals (note WK 252/26; agenda CM 5531/25) | [register](sources/README.md) |
 | 2026-01-16 | **Council working party** deliberations (notes WK 250/26, WK 448/26; agenda CM 1136/26) | [register](sources/README.md) |
 | 2026-01-19 | EP committee referral announced in Parliament, 1st reading (joint ITRE/LIBE, Rule 59; IMCO & JURI opinion) — one of only **two** EP key events on Oeil | [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)) |

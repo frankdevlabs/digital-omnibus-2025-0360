@@ -35,8 +35,22 @@ as standalone instruments.
   [Art 11 application dates](../../extracts/council/ST-9547-2026_final-art10-11.md)
 - See the [repealed-instruments page](../instruments/repealed.md) for the full per-instrument table.
 
-## Parliament (provisional)
-No draft report yet.
+<a id="parliament--juri-draft-opinion"></a>
+## Parliament — JURI draft opinion (PE789.142, Benifei, 5 Jun 2026)
+No joint ITRE/LIBE draft report yet, but the **JURI draft opinion** takes a clear line: **oppose the P2B
+repeal.** It deletes the Commission's repeal recital 59
+([Am 12](../../extracts/parliament/JURI-PA-789142_draft-opinion.md#amendment-12)) and both operative repeal
+limbs of Omnibus **Article 10** — the outright repeal of Reg (EU) 2019/1150
+([Am 67](../../extracts/parliament/JURI-PA-789142_draft-opinion.md#amendment-67)) and the 31 Dec 2032
+derogation list ([Am 68](../../extracts/parliament/JURI-PA-789142_draft-opinion.md#amendment-68)). The
+justification: the DSA/DMA do not fully replace P2B's fairness/transparency safeguards (ranking
+transparency, complaint-handling, unfair-suspension protections) for SMEs outside the DMA's scope. This
+aligns JURI with the broad **member-state resistance** to the repeal (below). On the **DGA/Open-Data**
+repeals, JURI does not oppose the consolidation as such but **restores the DGA safeguards** the Omnibus
+weakened (mandatory registration, data-intermediation neutrality) — see
+[Data Act instrument page](../instruments/data-act-2023-2854.md#parliament--juri-draft-opinion).
+A committee-for-opinion text, not the draft report; amendment deadline 26 Jun 2026. Via triage
+[#47](../triage/2026-06-15-issue-47.md).
 
 ## EDPB–EDPS
 The regulators **welcome merging the Data Acquis into the Data Act** and streamlining overlapping/outdated

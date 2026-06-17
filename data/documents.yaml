@@ -224,6 +224,26 @@ documents:
       (Agius Saliba, S&D, 02/03/2026). Committee dossier CJ72/10/04598. Legal basis RoP EP 59; TFEU
       16(2), 294(7), 114. Commission registered to DG CNECT, Commissioner Dombrovskis.
 
+  - id: JURI-PA-789142
+    title: "JURI draft opinion on the Digital Omnibus (rapporteur Benifei) — for ITRE/LIBE"
+    body: Parliament
+    date: 2026-06-05
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/JURI-PA-789142_EN.pdf
+    local: sources/parliament/JURI-PA-789142_draft-opinion_2026-06-05.pdf
+    notes: >-
+      First formal EP committee output on file 2025/0360 — a draft opinion of the Committee on Legal
+      Affairs (JURI), rapporteur Brando Benifei (S&D), PE789.142v01-00 (PA\1345001EN.docx), for the
+      lead joint committee ITRE/LIBE. NB this is a draft opinion, not the joint ITRE/LIBE draft report
+      (still pending); amendment-tabling deadline 26 Jun 2026, committee vote expected ~Nov 2026. The
+      PDF (doceo HTTP 202-blocks automated download) was retrieved via browser and committed; its 68
+      amendments are transcribed in extracts/parliament/JURI-PA-789142_draft-opinion.md. Substance is
+      the data-acquis strand (Data Act 2023/2854, DGA 2022/868, P2B 2019/1150, Open Data 2019/1024):
+      Benifei largely reverses the omnibus's deregulation — deleting its new trade-secret recitals,
+      restoring DGA mandatory registration/definitions and data-intermediation neutrality, keeping
+      smart-contract (Art 36) safeguards and Data Act B2G Chapter V, and opposing the P2B repeal.
+      Surfaced via triage #47 (docs/triage/2026-06-15-issue-47.md).
+
   - id: EP-LEGTRAIN
     title: "Legislative Train — Digital Omnibus Regulation Proposal"
     body: Parliament

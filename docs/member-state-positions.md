@@ -343,6 +343,84 @@ tracker source **T1-19** (officielebekendmakingen.nl Kamervragen RSS).
 
 ---
 
+## Netherlands (NL) — government Kamerbrief *Naderende Raadspositie* (18 June 2026)
+
+A negotiation-status letter to the Tweede Kamer — the cabinet's fullest public read of where the **Council**
+stands on the Omnibus Digitaal, distinct from the earlier non-paper (its formal *kabinetsinzet*) and the
+parliamentary scrutiny above. Sent by the **State Secretary for Economic Affairs (W.J.M. Aerdts)** and the
+**State Secretary for Justice & Security (Claudia van Bruggen)**, also on behalf of the Ministers of J&V and
+the Interior (BZK).
+
+> **Source:** Kamerbrief *"Naderende Raadspositie Omnibus Digitaal"*, id `2026Z13570` / `2026D30585`,
+> **18 June 2026** (+ Beslisnota `2026D30586`) — [tweedekamer.nl detail](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z13570&did=2026D30585)
+> ([DOCX](https://www.tweedekamer.nl/downloads/document?id=2026D30585)). This is a working summary of a
+> government letter, **not legal advice**; verify against the source before relying on any drafting point.
+> See [`../NOTICE`](../NOTICE).
+
+**Procedural headline — a late Cyprus mandate push.** The cabinet reports the Council negotiations are in a
+**concluding phase** (*afrondende fase*) and that the **Cypriot Presidency intends, at Coreper-II on
+26 June 2026, to present the compromise it expects to have reached and to request a mandate to negotiate
+with the European Parliament** (trilogue). This is a Member-State government's report of Council dynamics,
+**not a confirmed Council act**: the letter stresses the *krachtenveld* is still very much in motion, the
+compromise can still change on important points, and no definitive conclusions — nor a cabinet verdict on
+the final text — can be drawn yet. It updates the repo's prior "passes unclosed to the Irish Presidency"
+framing (which rested on the 9 June Telecom Council): Cyprus is making a late push to fix the Council's
+first-reading position *before* the 1 July handover. → [`../STATUS.md`](../STATUS.md), [`../TIMELINE.md`](../TIMELINE.md) (2026-06-18).
+
+**Impact assessment.** The cabinet rejects the Commission's "no significant effects beyond burden
+reduction" reading for the Omnibus Digitaal, has **repeatedly asked for an impact assessment**, but lacks
+the Council support to force one; it points to the Commission's **28 April 2026 Better Regulation
+communication**, which concedes the "urgency argument" was over-used and promises more impact assessments
+in future (including for simplification/omnibus proposals).
+
+**NL's read of where the Council is landing (non-GDPR strands):**
+
+| Strand | NL report of the Council state of play |
+|---|---|
+| **Cyber single reporting point** | A **majority of Member States** appears to back — in line with the NL [non-paper](#netherlands-nl--national-non-paper-8-april-2026) — **retaining national reporting structures plus a European central _information_ point**, and an obligation on Member States to set up a national central reporting point. NL supports this but wants flexibility to fit existing national structures. → [`provisions/cyber-single-entry-point.md`](provisions/cyber-single-entry-point.md) |
+| **P2B Regulation** | Enough Member States appear to support keeping certain P2B provisions so business users on platforms stay protected — consistent with the NL-signed anti-repeal coalition above. → [`provisions/final-repeals-p2b.md`](provisions/final-repeals-p2b.md) |
+| **Data legislation (Data Act strand)** | Cabinet was already largely positive; the Council compromise "will probably not fundamentally deviate" from the Commission proposal. **Insufficient support** to delete the data-altruism and emergency-data-request provisions (NL's ask), but support to **simplify/clarify** them. Still under discussion: the amendments letting data-sharing be refused on trade-secret grounds — NL wants no fundamental change and the duty to **justify and notify the regulator retained**. → [`instruments/data-act-2023-2854.md`](instruments/data-act-2023-2854.md) |
+
+**GDPR/AVG — NL's tabled text amendments and where each lands.** The letter recasts the non-paper's
+"clean cut" line as concrete amendments tabled in the Council, with NL's read of each. NL credits the
+**EDPB–EDPS Joint Opinion 2/2026** with giving its positions traction:
+
+- **Personal-data definition (Art 4(1)) & pseudonymisation** — NL still seeks to **delete** the changed
+  definition and the empowerment for the Commission to set binding rules on pseudonymisation / when data
+  are personal; it tabled amendments to **keep the EDPB competent** to issue guidance instead. Reported to
+  "find resonance." → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md),
+  [`provisions/gdpr-pseudonymisation-by-design.md`](provisions/gdpr-pseudonymisation-by-design.md)
+- **Scientific-research definition** — proposed to **delete or significantly amend** (too broad; not in
+  line with EDPB guidelines 05/2020 and the EDPS opinion of 6 Jan 2020). NL backs the EDPB/EDPS wording
+  ("autonomous and independent", a methodological and systematic approach, "verifiable and transparent
+  results"); reported to find resonance in the Council. → [`provisions/gdpr-research-secondary-use.md`](provisions/gdpr-research-secondary-use.md)
+- **Residual special-category data in AI** — NL proposed to **delete** the exception; insufficient support
+  to do so, so NL tabled fallback amendments to **narrow** it: drop the "disproportionate effort" route and
+  limit the carve-out to cases where deleting the data is **"technically impossible."** → [`provisions/gdpr-art9-special-categories-ai.md`](provisions/gdpr-art9-special-categories-ai.md)
+- **Abusive access requests (Art 12(5))** — critical that "misuse for purposes other than data protection"
+  breeds uncertainty and litigation; NL supports the EDPB/EDPS specification of **"abusive intention"** (per
+  CJEU case law); support emerging among other Member States. → [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md)
+- **Automated decision-making (Art 22)** — NL shares the AP / human-rights-institute / EDPB-EDPS concern
+  that the rewrite (dropping the "right" framing) breeds legal uncertainty and **supports not amending
+  Art 22** as the Commission proposed; Council support appears present. NL also backs a **recital**
+  clarifying that the necessity test requires no equally-effective, less-intrusive alternative.
+  → [`provisions/gdpr-art22-automated-decisions.md`](provisions/gdpr-art22-automated-decisions.md)
+- **Commission empowerments** — NL is unconvinced of transferring EDPB powers to the Commission (binding
+  interpretations on pseudonymisation, DPIA lists, breach-notification lists/template) and tabled
+  amendments to **keep the EDPB competent**; these "appear to resonate." → [`provisions/gdpr-edpb-governance.md`](provisions/gdpr-edpb-governance.md),
+  [`provisions/gdpr-art35-dpia.md`](provisions/gdpr-art35-dpia.md), [`provisions/gdpr-art33-breach-notification.md`](provisions/gdpr-art33-breach-notification.md)
+- **AI legitimate interest (Art 88c)** — NL wants the provision **deleted** and is pushing for it **not to
+  return even as a recital** (a recital must not wrongly suggest legitimate interest is a default basis for
+  AI). "Much movement" in the Council on this point. → [`provisions/gdpr-art88c-ai-legitimate-interest.md`](provisions/gdpr-art88c-ai-legitimate-interest.md)
+- **Technical / drafting points** — e.g. on **Art 33(6)** breach notification NL proposes that the
+  implementing lists cover not only circumstances that *indicate* notification is required but also a list
+  clarifying when notification is **not** required. → [`provisions/gdpr-art33-breach-notification.md`](provisions/gdpr-art33-breach-notification.md)
+
+The letter also answers a Kamer request for a combined addendum to the AI- and Digital-Omnibus fiches, but
+that part concerns the **AI-Act file (2025/0359)** and is out of scope here. → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-18).
+
+---
+
 ## How this fed the later compromise
 
 Several of these positions are visible in the **ST 9547/26** (May) text: the Art 4(1) redefinition

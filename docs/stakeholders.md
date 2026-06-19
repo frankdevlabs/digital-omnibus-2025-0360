@@ -57,6 +57,17 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   Commission's own estimate that the single-entry point "would require 8 FTEs within ENISA" — seen as
   insufficient for 24/7 cover across 27 Member States and 24 languages.
 
+## Practitioners
+
+- **DLA Piper (Privacy Matters), 18 Jun 2026** — John Magee, Heidi Waem & Rachel de Souza on the
+  EDPB's draft **common template for personal-data breach notifications** (Art 33 GDPR; public
+  consultation to **5 Aug 2026**). Flags an open coordination question: *"It is not yet clear how the
+  draft notification template will sit alongside the ongoing Digital Omnibus proposals."* The Omnibus
+  proposes a single EU breach-reporting portal and common template on a **"report once, share many"**
+  basis across GDPR/NIS2/DORA; the post frames the EDPB template as either welcome alignment with, or
+  added complexity on top of, that [single-entry point](provisions/cyber-single-entry-point.md) and the
+  [Art 33 breach-notification](provisions/gdpr-art33-breach-notification.md) regime.
+
 ## Parliament-side controversy
 
 - Civil-society **call to withdraw Aura Salla** as rapporteur (Corporate Europe Observatory,

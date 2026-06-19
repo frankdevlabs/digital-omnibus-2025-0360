@@ -48,6 +48,14 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
 - **127 organisations** signed an open letter (13 Nov 2025) urging the Commission to drop the GDPR
   reopening. **Corporate Europe Observatory / LobbyControl** mapped Big-Tech lobbying behind specific
   provisions (Jan 2026).
+- **AlgorithmWatch + coalition (joint statement, 18 Jun 2026).** Co-signed by AlgorithmWatch, EDRi,
+  Access Now, ARTICLE19, Amnesty International and others. Primarily an analysis of the AI-Act file
+  (2025/0359), but expressly ties it to **2025/0360**: warns the "Data Omnibus" pillar "risks creating
+  further derogations for the use of special categories of personal data in AI development", so that
+  together the two files would shift sensitive-data processing "from exceptional to normal". On the
+  data strand this reinforces the existing civil-society line against the **Art 9(2)(k)/9(5)
+  special-category carve-out** ([fault-line #2](fault-lines.md);
+  [provision](provisions/gdpr-art9-special-categories-ai.md)).
 
 ## Industry
 

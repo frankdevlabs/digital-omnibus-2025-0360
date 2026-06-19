@@ -38,7 +38,9 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
 - **noyb (Max Schrems).** Calls it "the biggest attack on Europeans' digital rights in years."
   Multi-version legal analysis (V3, 24 Feb 2026); "reality check" of 16 Apr 2026 found **83.5% of
   access requests** in its case-set were not answered in line with the law — used to rebut the
-  "abusive requests" rationale.
+  "abusive requests" rationale. Campaigning continues: Max Schrems took part in a **CPDP2026** panel on
+  the Omnibus's compatibility with the EU **Charter of Fundamental Rights**, recording published
+  18 Jun 2026 ([Bluesky](https://bsky.app/profile/noyb.eu/post/3mokn73gkal2c)).
 - **EDRi.** After the February compromise: *"A step back from the brink, the risks remain"* — welcomes
   deletion of the Art 4 redefinition, the research definition and the pseudonymisation implementing
   power; continues to oppose the AI legitimate-interest provision and the sensitive-data carve-out.

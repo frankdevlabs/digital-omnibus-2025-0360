@@ -44,6 +44,11 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
 - **EDRi.** After the February compromise: *"A step back from the brink, the risks remain"* — welcomes
   deletion of the Art 4 redefinition, the research definition and the pseudonymisation implementing
   power; continues to oppose the AI legitimate-interest provision and the sensitive-data carve-out.
+  In a public-facing ePrivacy/cookies explainer leaflet (*"Cookies and consent: why ePrivacy matters
+  for our browsing life"*, 18 Jun 2026) it engages the reopened cookie debate from a different angle —
+  framing the **Art 88b machine-readable consent signal** *positively*, as a route "beyond today's
+  endless consent clicks" toward "rights respected by design" (the same article industry and France
+  want deleted) → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md).
 - **BEUC.** The proposal "goes far beyond targeted modifications" and weakens consumer protections.
 - **127 organisations** signed an open letter (13 Nov 2025) urging the Commission to drop the GDPR
   reopening. **Corporate Europe Observatory / LobbyControl** mapped Big-Tech lobbying behind specific

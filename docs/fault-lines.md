@@ -42,6 +42,11 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
   position (WK 3736/26) that terminal-equipment rules belong in ePrivacy. **France** went further,
   arguing cookie consent is a *technical operation, not data processing*, and demanding the relaxations
   be made in ePrivacy Art 5(3) and that **Art 88b be deleted** (see [`member-state-positions.md`](member-state-positions.md)).
+- **Civil society:** **EDRi** publicly **welcomes** the Art 88b machine-readable signal — in a
+  18 Jun 2026 ePrivacy/cookies explainer leaflet it frames machine-readable privacy-preference
+  communication as a route out of consent fatigue ("rights respected by design"). On *this* article,
+  civil society thus sits **opposite** industry and France, who want Art 88b deleted (see
+  [`stakeholders.md`](stakeholders.md)).
 - **Why it matters:** conceptually decisive for where the cookie regime lives and which authority
   enforces it; industry wants the machine-readable signal article deleted as "consent chaos".
 - → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),

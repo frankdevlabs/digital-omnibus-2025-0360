@@ -292,6 +292,34 @@ documents:
       Strategic Competitiveness" non-paper (5 Feb 2026). Summary in docs/member-state-positions.md
       (Netherlands section). Beslisnota: https://www.rijksoverheid.nl/documenten/2026/04/08/tk-beslisnota-non-paper-omnibus
 
+  - id: NL-KAMERBRIEF-2026-06-18
+    title: "Netherlands government Kamerbrief 'Naderende Raadspositie Omnibus Digitaal'"
+    body: Netherlands
+    date: 2026-06-18
+    limite: false
+    url: https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z13570&did=2026D30585
+    local: sources/member-states/NL-KAMERBRIEF-2026-06-18_naderende-raadspositie_2026-06-18.docx
+    local_annex: sources/member-states/NL-KAMERBRIEF-2026-06-18_beslisnota_2026-06-18.pdf
+    lead_source: >-
+      Tweede Kamer search feed (watchlist T1-16) — surfaced via tracker issue #57
+      (docs/triage/2026-06-18-issue-57.md).
+    notes: >-
+      NL cabinet position letter (kamerstuk 2026Z13570 / 2026D30585) to the Tweede Kamer, 18 Jun 2026,
+      from Staatssecretaris W.J.M. Aerdts (Economische Zaken — Digitale Economie en Soevereiniteit) and
+      Staatssecretaris Claudia van Bruggen (Justitie en Veiligheid), with a Beslisnota (2026D30586, held
+      as local_annex). Dossier: BNC-fiche Omnibus Digitaal (12 Dec 2025) / file 2025/0360 (COD). The
+      cabinet's read of the concluding Council phase ahead of the Cypriot Presidency's Coreper-II mandate
+      push (26 Jun 2026) and its tabled GDPR amendments — operationalises the 8 Apr non-paper
+      (NL-NONPAPER-2026-04-08) into concrete Council amendments with where each is landing, plus new
+      per-provision positions: Art 4(1)/pseudonymisation keep EDPB competent; Art 4(38) adopt EDPB/EDPS
+      research wording; Art 9(2)(k) fallback to "technically impossible" (drop "disproportionate effort");
+      Art 12(5) support "abusive intention"; Art 22 do NOT amend; Art 88c delete AND guard against return
+      as a recital; keep EDPB (not Commission) empowered on pseudonymisation/DPIA/breach; cyber single
+      reporting point supported with implementation flexibility; P2B repeal resisted; Data Act
+      altruism/emergency-data kept but simplified. Cabinet on record that the omnibus lacks an impact
+      assessment (cites the Commission's 28 Apr 2026 Better-Regulation course-change). Substance routed to
+      docs/member-state-positions.md (Netherlands section). Fetchable (no WAF); committed for offline diffing.
+
   - id: ah-tk-20252026-792
     title: "Kamervragen (lid Kathmann) over het slopen van de privacybescherming in de nieuwe Europese Omnibus-wetgeving — antwoord"
     body: Tweede Kamer

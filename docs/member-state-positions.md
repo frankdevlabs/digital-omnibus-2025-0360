@@ -352,8 +352,10 @@ parliamentary scrutiny above. Sent by the **State Secretary for Economic Affairs
 the Interior (BZK).
 
 > **Source:** Kamerbrief *"Naderende Raadspositie Omnibus Digitaal"*, id `2026Z13570` / `2026D30585`,
-> **18 June 2026** (+ Beslisnota `2026D30586`) — [tweedekamer.nl detail](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z13570&did=2026D30585)
-> ([DOCX](https://www.tweedekamer.nl/downloads/document?id=2026D30585)). This is a working summary of a
+> **18 June 2026** (+ Beslisnota `2026D30586`) — registered as [`NL-KAMERBRIEF-2026-06-18`](../sources/README.md#member-state-positions);
+> committed copies [`naderende-raadspositie`](../sources/member-states/NL-KAMERBRIEF-2026-06-18_naderende-raadspositie_2026-06-18.docx) (DOCX)
+> + [Beslisnota](../sources/member-states/NL-KAMERBRIEF-2026-06-18_beslisnota_2026-06-18.pdf) (PDF); authoritative copy at
+> [tweedekamer.nl detail](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z13570&did=2026D30585). This is a working summary of a
 > government letter, **not legal advice**; verify against the source before relying on any drafting point.
 > See [`../NOTICE`](../NOTICE).
 

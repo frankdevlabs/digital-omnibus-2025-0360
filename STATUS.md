@@ -16,8 +16,10 @@
 ## One-line status
 
 Council **working-party stage** (third Cyprus compromise, ST 9547/26); Parliament at **committee referral
-only** (Oeil *Awaiting committee decision*, no draft report); **no general approach, no trilogue**. Cyprus
-concedes the file passes **unclosed to the Irish Presidency (from 1 July 2026)**.
+only** (Oeil *Awaiting committee decision*, no draft report); **no general approach, no trilogue yet**. A
+late Cyprus push: per the **18 June NL government Kamerbrief**, the Presidency intends to seek a
+**negotiating mandate at Coreper-II on 26 June 2026** (before the 1 July Irish handover) — a Member-State
+report of Council dynamics, not yet a confirmed Council act.
 
 ## Where each institution stands
 
@@ -33,7 +35,7 @@ concedes the file passes **unclosed to the Irish Presidency (from 1 July 2026)**
 - **Latest act:** **ST 9547/26** (21 May 2026) — third Cyprus compromise, after [ST 6406/26](sources/README.md) (20 Feb) and [ST 8261/1/26 REV 1](sources/README.md) (17 Apr). [Operative extracts](extracts/council/) · [AGS agenda CM 2918/26](https://data.consilium.europa.eu/doc/document/CM-2918-2026-INIT/en/pdf)
 - **Owner:** Cyprus Presidency (Jan–Jun 2026) → Irish Presidency (from 1 Jul 2026).
 - **Position:** Deletes the Art 4 redefinition and the standalone AI legitimate-interest article; keeps cookies in ePrivacy (see *What changed* below + [`data/positions.csv`](data/positions.csv)).
-- **Next:** No general approach before **H2 2026** under the Irish Presidency.
+- **Next:** The **18 June NL government Kamerbrief** reports the negotiations are in a concluding phase and that **Cyprus intends to present its expected compromise and request a trilogue negotiating mandate at Coreper-II on 26 June 2026** — a late push to fix the Council position before the 1 July Irish handover (NL govt report, not a confirmed Council act; the cabinet warns the compromise can still change). If that slips, a general approach would fall to the Irish Presidency (H2 2026). See [`docs/member-state-positions.md`](docs/member-state-positions.md#netherlands-nl--government-kamerbrief-naderende-raadspositie-18-june-2026).
 
 ### European Parliament — co-legislator
 - **Stage:** Committee referral; first committee-for-opinion text now drafted — [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)) status ***Awaiting committee decision***. **No joint draft report, no committee vote yet.**
@@ -54,6 +56,7 @@ concedes the file passes **unclosed to the Irish Presidency (from 1 July 2026)**
 ## Next milestones to watch
 
 - [x] **Formal Telecom Council, 9 June 2026** — outcome verified (main results, 10 June): the Digital Omnibus featured only as an **AOB information point** ("the presidency informed member states on current legislative proposals such as the digital omnibus") — *not* a progress report on the agenda (those went to the Digital Networks Act and the cybersecurity package); no general approach, file passes unclosed to the Irish Presidency. The day's policy debate was on technological sovereignty (ministers welcomed the Tech Sovereignty Package — context for the sibling CADA file, not this one). Tweede Kamer tweeminutendebat report (ongecorrigeerd) published — [triage #38](docs/triage/2026-06-09-issue-38.md) · [main results (IEU mirror)](https://ieu-monitoring.com/editorial/main-results-of-the-eu-telecommunications-council-on-9-june-2026/1243080).
+- [ ] **Coreper-II, 26 June 2026 — Cyprus intends to seek a trilogue negotiating mandate** on its expected compromise, per the [18 June NL government Kamerbrief](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z13570&did=2026D30585) (a Member-State report, not yet confirmed; the compromise may still change in this final phase). Would be the Council's first-reading position, fixed before the 1 July Irish handover — watch the Council register / Coreper outcome — [triage #57](docs/triage/2026-06-18-issue-57.md).
 - [ ] **Eerste Kamer (NL) written-consultation deadline, 30 June 2026** — DIGI + EZ/KGG committees, dossier [E260003](https://www.eerstekamer.nl/eu/edossier/e260003_digitaal_pakket_van_de).
 - [ ] Joint **ITRE/LIBE draft report** (Parliament's first formal position) — watch for **LIBE amendments**: an unconfirmed 12 June 2026 Bluesky/LinkedIn report (journalist J. Tar) claims LIBE amendments would strip the AI-training, pseudonymisation and research-exemption provisions. Single secondary source, no primary EP document yet — confirm via OEIL (`T1-01`/`T1-02`) and the LIBE pages (`T1-07`) — [triage #47](docs/triage/2026-06-15-issue-47.md).
 - [x] **IMCO draft opinion (Agius Saliba) operative text** — *resolved 2026-06-19.* Retrieved the operative text past the doceo AWS-WAF (headless-browser bypass) and transcribed all **124 amendments** ([extract](extracts/parliament/IMCO-PA-789877_draft-opinion.md), **PE789.877v01-00**, cover dated 8 Jun 2026). Confirms the earlier Bluesky lead's thrust: restores **P2B**, keeps **smart contracts**, restores the current Data Act **cloud-switching** regime, adds a **data-expert-representative** intermediation service, tightens trade-secret/B2G/enforcement safeguards — [triage #61](docs/triage/2026-06-18-issue-61.md). **Now watch:** IMCO committee amendment-tabling deadline **8 Jul 2026** and the committee vote; and add the IMCO documents feed to the `T1` watchlist so the next IMCO output is caught server-side.

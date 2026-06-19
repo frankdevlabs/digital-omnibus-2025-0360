@@ -56,6 +56,7 @@ number, not asserted as live), and a national-parliament record or public mirror
 | — | Legislative Train entry | 2026-04-20 | [legislative-train](https://www.europarl.europa.eu/legislative-train/theme-a-new-plan-for-europe-s-sustainable-prosperity-and-competitiveness/file-digital-package) |
 | — | EU Law Tracker procedure 2025/360 | 2026-05-01 | [law-tracker](https://law-tracker.europa.eu/procedure/2025_360?lang=en) |
 | PE 789.142 | **JURI draft opinion** (Committee on Legal Affairs, rapporteur Benifei) — for ITRE/LIBE; 68 amendments on the data-acquis strand ([extract](../extracts/parliament/JURI-PA-789142_draft-opinion.md)); lead: [@montezumachavez](https://bsky.app/profile/montezumachavez.bsky.social/post/3mo4ae7izjs2h) (`T3-01`) | 2026-06-05 | [PDF](parliament/JURI-PA-789142_draft-opinion_2026-06-05.pdf) · [doceo](https://www.europarl.europa.eu/doceo/document/JURI-PA-789142_EN.pdf) |
+| PE 789.877 | **IMCO draft opinion** (Committee on the Internal Market and Consumer Protection, rapporteur Agius Saliba) — for ITRE/LIBE; **124 amendments** across the Data Act, GDPR, ePrivacy, P2B and Open Data strands ([extract](../extracts/parliament/IMCO-PA-789877_draft-opinion.md)); lead: [@montezumachavez](https://bsky.app/profile/montezumachavez.bsky.social/post/3moja7qvofk24) (`T3-01`) relaying J. Tar | 2026-06-08 | [PDF](parliament/IMCO-PA-789877_draft-opinion_2026-06-08.pdf) · [doceo](https://www.europarl.europa.eu/doceo/document/IMCO-PA-789877_EN.pdf) |
 
 ## Member-state positions
 

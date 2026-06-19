@@ -52,6 +52,24 @@ weakened (mandatory registration, data-intermediation neutrality) — see
 A committee-for-opinion text, not the draft report; amendment deadline 26 Jun 2026. Via triage
 [#47](../triage/2026-06-15-issue-47.md).
 
+<a id="parliament-imco-draft-opinion"></a>
+## Parliament — IMCO draft opinion (PE789.877, Agius Saliba, 8 Jun 2026)
+The IMCO draft opinion takes the **same line — oppose the P2B repeal** — and, given P2B's internal-market
+and consumer-protection subject matter, this sits squarely in IMCO's competence. It deletes the
+Commission's repeal recital 59
+([Am 25](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-25)) and the operative repeal
+limbs of Omnibus **Article 10** — the outright repeal of Reg (EU) 2019/1150
+([Am 123](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-123)) and the 31 Dec 2032
+derogation list ([Am 124](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-124)), and
+removes the consequential deletion of P2B Art 4
+([Am 122](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-122)). The rapporteur's
+justification (Am 123): *"The full repeal of the P2B, even with a sunset clause, leaves gaps for protecting
+business users (SMEs). Instead the Commission should do an impact assessment analysing the exact overlaps
+with other laws such as the e-commerce Directive, DSA and DMA rather than repealing it in full in this
+omnibus."* This **doubles the committee weight** against the repeal (JURI + IMCO) and aligns with the broad
+member-state resistance (below). A committee-for-opinion text, not the draft report; amendment deadline
+8 Jul 2026. Via triage [#61](../triage/2026-06-18-issue-61.md).
+
 ## EDPB–EDPS
 The regulators **welcome merging the Data Acquis into the Data Act** and streamlining overlapping/outdated
 rules (Joint Opinion 2/2026, ¶119–121), **but** ask that **DGA safeguards be preserved** through the repeal —

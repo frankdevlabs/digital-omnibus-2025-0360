@@ -176,6 +176,13 @@ sources:
     url: "https://www.europarl.europa.eu/committees/en/documents/latest-documents?committeeMnemoCode=LIBE"
     affects: [extracts/parliament/, docs/provisions/, docs/instruments/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
     notes: "LIBE is co-lead (joint ITRE/LIBE). Per-document detection via ~/law-tracker/lib/ep_committee_docs.py (--match-title '(?i)digital omnibus(?! on ai)' keeps 2025/0360 and drops 0359 'Digital Omnibus on AI', rapporteur McNamara). State tracks seen_refs, not a page hash. A draft report / tabled amendments → parliament-text playbook → transcribe-parliament-extract. Same doceo WAF caveat as T1-20. (ITRE committee documents are watched at T1-05.)"
+  T1-22:
+    tier: T1
+    kind: institutional
+    label: "EP IMCO committee — documents (draft opinions)"
+    url: "https://www.europarl.europa.eu/committees/en/documents/latest-documents?committeeMnemoCode=IMCO"
+    affects: [extracts/parliament/, docs/provisions/, docs/instruments/, docs/institutional-positions.md, STATUS.md, TIMELINE.md, data/positions.csv]
+    notes: "IMCO is a committee for opinion on 2025/0360 (rapporteur Agius Saliba, S&D). Per-document detection via ~/law-tracker/lib/ep_committee_docs.py (--match-title '(?i)digital omnibus(?! on ai)' keeps 2025/0360 and drops 0359 'Digital Omnibus on AI', rapporteur Kokalari). State tracks seen_refs, not a page hash. A draft opinion / tabled amendments → parliament-text playbook → transcribe-parliament-extract. Same doceo WAF caveat as T1-20; operative text is now fetched at triage via ~/law-tracker/lib/fetch_blocked_doc.py. Added 2026-06-19 after the IMCO draft opinion PE789.877 (triage #61) reached the tracker via Bluesky rather than server-side."
 
   # --- Tier 2: NGO / journalism / law firm -------------------------------------
   T2-01:

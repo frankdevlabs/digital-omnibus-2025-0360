@@ -20,8 +20,16 @@ DORA, CER and eIDAS. Application 18 months (extendable to 24).
 - Reporting switch-over to the entry point: **30 months** from entry into force (was 24).
 - → [Operative text](../../extracts/council/ST-9547-2026_cyber-art6-9.md)
 
-## Parliament (provisional)
-Broadly supportive; EPRS briefing favourable. Concerns about ENISA resourcing.
+<a id="parliament-imco-draft-opinion"></a>
+## Parliament — IMCO draft opinion (PE789.877, Agius Saliba, 8 Jun 2026)
+The joint ITRE/LIBE draft report is still **pending**. The **IMCO draft opinion** is broadly supportive of the
+single reporting point but adds a non-regression safeguard — the same new GDPR Art 33(7a) — that the single
+entry point **"shall not result in lowering the level of security, privacy, consumer and data protection nor
+limit the power of supervisory authorities"**
+([Am 110](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-110)). Net: IMCO supports the
+SEP with an explicit floor on protection and supervisory powers. **JURI** is silent here — its draft opinion
+is data-acquis-only. A committee-for-opinion text, not the draft report; amendment deadline 8 Jul 2026. Via
+triage [#61](../triage/2026-06-18-issue-61.md).
 
 ## EDPB–EDPS
 **Strongly support** the single-entry point (Joint Opinion 2/2026, ¶85): an EEA-wide SEP eases reporting

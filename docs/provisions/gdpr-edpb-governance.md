@@ -36,8 +36,21 @@ opinion — plus a small **DPO-contact** simplification. They are where the Comm
 - → [Operative text — points 12–14](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#points-1214--articles-64--70-edpb-tasks-and-consistency),
   [point 9a (Art 37(7))](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-9a--article-377-dpo-contact-details)
 
-## Parliament (provisional)
-No draft report yet.
+<a id="parliament-imco-draft-opinion"></a>
+## Parliament — IMCO draft opinion (PE789.877, Agius Saliba, 8 Jun 2026)
+No joint ITRE/LIBE draft report yet, but the **IMCO draft opinion** reinforces EDPB/DPA governance and
+extends enforcement to browser/software providers. (a) The EDPB makes the templates/lists **public** and the
+Commission **"shall take utmost account of the Board's assessment"**
+([Am 108](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-108),
+[Am 109](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-109)). (b) A **new Art 58(6a)**
+extends DPA investigative and corrective powers to **"providers of software to access online interfaces"**
+(e.g. browsers) in the context of Art 88b even when they are not processing personal data
+([Am 112](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-112)). (c) Amendments to **Art
+83** add non-compliance with Arts 88a/88b as a fineable infringement and extend the fine provisions to
+software providers ([Am 113](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-113),
+[Am 114](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-114)). **JURI** is silent here —
+its draft opinion is data-acquis-only. A committee-for-opinion text, not the draft report; amendment deadline
+8 Jul 2026. Via triage [#61](../triage/2026-06-18-issue-61.md).
 
 ## EDPB–EDPS
 Cross-cutting recommendation #2 (Joint Opinion 2/2026): **entrust the EDPB (and the EDPS for the EUDPR) with

@@ -1,8 +1,10 @@
 # Fault lines — what will dominate the trilogue
 
 Four issues concentrate the disagreement. On each, the Council (ST 9547/26) has already moved away
-from the Commission; the Parliament is expected to push further. Detailed per-provision pages are in
-[`provisions/`](provisions/).
+from the Commission; the Parliament looks set to push further — and the first **committee-for-opinion
+texts now bear this out** (the **IMCO draft opinion**, PE789.877, opines across the GDPR strand; **JURI**,
+PE789.142, is data-acquis-only). These are **provisional**: the lead **joint ITRE/LIBE draft report is still
+pending**. Detailed per-provision pages are in [`provisions/`](provisions/).
 
 ## 1. The concept of personal data and pseudonymisation
 - **Commission:** relative/controller-centric clause in Art 4(1); Commission implementing power on
@@ -12,6 +14,11 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
 - **EDPB–EDPS:** strongly oppose any redefinition as inconsistent with CJEU case law, and would delete
   the Art 41a implementing-act power
   ([digest](advisory/edpb-edps-jo-2-2026.md#personal-data)).
+- **Parliament (committee opinions, provisional):** **IMCO** lines up with the Council/EDPB — it deletes
+  the Art 4(1) redefinition ([Am 98](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-98))
+  and the Commission's Art 41a pseudonymisation power
+  ([Am 111](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-111)). JURI silent
+  (data-acquis only); joint ITRE/LIBE report pending.
 - **Why it matters:** the redefinition would have taken whole categories of data outside the GDPR for
   some actors. Its deletion is the single biggest substantive retreat in the Council text.
 - **Member States (WK 3736/26):** FR and PL both welcome the deletion; FR wants a *binding* EDPB opinion
@@ -30,6 +37,12 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
 - **EDPB–EDPS:** the standalone article is unnecessary (Opinion 28/2024 already covers AI LI); they would
   bound the Art 9(2)(k) carve-out to *incidental and residual* processing
   ([digest](advisory/edpb-edps-jo-2-2026.md#ai-legitimate-interest)).
+- **Parliament (committee opinions, provisional):** **IMCO goes further than the Council** — it deletes
+  the standalone Art 88c and recitals 30/31
+  ([Am 121](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-121)) *and* deletes the
+  Art 9(2)(k)/9(5) special-category carve-out and recital 33
+  ([Am 100–101](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-100)) as an "AI
+  privilege". JURI silent; joint ITRE/LIBE report pending.
 - → [`provisions/gdpr-art88c-ai-legitimate-interest.md`](provisions/gdpr-art88c-ai-legitimate-interest.md),
   [`provisions/gdpr-art9-special-categories-ai.md`](provisions/gdpr-art9-special-categories-ai.md)
 
@@ -42,6 +55,15 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
   position (WK 3736/26) that terminal-equipment rules belong in ePrivacy. **France** went further,
   arguing cookie consent is a *technical operation, not data processing*, and demanding the relaxations
   be made in ePrivacy Art 5(3) and that **Art 88b be deleted** (see [`member-state-positions.md`](member-state-positions.md)).
+- **Parliament (committee opinions, provisional):** **IMCO sits opposite France/industry on Art 88b** — it
+  **strengthens and broadens** the machine-readable-signal duty (tech-neutral "software to access online
+  interfaces", drops the SME carve-out, accelerates the browser/OS duty 48 → 18 months, adds anti-dark-
+  pattern + third-party-software duties)
+  ([Am 117–120](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-117)), caps gatekeeper
+  consent re-prompts ([Am 115–116](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-115)),
+  and opposes deleting ePrivacy Art 4
+  ([Am 122](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-122)). JURI silent; joint
+  ITRE/LIBE report pending.
 - **Civil society:** **EDRi** publicly **welcomes** the Art 88b machine-readable signal — in a
   18 Jun 2026 ePrivacy/cookies explainer leaflet it frames machine-readable privacy-preference
   communication as a route out of consent fatigue ("rights respected by design"). On *this* article,
@@ -61,14 +83,24 @@ from the Commission; the Parliament is expected to push further. Detailed per-pr
   intention* instead) and want Art 12(5) kept mirrored in Art 57(4)
   ([digest](advisory/edpb-edps-jo-2-2026.md#access-requests)); noyb's empirical "reality check" found
   83.5% of access requests already go unanswered or are answered incompletely.
+- **Parliament (committee opinions, provisional):** **IMCO pushes the opposite way to the Commission/
+  Council** — it removes the abuse-of-rights restriction entirely (deletes the added ground, the fee and
+  refusal options and the burden clause) and adds an anti-circumvention / anti-dark-pattern duty inspired
+  by DMA Art 13 ([Am 103–107](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-103)).
+  JURI silent; joint ITRE/LIBE report pending.
 - **Member States (WK 3736/26):** PL welcomes the burden resting on the controller but wants "abusive
   intention" read restrictively; FR wants the ground to also catch circumvention of procedures with
   their own access rules. See [`member-state-positions.md`](member-state-positions.md).
 - → [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md)
 
 ## Secondary tensions
-- **Single-entry point** architecture and ENISA resourcing (broadly supported, but operational doubts)
+- **Single-entry point** architecture and ENISA resourcing (broadly supported, but operational doubts);
+  **IMCO** adds a non-regression safeguard that the single entry point must not lower protection or limit
+  supervisory powers ([Am 110](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-110))
   → [`provisions/cyber-single-entry-point.md`](provisions/cyber-single-entry-point.md).
 - **Repeal scope** of the data acquis — P2B is only **partially** amended in the May text, and
-  data-altruism provisions (DGA) attract Member State defence
+  data-altruism provisions (DGA) attract Member State defence. **Both Parliament committees (JURI + IMCO)
+  oppose the P2B repeal** and largely reverse the data-acquis deregulation (smart contracts, cloud
+  switching, DGA registration/neutrality) — the strand where the committee drafts concentrate
+  ([what-changed: data acquis](what-changed.md#data-acquis-data-act-20232854--dga--parliament-committee-focus))
   → [`provisions/final-repeals-p2b.md`](provisions/final-repeals-p2b.md).

@@ -21,9 +21,20 @@ Art 9(1) prohibits processing special categories; Art 9(2)(a)–(j) exhaustive d
   State/Union legal-basis hook (Art 9(4)).
 - → [Operative text](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-3--article-9-special-categories)
 
-## Parliament (provisional)
-Likely to insist on a strict-necessity standard and strong documentation; Kaljurand flagged "the end of
-GDPR technological neutrality" risk.
+<a id="parliament-imco-draft-opinion"></a>
+## Parliament — IMCO draft opinion (PE789.877, Agius Saliba, 8 Jun 2026)
+No joint ITRE/LIBE draft report yet, but the **IMCO draft opinion** would delete the AI carve-out entirely:
+it **deletes** both the AI special-category derogation **Art 9(2)(k)**
+([Am 100](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-100)) and the accompanying
+**Art 9(5)** safeguards ([Am 101](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-101)),
+and it deletes **recital 33** ([Am 20](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-20)).
+The rapporteur's justification: the derogation *"would amount to an 'AI privilege' difficult to meet EU
+principles of necessity and proportionality, affecting the overall level of the protection of consumer's
+personal data."* Net: IMCO would delete the AI carve-out entirely — **stronger than the Council**, which
+retained and tightened it. IMCO is silent on the **Art 9(2)(l)** biometric-verification derogation also
+covered by this page. JURI's draft opinion is data-acquis-only, so on this GDPR-strand provision JURI is
+silent. A committee-for-opinion text, not the lead draft report; amendment deadline 8 Jul 2026. Via triage
+[#61](../triage/2026-06-18-issue-61.md).
 
 ## EDPB–EDPS
 **Welcome** the incidental/residual carve-out (Joint Opinion 2/2026, ¶46) — training certain AI cannot

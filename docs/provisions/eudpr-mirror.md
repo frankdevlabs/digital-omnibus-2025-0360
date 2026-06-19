@@ -39,7 +39,11 @@ A point-for-point mirror of the [GDPR (Article 3) amendments](../../extracts/com
 - → [Council GDPR text (the parent track)](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md)
 
 ## Parliament (provisional)
-No draft report yet.
+No committee amendment touches the EUDPR mirror (Omnibus Art 4): neither the JURI (PE789.142) nor the IMCO
+(PE789.877) draft opinion addresses it, and the lead joint ITRE/LIBE draft report is pending (Oeil: "Awaiting
+committee decision"). The provision is therefore open. Note the EDPB-EDPS position below that, unless otherwise
+stated, their GDPR comments apply equally to the corresponding EUDPR amendments (¶10) — so the Parliament
+outcome on the EUDPR mirror should track whatever the joint report does on the parent GDPR track.
 
 ## EDPB–EDPS
 The Joint Opinion 2/2026 states that, unless noted, its **GDPR comments apply equally to the corresponding

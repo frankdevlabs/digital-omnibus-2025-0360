@@ -17,6 +17,20 @@ only. The JURI position is captured on the affected pages instead:
 [P2B repeal](provisions/final-repeals-p2b.md#parliament--juri-draft-opinion). The joint ITRE/LIBE
 draft report — Parliament's first cross-strand position — is still pending.
 
+The second committee-for-opinion text — the **IMCO draft opinion** (rapporteur Agius Saliba, S&D,
+PE789.877v01-00, cover dated 8 Jun 2026; [register](../sources/README.md#european-parliament)) — is
+likewise transcribed ([extract, 124 amendments](../extracts/parliament/IMCO-PA-789877_draft-opinion.md)).
+Explicitly **limited to IMCO's competence** (the rapporteur warns that un-amended parts should not be
+read as endorsed), it runs counter-current to the Omnibus's deregulation: it **restores the P2B
+Regulation** (rejecting the repeal of Reg (EU) 2019/1150 without a proper impact assessment),
+**rejects the deletion of smart contracts** (Art 36 Data Act), **restores the current Data Act
+cloud-switching regime**, adds a **data-expert-representative** form of regulated data-intermediation
+service acting under a fiduciary duty for consumers, and tightens trade-secret, B2G, data-altruism
+transparency and enforcement/supervision safeguards. Like JURI it targets the **data-acquis strand**,
+not the GDPR-strand cells below. Captured on
+[Data Act](instruments/data-act-2023-2854.md#parliament-imco-draft-opinion) and the
+[P2B repeal](provisions/final-repeals-p2b.md#parliament-imco-draft-opinion).
+
 Per-provision detail lives in [`provisions/`](provisions/). Machine-readable version:
 [`../data/positions.csv`](../data/positions.csv) — which additionally carries **ECB**, **EESC** and
 **member-state** columns alongside EDPB–EDPS. For positions of *individual* Council delegations

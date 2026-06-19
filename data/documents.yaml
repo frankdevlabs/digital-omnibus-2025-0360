@@ -253,33 +253,29 @@ documents:
       smart-contract (Art 36) safeguards and Data Act B2G Chapter V, and opposing the P2B repeal.
       Surfaced via triage #47 (docs/triage/2026-06-15-issue-47.md).
 
-  - id: IMCO-PA-2025-0360
-    title: "IMCO draft opinion on the Digital Omnibus (rapporteur Agius Saliba) — for ITRE/LIBE [metadata-only, pending operative text]"
+  - id: IMCO-PA-789877
+    title: "IMCO draft opinion on the Digital Omnibus (rapporteur Agius Saliba) — for ITRE/LIBE"
     body: Parliament
-    date: 2026-06-15
+    date: 2026-06-08
     limite: false
-    url: https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)
-    imco_documents: https://www.europarl.europa.eu/committees/en/imco/documents/latest-documents
-    access: cite-only
-    pending_operative_text: true
+    url: https://www.europarl.europa.eu/doceo/document/IMCO-PA-789877_EN.pdf
+    local: sources/parliament/IMCO-PA-789877_draft-opinion_2026-06-08.pdf
     lead_source: >-
       Luis Alberto Montezuma (@montezumachavez.bsky.social, watchlist T3-01) — Bluesky post
       2026-06-17, https://bsky.app/profile/montezumachavez.bsky.social/post/3moja7qvofk24
       (relaying EU-policy journalist Júlia Tar). Same lead chain that surfaced the JURI draft
-      opinion (JURI-PA-789142, triage #47); the IMCO opinion is not yet in OEIL or any non-WAF feed.
+      opinion (JURI-PA-789142, triage #47); the IMCO opinion reached the tracker via this Bluesky
+      lead ahead of any institutional EP-documents feed.
     notes: >-
-      CONFIRMED (institutional): IMCO is a committee for opinion on file 2025/0360 (COD), rapporteur
-      Alex Agius Saliba (S&D), appointed 2 Mar 2026 — OEIL procedure file (see OEIL-2025-0360),
-      corroborated by TVMnews ("Data Omnibus" rapporteur). This is the data/cyber Omnibus
-      COM(2025) 837 / 2025/0360, NOT the AI Act file 2025/0359 (whose IMCO/LIBE report is
-      Kokalari/McNamara). PENDING (per-provision, and even the document's existence/date): the
-      reported "15 Jun 2026 IMCO draft opinion" and its substance — said to reverse the GDPR-easing
-      changes, soften certain Data Act obligations and keep the P2B Regulation — rest on a Tier-3
-      social lead (Montezuma → Júlia Tar → an auth-walled LinkedIn post), NOT on a primary document:
-      no PE number, no cover page, no operative text. doceo (HTTP 202 / AWS-WAF) blocks automated
-      retrieval and the doc is not yet on OEIL. Make NO per-provision claims until the text is
-      obtained (browser download / non-WAF mirror), then run the transcribe-parliament-extract skill,
-      fill the PE number + local: path, and clear pending_operative_text. Surfaced via triage #61
+      Draft opinion of the Committee on the Internal Market and Consumer Protection (IMCO),
+      rapporteur Alex Agius Saliba (S&D), PE789.877v01-00 (PA\1345282EN.docx), for the lead joint
+      ITRE/LIBE on file 2025/0360 (COD) — the data/cyber Digital Omnibus COM(2025) 837, NOT the AI
+      Act file 2025/0359 (whose IMCO/LIBE report is Kokalari/McNamara). 124 amendments. Cover dated
+      8 Jun 2026; appeared on the IMCO documents listing / surfaced via Bluesky 15 Jun 2026 (the date
+      first recorded). Amendment deadline 8 Jul 2026.
+      Operative text retrieved 2026-06-19 via the headless-browser AWS-WAF bypass
+      (~/law-tracker/lib/fetch_blocked_doc.py; doceo returns HTTP 202 to curl/WebFetch). Transcribed
+      to extracts/parliament/IMCO-PA-789877_draft-opinion.md. Surfaced via triage #61
       (docs/triage/2026-06-18-issue-61.md).
 
   - id: EP-LEGTRAIN

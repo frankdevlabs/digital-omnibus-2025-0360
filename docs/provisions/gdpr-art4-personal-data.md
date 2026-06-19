@@ -23,9 +23,20 @@ criteria, with an EDPB opinion. Recitals 27a/27b. Cites CJEU *EDPS v SRB* (C-413
 - → See the dedicated [pseudonymisation & data-protection-by-design provision](gdpr-pseudonymisation-by-design.md)
   for the mechanics of new Art 29a and Art 25.
 
-## Parliament (provisional)
-No draft report. Co-rapporteur Kaljurand and centre-left groups hostile to redefinition; likely to back
-the Council's deletion.
+<a id="parliament-imco-draft-opinion"></a>
+## Parliament — IMCO draft opinion (PE789.877, Agius Saliba, 8 Jun 2026)
+No joint ITRE/LIBE draft report yet, but the **IMCO draft opinion** opposes the redefinition: it **deletes**
+the Commission's added relative/controller-centric sentences in **Art 4(1)** — the amendment is "deleted"
+([Am 98](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-98)). The rapporteur's
+justification: *"Preserving the definition of personal data is essential for the EU's fundamental rights
+based approach for European consumers."* IMCO also **rewords recital 27**
+([Am 17](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-17)) to "preserve the same or
+higher level of data protection", to interpret Art 4 in line with CJEU case-law, and to have the supervisory
+authorities within the EDPB "continue supporting controllers and processors while remaining independent"
+(dropping the Commission's implementing-act criterion). Net: IMCO opposes the redefinition — the **same
+direction** as the Council deletion and the EDPB-EDPS. JURI's draft opinion is data-acquis-only, so on this
+GDPR-strand provision JURI is silent. A committee-for-opinion text, not the lead draft report; amendment
+deadline 8 Jul 2026. Via triage [#61](../triage/2026-06-18-issue-61.md).
 
 ## EDPB–EDPS
 **Strongly urge co-legislators not to adopt** the redefinition (Joint Opinion 2/2026, ¶21): it is a

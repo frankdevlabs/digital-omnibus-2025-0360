@@ -18,7 +18,10 @@ could be taken otherwise than by solely automated means", among other clarificat
 - → [Operative text](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-7--article-22-automated-decisions)
 
 ## Parliament (provisional)
-Likely to support the Council's de-escalation.
+No committee amendment touches Art 22: neither the JURI (PE789.142) nor the IMCO (PE789.877) draft opinion
+tabled one, and the lead joint ITRE/LIBE draft report is pending (Oeil: "Awaiting committee decision"). On the
+merits Parliament is expected to side with the Council's de-escalation (the Council largely restored the
+current Art 22), but this is an expectation pending the joint report, not a tabled position.
 
 ## EDPB–EDPS
 **Retain the in-principle prohibition** (Joint Opinion 2/2026, ¶66): the CJEU (*SCHUFA*, C-634/21) reads

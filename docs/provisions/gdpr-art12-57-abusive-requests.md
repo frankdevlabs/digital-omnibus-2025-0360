@@ -17,8 +17,25 @@ purpose **other than** data protection; gives examples of "abuse".
 - → [Art 12(5)](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-4--article-12-5-abusive-requests),
   [Art 57](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-11--article-57-supervisory-authority-requests)
 
-## Parliament (provisional)
-Likely to tighten further or narrow the "abusive intention" ground.
+<a id="parliament-imco-draft-opinion"></a>
+## Parliament — IMCO draft opinion (PE789.877, Agius Saliba, 8 Jun 2026)
+No joint ITRE/LIBE draft report yet, but the **IMCO draft opinion** pushes the **opposite way** to the
+Commission/Council — it removes the abuse-of-rights restriction and adds consumer-protection
+anti-circumvention duties. It **deletes** the added ground that an Art 15 request can be refused because the
+data subject "abuses the rights ... for purposes other than the protection of their data"
+([Am 103](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-103)); deletes the "charge a
+reasonable fee" option ([Am 104](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-104));
+deletes the "refuse to act on the request" option
+([Am 105](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-105)); and deletes the
+burden-of-proof sentence ([Am 106](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-106)).
+It then **adds** new subparagraphs
+([Am 107](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-107)) barring controllers from
+any behaviour that undermines the effective exercise of rights (Arts 12–22) or makes them unduly difficult,
+and from abusively resorting to the Art 12(5) exceptions — an anti-circumvention / anti-dark-pattern duty
+the rapporteur draws from **DMA Art 13**. Net: IMCO opposes the restriction and adds consumer safeguards.
+JURI's draft opinion is data-acquis-only, so on this GDPR-strand provision JURI is silent. A
+committee-for-opinion text, not the lead draft report; amendment deadline 8 Jul 2026. Via triage
+[#61](../triage/2026-06-18-issue-61.md).
 
 ## EDPB–EDPS
 Object to tying abuse to exercising access **for purposes other than data protection** (Joint Opinion

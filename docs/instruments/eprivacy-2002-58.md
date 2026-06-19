@@ -17,3 +17,13 @@ fraud prevention) and the anti-consent-fatigue rule. See
 
 The machine-readable consent **signals** article, by contrast, sits in the **GDPR** (new Art 88a, formerly
 88b).
+
+<a id="parliament-imco-draft-opinion"></a>
+## Parliament — IMCO draft opinion (PE789.877, Agius Saliba, 8 Jun 2026)
+The Omnibus (its **Article 5, point 1**) deletes **ePrivacy Art 4** (security of processing). The **IMCO
+draft opinion** marks that amendment as **"deleted"**
+([Am 122](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-122)) — i.e. it **opposes the
+deletion of ePrivacy Art 4 and keeps it in force**. A committee-for-opinion text, not the joint ITRE/LIBE
+draft report (still pending); amendment deadline 8 Jul 2026. Via triage
+[#61](../triage/2026-06-18-issue-61.md). See the
+[Cookies provision](../provisions/gdpr-art88a-88b-cookies.md#parliament-imco-draft-opinion).

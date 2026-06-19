@@ -21,9 +21,17 @@ the three-part balancing test), per EDPB **Opinion 28/2024**.
   rights override (esp. children), with safeguards (data minimisation, transparency, right to object).
 - → [Recital 33a operative text](../../extracts/council/ST-9547-2026_recitals.md#recital-33a-ai-legitimate-interest)
 
-## Parliament (provisional)
-EDRi/noyb push for full deletion of any AI LI statement; EPP/Renew more supportive of a recital. Kaljurand
-cautious.
+<a id="parliament-imco-draft-opinion"></a>
+## Parliament — IMCO draft opinion (PE789.877, Agius Saliba, 8 Jun 2026)
+No joint ITRE/LIBE draft report yet, but the **IMCO draft opinion** **DELETES the standalone Art 88c** (AI
+legitimate interest) ([Am 121](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-121)) and
+deletes its supporting recitals **30** ([Am 18](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-18))
+and **31** ([Am 19](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-19)). This **aligns
+with the Council**, which also deleted Art 88c (keeping only the interpretive recital 33a), doubling the
+pressure to remove the standalone article. In the wider politics, EDRi/noyb push for full deletion of any AI
+LI statement while EPP/Renew are more open to a recital; Kaljurand cautious. **JURI** is silent here — its
+draft opinion is data-acquis-only. A committee-for-opinion text, not the draft report; amendment deadline
+8 Jul 2026. Via triage [#61](../triage/2026-06-18-issue-61.md).
 
 ## EDPB–EDPS
 A standalone article is **unnecessary** — **Opinion 28/2024** already confirms AI legitimate interest under

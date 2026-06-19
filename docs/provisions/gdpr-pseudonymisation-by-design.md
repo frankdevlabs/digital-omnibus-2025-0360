@@ -38,8 +38,18 @@ data effectively prevents re-identification — the Commission, or the EDPB.
 - → [Operative text — point 10](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-10--article-29a-pseudonymisation),
   [point 7a (Art 25)](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-7a--article-25-data-protection-by-design-and-by-default)
 
-## Parliament (provisional)
-No draft report yet.
+<a id="parliament-imco-draft-opinion"></a>
+## Parliament — IMCO draft opinion (PE789.877, Agius Saliba, 8 Jun 2026)
+No joint ITRE/LIBE draft report yet, but the **IMCO draft opinion** **deletes** the Commission's proposed
+**Art 41a** (the Commission implementing power to set when pseudonymised data is no longer personal) — the
+amendment is "deleted" ([Am 111](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-111)).
+The rapporteur's justification: *"This is the competence of DPAs, not the Commission ... not creating
+simplification, but rather bypassing MS authorities. The EDPB already adopted Guidelines 01/2025 on
+pseudonymisation."* Net: this **aligns with the Council**, which also struck Art 41a (the Council replaced it
+with an EDPB-opinion Art 29a; IMCO, amending the Commission base text, simply deletes the Commission power).
+JURI's draft opinion is data-acquis-only, so on this GDPR-strand provision JURI is silent. A
+committee-for-opinion text, not the lead draft report; amendment deadline 8 Jul 2026. Via triage
+[#61](../triage/2026-06-18-issue-61.md).
 
 ## EDPB–EDPS
 **Pseudonymisation by implementing act (Art 41a) — opposed** (Joint Opinion 2/2026, ¶22–25): delineating

@@ -30,7 +30,11 @@ establishes and publishes its own national list** of operations requiring a DPIA
 - → [Operative text — point 9](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-9--article-35-dpia-lists)
 
 ## Parliament (provisional)
-No draft report yet; EU-level harmonisation of DPIA lists is likely to be welcomed.
+No committee amendment touches the Art 35 DPIA lists: neither the JURI (PE789.142) nor the IMCO (PE789.877)
+draft opinion tabled one, and the lead joint ITRE/LIBE draft report is pending (Oeil: "Awaiting committee
+decision"). Parliament is expected to support the EDPB-led list model — consistent with the centre-left's
+pro-EDPB stance and with the EDPB-EDPS ask below — but this is an expectation pending the joint report, not a
+tabled position.
 
 ## EDPB–EDPS
 **Welcomed; EDPB ownership** (Joint Opinion 2/2026, ¶88–95): support common EEA **DPIA lists** and a common

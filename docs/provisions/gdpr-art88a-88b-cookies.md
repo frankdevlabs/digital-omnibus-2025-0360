@@ -24,9 +24,41 @@ strict-necessity exceptions. In NL: Telecommunicatiewet **Art 11.7a**.
 - → [ePrivacy Art 5(3) operative text](../../extracts/council/ST-9547-2026_eprivacy-art5.md),
   [machine-readable signals](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-15--articles-88-machine-readable-consent)
 
-## Parliament (provisional)
-Highly contested. Industry pushes deletion of the machine-readable-signal article; digital-rights side
-wants broader OS/app coverage and stronger signal-honouring.
+<a id="parliament-imco-draft-opinion"></a>
+## Parliament — IMCO draft opinion (PE789.877, Agius Saliba, 8 Jun 2026)
+No joint ITRE/LIBE draft report yet, but the **IMCO draft opinion** engages this provision in detail and
+is strongly **pro-signal** — the opposite of the France/industry line that wants Art 88b deleted.
+
+**Art 88a (cookies / consent).** IMCO limits **gatekeepers** (Reg (EU) 2022/1925) to **one consent prompt
+per year** for a purpose the user previously refused or withdrew
+([Am 115](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-115)), and provides that a
+new consent request made within the no-repeat window **precludes valid consent**, treating it as an unfair
+commercial practice under Dir 2005/29/EC (an anti-dark-pattern rule)
+([Am 116](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-116)).
+
+**Art 88b (machine-readable signals).** IMCO **strengthens and broadens** the article rather than deleting
+it: the **standardisation request** must be issued **within 3 months** of entry into force, with balanced
+stakeholder representation including data subjects
+([Am 117](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-117)); it extends the
+technical-means duty from "web browsers (not SMEs)" to **all "providers of software to access online
+interfaces such as web browsers"** (tech-neutral) and **drops the SME exemption**
+([Am 118](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-118)); it adds a **new
+para 6a** requiring software to allow and inform about **third-party choice-management software** and barring
+dark patterns ([Am 119](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-119)); and it
+**accelerates** the browser/OS duty from **48 to 18 months**
+([Am 120](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-120)). On **enforcement**,
+DPA powers and administrative fines are extended to software providers for Art 88a/88b
+([Am 112](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-112),
+[Am 113](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-113),
+[Am 114](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-114)). IMCO also **opposes the
+consequential deletion of ePrivacy Art 4**
+([Am 122](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-122); see the
+[ePrivacy instrument page](../instruments/eprivacy-2002-58.md#parliament-imco-draft-opinion)).
+
+**Net:** IMCO is strongly **pro-signal** and **broadens Art 88b** — the opposite of the France/industry
+camp who want Art 88b deleted. **JURI** is silent here (its draft opinion is confined to the data-acquis
+strand). A committee-for-opinion text, not the lead draft report; amendment deadline 8 Jul 2026. Via triage
+[#61](../triage/2026-06-18-issue-61.md).
 
 ## EDPB–EDPS
 **Strongly support** tackling consent fatigue and GDPR-SA oversight (Joint Opinion 2/2026, ¶96), but warn

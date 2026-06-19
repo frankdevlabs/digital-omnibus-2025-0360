@@ -48,8 +48,13 @@ for anyone reusing personal data for analytics, product development or research.
   [research definition (point 1)](../../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-1--article-4-definitions)
 
 ## Parliament (provisional)
-No draft report yet; the research-friendly simplification is likely to attract broad support, with debate on
-how tightly the research definition and the Art 13(4) exemption are bounded.
+No operative committee amendment touches the research definition or the Art 13 transparency rules: the JURI
+(PE789.142) and IMCO (PE789.877) committees-for-opinion tabled none, and the lead joint ITRE/LIBE draft report
+is pending (Oeil: "Awaiting committee decision"). The only committee touch is a recital-level signal — IMCO
+recital 44 tightens the terminal-equipment carve-out to "strictly necessary **and proportionate**" for a
+service "**explicitly** requested" ([Am 21](../../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-21)),
+which points toward a tighter reading of low-risk processing but does not amend Art 4(38) or Art 13. The
+substance therefore remains open pending the joint report.
 
 ## EDPB–EDPS
 **Scientific research — welcomed, with improvements** (Joint Opinion 2/2026, ¶26–35): welcome the new

@@ -2,8 +2,48 @@
 
 The comprehensive companion to [`STATUS.md`](../STATUS.md)'s "What changed" summary. It is the **authority on
 what moved**: for every tracked provision it traces **current law → Commission proposal (COM(2025) 837, 19 Nov
-2025) → latest Council text (ST 9547/26, 21 May 2026) → Parliament committee opinions**, so it is clear *which
-institution changed what*.
+2025) → Council compromise text → Parliament committee opinions**, so it is clear *which institution changed
+what*.
+
+> **Latest text is now the negotiating mandate [ST 10729/26](../extracts/council/) (22 June 2026).** The
+> provision tables below establish the baseline **through ST 9547/26 (21 May)**; the dedicated
+> **[ST 10729/26 delta section](#st-1072926--the-22-june-negotiating-mandate-δ-vs-st-954726)** immediately
+> after this intro records exactly **what the 22 June mandate carried over vs changed** — read it first for the
+> current state.
+
+## ST 10729/26 — the 22 June negotiating mandate (Δ vs ST 9547/26)
+
+ST 10729/26 is the Cyprus Presidency's **fifth compromise**, put to Coreper as the **mandate for trilogue
+negotiations**. Per the Presidency NOTE it amends **fourteen GDPR articles** and carries two redlines: **vs the
+Commission proposal** (bold/strikethrough) and **vs the previous compromise ST 10677/26, 18 June** (underline).
+
+**Carried over from ST 9547/26 (the bulk of the package is stable):** the Art 4(1) personal-data redefinition
+stays **deleted**; the scientific-research definition (Art 4(38)); the AI/biometric special-category grounds
+(Art 9(2)(k)/(l)); Art 12(5)/57 abusive-requests reformulation (controller bears the burden); Art 22 largely
+restored; Art 25 by-design; the **96h / high-risk-only / national-entry-point** breach regime (Art 33); the
+EDPB-led DPIA lists (Art 35); **Art 88a deleted** (cookies kept in ePrivacy Art 5(3)); **Art 88c deleted**
+(AI legitimate interest survives only in recital 33a); the cyber single-entry-point architecture; the partial
+P2B amendment; and the Data Act / DGA strand.
+
+**Changed in ST 10729/26:**
+
+| Item | ST 9547/26 (21 May) | **ST 10729/26 (22 June)** |
+|---|---|---|
+| **GDPR Art 49 + recital 40b — third-country tax transfers** | *(absent — Chapter V untouched)* | **NEW.** Art 49(1)(d)/(4) amended + interpretive recital 40b bring **periodic/automated tax-data transfers to third countries (FATCA-style)** under the public-interest derogation. No impact assessment. → [provision](provisions/gdpr-art49-third-country-tax-transfers.md) · [pt 10a](../extracts/council/ST-10729-2026_gdpr-art3-amendments.md#point-10a--article-49-tax-transfers) |
+| **GDPR Art 88b — machine-readable consent signal** | **Retained** (browser/OS duty, staged) | **DELETED.** The standalone automated/centralised consent-signal duty is dropped (Coreper 8 Jun flagged it + its absence of impact assessment). → [pt 15](../extracts/council/ST-10729-2026_gdpr-art3-amendments.md#point-15--articles-88-cookies-ai-li) |
+| **GDPR Art 4 definitions (32)–(37)** | Retained (terminal equipment, web browser, media service, online interface…) | **All deleted** — no longer needed once cookies (88a/88b) leave the GDPR. Only (38) scientific research remains. → [pt 1](../extracts/council/ST-10729-2026_gdpr-art3-amendments.md#point-1--article-4-definitions) |
+| **GDPR Art 29a — pseudonymisation** | EDPB opinion in **12 months**; no onward-disclosure rule | **New para (2a)** — pseudonymised data passed by a non-controller to a re-identifying third party is personal data for both; opinion deadline **12 → 6 months**; supporting recital 27a reworked. → [pt 10](../extracts/council/ST-10729-2026_gdpr-art3-amendments.md#point-10--article-29a-pseudonymisation) |
+| **GDPR Art 37 — DPO contact details** | Amendment simplified (drop DPA-notification duty) | **Amendment deleted** → Art 37 maintained as in the current GDPR (NOTE ¶11(i)). |
+| **GDPR Art 12(5) abusive requests** | Abusive-intention limited to **Art 15** requests | Limitation dropped → applies **generally**. |
+| **GDPR Art 9(5) (incidental special-category data)** | Closing **regular-verification + life-cycle-documentation** duty | That sentence **dropped**; "(k)" reads "development and **technical** operation". |
+| **GDPR Art 13 information exemptions** | 13(4) prose exemption | Recast as **Art 13(5)**, four cumulative conditions (a)–(d). |
+| **GDPR recital 34 (biometric)** | — | Clarification **added** (verification vs identification; "sole control"). |
+| **Cyber — NIS2 Art 23b(1) + recital 49** | National entry point established | **Flexibility** added for establishing the national entry point; recital 49 updated; ENISA reduced to a non-receiving information point (NOTE ¶11(iii)). → [cyber](../extracts/council/ST-10729-2026_cyber-art6-9.md) |
+| **EUDPR (Omnibus Art 4)** | Operative article **dropped** (recital-only) | **Operative Article 4 restored**, mirroring the GDPR changes — **except the EUDPR Art 37 amendment, deleted** (mirroring GDPR Art 88a's deletion). → [EUDPR](../extracts/council/ST-10729-2026_eudpr-art4.md) |
+| **Data Act (Art 1) + SDG (Art 2)** | Absent in the May text (stubs) | **Present again** — full consolidated Data Act Article 1 + SDG Annex II rows. → [Data Act](../extracts/council/ST-10729-2026_dataact-art1.md) · [SDG](../extracts/council/ST-10729-2026_sdg-art2.md) |
+
+Full operative text for all of the above: the **[ST 10729/26 extract set](../extracts/council/)**. The baseline
+tables below remain pinned to ST 9547/26.
 
 Several widely-reported "features of the proposal" were in fact deleted, moved or already in the base text —
 this page is the myth-buster. The most common confusion is **Art 33**: the **96-hour deadline and high-risk-only
@@ -26,7 +66,7 @@ source before relying on them**.
 
 ## GDPR (Regulation (EU) 2016/679)
 
-| Provision | Current law → Commission proposal (COM(2025) 837, Nov 2025) | Latest Council text (ST 9547/26, May 2026) | Parliament — committee opinions (provisional) |
+| Provision | Current law → Commission proposal (COM(2025) 837, Nov 2025) | Council text — ST 9547/26 baseline (May 2026; see ST 10729/26 delta above) | Parliament — committee opinions (provisional) |
 |---|---|---|---|
 | [**Personal data (Art 4(1))**](provisions/gdpr-art4-personal-data.md) | *Current:* "personal data" = information on an identified/identifiable person, identifiability judged by "all the means reasonably likely to be used" (Recital 26). **Commission** adds a relative/controller-centric clause — data is **not** personal for an entity that cannot itself identify the person, and does not become personal merely because a later recipient could. [Commission pt 1](../extracts/commission/COM-2025-837_gdpr-art3-amendments.md#point-1--article-4-definitions) | **Addition deleted** (point 1(a) struck) — Art 4(1) reverts to current law; the Commission's Art 41a implementing power is also dropped, replaced by a new Art 29a EDPB-opinion route. Likely cross-institutional consensus *not* to redefine. [ST 9547/26 pt 1](../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-1--article-4-definitions) | **IMCO deletes** the relative/controller-centric clause ([Am 98](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-98)) — same direction as Council/EDPB. JURI silent. |
 | [**Scientific research (Art 4(38))**](provisions/gdpr-research-secondary-use.md) | *Current:* no statutory definition (only Recital 159). **Commission** adds Art 4(38) defining "scientific research", expressly stating it "does not exclude that the research may also aim to further a commercial interest." [Commission pt 1](../extracts/commission/COM-2025-837_gdpr-art3-amendments.md#point-1--article-4-definitions) | **Deleted in Feb (ST 6406), re-included & tightened in May** — research must be conducted "in an autonomous and independent manner", methodically and systematically, producing verifiable/transparent results; the explicit commercial-interest sentence is dropped. [ST 9547/26 pt 1](../extracts/council/ST-9547-2026_gdpr-art3-amendments.md#point-1--article-4-definitions) | No committee amendment on the GDPR definition; open. |
@@ -44,19 +84,19 @@ source before relying on them**.
 
 ## ePrivacy (Directive 2002/58/EC)
 
-| Provision | Current law → Commission proposal (COM(2025) 837, Nov 2025) | Latest Council text (ST 9547/26, May 2026) | Parliament — committee opinions (provisional) |
+| Provision | Current law → Commission proposal (COM(2025) 837, Nov 2025) | Council text — ST 9547/26 baseline (May 2026; see ST 10729/26 delta above) | Parliament — committee opinions (provisional) |
 |---|---|---|---|
 | [**Cookies / terminal-equipment consent (Art 88a / ePrivacy Art 5(3))**](provisions/gdpr-art88a-88b-cookies.md) | *Current:* consent for storing/accessing terminal-equipment data lives in **ePrivacy Art 5(3)**. **Commission** moves the cookie-consent rule **into the GDPR** (new Art 88a) — consent-exempt purposes (transmission, requested service, first-party audience measurement, security), one-click refusal, **6-month no-repeat**. [Commission pt 15](../extracts/commission/COM-2025-837_gdpr-art3-amendments.md#point-15--articles-88-machine-readable-consent) | **Art 88a deleted** — consent **kept in ePrivacy Art 5(3)** (amended by Omnibus Art 5), carrying the exempt-purpose list, single-click refusal and the 6-month no-repeat, with the GDPR supervisory authority as enforcer. [ST 9547/26 ePrivacy Art 5(3)](../extracts/council/ST-9547-2026_eprivacy-art5.md#article-5-3-terminal-equipment-consent) | **IMCO** caps gatekeeper re-prompts to once/yr and voids consent re-requested in the no-repeat window ([Am 115–116](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-115)); **opposes deleting ePrivacy Art 4** ([Am 122](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-122)). |
 
 ## Cyber incident-reporting (NIS2 et al.)
 
-| Provision | Current law → Commission proposal (COM(2025) 837, Nov 2025) | Latest Council text (ST 9547/26, May 2026) | Parliament — committee opinions (provisional) |
+| Provision | Current law → Commission proposal (COM(2025) 837, Nov 2025) | Council text — ST 9547/26 baseline (May 2026; see ST 10729/26 delta above) | Parliament — committee opinions (provisional) |
 |---|---|---|---|
 | [**Single-entry point for incident reporting**](provisions/cyber-single-entry-point.md) | *Current:* separate incident-reporting channels and deadlines under NIS2 (Art 23), DORA (Art 19), CER (Art 15), eIDAS and GDPR (Art 33). **Commission** adds NIS2 Arts 23a–23d: an ENISA information point + Member-State national entry points ("report once, share many"); application 18 months (extendable to 24). [Commission Art 6](../extracts/commission/COM-2025-837_cyber-art6-9.md#article-6--amendments-to-the-nis2-directive-eu-20222555) | **Retained** — ENISA's information point (Art 23a) *identifies* applicable obligations and redirects (it stores nothing); **Member States** build interoperable national entry points (Art 23b) that actually receive reports; reporting switch-over **24 → 30 months**. [ST 9547/26 Art 6](../extracts/council/ST-9547-2026_cyber-art6-9.md#article-6--amendments-to-the-nis2-directive-eu-20222555) | Broadly supported; **IMCO** adds a non-regression safeguard that the single entry point must not lower protection or limit supervisory powers ([Am 110](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-110)). |
 
 ## Repeals & final provisions (Omnibus Arts 10–11)
 
-| Provision | Current law → Commission proposal (COM(2025) 837, Nov 2025) | Latest Council text (ST 9547/26, May 2026) | Parliament — committee opinions (provisional) |
+| Provision | Current law → Commission proposal (COM(2025) 837, Nov 2025) | Council text — ST 9547/26 baseline (May 2026; see ST 10729/26 delta above) | Parliament — committee opinions (provisional) |
 |---|---|---|---|
 | [**Repeals — P2B + DGA/FFNPD/Open Data**](provisions/final-repeals-p2b.md) | *Current:* P2B (2019/1150), DGA (2022/868), FFNPD (2018/1807) and the Open Data Directive (2019/1024) are in force as standalone instruments. **Commission** **repeals P2B outright** (with a derogation keeping some articles to **31 Dec 2032**) and folds DGA/FFNPD/Open Data into the **Data Act**. [Commission Art 10](../extracts/commission/COM-2025-837_final-art10-11.md#article-10-amendments-repeals-transitory) | **P2B not repealed — partially amended**: only Arts 2(11)/2(12), 6, 8–10, 12–14 and 16–18 deleted; the 2032 derogation is **struck out**. DGA/FFNPD/Open-Data repeals proceed (correlation via Annex I). Application dates still bracketed. [ST 9547/26 Art 10](../extracts/council/ST-9547-2026_final-art10-11.md#article-10-amendments-repeals-transitory) | **JURI *and* IMCO oppose the P2B repeal** ([JURI Am 12 / 67–68](../extracts/parliament/JURI-PA-789142_draft-opinion.md#amendment-67) · [IMCO Am 123–124](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-123)); JURI restores DGA safeguards. See the data-acquis section below. |
 
@@ -93,7 +133,7 @@ These are committee-for-opinion positions; the lead **joint ITRE/LIBE draft repo
 
 ## EUDPR mirror (Regulation (EU) 2018/1725)
 
-| Provision | Current law → Commission proposal (COM(2025) 837, Nov 2025) | Latest Council text (ST 9547/26, May 2026) | Parliament — committee opinions (provisional) |
+| Provision | Current law → Commission proposal (COM(2025) 837, Nov 2025) | Council text — ST 9547/26 baseline (May 2026; see ST 10729/26 delta above) | Parliament — committee opinions (provisional) |
 |---|---|---|---|
 | [**EUDPR mirror (Omnibus Art 4)**](provisions/eudpr-mirror.md) | *Current:* Reg 2018/1725 mirrors the GDPR for the EU institutions (the **EDPS** supervises). **Commission** proposes a point-for-point EUDPR mirror of all the GDPR (Art 3) changes — definitions, Art 9(2)(k)/(l), Art 24 ADM, Art 34(1) breach (96h, to the EDPS), terminal-equipment processing, DPIA and pseudonymisation alignment. [Commission EUDPR Art 4](../extracts/commission/COM-2025-837_eudpr-art4.md#point-1--article-3-definitions) | **Operative article dropped** — ST 9547/26 references the EUDPR only in the **recitals**, deferring alignment to a later exercise (recital 43). This opens a temporary GDPR/EUDPR coherence gap that the ECB and EDPB–EDPS want closed; the mirror would later inherit the Council's GDPR outcomes. [Council GDPR track](../extracts/council/ST-9547-2026_gdpr-art3-amendments.md) | No committee amendment (Omnibus Art 4 not addressed by JURI/IMCO); open. |
 

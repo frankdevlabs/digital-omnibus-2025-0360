@@ -206,6 +206,41 @@ documents:
     local: sources/council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf
     notes: Current text. For AGS 27 May 2026. PDF committed; operative text in extracts/council/.
 
+  - id: ST-10729-2026
+    title: "Mandate for negotiations with the European Parliament (Presidency compromise — GDPR, ePrivacy/cookies, EUDPR, P2B, Data Act, cyber)"
+    body: Council
+    date: 2026-06-22
+    limite: true
+    access: public-via-journalist   # LIMITE; public copy is the PDF attached to the AAA/Lehagre LinkedIn post (campaign release, pre-register)
+    register: https://data.consilium.europa.eu/doc/document/ST-10729-2026-INIT/en/pdf   # 404 until released
+    national_parliament: ""   # add: parlament.gv.at dossier once mirrored
+    mirror: https://www.linkedin.com/feed/update/urn:li:activity:7475224956423884801/   # AAA/Lehagre post; full ST 10729/26 PDF attached on media.licdn.com
+    local: sources/council/ST-10729-2026_council-negotiating-mandate_2026-06-22.pdf
+    lead_source: >-
+      Fabien Lehagre / Association of Accidental Americans (@fabienlehagre, LinkedIn) — post c. 23 Jun
+      2026, https://www.linkedin.com/feed/update/urn:li:activity:7475224956423884801/ (attached the
+      full ST 10729/26 PDF and flagged the new GDPR Art 49 + recital 40b tax-transfer derogation).
+      Credited lead: this LIMITE negotiating mandate reached the tracker via the AAA campaign post,
+      ahead of any Council-register release.
+    notes: >-
+      The Cyprus Presidency's mandate for trilogue negotiations (General Secretariat -> Permanent
+      Representatives Committee, 22 Jun 2026), to be confirmed at Coreper-II — the realisation of the
+      milestone flagged in STATUS.md. Fifth and latest Presidency compromise, superseding ST 9547/26
+      (21 May) and consolidating the interim ST 10677/26 (18 Jun, not held in the repo). Per the
+      Presidency NOTE it amends fourteen GDPR articles; the Annex redlines mark changes vs the
+      Commission proposal (bold/strikethrough) and vs ST 10677/26 (underline). Headline new item: a
+      slight amendment to GDPR Article 49 plus an interpretive recital 40b (NOTE ¶13 calls it 40a)
+      bringing periodic/automated transfers of personal data to third countries for tax cooperation
+      (FATCA-style, e.g. bank data to the US IRS) under the Art 49(1)(d) public-interest derogation —
+      GDPR Chapter V was untouched by the Commission proposal; added at several delegations' request
+      via the Antici Group, with no impact assessment. Other ¶11 changes vs 18 Jun: GDPR Art 29a new
+      para 2a + recital 27a (pseudonymisation/re-identification), recital 34 biometric clarification,
+      deletion of the Art 37 DPO-contact amendment, deletion of EUDPR Art 37 (mirroring the full
+      deletion of GDPR Art 88a cookies), cyber Art 23b(1) entry-point flexibility + recital 49.
+      Operative text in extracts/council/; change analysis in docs/what-changed.md; tax-transfer
+      analysis in docs/provisions/gdpr-art49-third-country-tax-transfers.md. Live context: pending CJEU
+      case C-804/25 (FATCA v GDPR).
+
   - id: CM-2918-2026
     title: "AGS meeting agenda (exchange of views on ST 9547/26)"
     body: Council

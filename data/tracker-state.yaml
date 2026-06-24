@@ -2,159 +2,160 @@
 # Auto-maintained by the daily tracker Routine. Do not edit by hand.
 # Note: hashes use the spec-compliant deterministic normalization (strip
 # scripts/styles, csrf+viewport-date meta, hidden inputs, digit runs >8,
-# collapse whitespace). 2026-06-23 run: 1 genuine new hit (#77).
-# HITS this run:
-# #77 T2-01 noyb + T3-02 noyb + T3-03 Schrems (Bluesky) — Council's latest
-#   Digital-Omnibus position paper SCRAPS the cookie-banner abolition; Member
-#   States (Germany, France) + Google lobby to KEEP banners. Council-grade
-#   ePrivacy-strand signal; corroborates #73 (Council approval 24 Jun) and #57.
+# collapse whitespace). 2026-06-24 run: 0 NEW hits; 1 re-detection commented.
+# RE-DETECTION this run (commented on #77, NOT re-issued):
+# Continued Bluesky amplification of the cookie-banner story (#77): noyb repost
+#   24 Jun 05:00Z + Schrems 23 Jun 17:12Z (T3-03) + montezuma 23 Jun 20:01Z
+#   (T3-01) — all link the SAME noyb article. No new noyb article, no new
+#   Council doc behind it. Appended a re-detected comment to OPEN #77.
 # NOISE this run (changed but not substantive):
-# T1-01/T1-02 OEIL hash drift but STAGE still "Awaiting committee decision",
-#   last KEY EVENT still 19/01/2026 (lobby-meeting list incl. 23/06 ENAR +
-#   date drift, cf #18/#36/#42). T1-03 UNCHANGED.
-# T1-04 legislative-train footer STILL "As of 22/05/2026" (body drift only;
-#   hash refreshed). T1-05 ITRE / T1-21 LIBE = [] (no 0360 doc). T1-20 JURI
-#   only PE789.142v01-00 (Benifei, in seen_refs). T1-22 IMCO only PE789.877
-#   (Agius Saliba, in seen_refs).
-# T1-06 ITRE press = "ReArm EU omnibus" (defence, 0359-unrelated). T1-07 LIBE
-#   press = AI "digital omnibus" (0359, McNamara 15-06) — out of scope.
-# T1-08 Austrian 65565 (COM dossier) RAT 7720/26 date drift. T1-09 Austrian
-#   73322 latest Council doc STILL ST 9547/26 (update 22.05) — NO new LIMITE
-#   text despite the noyb-reported newer Council paper (not yet on register).
-# T1-10/T1-11 Eerste Kamer newest item 9 juni 2026 (pre-last-run) — no new.
-# T1-12 EDPB RSS UNCHANGED. T1-13 EDPB joint-opinion no-JS shell drift (still
-#   Joint Opinion 2/2026; hash refreshed). T1-14 AP RSS UNCHANGED.
-# T1-15 MediaLaws "Last updated:" STILL 16 June 2026 (pinned hash kept stable).
-# T1-16 Tweede Kamer hash drift = procedural republication of the 18-Jun
-#   Kamerbrief "Naderende Raadspositie Omnibus Digitaal" (2026D31709 ingekomen-
-#   stukken list, ref 22112-4382) ALREADY issued #57; out-of-scope RAZ verslag
-#   2026D31576 ("omnibus versimpeling"); calendar roll to 1 juli procedurever-
-#   gadering. No NEW in-scope substance. T1-17 DiZa Uitgelicht featured item
-#   still the 25 Jun debate (#72); tracking-script-id drift only. T1-18
-#   commissievergaderingen calendar roll (week 22-26 juni). T1-19 Kamervragen
-#   RSS healthy again (5 items), hash matches prior stored value — no new item.
-# T2-02/T2-05/T2-06/T2-09 UNCHANGED. T2-03 netzpolitik / T2-07 bitsoffreedom /
-#   T2-08 heise / T2-10 ieu-monitoring changed but NO in-scope title kw match
-#   (general news roll; T2-10 only "tte" substring false-positives, no Council
-#   item). T2-04 permanently Cloudflare-blocked (not polled).
-# T3-01 montezuma / T3-05 michae.lv / T3-06 alexfanta / T3-07 olejnik new posts
-#   but no kw match. T3-04 gzf / T3-08 jvh no new posts.
-last_run: 2026-06-23T11:20:00Z
+# T1-01/T1-02 OEIL hash drift; STAGE still "Awaiting committee decision", no new
+#   KEY EVENT (latest listing dates <= 27/05/2026; lobby-meeting/date drift).
+#   T1-02 PDF fetched cleanly this run (prior run had a fetch race). T1-03 Cellar
+#   XML drifted (metadata churn; underlying COM(2025)837 static, OEIL confirms no
+#   procedural move) — hash refreshed.
+# T1-04 legislative-train footer STILL "As of 22/05/2026" (body drift; hash
+#   refreshed). T1-05 ITRE / T1-21 LIBE = [] (no 0360 doc). T1-20 JURI only
+#   PE789.142v01-00 (Benifei, in seen_refs). T1-22 IMCO only PE789.877v01-00
+#   (Agius Saliba, in seen_refs). All EP committee sources: no new pe_ref.
+# T1-06 ITRE press / T1-07 LIBE press widget drift (no 0360 news). T1-08 Austrian
+#   65565 still RAT 7720/26. T1-09 Austrian 73322 latest Council doc STILL
+#   ST 9547/26 — NO new LIMITE text. T1-10/T1-11 Eerste Kamer no new item.
+# T1-12 EDPB RSS: new items are "Supporting GDPR consistency: EDPB launches form"
+#   (24 Jun) + "EDPB gets a new look" website redesign (22 Jun) — general GDPR /
+#   site rebrand, NOT 2025/0360 (the rebrand explains T1-13 page drift). T1-13
+#   refreshed. T1-14 AP RSS newest "AP vraagt reacties op lijst DPIA-uitzonderingen"
+#   (24 Jun) — DPIA-exemption consultation, no Omnibus/AVG title kw, out of scope.
+# T1-15 MediaLaws "Last updated:" STILL 16 June 2026 — hash PINNED (kept stable;
+#   capture-window body drift only). T1-16 Tweede Kamer search no new in-scope
+#   title (commissie/procedurevergadering widgets). T1-17 DiZa Uitgelicht / T1-18
+#   commissievergaderingen calendar roll. T1-19 Kamervragen RSS hash UNCHANGED
+#   (matches stored; 5 items, newest ah-1251767 03 Jun, pre-last-run).
+# T2-01 noyb newest = the #77 cookie-banner article (23 Jun 05:00, already issued).
+#   T2-02 edri newest "Civil society Summit demands" (23 Jun, no kw match). T2-03
+#   netzpolitik / T2-06 algowatch / T2-07 bof / T2-08 heise no in-scope title kw
+#   (T2-06/T2-02 top items are AI Omnibus 0359 = out of scope). T2-05 beuc /
+#   T2-09 dlapiper no new item (newest pre-last-run). T2-10 ieu-monitoring only
+#   "tte" substring false-positives inside "commiTTEe" — no Telecom/Council item.
+#   T2-04 permanently Cloudflare-blocked (not polled).
+# T3-04 gzf / T3-05 michae.lv / T3-06 alexfanta / T3-08 jvh no new posts. T3-07
+#   olejnik new posts but no kw match.
+last_run: 2026-06-24T11:20:00Z
 sources:
   T1-01:
-    last_seen_hash: "sha256:55afaea997f307e8633953007448446fc62dc44bcdf902600475bf0a82deda7c"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:8ddfff1dfeccb106aa06e7c0b6e85a5e540d6b175156926bc96657f093242cff"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-02:
-    last_seen_hash: "sha256:44f2fa7c745bfa6fc5712f44e5d7a596388cae3bd9f3aee1d34984d77ee97d7a"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:12a245765e181bbe979df14df61526c81c025cdbd01bcbf3606bdf21896fc07f"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-03:
-    last_seen_hash: "sha256:1873661d8b997ad7d44ece073d3b24c7a2d7b44631aa77e4e4a5423fad878d25"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:166829a21a75f42191a33074431fec8f1360267967ae6aad7b99cd729698dcc5"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-04:
-    last_seen_hash: "sha256:21f24818a3ff600041c69691b62d94b06dea29b1219503460238cec5d516e6ee"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:f3a0c34bfb1c3817e9f700532f92ae546e7b7755e4810e5c8872c8d45f6a1943"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-05:
     seen_refs: []   # in-scope 2025/0360 ITRE docs already issued (none yet)
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-06:
-    last_seen_hash: "sha256:a69450ef891e0b5f58aac53040f96840eccd23756054429b4b7eaf3b409fb2e4"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:7233b363fbc0035e69fd183df68337e2a86a2845437b08f9ccab2b3ab7be6072"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-07:
-    last_seen_hash: "sha256:1622c90c659ba584888ea574b95abb8d4b5462a788ae66b40ac9ffc643089437"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:f380909c1efb78a279085295da5d4c3f700579e3d96e72693251af1ec7a5016c"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-08:
-    last_seen_hash: "sha256:650c437703efc23a02a269a675fcff5f580b64ea88ea6a3014467eac09d306be"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:70756c66140312e71d18a393cacdc9864c10088ec05a6accbc59d8ef1472567a"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-09:
-    last_seen_hash: "sha256:6dcd449f034087ea32fbef9024002bdfd230e9526faf28bc2e17531ca8c5f061"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:a84a693aa3d6da91146b0479679c081b7b38a022da05583b29b19daacdc638a5"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-10:
-    last_seen_hash: "sha256:aa8034bbd8f251079549c129d16081621bad1b661808eae5f55b90e890c85164"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:842f9bde1596940aa39c83ecc603222ad26595332f575189734565bea7d301d8"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-11:
-    last_seen_hash: "sha256:dac9797b9fc89521b5e711e23cf53d1e1adbf3979c923598ace56842a122d11c"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:0e4201a6aad0fef516706933cc3579efad621e082a092b35ee9f46fff66fbbac"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-12:
-    last_seen_hash: "sha256:ce294b0449b3ef45432285a516222384f0a079900a6e8dc3969b0124f0baf8ee"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:99a6cb41176518f43b15eb30e7a7b58fc501e7d1f3bc2afa45beaec3dc4095e6"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-13:
     # EDPB joint-opinion page serves a no-JS shell to curl; main doc still Joint
-    # Opinion 2/2026 — hash refreshed to current to avoid daily challenge-shell drift.
-    last_seen_hash: "sha256:0b9b3f9b8af239830608cc1ee6fc538eb0453c5a4625cd9cfb043d1ba532fab3"
-    last_seen_at: 2026-06-23T11:20:00Z
+    # Opinion 2/2026 — hash refreshed (EDPB website rebrand 22 Jun shifted markup).
+    last_seen_hash: "sha256:1d5adb29dbd5b2b278a1d0ae33fc9483907cafb281fa59bdd25769575dc361fc"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-14:
-    last_seen_hash: "sha256:4296018cd3da90b15b355758bb021414312c06b47e1aaec497a662a383a26283"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:c1fadd907ed384a7d41bf45abaf1b670e2f694aaa4c0b2f6797ae7391f645e51"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-15:
     # Detection is on the "Last updated:" string (still 16 June 2026, unchanged
-    # since #52); stored hash kept stable to avoid daily full-body-drift re-fire.
+    # since #52); stored hash kept PINNED to avoid daily capture-window drift re-fire.
     last_seen_hash: "sha256:67b0d7a9d81d3cf5c00d27c985f9fd21acfb5f4e1b573ccdeca1c82a29513c75"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-16:
-    last_seen_hash: "sha256:3eba353d7b2f60b57f1b826a690a50697036245e895a1670d9bd59193423d3da"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:ef3962fe7e4ddc4945a31b17e30414d534b20222230b396b859b92e4340f8d4e"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-17:
-    last_seen_hash: "sha256:2a2519fe7090575b4e4d6ce81cdcd5cc051e7602e1c4151d788bfca78a0a34db"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:02c7fd14c70002e87bf6ba12875f480973679f642e0457c31ebe3da6afde5308"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-18:
-    last_seen_hash: "sha256:284385e1bca59d397f37394be528bf221cfa1aff1488925821d9c228749b5ded"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:29d13f8af77dd3e5a18a90652e2420109d483f48c2dbc67293dc053b2420f486"
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-19:
-    # 2026-06-23: feed healthy again (5 items); normalized hash matches the
-    # value retained through the 2026-06-22 transient error — no new item.
+    # 2026-06-24: feed healthy (5 items); normalized hash matches stored value —
+    # no new item (newest ah-1251767, 03 Jun 2026).
     last_seen_hash: "sha256:fe1110ad69eaae4fefd3630e4b3a50df8ea91b116890c53db2429fe51c407039"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-20:
     # Per-document detection (ep_committee_docs.py). PE789.142 (Benifei draft
-    # opinion) seeded via #47; returned again this run, no re-issue.
+    # opinion) in seen_refs; returned again this run, no re-issue.
     seen_refs:
       - PE789.142v01-00
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-21:
     seen_refs: []   # in-scope 2025/0360 LIBE docs already issued (none yet; McNamara reports are 0359)
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_at: 2026-06-24T11:20:00Z
   T1-22:
     # IMCO committee documents. PE789.877 (Agius Saliba draft opinion, 15 Jun)
-    # in seen_refs (baselined 2026-06-19, covered by triage #61); returned again, no re-issue.
+    # in seen_refs (covered by triage #61); returned again, no re-issue.
     seen_refs:
       - PE789.877v01-00
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_at: 2026-06-24T11:20:00Z
   T2-01:
-    last_seen_hash: "sha256:103e05c2f92154d4afe93bac68ce43c323c3ad1612a1973043e844721deda66c"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:8b9fc079e3d6e0fb039701b2cd886567c11a157db56ab1a061da71c111bb0ff7"
+    last_seen_at: 2026-06-24T11:20:00Z
   T2-02:
-    last_seen_hash: "sha256:aab5aa93b01c7ca43a9fa534c78cbcf1daad4fea87c154edb44071f6132ebb4e"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:c3e776f1f331e962c7bb641fecc2d1cce1b88b9359ce81a51afbe1e648e9051b"
+    last_seen_at: 2026-06-24T11:20:00Z
   T2-03:
-    last_seen_hash: "sha256:da5596de8423e426a76a596a98e1c363c428259ec099b568354de63411cb6deb"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:61981b2c49eeab92873cc4714716a85df3c8b87757e3caa51e87ba7d6dbcd696"
+    last_seen_at: 2026-06-24T11:20:00Z
   # T2-04: Cloudflare-blocked on every run; treat as unreachable, no hash stored.
   T2-05:
-    last_seen_hash: "sha256:46684082032f56bb7dda9e09971d135e5eb4a6957e66b2c3bf43a4a5be6143b5"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:e96b5bd141bc26850ae1cd692d6ad36800b03f75d7529cd057d9dc8c9826a728"
+    last_seen_at: 2026-06-24T11:20:00Z
   T2-06:
-    last_seen_hash: "sha256:9ffdfafa7dd1644e8e49aeda59d52b92a5a80eb95aac47916e4e1b54c66f0de1"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:9eaf967c1a1d058a0324f520b2432ed19ca782574f154bfc464a37ef95d79bda"
+    last_seen_at: 2026-06-24T11:20:00Z
   T2-07:
-    last_seen_hash: "sha256:98cff2adb60c5891f6fa0bdcb3e9a507b2b8613c1d1a44828341506a087ede9e"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:c5c16ad9e0cac1a40e920e15b8d06cf796928bb924ca85ab25a529d6e60ff4a0"
+    last_seen_at: 2026-06-24T11:20:00Z
   T2-08:
-    last_seen_hash: "sha256:2f0368f6cb701c51ce8a6259ff0fe5ff592e543861e664941a8ebfccc3078a30"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:420e1dfe7160f1a9909691b52b0091e7e7593810c91445d3ba97cf17466f4287"
+    last_seen_at: 2026-06-24T11:20:00Z
   T2-09:
-    last_seen_hash: "sha256:018ecd37a30d23358236cfee4844afcc54d35b3c2172eec05f2a61504345d919"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:d903259d3b85e52208211297353a2bf8d979c9ab6b1871ea62e2dbfd930cbdc7"
+    last_seen_at: 2026-06-24T11:20:00Z
   T2-10:
-    last_seen_hash: "sha256:87c2bc2d0904d98c607765a8d7dbe759009bcb2d40452c2bff0589585c605150"
-    last_seen_at: 2026-06-23T11:20:00Z
+    last_seen_hash: "sha256:47ea1904a1011266b2eccf09a4efa96b648607a7508cf66cad7a3c2eaf121470"
+    last_seen_at: 2026-06-24T11:20:00Z
   T3-01:
-    last_seen_indexed_at: 2026-06-23T01:44:28.861Z
+    last_seen_indexed_at: 2026-06-24T09:42:12.672Z
     did: did:plc:wxpnu3arxymnfzh7zm2vx4cn
   T3-02:
-    last_seen_indexed_at: 2026-06-23T10:00:16.164Z
+    last_seen_indexed_at: 2026-06-24T05:00:11.263Z
     did: did:plc:6tig4nnvqut4jhyxmvqbxbag
   T3-03:
-    last_seen_indexed_at: 2026-06-23T08:20:13.064Z
+    last_seen_indexed_at: 2026-06-23T17:12:15.271Z
     did: did:plc:u7j6gujy5iyayifj4wn4zwj4
   T3-04:
     last_seen_indexed_at: 2026-06-16T14:40:38.572Z
@@ -166,7 +167,7 @@ sources:
     last_seen_indexed_at: 2026-06-23T06:24:07.379Z
     did: did:plc:66ealeut54i3dvgseb4gcn3z
   T3-07:
-    last_seen_indexed_at: 2026-06-23T05:09:25.265Z
+    last_seen_indexed_at: 2026-06-23T17:29:37.164Z
     did: did:plc:s2xjhqmjyvk54jw2bat5yyyt
   T3-08:
     last_seen_indexed_at: 2026-06-15T19:29:06.308Z

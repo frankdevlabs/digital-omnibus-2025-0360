@@ -204,7 +204,7 @@ documents:
     register: https://data.consilium.europa.eu/doc/document/ST-9547-2026-INIT/en/pdf   # 404 until released
     national_parliament: https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322
     local: sources/council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf
-    notes: Current text. For AGS 27 May 2026. PDF committed; operative text in extracts/council/.
+    notes: Superseded by ST 10729/26 (22 Jun 2026). For AGS 27 May 2026. PDF committed; operative text in extracts/council/.
 
   - id: ST-10729-2026
     title: "Mandate for negotiations with the European Parliament (Presidency compromise — GDPR, ePrivacy/cookies, EUDPR, P2B, Data Act, cyber)"

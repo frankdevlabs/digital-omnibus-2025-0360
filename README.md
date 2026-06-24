@@ -38,7 +38,8 @@ The repo deliberately separates three layers so that links stay stable over time
 - **[`docs/fault-lines.md`](docs/fault-lines.md)** — the contested issues likely to dominate trilogue.
 - **[`docs/stakeholders.md`](docs/stakeholders.md)** — EDPB/EDPS, noyb, EDRi, BEUC, industry.
 - **[`docs/provisions/`](docs/provisions/)** — one file per tracked provision: GDPR Art 4, 9, 12/57, 22, 33,
-  88a/88b, 88c, the cyber single-entry point, plus the research/secondary-use package (Arts 4(38), 5(1)(b),
+  49 (third-country tax transfers — new in ST 10729/26), 88a/88b, 88c, the cyber single-entry point, plus the
+  research/secondary-use package (Arts 4(38), 5(1)(b),
   13(4)–(5)), pseudonymisation & data-protection-by-design (Arts 29a, 25), Art 35 DPIA, EDPB
   tasks/consistency & DPO contact (Arts 64, 70, 37(7)), the EUDPR mirror (Omnibus Art 4), and the
   repeals/final provisions (Omnibus Arts 10–11, incl. P2B). Data Act (Art 1) and SDG (Art 2) carry no

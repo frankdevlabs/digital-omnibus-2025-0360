@@ -41,6 +41,16 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   "abusive requests" rationale. Campaigning continues: Max Schrems took part in a **CPDP2026** panel on
   the Omnibus's compatibility with the EU **Charter of Fundamental Rights**, recording published
   18 Jun 2026 ([Bluesky](https://bsky.app/profile/noyb.eu/post/3mokn73gkal2c)).
+  On the reopened cookie debate, noyb went public on **23 Jun 2026**
+  ([*"EU Member States (and Google) suddenly want to keep cookie banners!"*](https://noyb.eu/en/eu-member-states-and-google-suddenly-want-keep-cookie-banners)),
+  charging that the **Council's latest position paper (reported 18 Jun, via Politico) scraps the
+  Commission's plan to replace the cookie banner with a machine-readable signal** — i.e. deletes
+  GDPR **Art 88b** — with **Germany, France and Poland** and **Google** pushing to keep banners.
+  Schrems: *"Cookie banners are not an invention of data protection, but of the tracking industry."*
+  This puts noyb **opposite** France/industry on Art 88b (see [fault-line #3](fault-lines.md);
+  [provision](provisions/gdpr-art88a-88b-cookies.md)). The underlying ST compromise text is **not
+  yet on the public register**, so the per-provision diff stays pending (Council position also
+  tracked via the imminent Coreper II step).
 - **EDRi.** After the February compromise: *"A step back from the brink, the risks remain"* — welcomes
   deletion of the Art 4 redefinition, the research definition and the pseudonymisation implementing
   power; continues to oppose the AI legitimate-interest provision and the sensitive-data carve-out.

@@ -66,9 +66,14 @@ pending**. Detailed per-provision pages are in [`provisions/`](provisions/).
   ITRE/LIBE report pending.
 - **Civil society:** **EDRi** publicly **welcomes** the Art 88b machine-readable signal — in a
   18 Jun 2026 ePrivacy/cookies explainer leaflet it frames machine-readable privacy-preference
-  communication as a route out of consent fatigue ("rights respected by design"). On *this* article,
-  civil society thus sits **opposite** industry and France, who want Art 88b deleted (see
-  [`stakeholders.md`](stakeholders.md)).
+  communication as a route out of consent fatigue ("rights respected by design"). **noyb (Schrems)**
+  went public on 23 Jun 2026 (*"EU Member States (and Google) suddenly want to keep cookie
+  banners!"*) defending Art 88b on the same side. On *this* article, civil society thus sits
+  **opposite** industry and France, who want Art 88b deleted (see [`stakeholders.md`](stakeholders.md)).
+  noyb/Politico further report **Germany and Poland** joining France in pressing to **delete Art 88b**
+  in a **newer 18-June Council paper** — wider than the WK 3736/26 record below — but the underlying
+  ST compromise text is **not yet on the public register**, so this stays a hedged stakeholder report
+  pending the text (Council position tracked via the imminent Coreper II step).
 - **Why it matters:** conceptually decisive for where the cookie regime lives and which authority
   enforces it; industry wants the machine-readable signal article deleted as "consent chaos".
 - → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),

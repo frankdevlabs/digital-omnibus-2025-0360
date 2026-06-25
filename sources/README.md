@@ -30,7 +30,7 @@ number, not asserted as live), and a national-parliament record or public mirror
 > which plugs straight into a register URL:
 > `https://data.consilium.europa.eu/doc/document/{ImmcIdentifier}/en/pdf`
 > (e.g. `ST-6311-2026-INIT`, `ST-15698-2025-ADD-1`). Caveats: **LIMITE** compromise texts
-> (ST 6406/8261/9547) are not released — the register 404s and we rely on national-parliament records
+> (ST 6406/8261/9547/10729) are not released — the register 404s and we rely on national-parliament records
 > or press mirrors; ordinary **ST notes/agendas** are usually downloadable unless still LIMITE. For
 > this file many **WK** working notes (e.g. the WK 3735/26 and WK 3736/26 addenda) *are* being released
 > on the register and via mirrors (some on `table.media`) — see those entries.
@@ -45,8 +45,9 @@ number, not asserted as live), and a national-parliament record or public mirror
 | WK 3736/26 (ADD 1–4) | Delegations' comments — **GDPR/P2B/ePrivacy** strand: consolidated coalitions + DE, EE, FR/PL/RO | 2026‑03‑19 → 03‑30 | [ADD1·consolidated](council/WK-3736-2026-ADD1_consolidated-comments-gdpr-p2b_2026-03-19.pdf) · [ADD2·DE](council/WK-3736-2026-ADD2_delegation-comments-de-gdpr-p2b_2026-03-19.pdf) · [ADD3·EE](council/WK-3736-2026-ADD3_delegation-comments-ee-gdpr-p2b_2026-03-23.pdf) · [ADD4·FR/PL/RO](council/WK-3736-2026-ADD4_delegations-comments-fr-pl-ro_2026-03-30.pdf) | WK 3736/26 · [register](https://data.consilium.europa.eu/doc/document/WK-3736-2026-INIT/en/pdf) · [table.media mirror (ADD 4)](https://table.media/assets/berlin/digital-omnibus-march-30-gdpr,-p2b,-eprivacy-fr,-ro,-pl-(1).pdf) · positions in [`../docs/member-state-positions.md`](../docs/member-state-positions.md) |
 | ST 7244/26 | Cover note transmitting **ECB Opinion CON/2026/9** to the Council | 2026-03-11 | — (screenshot only) | ST 7244/26 · [register](https://data.consilium.europa.eu/doc/document/ST-7244-2026-INIT/en/pdf) · opinion held under [advisory](#advisory-bodies--national-parliaments) |
 | ST 8261/1/26 REV 1 | Presidency compromise text (rev 2) | 2026-04-17 | [`council/ST-8261-1-26-REV1_council-presidency-compromise_2026-04-17.pdf`](council/ST-8261-1-26-REV1_council-presidency-compromise_2026-04-17.pdf) | ST 8261/1/26 REV 1 · [agenda CM 2463/26](https://data.consilium.europa.eu/doc/document/CM-2463-2026-INIT/en/pdf) · NP: search parlament.gv.at "8261" |
-| **ST 9547/26** | **Presidency compromise text (rev 3)** ← current | 2026-05-21 | **[`council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf`](council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf)** | ST 9547/26 · [register](https://data.consilium.europa.eu/doc/document/ST-9547-2026-INIT/en/pdf) · [Austrian Parliament record](https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322) |
+| ST 9547/26 | Presidency compromise text (rev 3) | 2026-05-21 | [`council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf`](council/ST-9547-2026_council-presidency-compromise_2026-05-21.pdf) | ST 9547/26 · [register](https://data.consilium.europa.eu/doc/document/ST-9547-2026-INIT/en/pdf) · [Austrian Parliament record](https://www.parlament.gv.at/gegenstand/XXVIII/EU/73322) |
 | CM 2918/26 | AGS meeting agenda (27 May) | 2026-05-22 | _optional_ | CM 2918/26 · [register](https://data.consilium.europa.eu/doc/document/CM-2918-2026-INIT/en/pdf) |
+| **ST 10729/26** | **Mandate for negotiations with the EP (Presidency compromise, rev 5)** ← current | 2026-06-22 | **[`council/ST-10729-2026_council-negotiating-mandate_2026-06-22.pdf`](council/ST-10729-2026_council-negotiating-mandate_2026-06-22.pdf)** | ST 10729/26 · [register](https://data.consilium.europa.eu/doc/document/ST-10729-2026-INIT/en/pdf) (404 until released) · public copy: PDF attached to the [AAA/Lehagre LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7475224956423884801/) · consolidates ST 10677/26 (18 Jun, not held) |
 
 ## European Parliament
 

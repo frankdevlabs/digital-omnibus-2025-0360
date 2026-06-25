@@ -1,10 +1,12 @@
 # Fault lines — what will dominate the trilogue
 
-Four issues concentrate the disagreement. On each, the Council (ST 9547/26) has already moved away
-from the Commission; the Parliament looks set to push further — and the first **committee-for-opinion
-texts now bear this out** (the **IMCO draft opinion**, PE789.877, opines across the GDPR strand; **JURI**,
-PE789.142, is data-acquis-only). These are **provisional**: the lead **joint ITRE/LIBE draft report is still
-pending**. Detailed per-provision pages are in [`provisions/`](provisions/).
+Five issues concentrate the disagreement. On the first four, the Council (now **ST 10729/26**, the 22 June
+negotiating mandate) has already moved away from the Commission; the Parliament looks set to push further —
+and the first **committee-for-opinion texts now bear this out** (the **IMCO draft opinion**, PE789.877, opines
+across the GDPR strand; **JURI**, PE789.142, is data-acquis-only). The **fifth** is new: a late, untested
+**third-country tax-data-transfer (FATCA) derogation** the Council mandate itself adds. These positions are
+**provisional**: the lead **joint ITRE/LIBE draft report is still pending**. Detailed per-provision pages are
+in [`provisions/`](provisions/).
 
 ## 1. The concept of personal data and pseudonymisation
 - **Commission:** relative/controller-centric clause in Art 4(1); Commission implementing power on
@@ -51,10 +53,15 @@ pending**. Detailed per-provision pages are in [`provisions/`](provisions/).
   consent-exempt purposes, a 6-month no-repeat rule, and machine-readable consent signals (Art 88b).
 - **Council:** **GDPR Art 88a deleted** — the consent rule is **kept in the ePrivacy Directive**
   (amended Art 5(3)), carrying the exempt-purpose list and the 6-month rule; the machine-readable
-  signal article (Art 88b) is **retained** in the GDPR (renumbered). This aligns with Poland's
+  signal article (Art 88b) was **retained** in the GDPR (renumbered). This aligns with Poland's
   position (WK 3736/26) that terminal-equipment rules belong in ePrivacy. **France** went further,
   arguing cookie consent is a *technical operation, not data processing*, and demanding the relaxations
   be made in ePrivacy Art 5(3) and that **Art 88b be deleted** (see [`member-state-positions.md`](member-state-positions.md)).
+  - ▸ **Update — ST 10729/26 (22 Jun):** **Article 88b is now also DELETED.** The standalone automated/
+    centralised machine-readable consent-signal duty is dropped — moving the Council toward France/industry and
+    *against* IMCO and EDRi — after Coreper (8 Jun) flagged the centralised consent signal and its **absence of
+    impact assessment** (NOTE ¶8). The cookie regime now lives entirely in the amended ePrivacy Art 5(3).
+    See [GDPR extract, point 15](../extracts/council/ST-10729-2026_gdpr-art3-amendments.md#point-15--articles-88-cookies-ai-li).
 - **Parliament (committee opinions, provisional):** **IMCO sits opposite France/industry on Art 88b** — it
   **strengthens and broadens** the machine-readable-signal duty (tech-neutral "software to access online
   interfaces", drops the SME carve-out, accelerates the browser/OS duty 48 → 18 months, adds anti-dark-
@@ -97,6 +104,23 @@ pending**. Detailed per-provision pages are in [`provisions/`](provisions/).
   intention" read restrictively; FR wants the ground to also catch circumvention of procedures with
   their own access rules. See [`member-state-positions.md`](member-state-positions.md).
 - → [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md)
+
+## 5. Third-country tax-data transfers (FATCA) — **new in the negotiating mandate**
+- **Commission:** silent — the proposal did **not** touch GDPR Chapter V or Article 49.
+- **Council (ST 10729/26):** **adds** a derogation pathway — a "slight amendment" to **Article 49(1)(d)/(4)**
+  plus interpretive **recital 40b** — characterising **periodic/automated transfers of personal data to third
+  countries for tax cooperation** (FATCA-style) as falling within the Art 49(1)(d) **public-interest**
+  derogation. Added at "several delegations'" request via the Antici Group, **with no impact assessment**
+  (NOTE ¶¶12–13).
+- **Civil society:** **Fabien Lehagre / Association of Accidental Americans** condemns it as smuggling
+  FATCA-enabling language into the mandate through an "innocuous" recital, bypassing debate and an impact
+  assessment, and pre-empting the courts (see [`stakeholders.md`](stakeholders.md#association-of-accidental-americans-aaa--fatca)).
+- **Why it matters:** it would shore up the Council/Member-State reading that **bulk, automated** bank-data
+  transfers to a third-country tax authority have a valid Chapter V basis — the very question now before the
+  CJEU in **C-804/25**. A recital is being used to settle a contested fundamental-rights question at the
+  mandate stage. Cuts directly against the **NL "clean cut"** position (fundamental-rights GDPR changes belong
+  in a separate, impact-assessed process).
+- → [`provisions/gdpr-art49-third-country-tax-transfers.md`](provisions/gdpr-art49-third-country-tax-transfers.md)
 
 ## Secondary tensions
 - **Single-entry point** architecture and ENISA resourcing (broadly supported, but operational doubts);

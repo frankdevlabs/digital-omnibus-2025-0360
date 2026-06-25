@@ -48,9 +48,11 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   GDPR **Art 88b** — with **Germany, France and Poland** and **Google** pushing to keep banners.
   Schrems: *"Cookie banners are not an invention of data protection, but of the tracking industry."*
   This puts noyb **opposite** France/industry on Art 88b (see [fault-line #3](fault-lines.md);
-  [provision](provisions/gdpr-art88a-88b-cookies.md)). The underlying ST compromise text is **not
-  yet on the public register**, so the per-provision diff stays pending (Council position also
-  tracked via the imminent Coreper II step).
+  [provision](provisions/gdpr-art88a-88b-cookies.md)). noyb's read is **confirmed by the primary text**:
+  the underlying compromise — **ST 10729/26 (22 Jun)** — has since been obtained and transcribed, and it
+  does **delete Art 88b** ([GDPR extract pt 15](../extracts/council/ST-10729-2026_gdpr-art3-amendments.md#point-15--articles-88-cookies-ai-li) ·
+  [what changed](what-changed.md#st-1072926--the-22-june-negotiating-mandate-δ-vs-st-954726)). Still LIMITE
+  (not on the public register); Council position to be fixed at Coreper-II.
 - **EDRi.** After the February compromise: *"A step back from the brink, the risks remain"* — welcomes
   deletion of the Art 4 redefinition, the research definition and the pseudonymisation implementing
   power; continues to oppose the AI legitimate-interest provision and the sensitive-data carve-out.
@@ -71,6 +73,18 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   data strand this reinforces the existing civil-society line against the **Art 9(2)(k)/9(5)
   special-category carve-out** ([fault-line #2](fault-lines.md);
   [provision](provisions/gdpr-art9-special-categories-ai.md)).
+<a id="association-of-accidental-americans-aaa--fatca"></a>
+- **Association of Accidental Americans (Fabien Lehagre).** Surfaced (and published) the Council's
+  **ST 10729/26** negotiating mandate via a LinkedIn post, flagging that the **Cypriot Presidency inserted
+  FATCA-enabling language** into the trilogue mandate: a new **GDPR Article 49 + recital 40b** derogation
+  authorising **periodic/automated transfers of personal data to third countries for tax cooperation**.
+  Lehagre's objection: it was added through an "innocuous-sounding" recital, **without democratic debate or an
+  impact assessment**, allegedly recycling GDPR-amendment language previously pushed by **Spain** and rejected,
+  and it would **pre-empt** the very Chapter-V compatibility question now before the CJEU in **Case C-804/25**
+  (FATCA v GDPR). The AAA has litigated FATCA data transfers since 2017 (incl. a Dutch-DPA enforcement request;
+  Belgium's DPA found FATCA transfers breach the GDPR). → [fault-line #5](fault-lines.md#5-third-country-tax-data-transfers-fatca--new-in-the-negotiating-mandate)
+  · [provision](provisions/gdpr-art49-third-country-tax-transfers.md). *(The "recycled Spanish amendment" and
+  "rejected" claims are Lehagre's; the mandate records only that "several delegations" requested the change.)*
 
 ## Industry
 

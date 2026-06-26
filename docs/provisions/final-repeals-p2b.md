@@ -37,8 +37,9 @@ as standalone instruments.
 
 <a id="parliament--juri-draft-opinion"></a>
 ## Parliament — JURI draft opinion (PE789.142, Benifei, 5 Jun 2026)
-No joint ITRE/LIBE draft report yet, but the **JURI draft opinion** takes a clear line: **oppose the P2B
-repeal.** It deletes the Commission's repeal recital 59
+The first committee text to take a line, the **JURI draft opinion**, is clear: **oppose the P2B
+repeal** (the lead committees' joint draft report later does the same — [below](#parliament--joint-itre-libe-draft-report)).
+It deletes the Commission's repeal recital 59
 ([Am 12](../../extracts/parliament/JURI-PA-789142_draft-opinion.md#amendment-12)) and both operative repeal
 limbs of Omnibus **Article 10** — the outright repeal of Reg (EU) 2019/1150
 ([Am 67](../../extracts/parliament/JURI-PA-789142_draft-opinion.md#amendment-67)) and the 31 Dec 2032
@@ -69,6 +70,21 @@ with other laws such as the e-commerce Directive, DSA and DMA rather than repeal
 omnibus."* This **doubles the committee weight** against the repeal (JURI + IMCO) and aligns with the broad
 member-state resistance (below). A committee-for-opinion text, not the draft report; amendment deadline
 8 Jul 2026. Via triage [#61](../triage/2026-06-18-issue-61.md).
+
+<a id="parliament--joint-itre-libe-draft-report"></a>
+## Parliament — joint ITRE/LIBE draft report (PE786.818, Salla & Kaljurand, 22 Jun 2026)
+The **lead committees' draft report** confirms the line at the level that matters most: it **restores the
+P2B Regulation in full**. It deletes the operative repeal of Reg (EU) 2019/1150 in Omnibus **Article 10(1)**
+([Am 77](../../extracts/parliament/CJ72-PR-786818_joint-itre-libe-draft-report.md#amendment-77)) and the
+accompanying 31 Dec 2032 transitional derogation in Article 10(2)
+([Am 78](../../extracts/parliament/CJ72-PR-786818_joint-itre-libe-draft-report.md#amendment-78)), and
+deletes the repeal recital 59
+([Am 12](../../extracts/parliament/CJ72-PR-786818_joint-itre-libe-draft-report.md#amendment-12)). The
+explanatory statement records the co-rapporteurs' reason — the entire repeal "should not come at a
+disadvantage to European SMEs, as regards the entire repeal of the P2B, that has important transparency
+measures and contractual predictability for SMEs that should be maintained." With the lead committees, JURI
+and IMCO now **all** opposing the repeal, the Parliament position against it is firm. Amendment-tabling
+deadline 15 Jul 2026. Via triage [#88](../triage/2026-06-26-issue-88.md).
 
 ## EDPB–EDPS
 The regulators **welcome merging the Data Acquis into the Data Act** and streamlining overlapping/outdated

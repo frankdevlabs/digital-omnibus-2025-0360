@@ -61,6 +61,15 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   framing the **Art 88b machine-readable consent signal** *positively*, as a route "beyond today's
   endless consent clicks" toward "rights respected by design" (the same article industry and France
   want deleted) → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md).
+- **German consumer & digital-rights groups (vzbv, Digitale Gesellschaft).** German tech-press
+  *netzpolitik.org* ([*"Online-Tracking: Deutschland und Google wollen Cookie-Banner retten"*](https://netzpolitik.org/2026/online-tracking-deutschland-und-google-wollen-cookie-banner-retten/),
+  Ingo Dachwitz, **24 Jun 2026**) reports the **Verbraucherzentrale Bundesverband (vzbv)** —
+  *Florian Glatzner* — accusing the **German federal government** of one-sided lobbying for the adtech
+  industry, and **Digitale Gesellschaft** — *Konstantin Macher* — defending the machine-readable
+  signal. Both oppose the Council's deletion of **Art 88b**, placing German civil society alongside
+  noyb/EDRi and **opposite** the German government's reported position on [fault-line #3](fault-lines.md)
+  ([provision](provisions/gdpr-art88a-88b-cookies.md)). *(The German-government characterisation is
+  netzpolitik's; DE is already recorded as seeking the deletion via WK 3736/26 and the noyb bullet above.)*
 - **BEUC.** The proposal "goes far beyond targeted modifications" and weakens consumer protections.
 - **127 organisations** signed an open letter (13 Nov 2025) urging the Commission to drop the GDPR
   reopening. **Corporate Europe Observatory / LobbyControl** mapped Big-Tech lobbying behind specific
@@ -93,6 +102,15 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   clarification and **delete the machine-readable-consent article** ("consent chaos"). Note the
   Commission's own estimate that the single-entry point "would require 8 FTEs within ENISA" — seen as
   insufficient for 24/7 cover across 27 Member States and 24 languages.
+- **Google — *"Gone in one click"* lobby paper (cited by German press, Jun 2026).** Per *netzpolitik.org*
+  ([*"…Deutschland und Google wollen Cookie-Banner retten"*](https://netzpolitik.org/2026/online-tracking-deutschland-und-google-wollen-cookie-banner-retten/),
+  Ingo Dachwitz, 24 Jun 2026), **Google's paper *"Gone in one click"*** warns the machine-readable
+  consent signal would cost the EU economy **€40–50 bn**, alongside German industry, publisher and
+  retail associations (**Bitkom**, **Bundesverband Digitalwirtschaft (BVDW)**, the press-publisher
+  associations and *Handelsverband*/*Markenverband* trade groups) pressing the Council to **delete
+  Art 88b**. Corroborates the industry line in the CCIA/DOT/Bitkom open letter above; the Council's
+  22 Jun mandate (**ST 10729/26**) does delete Art 88b
+  ([what changed](what-changed.md#st-1072926--the-22-june-negotiating-mandate-δ-vs-st-954726)).
 
 ## Practitioners
 

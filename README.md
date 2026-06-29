@@ -10,8 +10,8 @@ Platform-to-Business (P2B), and cyber incident-reporting** rules.
 > separate, faster track. See [`docs/instruments/repealed.md`](docs/instruments/repealed.md) and
 > [`STATUS.md`](STATUS.md) for why the two are kept apart.
 
-**Current status (high level):** Council working-party stage (third Cyprus Presidency compromise
-text, ST 9547/26, 21 May 2026); European Parliament at committee referral only — Oeil status
+**Current status (high level):** Council finalising its negotiating mandate (fifth Cyprus Presidency
+compromise, ST 10729/26, 22 June 2026, put to Coreper-II); European Parliament at committee referral only — Oeil status
 *Awaiting committee decision*, no draft report. Full snapshot in **[`STATUS.md`](STATUS.md)**.
 
 ---

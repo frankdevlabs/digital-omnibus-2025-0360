@@ -326,7 +326,15 @@ on the *Omnibus Digitaal*, Omnibus AI and Data Union Strategy, a distinct sub-do
 22 May *verslag* (36.890, EK, T). The Senate's scrutiny track runs parallel to the Tweede Kamer process
 (which concluded its pre-Telecomraad written consultation on 3 June) ahead of the formal Telecom Council
 on 9 June 2026.
-→ [`../TIMELINE.md`](../TIMELINE.md) (2026-05-22, 2026-06-02)
+
+**Confirmed (23 June 2026):** the DIGI and EZ/KGG committees met again and decided to accept the
+**European Commission reaction letter (36.890, EK, V, 2 June 2026)** *for information* and to fold it —
+together with a **letter from the State Secretaries of Economic Affairs and Justice & Security of
+19 June 2026 (36.890, EK, W)** — into the **30 June 2026 *nader schriftelijk overleg*** with the cabinet
+on the Omnibus Digitaal (dossier E260003). The 19 June Senate letter is the Eerste Kamer counterpart of
+the [18 June Tweede Kamer Kamerbrief *Naderende Raadspositie*](#netherlands-nl--government-kamerbrief-naderende-raadspositie-18-june-2026)
+(same Staatssecretarissen Aerdts/Van Bruggen, one day apart) — cited here, not separately registered.
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-05-22, 2026-06-02, 2026-06-23)
 
 **Tweede Kamer tweeminutendebat (3 June 2026, pre-Council):** A plenary two-minute debate took place on 3 June 2026 ahead of the formal Telecom Council of 9 June. Two motions were submitted: 21501-33-1205 (Kathmann — positive stance toward EU ICT-supplier preference; outcome TBC) and 21501-33-1206 (Van den Berg — keep fundamental GDPR changes out of the Omnibus; **withdrawn** at the 4 June vote). The ongecorrigeerd debate report (2026D27237) and stemmingsuitslagen (2026P09467) are published.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-03, 2026-06-09)

@@ -87,6 +87,7 @@ summarised in [`../docs/member-state-positions.md`](../docs/member-state-positio
 | Czech Senate | Protocol 2 contribution | 2026-02-13 | — | — |
 | Italian Camera dei Deputati | Observations | 2026-02-24 | — | — |
 | Tweede Kamer (NL) | **Kamervragen (lid Kathmann)** on "het slopen van de privacybescherming" in the Digital Omnibus — government answer (`ah-tk-20252026-792`; orig. question `kv-tk-2025Z19922`, 17 Nov 2025) | 2026-01-05 | — | [officielebekendmakingen.nl](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-792.html) · positions in [`../docs/member-state-positions.md`](../docs/member-state-positions.md) |
+| Eerste Kamer (NL) | **Kamervragen (lid Van de Sanden)** on the omnibus procedure & missing impact assessments — government answer (`ah-1255667`, Aanhangsel AH 10 2025-2026); on the Digitale Omnibus + Omnibus AI | 2026-06-23 | — | [officielebekendmakingen.nl](https://zoek.officielebekendmakingen.nl/ah-1255667.html) · positions in [`../docs/member-state-positions.md`](../docs/member-state-positions.md#netherlands-nl--eerste-kamer-kamervragen-on-the-omnibus-procedure-and-impact-assessments-23-june-2026) |
 
 ## Stakeholders
 

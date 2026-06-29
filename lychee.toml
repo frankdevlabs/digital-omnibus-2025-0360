@@ -15,4 +15,5 @@ exclude = [
   "^https://netzpolitik\\.org/wp-upload/",     # LIMITE mirror PDFs; slow/bot-blocking (cited copies, not asserted live)
   "^https://zoek\\.officielebekendmakingen\\.nl",   # NL official-publications portal; bot-sensitive (Kamervragen RSS / ah-tk pages)
   "^https://bsky\\.app",                       # Bluesky posts are JS-rendered / bot-blocking (T3 social signals, cited by URL)
+  "^https://www\\.eerstekamer\\.nl",           # NL Senate dossier/bronnen pages; slow, intermittently time out for automated clients
 ]

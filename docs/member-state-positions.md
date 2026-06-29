@@ -326,7 +326,15 @@ on the *Omnibus Digitaal*, Omnibus AI and Data Union Strategy, a distinct sub-do
 22 May *verslag* (36.890, EK, T). The Senate's scrutiny track runs parallel to the Tweede Kamer process
 (which concluded its pre-Telecomraad written consultation on 3 June) ahead of the formal Telecom Council
 on 9 June 2026.
-→ [`../TIMELINE.md`](../TIMELINE.md) (2026-05-22, 2026-06-02)
+
+**Confirmed (23 June 2026):** the DIGI and EZ/KGG committees met again and decided to accept the
+**European Commission reaction letter (36.890, EK, V, 2 June 2026)** *for information* and to fold it —
+together with a **letter from the State Secretaries of Economic Affairs and Justice & Security of
+19 June 2026 (36.890, EK, W)** — into the **30 June 2026 *nader schriftelijk overleg*** with the cabinet
+on the Omnibus Digitaal (dossier E260003). The 19 June Senate letter is the Eerste Kamer counterpart of
+the [18 June Tweede Kamer Kamerbrief *Naderende Raadspositie*](#netherlands-nl--government-kamerbrief-naderende-raadspositie-18-june-2026)
+(same Staatssecretarissen Aerdts/Van Bruggen, one day apart) — cited here, not separately registered.
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-05-22, 2026-06-02, 2026-06-23)
 
 **Tweede Kamer tweeminutendebat (3 June 2026, pre-Council):** A plenary two-minute debate took place on 3 June 2026 ahead of the formal Telecom Council of 9 June. Two motions were submitted: 21501-33-1205 (Kathmann — positive stance toward EU ICT-supplier preference; outcome TBC) and 21501-33-1206 (Van den Berg — keep fundamental GDPR changes out of the Omnibus; **withdrawn** at the 4 June vote). The ongecorrigeerd debate report (2026D27237) and stemmingsuitslagen (2026P09467) are published.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-03, 2026-06-09)
@@ -420,6 +428,62 @@ in future (including for simplification/omnibus proposals).
 
 The letter also answers a Kamer request for a combined addendum to the AI- and Digital-Omnibus fiches, but
 that part concerns the **AI-Act file (2025/0359)** and is out of scope here. → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-18).
+
+---
+
+## Netherlands (NL) — Eerste Kamer Kamervragen on the omnibus procedure and impact assessments (23 June 2026)
+
+A **government answer to Eerste Kamer (Senate) written questions** — distinct from the cabinet's own
+position instruments above (the [non-paper](#netherlands-nl--national-non-paper-8-april-2026) and the
+[Naderende-Raadspositie Kamerbrief](#netherlands-nl--government-kamerbrief-naderende-raadspositie-18-june-2026)),
+and the Senate analogue of the earlier [Tweede Kamer Kamervragen](#netherlands-nl--national-non-paper-8-april-2026)
+(Kathmann, Jan 2026). It is registered **cite-by-URL**, not committed.
+
+> **Source:** *Aanhangsel* **AH 10**, Eerste Kamer der Staten-Generaal, vergaderjaar 2025-2026 —
+> written questions by **lid Van de Sanden** (announced 2 Jun 2026), answered **23 June 2026** by the
+> **minister van Buitenlandse Zaken mede namens de minister van Economische Zaken en Klimaat**, "over de
+> inzet van de omnibusprocedure en het ontbreken van effectbeoordelingen." Register entry
+> [`ah-1255667`](../sources/README.md#advisory-bodies--national-parliaments); source on
+> [officielebekendmakingen.nl](https://zoek.officielebekendmakingen.nl/ah-1255667.html). Working summary —
+> verify the answer text before citing a specific government position. See [`../NOTICE`](../NOTICE).
+
+**Headline — the cabinet's clearest on-record line on the missing impact assessment.** Asked which omnibus
+files lacked an impact assessment, the cabinet confirms that **none of the ten omnibus packages published
+since 26 February 2025 carried a Commission impact assessment** (A3). It restates the position from the
+non-paper: it welcomes simplification and does not object to *substantive* changes in an omnibus *provided*
+they fit the simplification objective and the underlying policy aims hold, but considers it **undesirable
+that impactful proposals are presented without an impact assessment**, and will keep pressing the Commission
+to do one or convincingly justify its absence (A2/A9).
+
+**What the cabinet has done, and where the Council stands.** Since the **Antici Group on Simplification first
+discussed the AI and Digital omnibus on 21 November 2025**, the cabinet has repeatedly pressed for an impact
+assessment — orally in the working group and through written comments, and via the
+[8 April GDPR non-paper](#netherlands-nl--national-non-paper-8-april-2026) — and has sought like-minded
+Member States, but there is **insufficient Council support** to compel the Commission to produce one (A4).
+On outcomes it draws the same line as the [18 June Kamerbrief](#netherlands-nl--government-kamerbrief-naderende-raadspositie-18-june-2026):
+the **Omnibus Digitaal *krachtenveld* is still developing**, so no conclusion can yet be drawn on the result
+of the Dutch effort — but there are **"positieve signalen"** on the cabinet's main concerns (A4). Q10 notes
+the aim to **conclude the Council Digital Omnibus negotiations by end June 2026**.
+
+**Allies and the fundamental-rights framing.** The cabinet is aware of, and shares, the **Danish Folketing**
+European-Affairs-Committee letter of **8 May 2026** to Commissioner Dombrovskis (its analysis: only **14 of 64**
+key proposals were accompanied by an impact assessment), pressing for a return to impact assessments as the
+rule (A5). It also restates that it shares the **EDPB–EDPS Joint Opinion 2/2026** regret that a full impact
+assessment is missing and that the possible fundamental-rights effects were insufficiently weighed (A6) —
+see [`advisory/edpb-edps-jo-2-2026.md`](advisory/edpb-edps-jo-2-2026.md). It reads the Commission's
+**COM(2026) 380** Better-Regulation communication as reaffirming that simplification/omnibus proposals
+should carry impact assessments and that the Commission will do more of them (A7).
+
+**Legal view — no automatic invalidity.** Pressed on litigation risk, the cabinet's legal weighing is that
+using an omnibus procedure **without** an impact assessment is **not in itself unlawful**: the Treaty
+legislative procedure is still followed, and settled **CJEU** case law imposes no obligation to carry out an
+impact assessment in all circumstances (citing **C‑482/17** *Czech Republic v Parliament and Council* and
+**C‑541/20 a.o.** *Lithuania v Parliament and Council*) — impact assessments are non-binding and do not
+replace the political decision, so the mere absence of one is no ground to treat a Council/EP-adopted
+regulation as void (A8). On that basis the cabinet sees **no added value in a Raad van State advisory
+opinion** on the omnibus procedure's legal soundness (A10).
+
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-06-23) · [`../STATUS.md`](../STATUS.md) (Member States row).
 
 ---
 

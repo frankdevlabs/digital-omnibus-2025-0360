@@ -58,6 +58,7 @@ number, not asserted as live), and a national-parliament record or public mirror
 | — | EU Law Tracker procedure 2025/360 | 2026-05-01 | [law-tracker](https://law-tracker.europa.eu/procedure/2025_360?lang=en) |
 | PE 789.142 | **JURI draft opinion** (Committee on Legal Affairs, rapporteur Benifei) — for ITRE/LIBE; 68 amendments on the data-acquis strand ([extract](../extracts/parliament/JURI-PA-789142_draft-opinion.md)); lead: [@montezumachavez](https://bsky.app/profile/montezumachavez.bsky.social/post/3mo4ae7izjs2h) (`T3-01`) | 2026-06-05 | [PDF](parliament/JURI-PA-789142_draft-opinion_2026-06-05.pdf) · [doceo](https://www.europarl.europa.eu/doceo/document/JURI-PA-789142_EN.pdf) |
 | PE 789.877 | **IMCO draft opinion** (Committee on the Internal Market and Consumer Protection, rapporteur Agius Saliba) — for ITRE/LIBE; **124 amendments** across the Data Act, GDPR, ePrivacy, P2B and Open Data strands ([extract](../extracts/parliament/IMCO-PA-789877_draft-opinion.md)); lead: [@montezumachavez](https://bsky.app/profile/montezumachavez.bsky.social/post/3moja7qvofk24) (`T3-01`) relaying J. Tar | 2026-06-08 | [PDF](parliament/IMCO-PA-789877_draft-opinion_2026-06-08.pdf) · [doceo](https://www.europarl.europa.eu/doceo/document/IMCO-PA-789877_EN.pdf) |
+| PE 786.818 | **Joint ITRE/LIBE draft report** (lead committees, Rule 59; co-rapporteurs Salla & Kaljurand) — Parliament's first cross-strand position; **78 amendments** across the GDPR, EUDPR, Data Act, NIS2 and P2B strands; restores P2B and GDPR Art 22, EDPB-authored templates/lists ([extract](../extracts/parliament/CJ72-PR-786818_joint-itre-libe-draft-report.md)); flagged by ITRE/LIBE docs feed (`T1-05`/`T1-21`) | 2026-06-22 | [PDF](parliament/CJ72-PR-786818_joint-itre-libe-draft-report_2026-06-22.pdf) · [doceo](https://www.europarl.europa.eu/doceo/document/CJ72-PR-786818_EN.pdf) |
 
 ## Member-state positions
 
@@ -86,6 +87,7 @@ summarised in [`../docs/member-state-positions.md`](../docs/member-state-positio
 | Czech Senate | Protocol 2 contribution | 2026-02-13 | — | — |
 | Italian Camera dei Deputati | Observations | 2026-02-24 | — | — |
 | Tweede Kamer (NL) | **Kamervragen (lid Kathmann)** on "het slopen van de privacybescherming" in the Digital Omnibus — government answer (`ah-tk-20252026-792`; orig. question `kv-tk-2025Z19922`, 17 Nov 2025) | 2026-01-05 | — | [officielebekendmakingen.nl](https://zoek.officielebekendmakingen.nl/ah-tk-20252026-792.html) · positions in [`../docs/member-state-positions.md`](../docs/member-state-positions.md) |
+| Eerste Kamer (NL) | **Kamervragen (lid Van de Sanden)** on the omnibus procedure & missing impact assessments — government answer (`ah-1255667`, Aanhangsel AH 10 2025-2026); on the Digitale Omnibus + Omnibus AI | 2026-06-23 | — | [officielebekendmakingen.nl](https://zoek.officielebekendmakingen.nl/ah-1255667.html) · positions in [`../docs/member-state-positions.md`](../docs/member-state-positions.md#netherlands-nl--eerste-kamer-kamervragen-on-the-omnibus-procedure-and-impact-assessments-23-june-2026) |
 
 ## Stakeholders
 

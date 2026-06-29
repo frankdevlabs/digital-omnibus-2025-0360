@@ -25,10 +25,11 @@ It is **not** the AI-Act Digital Omnibus (`2025/0359`), which is a separate, fas
   entry points), so that GDPR, NIS2, DORA, CER and eIDAS reports can be filed once.
 - **Data acquis.** Consolidation into the Data Act; repeal of several instruments.
 
-## Where it actually stands (29 May 2026)
+## Where it actually stands (24 June 2026)
 
-- **Council:** third Cyprus Presidency compromise text (**ST 9547/26**, 21 May 2026); exchange of
-  views at the AGS on 27 May; **no general approach**; file expected to pass to the Irish Presidency.
+- **Council:** fifth Cyprus Presidency compromise — **ST 10729/26** (22 June 2026), the *mandate for
+  negotiations with the EP*, put to Coreper-II for confirmation on 26 June (before the 1 July Irish
+  handover); supersedes the May text (ST 9547/26).
 - **Parliament:** committee referral only — [Oeil](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD))
   status *Awaiting committee decision*; joint **ITRE + LIBE** (Rule 59), **IMCO** & **JURI** opinions;
   **no draft report yet**.

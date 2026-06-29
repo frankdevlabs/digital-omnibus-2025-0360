@@ -313,6 +313,37 @@ documents:
       to extracts/parliament/IMCO-PA-789877_draft-opinion.md. Surfaced via triage #61
       (docs/triage/2026-06-18-issue-61.md).
 
+  - id: CJ72-PR-786818
+    title: "Joint ITRE/LIBE draft report on the Digital Omnibus (co-rapporteurs Salla & Kaljurand) — lead committees"
+    body: Parliament
+    date: 2026-06-22
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/CJ72-PR-786818_EN.pdf
+    local: sources/parliament/CJ72-PR-786818_joint-itre-libe-draft-report_2026-06-22.pdf
+    lead_source: >-
+      EP ITRE committee documents feed (watchlist T1-05) — new ref PE786.818v01-00, detected
+      2026-06-26; corroborated by LIBE documents (T1-21), OEIL (T1-02) and Bluesky
+      @montezumachavez (T3-01). Surfaced and triaged via tracker issue #88.
+    notes: >-
+      The lead committees' joint draft report (Rule 59) on file 2025/0360 (COD) — the data/cyber
+      Digital Omnibus COM(2025) 0837, NOT the AI Act file 2025/0359 — and Parliament's first
+      cross-strand formal position. Committee code CJ72; document PR\1340388EN.docx,
+      PE786.818v01-00; co-rapporteurs Aura Salla (ITRE, EPP) and Marina Kaljurand (LIBE, S&D).
+      78 amendments. Amendment-tabling deadline 15 Jul 2026; committee vote expected ~Q4 2026.
+      Operative text retrieved 2026-06-26 via the headless-browser AWS-WAF bypass
+      (~/law-tracker/lib/fetch_blocked_doc.py; doceo returns HTTP 202 to curl/WebFetch) and
+      transcribed to extracts/parliament/CJ72-PR-786818_joint-itre-libe-draft-report.md. Substance:
+      the co-rapporteurs substantially walk back the omnibus deregulation — restore the P2B
+      Regulation 2019/1150 (Am 77-78 delete its repeal), restore the GDPR Art 22 right not to be
+      subject to solely automated decisions and define meaningful human intervention (Am 51, 53),
+      reverse the subject-access "abuse" reframing (Am 5, 48, 49), keep scientific-research/further-
+      processing but re-anchor it to Art 89 safeguards (Am 2, 3, 45), tighten biometric verification
+      (Am 4, 46, 70), shift breach-template/DPIA-list authorship from the Commission back to the
+      EDPB (Am 7, 8, 56-67), keep the personal-data-breach notification deadline at 96 hours (Am 54),
+      add NIS2 'report-once'/harmonised-application guidance (Am 11, 75, 76), and strengthen Data Act
+      intermediation, B2G-emergency, third-country-access transparency and open-data safeguards
+      (Am 13-42). Surfaced via triage #88 (docs/triage/2026-06-26-issue-88.md).
+
   - id: EP-LEGTRAIN
     title: "Legislative Train — Digital Omnibus Regulation Proposal"
     body: Parliament
@@ -391,3 +422,29 @@ documents:
       originating question kv-tk-2025Z19922 (lid Kathmann, 17 Nov 2025); uitstel ah-tk-20252026-583
       (8 Dec 2025); antwoord 5 Jan 2026. Directly on-file: the GDPR/AVG-weakening concern central to
       2025/0360. Verify the answer text before citing the specific government position.
+
+  - id: ah-1255667
+    title: "Kamervragen (lid Van de Sanden, Eerste Kamer) over de inzet van de omnibusprocedure en het ontbreken van effectbeoordelingen — antwoord"
+    body: Eerste Kamer
+    date: 2026-06-23
+    limite: false
+    access: public-via-national-parliament
+    url: https://zoek.officielebekendmakingen.nl/ah-1255667.html
+    notes: >-
+      Aanhangsel AH 10 (Eerste Kamer, vergaderjaar 2025-2026); written questions by lid Van de Sanden
+      announced 2 Jun 2026, answered 23 Jun 2026 by the minister van Buitenlandse Zaken mede namens de
+      minister van Economische Zaken en Klimaat. In-scope (Digitale Omnibus / 2025/0360, alongside
+      Omnibus AI). Cabinet on record: none of the ten omnibus packages since 26 Feb 2025 carried a
+      Commission impact assessment (A3); it has repeatedly pressed for one since the Antici Group on
+      Simplification first discussed the AI + Digital omnibus on 21 Nov 2025 — orally and in writing, and
+      via the 8 Apr non-paper (NL-NONPAPER-2026-04-08) — but lacks Council support to compel one (A4);
+      shares the EDPB-EDPS JO 2/2026 regret that a full impact assessment is missing and fundamental-rights
+      effects under-weighed (A6); the Omnibus Digitaal krachtenveld is still developing, with positive
+      signals on the cabinet's main concerns (A4). Legal view: using an omnibus procedure without an impact
+      assessment is not in itself unlawful — no CJEU obligation to do one in all cases (C-482/17 Czech
+      Republic v Parliament and Council; C-541/20 a.o. Lithuania v Parliament and Council) — so no ground to
+      treat the resulting regulation as void (A8); declines a Raad van State advisory opinion (A10).
+      References the Danish Folketing EU-committee letter of 8 May 2026 to Dombrovskis (14 of 64 key
+      proposals had an IA) and the Commission's COM(2026) 380 Better-Regulation communication. Cite-by-URL
+      (no committed PDF), mirroring ah-tk-20252026-792. Summary in docs/member-state-positions.md
+      (Netherlands section).

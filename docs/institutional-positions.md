@@ -1,10 +1,11 @@
 # Institutional positions — Commission vs Council vs Parliament
 
-This is the core comparison. The **Council** column reflects the operative text of **ST 9547/26
+This is the core comparison. The **Council** column is baselined to the operative text of **ST 9547/26
 (21 May 2026)** as transcribed in [`../extracts/council/`](../extracts/council/) — which differs
-from earlier reporting on several points (see [`../STATUS.md`](../STATUS.md)). The table is baselined
-to ST 9547/26; for the **ST 10729/26 (22 Jun)** delta — including the **new Art 49 / recital 40b
-third-country tax-transfer derogation** added in the row below — see [`what-changed.md`](what-changed.md). The **Parliament**
+from earlier reporting on several points (see [`../STATUS.md`](../STATUS.md)). The latest Council text
+is the **ST 10729/26 (22 Jun 2026)** negotiating mandate; the table remains baselined to ST 9547/26 and
+for its delta — including the **new Art 49 / recital 40b third-country tax-transfer derogation** added in
+the row below — see [`what-changed.md`](what-changed.md). The **Parliament**
 column now carries the **lead committees' joint ITRE/LIBE draft report** (PE786.818v01-00, 22 Jun 2026)
 — Parliament's **first cross-strand position** — alongside the two committee-**for-opinion** drafts. Where a committee has **tabled an amendment** the cell
 cites it; where neither committee has, the cell reflects rapporteur statements, committee debate and

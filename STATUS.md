@@ -11,7 +11,8 @@
 
 > Living snapshot — **not legal advice** ([`DISCLAIMER.md`](DISCLAIMER.md)). Procedure is sourced from
 > [`sources/`](sources/) + [`TIMELINE.md`](TIMELINE.md); Council substance reflects the operative text of
-> ST 9547/26 in [`extracts/council/`](extracts/council/) — verify before relying on it.
+> ST 10729/26 (22 June 2026 negotiating mandate) in [`extracts/council/`](extracts/council/); the comparison
+> tables below remain baselined to ST 9547/26 with the 10729/26 delta noted — verify before relying on it.
 
 ## One-line status
 

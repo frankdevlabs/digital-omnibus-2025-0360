@@ -334,7 +334,16 @@ together with a **letter from the State Secretaries of Economic Affairs and Just
 on the Omnibus Digitaal (dossier E260003). The 19 June Senate letter is the Eerste Kamer counterpart of
 the [18 June Tweede Kamer Kamerbrief *Naderende Raadspositie*](#netherlands-nl--government-kamerbrief-naderende-raadspositie-18-june-2026)
 (same Staatssecretarissen Aerdts/Van Bruggen, one day apart) — cited here, not separately registered.
-→ [`../TIMELINE.md`](../TIMELINE.md) (2026-05-22, 2026-06-02, 2026-06-23)
+
+**Deadline met (30 June 2026):** two Senate groups delivered **input** (*inbreng*) for the *nader
+schriftelijk overleg* with the cabinet on the Omnibus Digitaal — the **GroenLinks-PvdA** group
+(**Fiers**, *mede namens de PvdD* — also on behalf of the Party for the Animals) and the
+**fractie-Van de Sanden** (**Van de Sanden**) — recorded in the *korte aantekeningen* of the 30 June
+DIGI/EZ-KGG meeting (dossier E260003). This is the procedural execution of the 30 June deadline, not
+a new government position: the *nader schriftelijk overleg* itself is **not yet concluded** — the
+cabinet's answer to the groups' input is still pending. (The dossier's other 30 June line, the 29 June
+Council adoption of the **Omnibus AI** [2025/0359], is out of scope for this file.)
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-05-22, 2026-06-02, 2026-06-23, 2026-06-30)
 
 **Tweede Kamer tweeminutendebat (3 June 2026, pre-Council):** A plenary two-minute debate took place on 3 June 2026 ahead of the formal Telecom Council of 9 June. Two motions were submitted: 21501-33-1205 (Kathmann — positive stance toward EU ICT-supplier preference; outcome TBC) and 21501-33-1206 (Van den Berg — keep fundamental GDPR changes out of the Omnibus; **withdrawn** at the 4 June vote). The ongecorrigeerd debate report (2026D27237) and stemmingsuitslagen (2026P09467) are published.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-03, 2026-06-09)

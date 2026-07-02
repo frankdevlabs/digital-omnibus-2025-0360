@@ -74,6 +74,7 @@ authoritative copy. Dates in ISO format. Newest events at the bottom of each yea
 | 2026-07-01 | Irish Presidency takes over the file |
 | 2026 H2 | Possible Council **general approach** under Irish Presidency |
 | 2026-07-15 | EP amendment-tabling deadline on the joint ITRE/LIBE draft report (PE786.818) |
+| 2026-10-12/13 | **Informal Telecom Council (TTE)** under the Irish Presidency — NL **Tweede Kamer DiZa** committee has scheduled a written consultation (*inbreng schriftelijk overleg*, commissievergadering 29 Sep 2026) on the *"Naderende Raadspositie Omnibus Digitaal"* (the [18 Jun Kamerbrief `22112-4382`](docs/member-state-positions.md#netherlands-nl--government-kamerbrief-naderende-raadspositie-18-june-2026)) ahead of it — [triage #100](docs/triage/2026-07-02-issue-100.md) |
 | 2026 Q3/Q4 | Joint ITRE/LIBE **committee vote** on the draft report (now tabled) |
 | 2026 Q4+ | **Trilogue** begins (earliest) |
 | 2027 | Realistic adoption |

@@ -438,6 +438,16 @@ in future (including for simplification/omnibus proposals).
 The letter also answers a Kamer request for a combined addendum to the AI- and Digital-Omnibus fiches, but
 that part concerns the **AI-Act file (2025/0359)** and is out of scope here. → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-18).
 
+**Tweede Kamer follow-up (scheduled, autumn 2026):** the Tweede Kamer **DiZa** (Digitale Zaken) committee has
+scheduled a **written consultation** (*inbreng schriftelijk overleg*, commissievergadering `2026A05176`, dated
+29 Sep 2026) ahead of the **informal Telecom Council (TTE) of 12–13 October 2026** under the Irish Presidency,
+with agenda item *"Naderende Raadspositie Omnibus Digitaal"* to be treated on the basis of **this same 18 June
+Kamerbrief** (`22112-4382`). This continues the Tweede Kamer scrutiny track into H2 2026, parallel to the
+Eerste Kamer *nader schriftelijk overleg* above — a procedural scheduling step, **not** a new government
+position (the letter it treats is already tracked). The meeting's separate agenda item 1 (*Cloud & AI
+Development Act*, `22112-4395`) concerns the **AI-Act file 2025/0359** and is out of scope.
+→ [`../TIMELINE.md`](../TIMELINE.md) (Expected / forward look) · [triage #100](triage/2026-07-02-issue-100.md).
+
 ---
 
 ## Netherlands (NL) — Eerste Kamer Kamervragen on the omnibus procedure and impact assessments (23 June 2026)

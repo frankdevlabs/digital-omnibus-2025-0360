@@ -2,193 +2,215 @@
 # Auto-maintained by the daily tracker Routine. Do not edit by hand.
 # Note: hashes use the spec-compliant deterministic normalization (strip
 # scripts/styles, csrf+viewport-date meta, hidden inputs, digit runs >8,
-# collapse whitespace). 2026-07-02 run: 1 NEW hit issued (#100).
+# collapse whitespace). 2026-07-03 run: 1 hit -> commented on OPEN #100.
 # HITS this run:
-# - #100 T1-16 Tweede Kamer: new DiZa item "Inbreng schriftelijk overleg
-#   (informele) Telecomraad (12-13 Oct 2026)" (mtg 2026A05176) carries agenda
-#   point "Naderende Raadspositie Omnibus Digitaal" (approaching Council position
-#   on 0360), built on gov letter 22112-4382 (18 Jun, already tracked #57).
-#   New = the written-consultation scheduling, concurrent with EK inbreng #97.
+# - T1-16 Tweede Kamer: DiZa procedure meeting of 1 Jul 2026 decided on
+#   "Naderende Raadspositie Omnibus Digitaal" (verslag 2026D31125, on gov
+#   letter 22112-4382 of 18 Jun), and a HERZIENE (revised) convocatie now fixes
+#   the informele-Telecomraad written-consultation (v.s.o.) deadline: inbreng by
+#   29 Sep 2026 14:00 (doc 22112-4395). Same source/URL as still-OPEN #100 ->
+#   appended a comment per dedup rule, no new issue.
 # UNREACHABLE this run: none polled-and-failed. T2-04 permanently
 #   Cloudflare-blocked (not polled, no hash). 39/39 sources reachable.
 # NOTABLE NON-HITS (changed-but-not-a-new-finding) this run:
-# T1-01/T1-02 OEIL HTML+PDF: hashes drifted (lobby/widget churn) but no new
-#   procedural event -- Key events still top at 19/01/2026 (committee referral),
-#   stage still "Awaiting committee decision", doc gateway still PE786.818,
-#   newest lobby meeting still 25/06/2026 (European Policy Centre). Refreshed.
-# T1-06 ITRE press: hash drift; only footer links (Open Data Portal/Privacy
-#   policy) match keywords -- known rotating-widget false positive. Refreshed.
+# T1-01/T1-02 OEIL HTML+PDF: hashes drifted (lobby churn -- newest interest-rep
+#   meeting rows up to 02/07/2026) but no new procedural event -- Key events
+#   still top at 19/01/2026 (committee referral), stage still "Awaiting
+#   committee decision", doc gateway still PE786.818, ITRE draft report still
+#   22/06/2026 (PE786.818). Refreshed.
+# T1-06 ITRE press: hash drift, 0 omnibus keyword hits -- rotating-widget FP.
+# T1-07 LIBE press: hash drift; only "digital omnibus" match is the AI
+#   "digital omnibus" (Kokalari/McNamara, file 0359) -- OOS. Refreshed.
 # T1-08 Austrian 65565: max date still 26.03.2026 (RAT 7720/26 era). Refreshed.
 # T1-09 Austrian 73322: latest Council date still 27.05.2026 (ST 9547/26
 #   Presidency compromise, already registered). No new LIMITE text. Refreshed.
-# T1-12 EDPB RSS: newest item 1 Jul "EDPB and AMLA Joint Guidelines on info
-#   sharing" -- not 0360. No in-scope item. Refreshed.
-# T1-13 EDPB JO doc page: Joint Opinion 2/2026 still static (11 Feb 2026);
-#   related-docs widget + rebrand churn. Hash refreshed.
+# T1-10 EK dossier: hash changed. The 30 Jun GroenLinks-PvdA/Van de Sanden
+#   inbreng (0360) is already issued #97 (closed). The only new delta is a
+#   parallel-file item: "29 juni 2026 Raad stemde in met voorlopig akkoord over
+#   de Omnibus AI" -- that is COM(2025)836 / 2025/0359, OUT OF SCOPE. The 837
+#   (0360) state-of-play block is unchanged. Refreshed.
+# T1-12 EDPB RSS: unchanged (newest 1 Jul EDPB+AMLA info-sharing guidelines,
+#   not 0360). last_seen_at refreshed.
+# T1-13 EDPB JO doc page: hash drift (related-docs widget/rebrand); Joint
+#   Opinion 2/2026 still static (11 Feb 2026, title unchanged). Refreshed.
+# T1-14 AP RSS: hash drift; no title matches digital omnibus/AVG/ePrivacy.
+#   Refreshed.
 # T1-15 MediaLaws: "Last updated: 30 June 2026" detection key UNCHANGED
-#   (already issued #96 for 18->30 Jun); body churn only. Hash refreshed.
-# T1-16 (also issued #100): the substantive new item is the DiZa written-
-#   consultation scheduling on the approaching Council position; other new rows
-#   (30 Jun besluitenlijst procedurevergadering 2026D34313, budget-2027 doc
-#   2026D34177) are routine/OOS.
-# T1-17 DiZa Uitgelicht: hash drift; featured list is generic roundtable topics
-#   (none omnibus-specific/dated). No new 0360 finding. Refreshed.
-# T1-18 DiZa commissievergaderingen calendar: roll-forward (29 Jun -> 3 Jul);
-#   no omnibus-specific agenda beyond the T1-16 item. Refreshed.
-# T1-19 Kamervragen RSS: 0 items returned -> transient per spec; state NOT
-#   updated (kept prior hash/last_seen_at).
-# T2-01 noyb RSS: hash drift; newest item 29 Jun "US Supreme Court blew up
-#   EU-US Data Transfers" (not 0360); 23 Jun cookie-banner item already #77.
-#   No new in-scope item. Refreshed.
-# T2-03 netzpolitik / T2-07 bitsoffreedom / T2-08 heise: hashes drifted, no
-#   in-scope keyword match. Refreshed.
-# T2-06 algowatch: only match is 18 Jun "The AI Omnibus" (0359, out of scope)
-#   + data-centre items; no 0360. Refreshed.
-# T2-09 dlapiper: matches are EDPB breach template (18 Jun) + UK DUAA -- not EU
-#   0360. Refreshed.
-# T2-10 ieu-monitoring: no Telecom/TTE/digital-omnibus item. Refreshed.
-# T3-01 montezuma: 5 new posts (FTC policy statement, adequacy/TIA, EDPB-AMLA
-#   guidelines) -> none 0360. Advanced. T3-02 noyb: 4 new (noyb assessment /
-#   Schrems US-transfer / FTC constitutionality) -> not 0360. Advanced.
-#   T3-07 olejnik: 2 new (AI "digital nuclear weapons", CIA cyberops) -> not
-#   0360. Advanced. T3-03/04/05/06/08 no new posts.
+#   (already issued #96 for 18->30 Jun); body churn only. Body hash refreshed.
+# T1-17 DiZa Uitgelicht: unchanged. last_seen_at refreshed.
+# T1-18 DiZa commissievergaderingen calendar: roll-forward (3 Jul -> now);
+#   window shows "geen commissievergaderingen gepland", no new omnibus agenda
+#   beyond the T1-16 item. Refreshed.
+# T1-19 Kamervragen RSS: 6 items, hash MATCHES prior stored (4d1226cb) -> no new
+#   in-scope question/answer. last_seen_at refreshed (was stale at 07-01 after a
+#   transient 0-item run).
+# T2-01 noyb RSS: hash drift (archive churn); newest item still 29 Jun "US
+#   Supreme Court blew up EU-US Data Transfers" (not 0360); 23 Jun cookie-banner
+#   already #77; all Digital-Omnibus items are Apr-or-older. Refreshed.
+# T2-03 netzpolitik: only match is a German Informationsfreiheit/press-freedom
+#   item, not 0360. Refreshed.
+# T2-05 beuc: hash changed; newest item 26 Jun "EU adopts the AI Omnibus"
+#   (0359, OOS); "GDPR should be better enforced, not reopened" is 24 Apr 2025
+#   (old). No new 0360 item. Refreshed.
+# T2-06 algowatch: matches are "The AI Omnibus" (0359, OOS) + data-centre
+#   items; no 0360. Refreshed.
+# T2-07 bitsoffreedom: AVG-keyword matches are two data-breach explainers, no
+#   Omnibus Digitaal mention (Dutch scope rule). Refreshed.
+# T2-08 heise: 157 entries, no Digital Omnibus/DSGVO/ePrivacy match. Refreshed.
+# T2-09 dlapiper: matches EDPB breach template + UK DUAA/UK children/California
+#   -- none EU 0360. Refreshed.
+# T2-10 ieu-monitoring: only "omnibus/ePrivacy"-adjacent item is the CSAM
+#   detection interim-rules story (chat control, not 0360); no Telecom/TTE
+#   Council digital-omnibus item. Refreshed.
+# T3-02 noyb: 1 new kw-match post but it is the EU-US data-transfer / US-cloud
+#   exit topic (SCOTUS), not 0360. Advanced. T3-01 (4 new) / T3-07 (3 new): no
+#   0360 kw-match. Advanced. T3-03/04/05/06/08 no new posts.
 # UNCHANGED this run: T1-03 Cellar XML, T1-04 legislative-train ("As of
-#   22/05/2026" footer -- detection key -- body churn only), T1-07 LIBE press,
-#   T1-10 EK dossier, T1-11 EK bronnen, T1-14 AP RSS, T2-02 edri, T2-05 beuc.
-#   EP committee seen_refs unchanged (T1-05/T1-21 PE786.818, T1-20 PE789.142,
-#   T1-22 PE789.877).
-last_run: 2026-07-02T11:08:35Z
+#   22/05/2026" footer -- detection key -- body churn only), T1-11 EK bronnen,
+#   T2-02 edri. EP committee seen_refs unchanged (T1-05/T1-21 PE786.818,
+#   T1-20 PE789.142, T1-22 PE789.877).
+last_run: 2026-07-03T11:08:46Z
 sources:
   T1-01:
-    # 2026-07-02: lobby/widget churn; Key events top 19/01/2026, no new event. Refreshed.
-    last_seen_hash: "sha256:bf94a0e2d05423a56a8893b4a380f66feb3171355740e0f5311b3fa9c21e0656"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: lobby/widget churn (newest rep meeting 02/07/2026); Key events
+    # top 19/01/2026, stage "Awaiting committee decision". No new event. Refreshed.
+    last_seen_hash: "sha256:0dce4f47b65779c63998cd3eaea12f648c9145d7a995dca2a472325d6f07b7f2"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-02:
-    # 2026-07-02: OEIL PDF lobby churn; gateway still tops at PE786.818. Refreshed.
-    last_seen_hash: "sha256:e29c91c44a4dc8a30ee28c0564284037d3a79f030e08abe25d3b5589243aeba1"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: OEIL PDF lobby churn; gateway still tops at PE786.818,
+    # draft report still 22/06/2026. Refreshed.
+    last_seen_hash: "sha256:df31c3c964fa67341003b9a1b0b0630af0589e501df359d29963093b2a29dbe0"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-03:
     last_seen_hash: "sha256:1873661d8b997ad7d44ece073d3b24c7a2d7b44631aa77e4e4a5423fad878d25"
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-04:
-    # "As of 22/05/2026" footer unchanged; body churn only. Detection-key hash unchanged.
-    last_seen_hash: "sha256:9d920104be99bc996710bf471586750c2f9f4aad3fedd4b0472334bd769a19bc"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # "As of 22/05/2026" footer unchanged (detection key); body churn only. Refreshed.
+    last_seen_hash: "sha256:34039e1f15a32276b68b9a59fdf87b8fa7e455f2d480c40529bca602a041c38a"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-05:
     seen_refs:
       - PE786.818v01-00
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-06:
-    # 2026-07-02: hash drift; only footer links match kw -- rotating-widget FP. Refreshed.
-    last_seen_hash: "sha256:e8cae48df621d2b61c6f7a3a9e44c3b12c0a07984932e9dcd8773fbcf76dfcb5"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: hash drift; 0 omnibus keyword hits -- rotating-widget FP. Refreshed.
+    last_seen_hash: "sha256:ce0542b7d65992c407b0f952551b84ef5ba915e869dacf1c574f612d949486c0"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-07:
-    last_seen_hash: "sha256:f380909c1efb78a279085295da5d4c3f700579e3d96e72693251af1ec7a5016c"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: only "digital omnibus" match is the AI file (Kokalari/McNamara,
+    # 0359) press conference -- OOS. Refreshed.
+    last_seen_hash: "sha256:383cc0fbdf12ce2198d119b5d423a816c077485f77256110e3fbc70d144c0854"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-08:
     # max date still 26.03.2026 (RAT 7720/26 era); today-date drift only. Refreshed.
-    last_seen_hash: "sha256:adec47024a47a0d0365927bada0d9001ce306373a5a8f658127d928268bc6f8d"
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_hash: "sha256:6c3bc20f78c5e8b164cb103a258a5aad4fc0a5182e6e50655209d0131ab7a962"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-09:
     # latest Council date still 27.05.2026 (ST 9547/26 Presidency compromise,
     # already registered). No new compromise text. Hash refreshed.
-    last_seen_hash: "sha256:cf8bec519009d47ab36ed0f746036d224dadf5056ec3b8b6d7f838bed27f4e76"
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_hash: "sha256:4f0e79d03c98ffb40503de987bed8627a439781dfb5c4fcd7f0978e8b509a16a"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-10:
-    last_seen_hash: "sha256:2a2dcc931c06ca45f30e1dc46b83fba5f337ae1725f2cfcae001a186fd5f8efb"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: only new delta is the parallel-file "29 Jun Raad voorlopig
+    # akkoord over de Omnibus AI" (COM(2025)836/0359, OOS); the 30 Jun 0360
+    # input already #97; 837 block unchanged. Refreshed.
+    last_seen_hash: "sha256:21ecfe3c5f5d2878993dcd67735b1d7186ea92ce67c20d1582b175b73d1f8e80"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-11:
     last_seen_hash: "sha256:6d1b77d1fdc76135210012095eb153cea746cdd91124f08077a76f4e82a1d94e"
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-12:
-    # 2026-07-02: newest item 1 Jul EDPB+AMLA info-sharing guidelines -- not 0360. Refreshed.
+    # 2026-07-03: unchanged; newest 1 Jul EDPB+AMLA info-sharing guidelines -- not 0360.
     last_seen_hash: "sha256:73327bca0346781117aa55ae96a8010cae4728c2ffd39a78f9e67a9559da8c7e"
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-13:
-    # JO 2/2026 static (11 Feb); related-docs widget + rebrand drift. Refreshed.
-    last_seen_hash: "sha256:671fc5e810ba6f0b90a227a3fc37a8c9896aa68700e455b57411cab2e3ff85f5"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: JO 2/2026 static (11 Feb, title unchanged); related-docs/rebrand drift.
+    last_seen_hash: "sha256:c873970d09f486f2bfe7011dcd7d4c9284897710391dcca8dc522c1ce41484ea"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-14:
-    last_seen_hash: "sha256:9f890bae8b613ae3fe77b35df8a7d9ed5356a6a00cf057f0f6269ff2d20b27fe"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: hash drift; no title matches digital omnibus/AVG/ePrivacy. Refreshed.
+    last_seen_hash: "sha256:c3027b6d287168cfab38079694b818eb4a6bca206b3099f2df46aa8fb2bfec99"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-15:
-    # 2026-07-02: "Last updated: 30 June 2026" detection key UNCHANGED (issued #96);
+    # 2026-07-03: "Last updated: 30 June 2026" detection key UNCHANGED (issued #96);
     # body churn only. Body hash refreshed.
-    last_seen_hash: "sha256:9e01a3f71e678d9469dba077e36481f1762bbd5abc79635fb09bdf30aae7b70e"
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_hash: "sha256:7c56c100b09f76df4c1fa257ca39b4caea769cc165358887a4b72198a58b2dcb"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-16:
-    # 2026-07-02: HIT #100 -- DiZa written-consultation scheduling on approaching
-    # Council position (Omnibus Digitaal, mtg 2026A05176). Hash refreshed.
-    last_seen_hash: "sha256:892b168bcdc10bfb87676a4664080cfb5c224a1dba3e2e0c2dbc3566424fad94"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: HIT (commented on OPEN #100) -- 1 Jul DiZa procedure decision +
+    # herziene convocatie fixing v.s.o. inbreng deadline 29 Sep 2026 (22112-4395)
+    # on the approaching Council position (Omnibus Digitaal). Hash refreshed.
+    last_seen_hash: "sha256:0802669c0afd67b47e15bee4772f959d4b0c13e4488986f05e8808449cb5f044"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-17:
-    # 2026-07-02: hash drift; featured list is generic roundtable topics, none 0360. Refreshed.
+    # 2026-07-03: unchanged. last_seen_at refreshed.
     last_seen_hash: "sha256:6e46ae1844f3f62f5237fa19a6faf0762d0cf9cca1cd48313d0aa10ef5ec4e9b"
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-18:
-    # DiZa commissievergaderingen calendar roll (29 Jun -> 3 Jul). Refreshed.
-    last_seen_hash: "sha256:69d03f98d2edde9cecd8693c021293696210eb23eecbbb156f7b51a53ba02710"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: calendar roll-forward; "geen commissievergaderingen gepland" in
+    # window, no new omnibus agenda beyond T1-16 item. Refreshed.
+    last_seen_hash: "sha256:db39d4c3acdb85fec59ecfa48c685a1f569f1c95a8fbc7f1e3fb2b0d20fd4d73"
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-19:
-    # 2026-07-02: RSS returned 0 items -> transient per spec; state NOT updated.
+    # 2026-07-03: 6 items, hash MATCHES prior stored -> no new Q/A. last_seen_at refreshed.
     last_seen_hash: "sha256:4d1226cbaf6b58445a0276032989ce657b823fe776c8403e2cd4b9934b88505e"
-    last_seen_at: 2026-07-01T11:08:34Z
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-20:
     seen_refs:
       - PE789.142v01-00
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-21:
     seen_refs:
       - PE786.818v01-00
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_at: 2026-07-03T11:08:46Z
   T1-22:
     seen_refs:
       - PE789.877v01-00
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_at: 2026-07-03T11:08:46Z
   T2-01:
-    # 2026-07-02: newest 29 Jun (US Supreme Court/data transfers, not 0360);
-    # 23 Jun cookie-banner item already #77. No new in-scope item. Refreshed.
-    last_seen_hash: "sha256:28b83800623eae665744b8212624c2d40e60c1f0dbc8a3861e2c0b69b43f268d"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: archive churn; newest still 29 Jun (US Supreme Court/data
+    # transfers, not 0360); all Digital-Omnibus items Apr-or-older. Refreshed.
+    last_seen_hash: "sha256:64b8bbb818022d4be96d2f01b6d1a7c9d78e02a3dbb3bf41c5e6f9c6eca14874"
+    last_seen_at: 2026-07-03T11:08:46Z
   T2-02:
     last_seen_hash: "sha256:c5bdb906f60a650d1ad6167c0dde3d2d2b69de1c0bc251be6465c58bf850a1ad"
-    last_seen_at: 2026-07-02T11:08:35Z
+    last_seen_at: 2026-07-03T11:08:46Z
   T2-03:
-    # netzpolitik: no in-scope kw match this run. Refreshed.
-    last_seen_hash: "sha256:5a94075a10cbee15fd410930923a99c28c482d3aa937c13fb675f6feeb336d0f"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: only match a German Informationsfreiheit/press-freedom item, not 0360. Refreshed.
+    last_seen_hash: "sha256:26dbfbbd2fa219a998429083fa87c335886072e1b67413dcf65f71bd1baf5cf1"
+    last_seen_at: 2026-07-03T11:08:46Z
   # T2-04: Cloudflare-blocked on every run; treat as unreachable, no hash stored.
   T2-05:
-    last_seen_hash: "sha256:c4ee29c9e5c32a266cb19a08676c2db87bbcd025abb7c90403d1cfa8776c48db"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: newest 26 Jun "EU adopts the AI Omnibus" (0359, OOS); no new 0360 item. Refreshed.
+    last_seen_hash: "sha256:a11abad1078a5b0c036f34dde8a1ba28240f9a550c1370e15d76576103a910d6"
+    last_seen_at: 2026-07-03T11:08:46Z
   T2-06:
-    # algowatch: only match 18 Jun "The AI Omnibus" (0359, OOS) + data centres. Refreshed.
-    last_seen_hash: "sha256:5eae7ab76240c86335c765dd20c619159de9c0f6c197d0ed08871accd1caad7e"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: matches "The AI Omnibus" (0359, OOS) + data-centre items; no 0360. Refreshed.
+    last_seen_hash: "sha256:d295c4618a04225830a227e32998a1418923cc695102cf393fe98f2e27bda271"
+    last_seen_at: 2026-07-03T11:08:46Z
   T2-07:
-    # bitsoffreedom: hash drift, no in-scope kw match. Refreshed.
-    last_seen_hash: "sha256:47fec8a4f226b0012420211b819a0e7d94d1f73be306696d96106d529a2fd185"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: AVG matches are data-breach explainers, no Omnibus Digitaal. Refreshed.
+    last_seen_hash: "sha256:f900ee013aa1c26a8551d24595975d7612608f012fe658e78ed4aa0f67775f20"
+    last_seen_at: 2026-07-03T11:08:46Z
   T2-08:
-    # heise: 157 entries, no Digital Omnibus/DSGVO/ePrivacy match. Refreshed.
-    last_seen_hash: "sha256:68b26bdc58098b69dea5073db9509cdd47a499e1e18036665a2fe7bedec47353"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: 157 entries, no Digital Omnibus/DSGVO/ePrivacy match. Refreshed.
+    last_seen_hash: "sha256:b1111323f9ab2ba01a1a6f7cc317d7e33353c12d4f06624357ff7b58fe9af868"
+    last_seen_at: 2026-07-03T11:08:46Z
   T2-09:
-    # dlapiper: matches EDPB breach template + UK DUAA (not EU 0360). Refreshed.
-    last_seen_hash: "sha256:8d7542505040c7c5c15838965fcae819094ec82dc6dc14f3785bd07b429b64b6"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: matches EDPB breach template + UK DUAA/children/California -- not EU 0360. Refreshed.
+    last_seen_hash: "sha256:454f537597c1a22256be3e37dbf22adb1f03371276adeadbb8c317ac9cf9d95b"
+    last_seen_at: 2026-07-03T11:08:46Z
   T2-10:
-    # ieu-monitoring: no Telecom/TTE/digital-omnibus item. Refreshed.
-    last_seen_hash: "sha256:0a209c281fdbcb4ccfc08d736919fa256fdd764a70d96eab14738d68fea97a9d"
-    last_seen_at: 2026-07-02T11:08:35Z
+    # 2026-07-03: only CSAM detection interim-rules item; no Telecom/TTE/digital-omnibus. Refreshed.
+    last_seen_hash: "sha256:99b9db4983adca6600a19b1128280fc50359023eb4f203e1537c2af7f77d2338"
+    last_seen_at: 2026-07-03T11:08:46Z
   T3-01:
-    # 2026-07-02: 5 new posts (FTC policy statement, adequacy/TIA, EDPB-AMLA
-    # guidelines) -> none plausibly 0360. Advanced.
-    last_seen_indexed_at: 2026-07-01T17:37:33.125Z
+    # 2026-07-03: 4 new posts, none 0360 kw-match. Advanced.
+    last_seen_indexed_at: 2026-07-02T19:24:26.930Z
     did: did:plc:wxpnu3arxymnfzh7zm2vx4cn
   T3-02:
-    # 2026-07-02: 4 new posts (noyb assessment / Schrems US-transfer / FTC) -> not 0360. Advanced.
-    last_seen_indexed_at: 2026-07-02T09:30:09.020Z
+    # 2026-07-03: 1 new kw-match but EU-US data-transfer/US-cloud exit (SCOTUS), not 0360. Advanced.
+    last_seen_indexed_at: 2026-07-02T15:00:07.723Z
     did: did:plc:6tig4nnvqut4jhyxmvqbxbag
   T3-03:
     last_seen_indexed_at: 2026-06-23T17:12:15.271Z
@@ -203,8 +225,8 @@ sources:
     last_seen_indexed_at: 2026-06-30T11:31:44.729Z
     did: did:plc:66ealeut54i3dvgseb4gcn3z
   T3-07:
-    # 2026-07-02: 2 new posts (AI "digital nuclear weapons", CIA cyberops) -> not 0360. Advanced.
-    last_seen_indexed_at: 2026-07-01T13:40:34.540Z
+    # 2026-07-03: 3 new posts, none 0360 kw-match. Advanced.
+    last_seen_indexed_at: 2026-07-02T17:17:38.644Z
     did: did:plc:s2xjhqmjyvk54jw2bat5yyyt
   T3-08:
     last_seen_indexed_at: 2026-06-15T19:29:06.308Z

@@ -55,6 +55,23 @@ This **partly refutes** the earlier *unconfirmed* report (J. Tar, 12 Jun) that L
 tightens** them rather than deleting them, and Am 25 positively bars intermediation data being used to
 train AI systems. The **Parliament** cells below cite the joint report where it tabled an amendment.
 
+**Tabled amendments to the JURI draft opinion (PE790.236, 29 Jun 2026).** After the 26 Jun JURI
+amendment deadline, **228 MEP amendments (nos 69–296)** were tabled to the Benifei draft opinion and
+are transcribed in full ([extract](../extracts/parliament/JURI-AM-790236_amendments.md) ·
+[triage #102](triage/2026-07-07-issue-102.md)). These are **competing group proposals, not an adopted
+committee line** (the JURI vote is expected ~Q4 2026), so they are **not** folded into the per-provision
+cells below. Directionally they bracket the debate: Greens/Left/Renew (Cormand, Saeidi, Farreng) push
+the draft opinion's reversal of the deregulation further — keeping **smart contracts** (Am 197),
+deleting the GDPR **Art 4(1)** non-personal-data clarification (Am 232–233), the **Art 41a**
+pseudonymisation implementing-act route (Am 256–257), the **Art 88c** AI legitimate-interest ground
+(Am 262–265) and the **Art 22** permissive rewrite (Am 248), and deleting the **P2B repeal**
+(Am 293–295); a large **Buda (EPP)** package converts the ENISA **single-entry point** for incident
+reporting into an optional **"interoperable European framework"** that preserves national reporting
+channels across NIS2/DORA/CER/eIDAS (Am 269–292, 296) while keeping the **96h** GDPR breach deadline
+(Am 251–252); **ECR** (Bocheński/Złotowski) and **PfE** (Diepeveen/Piera) pull the other way —
+narrowing personal-data scope, adding an SME ground to refuse subject requests (Am 245), and adding
+**Art 88a** cookie-consent exemptions for security/continuity/preferences (Am 258–260).
+
 Per-provision detail lives in [`provisions/`](provisions/). Machine-readable version:
 [`../data/positions.csv`](../data/positions.csv) — which additionally carries **ECB**, **EESC** and
 **member-state** columns alongside EDPB–EDPS. For positions of *individual* Council delegations

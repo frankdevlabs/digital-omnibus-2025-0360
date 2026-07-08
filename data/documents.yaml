@@ -344,6 +344,45 @@ documents:
       intermediation, B2G-emergency, third-country-access transparency and open-data safeguards
       (Am 13-42). Surfaced via triage #88 (docs/triage/2026-06-26-issue-88.md).
 
+  - id: JURI-AM-790236
+    title: "JURI tabled amendments 69-296 to the Benifei draft opinion on the Digital Omnibus"
+    body: Parliament
+    date: 2026-06-29
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/JURI-AM-790236_EN.pdf
+    local: sources/parliament/JURI-AM-790236_amendments-69-296_2026-07-07.pdf
+    lead_source: >-
+      EP JURI committee documents feed (watchlist T1-20) — new in-scope ref PE790.236v01-00,
+      detected 2026-07-07; title carries "(Digital Omnibus)", author Benifei = JURI rapporteur on
+      2025/0360 (not the 0359 AI file, rapporteur Lagodinsky). Surfaced and triaged via tracker
+      issue #102.
+    notes: >-
+      Committee on Legal Affairs (JURI) tabled amendments PE790.236v01-00 (AM\1346878EN.docx),
+      cover dated 29 Jun 2026 — the 228 amendments (numbered 69-296) tabled by MEPs to Brando
+      Benifei's JURI draft opinion PE789.142 (JURI-PA-789142) on file 2025/0360 (COD), the
+      data/cyber Digital Omnibus COM(2025) 0837, NOT the AI Act file 2025/0359. These are the
+      amendment-deadline (26 Jun 2026) tablings, NOT the rapporteur's own text and NOT an adopted
+      committee position — the JURI vote is expected ~Q4 2026. Ten tablers/groups: David Cormand
+      (Greens), Arash Saeidi (The Left), Laurence Farreng (Renew), Daniel Buda / Emil Radev / Mario
+      Mantovani / Victor Negrescu (EPP & S&D), Tobiasz Bocheński & Kosma Złotowski (ECR), Ton
+      Diepeveen & Pascale Piera (PfE), plus one Benifei amendment. Operative text retrieved
+      2026-07-07 via the headless-browser AWS-WAF bypass (~/law-tracker/lib/fetch_blocked_doc.py;
+      doceo returns HTTP 202 to curl/WebFetch) and transcribed to
+      extracts/parliament/JURI-AM-790236_amendments.md. Substance (competing MEP amendments, not a
+      settled line): Greens/Left/Renew amendments largely reinforce the draft opinion's reversal of
+      the deregulation — delete the omnibus's new trade-secret recitals, keep smart contracts (Am
+      197, Data Act Art 36), restore Data Act Chapter V/cloud-switching, delete the GDPR Art 4(1)
+      non-personal-data clarification (Am 232-233), delete the Art 41a pseudonymisation implementing-
+      act route (Am 256-257, 267), delete the Art 88c AI legitimate-interest ground (Am 262-265) and
+      the Art 22 permissive rewrite (Am 248), and delete the P2B repeal (Am 293-295). A large Buda
+      package (Am 269-292, 296) rewrites the ENISA "single-entry point" for incident reporting into
+      an optional "interoperable European framework" that preserves national reporting channels
+      across NIS2/DORA/CER/eIDAS, keeping the 96h GDPR breach deadline (Am 251-252). ECR
+      (Bocheński/Złotowski) and PfE (Diepeveen/Piera) amendments pull the other way — narrowing
+      personal-data scope, adding SME refusal grounds on subject requests (Am 245), and adding Art
+      88a cookie-consent exemptions for security/continuity/preferences (Am 258-260). Surfaced via
+      triage #102 (docs/triage/2026-07-07-issue-102.md).
+
   - id: EP-LEGTRAIN
     title: "Legislative Train — Digital Omnibus Regulation Proposal"
     body: Parliament

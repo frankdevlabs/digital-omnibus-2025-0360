@@ -59,6 +59,12 @@ training while preserving safeguards. → [digest](../advisory/eesc-int1108.md)
 **Council has dropped it.** Likely cross-institutional consensus *not* to redefine. Watch for any attempt
 to reintroduce a softer Art 4 clarification under the Irish Presidency or by industry amendment.
 
+**Parallel amendment of the same article by another file:** the agreed **Omnibus IV** text (2025/0130,
+Coreper 26 Jun 2026, [ST 10978/26](../../sources/README.md#council-documents)) inserts **new Art 4
+points (27) and (28)** — SME and small-mid-cap (SMC) definitions — into the GDPR. It does not touch
+Art 4(1), so no substantive clash with this provision, but any consolidated Art 4 text drafted in
+this file's trilogue must build on that amended base → [instrument page](../instruments/gdpr-2016-679.md#parallel-amendment-by-another-file--omnibus-iv-20250130-agreed-26-jun-2026).
+
 ## Member-State signals (WK 3736/26)
 - **FR** — welcomes the deletion; wants the EDPB to give a **binding opinion** (not soft guidelines) on
   pseudonymisation/identifiability so controllers get enforceable criteria fast.

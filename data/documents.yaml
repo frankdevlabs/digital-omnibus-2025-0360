@@ -249,6 +249,35 @@ documents:
     url: https://data.consilium.europa.eu/doc/document/CM-2918-2026-INIT/en/pdf
     notes: Confirms 27 May 2026 AGS is an exchange of views, not a general approach.
 
+  - id: ST-10978-2026
+    title: "Omnibus IV — information note: Coreper confirms the compromise texts and the offer letter to the Parliament (related file 2025/0130+0131, amends GDPR)"
+    body: Council
+    date: 2026-06-26
+    limite: false
+    url: https://data.consilium.europa.eu/doc/document/ST-10978-2026-INIT/en/pdf
+    local: sources/council/ST-10978-2026_omnibus-iv-offer-letter_2026-06-26.pdf
+    lead_source: >-
+      User-supplied LinkedIn feed document (media.licdn.com sanitized-PDF attachment, expiring URL
+      not cited), 8 Jul 2026 — ahead of any watchlist source; the register copy above is public and
+      was fetched to verify.
+    notes: >-
+      NOT file 2025/0360 — registered as a related-file document. General Secretariat information
+      note on Omnibus IV (interinstitutional files 2025/0130 (COD) regulation + 2025/0131 (COD)
+      directive, the SME-to-small-mid-cap "simplification" omnibus): at its 26 Jun 2026 meeting
+      Coreper confirmed the compromise texts agreed with the EP negotiators on 3 and 9 Jun 2026
+      (contained in 10482/26 ADD 3 and ADD 4, not held in this repo) and authorised the Presidency's
+      offer letter to the Parliament (early-second-reading agreement route); the letter + annexed
+      texts are reproduced in the note. Relevance here: Article 1 of the agreed regulation amends
+      the GDPR in parallel with this file's own GDPR strand — new Art 4 points (27) SME and (28)
+      small mid-cap (SMC, <1000 employees, ≤EUR 200m turnover or ≤EUR 172m balance sheet, per
+      Recommendation 2025/1099) definitions; Art 30(5) records-of-processing derogation extended
+      from <250 to <1000 employees (unless processing is likely high-risk per Art 35, and always
+      where it is a core activity requiring a DPO under Art 37(1)(b)-(c)); Arts 40(1)/42(1) codes of
+      conduct and certification to take SMC needs into account. Trilogue drafting on 2025/0360's
+      GDPR articles will land on this amended base — same-article interplay flagged in
+      docs/instruments/gdpr-2016-679.md and docs/provisions/gdpr-art4-personal-data.md. No extracts
+      (scope guard: this repo transcribes 2025/0360 texts only).
+
   - id: OEIL-2025-0360
     title: "Procedure file 2025/0360(COD) - Simplification of the digital legislative framework (Digital Omnibus / Omnibus VII)"
     body: Parliament

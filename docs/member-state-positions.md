@@ -445,7 +445,7 @@ with agenda item *"Naderende Raadspositie Omnibus Digitaal"* to be treated on th
 Kamerbrief** (`22112-4382`). This continues the Tweede Kamer scrutiny track into H2 2026, parallel to the
 Eerste Kamer *nader schriftelijk overleg* above — a procedural scheduling step, **not** a new government
 position (the letter it treats is already tracked). The meeting's separate agenda item 1 (*Cloud & AI
-Development Act*, `22112-4395`) concerns the **AI-Act file 2025/0359** and is out of scope.
+Development Act*, `22112-4395`) concerns the **CADA file 2026/0138** (tracked in its own repo) and is out of scope.
 → [`../TIMELINE.md`](../TIMELINE.md) (Expected / forward look) · [triage #100](triage/2026-07-02-issue-100.md).
 
 ---

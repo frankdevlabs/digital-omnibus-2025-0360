@@ -506,6 +506,71 @@ opinion** on the omnibus procedure's legal soundness (A10).
 
 ---
 
+## Netherlands (NL) — government Kamerbrief *Voortgang onderhandelingen* / online tracking (6 July 2026)
+
+A negotiation-progress letter to the Tweede Kamer — the cabinet's account of **why the Council did not
+reach a mandate before the Cyprus→Ireland handover**, and the primary-source counterpart to the
+register-gated / Bluesky signal that the mandate item was "withdrawn" on 26 June (the [18 June
+Kamerbrief](#netherlands-nl--government-kamerbrief-naderende-raadspositie-18-june-2026) had flagged the
+Cyprus mandate *push*; this letter reports the outcome). Sent by the **State Secretary for Economic Affairs
+& Climate (W.J.M. Aerdts)** and the **State Secretary for Justice & Security (K.T. "Claudia" van Bruggen)**,
+also on behalf of the Minister of the Interior (BZK).
+
+> **Source:** Kamerbrief *"Voortgang onderhandelingen Omnibus Digitaal en nadere informatie over bepaalde
+> aspecten van online tracking"*, id `2026Z15870` / `2026D35677`, **6 July 2026** — registered as
+> [`NL-KAMERBRIEF-2026-07-06`](../sources/README.md#member-state-positions); committed copy
+> [`voortgang-onderhandelingen`](../sources/member-states/NL-KAMERBRIEF-2026-07-06_voortgang-onderhandelingen_2026-07-06.docx) (DOCX);
+> authoritative copy at [tweedekamer.nl detail](https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15870&did=2026D35677).
+> This is a working summary of a government letter, **not legal advice**; verify against the source before
+> relying on any drafting point. See [`../NOTICE`](../NOTICE).
+
+**Procedural headline — no Council mandate: the Presidency pulled the request over a blocking minority.**
+The cabinet reports that the **Cypriot Presidency ultimately decided _not_ to ask the Council, at Coreper II
+on 26 June 2026, for a mandate to negotiate the Omnibus Digitaal with the European Parliament**. In the days
+before Coreper it had become clear that a **blocking minority** of Member States existed. Part of that group
+took the view that the tabled compromise showed **insufficient "ambition" on simplification, in particular on
+the GDPR/AVG** — i.e. they wanted the deregulation to go *further*, not the fundamental-rights concerns that
+drive NL. The Dutch cabinet's own read was the opposite: it judged the compromise **sufficiently in line with
+its inzet** to serve as a negotiating mandate for the trilogues, while insisting the digital legislation's
+aims and fundamental-rights protection must hold. This is the **primary-source confirmation** of the
+[26 June "withdrawn from the agenda" signal](../TIMELINE.md) that had rested only on a Bluesky agenda
+screenshot ([triage #90](triage/2026-06-26-issue-90.md)) — and it supplies the reason. →
+[`../STATUS.md`](../STATUS.md), [`../TIMELINE.md`](../TIMELINE.md) (2026-07-06).
+
+**State of play by strand (NL's read):**
+
+| Strand | NL report of the Council state of play |
+|---|---|
+| **P2B, cyber incident-reporting point, data legislation** | Support **still appears to exist** to bring these into line with the cabinet's inzet. → [`provisions/final-repeals-p2b.md`](provisions/final-repeals-p2b.md), [`provisions/cyber-single-entry-point.md`](provisions/cyber-single-entry-point.md), [`instruments/data-act-2023-2854.md`](instruments/data-act-2023-2854.md) |
+| **GDPR/AVG** | In the last weeks/days a **growing group of Member States** pressed for **further-reaching GDPR changes**; the precise changes are **as yet unknown** and may be **hard to reconcile** with the cabinet's condition that the omnibus not reduce the level of protection the GDPR affords. It is therefore **uncertain** whether there is enough Council support to align the GDPR parts with the NL inzet. → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md) |
+
+**Handover to Ireland.** The Council negotiations **continue under the Irish Presidency** (from 1 Jul 2026);
+the intended planning is **not yet clear**. NL will keep working to bring the compromise as far as possible
+into line with its inzet as set out in the **BNC-fiche** (12 Dec 2025), and will inform the Kamer per the
+agreed information arrangements.
+
+**Online tracking (Rathenau) — a second, national strand.** Answering a commitment from the 25 June
+*Commissiedebat* on data protection and large data breaches (questions by leden **Kathmann** (PRO) and
+**Swinkels** (CDA) on the Rathenau Instituut report *"De prijs van gratis internet"*), the cabinet sets out
+its line on minors, contextual advertising and possible **national** measures:
+
+- **Minors** already enjoy specific protection against online tracking and ad-personalisation under EU law.
+- The Rathenau **contextual-advertising** option amounts, in effect, to a **full ban on ad-personalisation**,
+  with potentially far-reaching consequences for the financing of free online services and independent
+  journalism and for (SME) businesses that use personalisation. The cabinet therefore prefers to
+  **streamline** the EU online-tracking rules and make it easier for users to exercise their rights
+  **without consent fatigue and dark patterns** — including in the Omnibus Digitaal negotiations. →
+  [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),
+  [`instruments/eprivacy-2002-58.md`](instruments/eprivacy-2002-58.md)
+- The scope for **national** measures is **very limited** (the applicable framework is EU law, as Rathenau
+  also found), so nationally the cabinet focuses on **supervision**: a **wetsvoorstel is in preparation** to
+  concentrate supervision of cookies and online tracking at the **Autoriteit Persoonsgegevens (AP)**, with
+  structural funds earmarked for this since 2024.
+
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-07-06) · [`../STATUS.md`](../STATUS.md) (Council + Member States).
+
+---
+
 ## How this fed the later compromise
 
 Several of these positions are visible in the **ST 9547/26** (May) text: the Art 4(1) redefinition

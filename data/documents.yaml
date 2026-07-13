@@ -479,6 +479,39 @@ documents:
       assessment (cites the Commission's 28 Apr 2026 Better-Regulation course-change). Substance routed to
       docs/member-state-positions.md (Netherlands section). Fetchable (no WAF); committed for offline diffing.
 
+  - id: NL-KAMERBRIEF-2026-07-06
+    title: "Netherlands government Kamerbrief 'Voortgang onderhandelingen Omnibus Digitaal en nadere informatie over bepaalde aspecten van online tracking'"
+    body: Netherlands
+    date: 2026-07-06
+    limite: false
+    url: https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z15870&did=2026D35677
+    local: sources/member-states/NL-KAMERBRIEF-2026-07-06_voortgang-onderhandelingen_2026-07-06.docx
+    lead_source: >-
+      Tweede Kamer search feed (watchlist T1-16) — surfaced via tracker issue #105
+      (docs/triage/2026-07-09-issue-105.md).
+    notes: >-
+      NL cabinet negotiation-progress letter (kamerstuk 2026Z15870 / 2026D35677) to the Tweede Kamer,
+      6 Jul 2026, from Staatssecretaris W.J.M. Aerdts (Economische Zaken en Klimaat) and Staatssecretaris
+      K.T. (Claudia) van Bruggen (Justitie en Veiligheid), mede namens de minister van BZK. PRIMARY
+      confirmation that the Cypriot Presidency ultimately DID NOT ask the Council (Coreper II, 26 Jun 2026)
+      for the mandate to open trilogues on the Omnibus Digitaal: in the days before Coreper a BLOCKING
+      MINORITY of Member States emerged, part of which found the compromise showed insufficient 'ambition'
+      on simplification, in particular on the GDPR/AVG. This upgrades the earlier register-gated / Bluesky
+      (T3-01) signal of a "withdrawn" agenda item (triage #90) to an on-record government fact and supplies
+      the reason. State of play per the letter: support appears to persist for the P2B, cyber
+      incident-reporting-point and data-legislation strands, but a growing group of MS wants further-reaching
+      GDPR changes (as yet unknown), so it is uncertain whether the Council will back the GDPR parts in line
+      with the cabinet's inzet (no reduction of the GDPR protection level). Council negotiations continue
+      under the IRISH Presidency (H2 2026); planning not yet clear. Second half answers a 25 Jun
+      Commissiedebat commitment on online tracking (Rathenau report 'De prijs van gratis internet', questions
+      by leden Kathmann (PRO) and Swinkels (CDA)): minors already protected under EU law; a full ban on
+      ad-personalisation (contextual-advertising option) would hit free online services/journalism/SMEs; NL
+      prefers to STREAMLINE EU online-tracking rules and ease rights-exercise without consent fatigue / dark
+      patterns, incl. in the Omnibus Digitaal; national measures are very limited (EU-law framework), so a
+      national WETSVOORSTEL in preparation concentrates cookie/online-tracking supervision at the Autoriteit
+      Persoonsgegevens (AP). Substance routed to docs/member-state-positions.md (Netherlands section).
+      Fetchable (no WAF); committed for offline diffing.
+
   - id: ah-tk-20252026-792
     title: "Kamervragen (lid Kathmann) over het slopen van de privacybescherming in de nieuwe Europese Omnibus-wetgeving — antwoord"
     body: Tweede Kamer

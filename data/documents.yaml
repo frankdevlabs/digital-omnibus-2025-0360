@@ -278,6 +278,24 @@ documents:
       docs/instruments/gdpr-2016-679.md and docs/provisions/gdpr-art4-personal-data.md. No extracts
       (scope guard: this repo transcribes 2025/0360 texts only).
 
+  - id: CM-3630-2026
+    title: "Antici Group (Simplification) notice of meeting and provisional agenda — 16 Jul 2026 exchange of views on the Digital Omnibus (Presidency discussion note WK 10233/26)"
+    body: Council
+    date: 2026-07-08
+    limite: false
+    url: https://data.consilium.europa.eu/doc/document/CM-3630-2026-INIT/en/pdf
+    local: sources/council/CM-3630-2026_antici-group-simplification-notice_2026-07-08.pdf
+    lead_source: >-
+      Bluesky T3-01 (Montezuma, post 9 Jul 2026) embedding a CM 3630/26 screenshot; the register
+      copy above was fetched 2026-07-19 to confirm (upgrades the tier-3 signal to register-confirmed).
+    notes: >-
+      Convenes the Antici Group (Simplification) for 16 July 2026, 09:30 (Justus Lipsius, format
+      1+1). Item 1 "Omnibus VII: Digital Omnibus" (= file 2025/0360, full amending/repealing recital
+      list matches): exchange of views based on the Presidency discussion note WK 10233/26 ("to be
+      issued", not yet held). Item 2 is Omnibus IX (Automotive, out of scope). First Irish-Presidency
+      working-party step after the Cyprus mandate (ST 10729/26) was never put to Coreper II.
+      Triage: docs/triage/2026-07-10-issue-107.md.
+
   - id: OEIL-2025-0360
     title: "Procedure file 2025/0360(COD) - Simplification of the digital legislative framework (Digital Omnibus / Omnibus VII)"
     body: Parliament

@@ -47,6 +47,17 @@ preserved and the Recital 34 "not likely to create significant risks" line remov
 → [JO 2/2026 digest: AI special categories](../advisory/edpb-edps-jo-2-2026.md#ai-special-categories),
 [biometric](../advisory/edpb-edps-jo-2-2026.md#biometric)
 
+## Relevant CJEU case-law
+- **C-474/24** ([judgment, 14 Jul 2026](https://curia.europa.eu/juris/liste.jsf?num=C-474/24)) — the
+  Court held that the mere fact a person breached an anti-doping rule and was suspended does **not, in and
+  of itself, constitute "health data" under Art 9 GDPR**; that changes only where the publication names the
+  **prohibited substance or method**, which (with other information) can directly or indirectly reveal state
+  of health. *Not a development on 2025/0360* — the file does not amend the Art 4(15) health-data definition
+  or Art 9(1). It is noted here because it narrows the "health data" boundary that the **9(2)(k)/9(5)**
+  incidental-and-residual **special-category (health) data** carve-out sits atop (cf. FR's "residual/
+  incidental (health) data" framing below): the narrower the concept, the less the AI carve-out must reach.
+  Surfaced via a Tier-3 Bluesky signal ([triage #110](../triage/2026-07-15-issue-110.md)).
+
 ## Status
 **Retained on a tightening trajectory.** Less contested than Art 88c, but the boundary between
 "incidental/residual" and "necessary" sensitive-data processing will be litigated in trilogue.

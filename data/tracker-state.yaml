@@ -129,7 +129,6 @@ sources:
     # 2026-07-20: hash drift; new 17-19 Jul posts carry 0 DSGVO/Datenomnibus/ePrivacy matches. 0 new. New baseline.
     last_seen_hash: "sha256:7c70e4b1029738c28bd4c00c870d553490e483588f30094556fed4ab20bdf9a5"
     last_seen_at: 2026-07-20T11:05:00Z
-  # T2-04: Cloudflare-blocked on every run; treat as unreachable, no hash stored.
   T2-05:
     # 2026-07-20: hash drift; newest item still 26 Jun 2026 (AI Omnibus). 0 new. New baseline.
     last_seen_hash: "sha256:a11abad1078a5b0c036f34dde8a1ba28240f9a550c1370e15d76576103a910d6"

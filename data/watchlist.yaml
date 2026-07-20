@@ -239,9 +239,9 @@ sources:
     tier: T2
     kind: stakeholder
     label: "INSIGHT EU MONITORING — RSS"
-    url: "https://ieu-monitoring.com/feed/"
+    url: "https://ieu-monitoring.com/feed"
     affects: [STATUS.md, TIMELINE.md, docs/institutional-positions.md]
-    notes: "Workaround for Consilium's browser-check bot-block: mirrors Council meeting outcomes/main results (incl. Telecom/TTE Council 'main results' pages, which the tracker cannot fetch from consilium.europa.eu directly). A match on a Telecom/TTE Council item is Tier-1-grade signal — label it council."
+    notes: "Workaround for Consilium's browser-check bot-block: mirrors Council meeting outcomes/main results (incl. Telecom/TTE Council 'main results' pages, which the tracker cannot fetch from consilium.europa.eu directly). A match on a Telecom/TTE Council item is Tier-1-grade signal — label it council. URL must have NO trailing slash: since 2026-07-17 Wordfence returns HTTP 503 'Accessed a banned URL' for /feed/, while /feed serves the RSS (200, application/rss+xml) to a plain curl (issue #118)."
 
   # --- Tier 3: Bluesky watchlist -----------------------------------------------
   T3-01:

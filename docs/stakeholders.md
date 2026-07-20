@@ -61,6 +61,23 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   framing the **Art 88b machine-readable consent signal** *positively*, as a route "beyond today's
   endless consent clicks" toward "rights respected by design" (the same article industry and France
   want deleted) → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md).
+  As the file headed into summer recess EDRi published two **16 Jul 2026** pieces on 2025/0360
+  (both framing it as the *Data Omnibus*, "still moving through the Council and European Parliament" —
+  distinct from the adopted AI Omnibus 2025/0359):
+  **[*"The Digital Omnibus is going on summer break. Your rights are not."*](https://edri.org/our-work/the-digital-omnibus-is-going-on-summer-break-your-rights-are-not/)**
+  — a recess round-up reiterating opposition to **narrowing the personal-data definition** (esp.
+  pseudonymised data), **weakening the special-category protections** and **cutting transparency
+  rights**, and to moving **device-access rules "away from the ePrivacy logic of confidentiality"**;
+  it again backs a **binding privacy signal** — a single browser/device opt-out — over cookie banners
+  (its Art 88b line, see [fault-line #3](fault-lines.md)), and attacks the missing impact assessment as
+  "SPF 0 law-making" (it also relays, from a civil-society vantage, the Council stall / DE-PL blocking
+  minority and the EP-requested substitute impact assessment already on record via the 6 Jul NL
+  Kamerbrief). And **[*"The digital rulebook is fit for purpose: better enforcement is needed, not
+  simplification"*](https://edri.org/our-work/the-digital-rulebook-is-fit-for-purpose-better-enforcement-is-needed-not-simplification/)**
+  — EDRi's response to the Commission's **Digital Fitness Check** consultation, arguing the rights-based
+  framework (GDPR/DSA/DMA) is a competitive advantage and "fit for purpose", so the EU should
+  **strengthen enforcement and close gaps** (ban spyware, regulate ad-tech) rather than reopen the rules
+  via the Omnibus.
 - **German consumer & digital-rights groups (vzbv, Digitale Gesellschaft).** German tech-press
   *netzpolitik.org* ([*"Online-Tracking: Deutschland und Google wollen Cookie-Banner retten"*](https://netzpolitik.org/2026/online-tracking-deutschland-und-google-wollen-cookie-banner-retten/),
   Ingo Dachwitz, **24 Jun 2026**) reports the **Verbraucherzentrale Bundesverband (vzbv)** —

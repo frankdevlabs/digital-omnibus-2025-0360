@@ -81,7 +81,11 @@ Per-provision detail lives in [`provisions/`](provisions/). Machine-readable ver
 the ECB ([CON/2026/9](advisory/ecb-con-2026-9.md)) and EESC ([INT/1108](advisory/eesc-int1108.md))
 opinions are digested under [`advisory/`](advisory/). The EDPB **reaffirmed** its opposition to the
 personal-data redefinition at its **10 June 2026 plenary** (meeting with Commissioner McGrath) —
-see [`../TIMELINE.md`](../TIMELINE.md).
+see [`../TIMELINE.md`](../TIMELINE.md). At a **high-level meeting in Dublin (16–17 July 2026)** it
+also **reiterated its call for a legal basis for cross-regulatory information sharing** (JO 2/2026
+¶160–162 — [digest](advisory/edpb-edps-jo-2-2026.md#data-enforcement)), addressed to the Commission and
+**without naming the Omnibus**, so it is context rather than a new position on this file
+([triage #117](triage/2026-07-20-issue-117.md)).
 
 | Topic | Commission (COM(2025) 837) | Council (ST 9547/26) | Parliament (provisional) | EDPB–EDPS |
 |---|---|---|---|---|

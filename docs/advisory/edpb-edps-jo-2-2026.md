@@ -260,6 +260,18 @@ authorities (¶160–162). Clarify (Arts 37(3), 40(4)) that **DPAs participate o
 GDPR competences only**, with a **duty for Data Act competent authorities to consult the DPA** on data-
 protection questions (e.g. what is personal data, whether a GDPR legal basis exists) (¶163–165).
 
+> **Reiterated (17 July 2026):** at a **high-level meeting in Dublin (16–17 Jul 2026)** the EDPB
+> **called upon the European Commission to propose a legal basis for cross-regulatory information
+> sharing**, enabling regulators to exchange information "including confidential information" relevant
+> to enforcement in their respective areas of competence — Chair **Anu Talus**: first-hand experience of
+> cooperating with other EU digital regulators "highlighted the need for stronger legislation to
+> facilitate more effective cross-regulatory cooperation". The same ask as ¶160–162 above, generalised
+> beyond the Data Act. **Caveat:** the statement **does not name the Digital Omnibus** and is **not** an
+> opinion on 2025/0360 — its other strand (DPA resourcing, joint operations, complaint volumes) concerns
+> GDPR enforcement generally and the upcoming **Procedural Regulation** (file 2023/0202), not this file.
+> ([EDPB news, 17 Jul 2026](https://www.edpb.europa.eu/news/edpb-calls-for-legal-basis-for-cross-regulatory-information-sharing_en)
+> · [triage #117](../triage/2026-07-20-issue-117.md))
+
 <a id="edib"></a>
 ## European Data Innovation Board (EDIB) — **welcomed** (¶166–172)
 

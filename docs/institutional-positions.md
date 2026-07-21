@@ -122,3 +122,14 @@ draft report now confirms this direction cross-strand** — restoring P2B and GD
 subject-access "abuse" reframe, and returning the breach/DPIA templates and lists to the EDPB — though
 these remain **draft** committee positions, open to amendment until the tabling deadline (**15 July
 2026**) and the committee vote (~Q4 2026).
+
+**Timing — the two columns are on different clocks.** At the **General Affairs Council of 14 July 2026**
+the Irish Presidency said it is *"striving to close the Omnibus packages VII to X … by the end of the
+year, **assuming the European Parliament is ready to negotiate swiftly**"* — VII being this file
+([triage #121](triage/2026-07-21-issue-121.md)). That is the Council's first stated target date, and the
+condition is doing real work: the **Council has no mandate yet** (the Cyprus text was never put to
+Coreper; the file went back to the Antici Group on 16 July), while the **Parliament's** joint ITRE/LIBE
+committee vote is only expected **~Q4 2026**. An end-2026 close would therefore compress the mandate,
+the committee vote and the entire trilogue on the divergences above into the final weeks of the year —
+so treat the target as a Presidency **intention**, and the gaps in the table as unresolved until a
+committee vote and a Council mandate exist.

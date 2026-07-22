@@ -3,196 +3,192 @@
 # Note: hashes use the spec-compliant deterministic normalization (strip
 # scripts, csrf+viewport-date meta, hidden inputs, digit runs >8, collapse
 # whitespace).
-# 2026-07-21 run: 1 hit (issue #121 T2-10 GAC/Irish Presidency). 39/40 sources polled, 39/39
-#   reachable (T2-04 not polled — permanently Cloudflare-blocked, no hash). T2-10 RECOVERED
-#   after 2 blocked runs; noted on health issue #118.
+# 2026-07-22 run: 1 hit (issue #123 T1-16 DiZa inbreng SO informal Telecomraad). 39/40 sources
+#   polled, 39/39 reachable (T2-04 not polled — permanently Cloudflare-blocked, no hash).
 # HITS this run:
-# T2-10 IEU Monitoring: 17-Jul item "Main results of the EU General Affairs Council on 14 July
-#   2026" — Irish Presidency intends to close Omnibus packages VII-X (VII = digital policy) by
-#   end-2026 "assuming the European Parliament is ready to negotiate swiftly". Council-level
-#   timeline signal; readout does not name COM(2025) 837, so 0360-vs-0359 needs manual check. #121.
+# T1-16 Tweede Kamer: new top result under 'omnibus digitaal' — Vaste commissie voor Digitale
+#   Zaken "Inbreng schriftelijk overleg (informele) Telecomraad (12 en 13 oktober 2026)", inbreng
+#   deadline 29 sep 2026. Council-track scrutiny of the digital omnibus; combined AI+Digital
+#   agenda risk flagged. #123.
 # NOTABLE NON-HITS this run:
-# T1-01/T1-02 OEIL: hash drift; last Key event still 19/01/2026, latest lobby row still 15/07
-#   (KIRCHER/IMCO-Mistral AI), rapporteurs SALLA/KALJURAND. No new key event.
-# T1-03 Cellar XML: hash flipped to 53bca03 — this source is a KNOWN OSCILLATOR (07-07, 07-10,
-#   06-24, 06-17 each flipped and reverted to 1873661). Stable across 3 same-run refetches.
-#   Content signature unchanged: newest procedure events 2026-07-14 DELIB_byCONSIL and
-#   2026-07-16 DELIB_WP_byCONSIL (both present since before the 07-20 run); max consil ref
-#   ST_9773_2026_INIT (dated 01/06/2026, cross-dossier ref to 2025/0382/COD, not 0360). No hit.
-# T1-04 legislative-train: "as of 20/06/2026" UNCHANGED.
+# T1-01/T1-02 OEIL: hash drift; Key events UNCHANGED (still 19/11/2025 published + 19/01/2026
+#   committee referral). Later dates (09-15/07) are lobby-meeting rows, not key events. No hit.
+# T1-03 Cellar: returned a 300 Multiple-Choice HTML listing (not the clean XML notice object) —
+#   different response form, references correct manifestation cellar:ebf17714-... / COM_2025_0837_FIN.
+#   Known oscillator; content signature unchanged. New baseline.
+# T1-04 legislative-train: "as of 20/06/2026" UNCHANGED; body churn only.
 # T1-08/T1-09 Austrian: max RAT still 7720/26 resp. 9547/26. No new LIMITE compromise.
-# T1-10 Eerste Kamer: latest item still 30 juni 2026. T1-11/T1-17/T1-19 hash UNCHANGED.
-# T1-12 EDPB RSS: hash UNCHANGED (newest still 17-Jul cross-regulatory item, issued #117).
-# T1-13: JO 2/2026 title unchanged. T1-15 MediaLaws: "Last updated: 14 July 2026" UNCHANGED
-#   (article:modified 2026-07-14T14:16:09Z).
-# T1-14 AP RSS: newest item still 15/07 (EDPB guidelines). 0 new in-scope.
-# T1-16 Tweede Kamer: newest docs still the 16-juli EZK kwartaalrapportage set (#115/#116).
-# T1-18 DiZa calendar: rolled to 21 juli — no meetings scheduled (recess).
-# EP committee seen_refs UNCHANGED: T1-05 ITRE PE786.818; T1-20 JURI PE789.142 + PE790.236;
-#   T1-21 LIBE PE786.818; T1-22 IMCO PE789.877. No new documents (all 4 parsers exit 0).
-# T2-01/02/03/05/06/07/08/09: 0 new in-scope 0360 items. T2-06's new 21-Jul post matches
-#   "omnibus" only via an unrelated German-law omnibus procedure.
-# T3-01: 5 new posts (Spanish/Singapore/French DPA guidance, AI Act transparency) — 0 keyword
-#   match, 0 hit. T3-02..T3-08: no new posts.
-last_run: 2026-07-21T11:40:00Z
+# T1-10 Eerste Kamer: latest item still 30 juni 2026 (EK inbreng) = widget churn. New baseline.
+# T1-11 EK bronnen: hash drift, no new source doc. New baseline.
+# T1-13 EDPB joint opinion: "Joint opinion 2/2026" title UNCHANGED; related-docs widget drift.
+# T1-17 DiZa uitgelicht: hash drift; highlighted cards all stale (newest 25 juni) = rotating widget.
+# T1-18 DiZa calendar: rolled to 22 juli — "geen commissievergaderingen gepland" (recess). No hit.
+# T1-06/07/12/14/15/19 UNCHANGED or benign (see per-source notes).
+# EP committee seen_refs UNCHANGED (all 4 parsers exit 0): T1-05 ITRE PE786.818; T1-20 JURI
+#   PE789.142 + PE790.236; T1-21 LIBE PE786.818; T1-22 IMCO PE789.877. No new documents.
+# T2-10 IEU Monitoring: hash drift; only Council match is the GAC 14-Jul item already issued #121.
+#   No new Telecom/omnibus item. T2-03/07/08 hash drift = 0 in-scope keyword match. New baselines.
+# T2-01/02/05/06/09: 0 new in-scope 0360 items.
+# T3-01: 6 new posts (0 keyword match); T3-06: 1 new; T3-07: 4 new — all off-topic. Advanced
+#   indexedAt. T3-02/03/04/05/08: no new posts.
+last_run: 2026-07-22T11:06:52Z
 sources:
   T1-01:
-    # 2026-07-21: hash drift; Key events still end 19/01/2026, latest lobby row 15/07. New baseline.
-    last_seen_hash: "sha256:8e50dafe3838f740f80e3419fbbfb710e83711f040af29458c893869efe67478"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: hash drift; OEIL Key events UNCHANGED (19/11/2025 + 19/01/2026); lobby-row churn. New baseline.
+    last_seen_hash: "sha256:f90211433002386dfcf9f0c623c0470d13a41829b732f7e0dc5a01d02192ce6f"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-02:
-    # 2026-07-21: OEIL PDF churn; no new Key event. New baseline.
-    last_seen_hash: "sha256:f73803aadea7283f2d6fe1734b41deb3f4a01b7bf8af16d37138728453d99213"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: OEIL PDF churn; no new Key event (still 2 events). New baseline.
+    last_seen_hash: "sha256:58997386b8b2d78148d0acf95b8636ca2f6465c34b522ca53baa3f4d4c890961"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-03:
-    # 2026-07-21: known-oscillator flip (see header). Content signature unchanged. New baseline.
-    last_seen_hash: "sha256:53bca03a0c38dd3cccb3b4895f478acea2c0b2c7a157dc2d30d7a43f91b29dc4"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: known-oscillator flip; today returned 300 Multiple-Choice listing (cellar:ebf17714-…, COM_2025_0837_FIN). Content signature unchanged. New baseline.
+    last_seen_hash: "sha256:263a8ce7ad1ffba25f2d4abecc685c51d18b5c6c4c6c54bb67efbf4a281b89cb"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-04:
-    # 2026-07-21: detection key "as of 20/06/2026" UNCHANGED; body churn only. New body baseline.
-    last_seen_hash: "sha256:2c257dc9be1b76a7db2974b6e85bc023c4c6fc928827a95b4375a177020394fa"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: detection key "as of 20/06/2026" UNCHANGED; body churn only. New body baseline.
+    last_seen_hash: "sha256:e89e4591e05060f31fa298697c8e3408adfb873f73318ca78e033dd1e1f86cb5"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-05:
     seen_refs:
       - PE786.818v01-00
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-06:
-    # 2026-07-21: hash drift; 0 omnibus mentions on the page = rotating-widget churn. New baseline.
+    # 2026-07-22: hash UNCHANGED (rotating-widget page steady). Refreshed.
     last_seen_hash: "sha256:1aab0d77c09a13e1bbe5edb3ef262552db86787f90269153daabb9bd25c00f39"
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-07:
-    # 2026-07-21: hash drift; sole omnibus token = old AI "digital omnibus" press item (0359, out of scope). New baseline.
+    # 2026-07-22: hash UNCHANGED. Refreshed.
     last_seen_hash: "sha256:27ee3741d68e09d6388929536630b00b43d49f81c5f76cfdc09cfa9a17fdc6aa"
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-08:
-    # 2026-07-21: max RAT still 7720/26 (26.03.2026); widget drift. New baseline.
-    last_seen_hash: "sha256:25a47356eabb9526311d6eeadfb151e4a78a6676b29cb7da042974263a780ac6"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: max RAT still 7720/26 (26.03.2026); widget drift. New baseline.
+    last_seen_hash: "sha256:2bf9133897ffd3dc3c0767909107cb2efbaa8dca726b5102ff01625c41d97812"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-09:
-    # 2026-07-21: latest RAT still 9547/26 (20.05.2026 Presidency compromise, already registered). No new LIMITE compromise. New baseline.
-    last_seen_hash: "sha256:a910d2455079b329d605306363793ce22b272db4468f2ac88686c2b298882841"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: latest RAT still 9547/26 (20.05.2026 Presidency compromise, already registered). No new LIMITE compromise. New baseline.
+    last_seen_hash: "sha256:54140b5bd3b44df8bd6e55cf2e0102333f54727cacced0708dcdc8cc1b8aec27"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-10:
-    # 2026-07-21: hash drift; latest item still 30 juni 2026 (EK inbreng) = related-widget churn. New baseline.
-    last_seen_hash: "sha256:2a2dcc931c06ca45f30e1dc46b83fba5f337ae1725f2cfcae001a186fd5f8efb"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: hash drift; latest item still 30 juni 2026 (EK inbreng) = related-widget churn. New baseline.
+    last_seen_hash: "sha256:4797bb47dcc644f5ac09d90b38d8c787588318fc949c07b42e3f23564a4cccf1"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-11:
-    # 2026-07-21: hash UNCHANGED. Refreshed.
-    last_seen_hash: "sha256:6d1b77d1fdc76135210012095eb153cea746cdd91124f08077a76f4e82a1d94e"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: hash drift; no new source doc under the edossier. New baseline.
+    last_seen_hash: "sha256:f1eb5e7dc2d44086dcef0e9278fea0ef423358f7991c25feadd63d9c0af6b78c"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-12:
-    # 2026-07-21: hash UNCHANGED (newest still the 17-Jul cross-regulatory item, issued #117). Refreshed.
+    # 2026-07-22: hash UNCHANGED (newest still the 17-Jul cross-regulatory item, issued #117). Refreshed.
     last_seen_hash: "sha256:f498bb2a40ca3672f2709f2538dc4082207af619d9de8dae3d8b63b0a3b8204e"
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-13:
-    # 2026-07-21: JO 2/2026 title unchanged (Digital Omnibus, 11 Feb 2026); related-docs widget drift. New baseline.
-    last_seen_hash: "sha256:47579c517c0af31deeebeab8b44332634612ff862b6d5290bde07c287ddf5446"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: "Joint opinion 2/2026" title UNCHANGED (Digital Omnibus, 11 Feb 2026); related-docs widget drift. New baseline.
+    last_seen_hash: "sha256:43ed6e1934b88a94f166a403037434a0248d97d36b308be40ba849a3ee4fb511"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-14:
-    # 2026-07-21: hash drift; newest item still 15/07 (EDPB guidelines scraping/anon/blockchain). 0 new 0360. New baseline.
+    # 2026-07-22: hash UNCHANGED; newest item still 15/07 (EDPB guidelines). 0 new 0360. Refreshed.
     last_seen_hash: "sha256:2a8b1f9182e6135591948fc5619ad32bd77e13aff5f3fd37436086bba83783ee"
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-15:
-    # 2026-07-21: "Last updated: 14 July 2026" UNCHANGED (article:modified 2026-07-14); full-body hash drifted (css/widget). New body baseline.
+    # 2026-07-22: "Last updated: 14 July 2026" UNCHANGED (article:modified 2026-07-14). Refreshed.
     last_seen_hash: "sha256:61f3f135f3e89e1c0af2eef2aacbbc6061dda059802fe3aebb6866e511a28f73"
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-16:
-    # 2026-07-21: hash drift; newest documents still the 16-juli EZK kwartaalrapportage set (2026D37002/36997/36988) already issued #115/#116. No new document. New baseline.
-    last_seen_hash: "sha256:b80c7f8983aec7b9b1464891202f60b69963ec2f832ec9c5d545f02b396703c0"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: HIT #123 — new top result "Inbreng schriftelijk overleg (informele) Telecomraad
+    # (12 en 13 oktober 2026)", DiZa, inbreng deadline 29 sep 2026. New baseline.
+    last_seen_hash: "sha256:920158d2ea866c1a3aacfa910aaa1ae0f37e9507fc95768cf3d42d918220a34f"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-17:
-    # 2026-07-21: hash UNCHANGED. Refreshed.
-    last_seen_hash: "sha256:4c268f0142983a1de2ad725cfecad5c5ba392f4675914f3e810b7ca0cbb2cf3c"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: hash drift; highlighted cards all stale (newest 25 juni) = rotating widget. New baseline.
+    last_seen_hash: "sha256:dd92635e72580aa3d4a6439407cbd327cc804c3632d0d4fc7e61af52a4aeae74"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-18:
-    # 2026-07-21: calendar rolled to 21 juli 2026: "Er zijn geen commissievergaderingen gepland" (recess). No agenda. New baseline.
-    last_seen_hash: "sha256:deb215dfe16e86fb5ed0f912a582c87eee876194073887b9ae5ba4d497c1eddb"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: calendar rolled to 22 juli 2026: "geen commissievergaderingen gepland" (recess). No agenda. New baseline.
+    last_seen_hash: "sha256:28d76f4a809c0311ed89b8ce52869750feb9e302bbb869f331772b528ce381aa"
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-19:
-    # 2026-07-21: hash UNCHANGED (items already seen). Refreshed.
+    # 2026-07-22: hash UNCHANGED (items already seen). Refreshed.
     last_seen_hash: "sha256:4d1226cbaf6b58445a0276032989ce657b823fe776c8403e2cd4b9934b88505e"
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-20:
     seen_refs:
       - PE789.142v01-00
       - PE790.236v01-00
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-21:
     seen_refs:
       - PE786.818v01-00
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T1-22:
     seen_refs:
       - PE789.877v01-00
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T2-01:
-    # 2026-07-21: hash drift; newest item still 29 Jun 2026. 0 new. New baseline.
+    # 2026-07-22: hash UNCHANGED; newest item still 29 Jun 2026. 0 new. Refreshed.
     last_seen_hash: "sha256:4d86b16bf4d6904ef039821d0bb8e45e3e6b6def7904e88fe854d26b090fb6e9"
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T2-02:
-    # 2026-07-21: hash UNCHANGED (newest still the 20-Jul border-biometrics post). Refreshed.
+    # 2026-07-22: hash UNCHANGED (newest still the 20-Jul border-biometrics post). Refreshed.
     last_seen_hash: "sha256:eaf0c8bf13deaa150a1cb342544b232c398576b2dc027a3759f66cf6bf5433ed"
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T2-03:
-    # 2026-07-21: hash drift; new 17-20 Jul posts (ZDF open letter, age checks) carry 0 DSGVO/Digital-Omnibus/ePrivacy match. New baseline.
-    last_seen_hash: "sha256:b12e88535534cfc8290c89ee2c4182cdc8784fe0ddb86e584804067c113f9274"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: hash drift; new posts carry 0 DSGVO/Digital-Omnibus/ePrivacy match. New baseline.
+    last_seen_hash: "sha256:4ad98ce2904602b93d1b16d11627912215c2303757fa0200bdcdcae4a1ba1a49"
+    last_seen_at: 2026-07-22T11:06:52Z
   # T2-04: Cloudflare-blocked on every run; treat as unreachable, no hash stored.
   T2-05:
-    # 2026-07-21: hash drift; newest item still 26 Jun 2026 (AI Omnibus). 0 new. New baseline.
+    # 2026-07-22: hash UNCHANGED; newest item still 26 Jun 2026 (AI Omnibus). 0 new. Refreshed.
     last_seen_hash: "sha256:c4ee29c9e5c32a266cb19a08676c2db87bbcd025abb7c90403d1cfa8776c48db"
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T2-06:
-    # 2026-07-21: hash drift; new 21-Jul post (digital sexualized violence) matches "omnibus" only via an unrelated German-law omnibus procedure. 0 new 0360. New baseline.
+    # 2026-07-22: hash UNCHANGED. 0 new 0360. Refreshed.
     last_seen_hash: "sha256:32ca21e5981233368542b88db4117a9ec46aceea2ab2c6db7e8e39456151f163"
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T2-07:
-    # 2026-07-21: hash drift; new 21-Jul post (inlichtingendiensten), no in-scope Dutch omnibus phrase. 0 new. New baseline.
-    last_seen_hash: "sha256:6d476641776f27584c3c4b913bd7142cbdc1a32e3b545f0431dd9e3255bcc80c"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: hash drift; new posts (Open Kaart Overheid / Blijf Uit Mijn Digitale Onderbroek campaign) carry no in-scope Dutch omnibus phrase. 0 new. New baseline.
+    last_seen_hash: "sha256:61ba80c363e5407e37b7a283938612a8f64fff4072b32cc7591509f2bc36f3b9"
+    last_seen_at: 2026-07-22T11:06:52Z
   T2-08:
-    # 2026-07-21: hash drift; 0 Digital-Omnibus/DSGVO/ePrivacy match across feed items. New baseline.
-    last_seen_hash: "sha256:93e04859678e506077bf30bb925519e78ebd6d7dc4b60e550c2240a95439febc"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: hash drift; 0 Digital-Omnibus/DSGVO/ePrivacy match across feed items. New baseline.
+    last_seen_hash: "sha256:8a200b4079d0ad9fa836f99077bf228c0876a8b8c1eae54ce0bff3e585568786"
+    last_seen_at: 2026-07-22T11:06:52Z
   T2-09:
-    # 2026-07-21: hash drift; newest 17/07 CER-designation post already seen. 0 new 0360. New baseline.
+    # 2026-07-22: hash UNCHANGED; newest 17/07 CER-designation post already seen. 0 new 0360. Refreshed.
     last_seen_hash: "sha256:93317143d377912fd8de2d466fbd800e448c0868b1850a1f4c88ec91d82ec39a"
-    last_seen_at: 2026-07-21T11:40:00Z
+    last_seen_at: 2026-07-22T11:06:52Z
   T2-10:
-    # 2026-07-21: RECOVERED (HTTP 200, 50-item RSS) after 2 Wordfence-blocked runs. Backlog since
-    # the 2026-07-16 baseline yielded HIT #121 (GAC 14 Jul 2026 readout — Irish Presidency targets
-    # closing the digital Omnibus package by end-2026). Health #118 updated. New baseline.
-    last_seen_hash: "sha256:e94468a0b8713761c19d887a1f681f14291c9d49ec4c81b87966964032d2e16a"
-    last_seen_at: 2026-07-21T11:40:00Z
+    # 2026-07-22: hash drift; new items unrelated; only Council match is the GAC 14-Jul item already issued #121. 0 new 0360. New baseline.
+    last_seen_hash: "sha256:f08429cd90f19c66d8d3745f4e270579811ad0d47a3f078d43243ce4cc0943b0"
+    last_seen_at: 2026-07-22T11:06:52Z
   T3-01:
-    # 2026-07-21: 5 new posts 20-21/07 (Spanish/Singapore/French DPA guidance, EC AI Act transparency guidelines) — 0 keyword match. 0 hit. Advanced indexedAt.
-    last_seen_indexed_at: 2026-07-21T11:01:00.964Z
+    # 2026-07-22: 6 new posts (0 keyword match). 0 hit. Advanced indexedAt.
+    last_seen_indexed_at: 2026-07-22T02:08:53.471Z
     did: did:plc:wxpnu3arxymnfzh7zm2vx4cn
   T3-02:
-    # 2026-07-21: no new posts (max indexedAt == last_seen). 0 hit.
+    # 2026-07-22: no new posts (max indexedAt == last_seen). 0 hit.
     last_seen_indexed_at: 2026-07-17T15:00:10.573Z
     did: did:plc:6tig4nnvqut4jhyxmvqbxbag
   T3-03:
-    # 2026-07-21: no new posts (max indexedAt == last_seen). 0 hit.
+    # 2026-07-22: no new posts (max indexedAt == last_seen). 0 hit.
     last_seen_indexed_at: 2026-06-23T17:12:15.271Z
     did: did:plc:u7j6gujy5iyayifj4wn4zwj4
   T3-04:
-    # 2026-07-21: no new posts (max indexedAt == last_seen). 0 hit.
+    # 2026-07-22: no new posts (max indexedAt == last_seen). 0 hit.
     last_seen_indexed_at: 2026-07-06T20:24:24.135Z
     did: did:plc:6vzpi3eta33zlyqt2d4zt6aj
   T3-05:
-    # 2026-07-21: no new posts (max indexedAt == last_seen). 0 hit.
+    # 2026-07-22: no new posts (max indexedAt == last_seen). 0 hit.
     last_seen_indexed_at: 2026-07-01T02:34:24.227Z
     did: did:plc:ujstglmdsoymx3t2yffcvgtm
   T3-06:
-    # 2026-07-21: no new posts (max indexedAt == last_seen). 0 hit.
-    last_seen_indexed_at: 2026-07-20T04:43:41.978Z
+    # 2026-07-22: 1 new post (0 keyword match). 0 hit. Advanced indexedAt.
+    last_seen_indexed_at: 2026-07-21T16:02:33.474Z
     did: did:plc:66ealeut54i3dvgseb4gcn3z
   T3-07:
-    # 2026-07-21: no new posts (max indexedAt == last_seen). 0 hit.
-    last_seen_indexed_at: 2026-07-15T11:39:34.276Z
+    # 2026-07-22: 4 new posts (0 keyword match). 0 hit. Advanced indexedAt.
+    last_seen_indexed_at: 2026-07-22T06:15:37.208Z
     did: did:plc:s2xjhqmjyvk54jw2bat5yyyt
   T3-08:
-    # 2026-07-21: no new posts (max indexedAt == last_seen). 0 hit.
+    # 2026-07-22: no new posts (max indexedAt == last_seen). 0 hit.
     last_seen_indexed_at: 2026-06-15T19:29:06.308Z
     did: did:plc:weedlv2mczjipzyjs324e6r5

@@ -79,6 +79,11 @@ in [`provisions/`](provisions/).
   went public on 23 Jun 2026 (*"EU Member States (and Google) suddenly want to keep cookie
   banners!"*) defending Art 88b on the same side. On *this* article, civil society thus sits
   **opposite** industry and France, who want Art 88b deleted (see [`stakeholders.md`](stakeholders.md)).
+  On **22 Jul 2026** this front **formalised into a joint campaign — #KillTheCookieBanner**
+  ([killthecookiebanner.eu](https://killthecookiebanner.eu/)), co-led by noyb, EDRi, BEUC, Check My Ads,
+  Liberties, EFF and ICCL (+ Stichting Data Bescherming Nederland, ApTI, Homo Digitalis, Digihumanism and
+  the Sustainable Computing Lab), backing the once-set browser/device signal while **disclaiming the rest**
+  of the Omnibus (see [`stakeholders.md`](stakeholders.md)).
   noyb/Politico further report **Germany and Poland** joining France in pressing to **delete Art 88b**
   in a **newer 18-June Council paper** — wider than the WK 3736/26 record below — but the underlying
   ST compromise text is **not yet on the public register**, so this stays a hedged stakeholder report

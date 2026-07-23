@@ -53,6 +53,19 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   does **delete Art 88b** ([GDPR extract pt 15](../extracts/council/ST-10729-2026_gdpr-art3-amendments.md#point-15--articles-88-cookies-ai-li) ·
   [what changed](what-changed.md#st-1072926--the-22-june-negotiating-mandate-δ-vs-st-954726)). Still LIMITE
   (not on the public register); Council position to be fixed at Coreper-II.
+- **#KillTheCookieBanner coalition (announced 22 Jul 2026).** The civil-society side of the cookie fight
+  **formalised into a joint campaign** — landing page [killthecookiebanner.eu](https://killthecookiebanner.eu/) —
+  co-led by **noyb, EDRi, BEUC, Check My Ads, Civil Liberties Union for Europe (Liberties), EFF** and the
+  **Irish Council for Civil Liberties (ICCL)** with **Stichting Data Bescherming Nederland**, plus supporters
+  **ApTI** (RO), **Homo Digitalis** (GR), **Digihumanism** and the **Sustainable Computing Lab**. It backs the
+  **once-set, browser/device-level consent signal** to replace cookie banners — the Commission's
+  machine-readable-consent element (GDPR **Art 88b**) — and asks citizens to lobby their MEP / national
+  government against the tracking-industry push to drop it. Crucially it **supports only this one element** and
+  **explicitly disclaims the rest** of the Omnibus (*"most other parts of this reform are problematic and would
+  weaken people's rights"*), consistent with noyb's/EDRi's overall opposition. Announced via noyb's Bluesky
+  thread, 22 Jul 2026 ([post](https://bsky.app/profile/noyb.eu/post/3mraaar5luk22)). This puts the coalition
+  **opposite** industry, France and the 22 Jun Council mandate (**ST 10729/26**), which delete Art 88b — the
+  civil-society side of [fault-line #3](fault-lines.md) ([provision](provisions/gdpr-art88a-88b-cookies.md)).
 - **EDRi.** After the February compromise: *"A step back from the brink, the risks remain"* — welcomes
   deletion of the Art 4 redefinition, the research definition and the pseudonymisation implementing
   power; continues to oppose the AI legitimate-interest provision and the sensitive-data carve-out.

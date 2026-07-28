@@ -140,5 +140,7 @@ These are committee-for-opinion positions; the lead **joint ITRE/LIBE draft repo
 ---
 
 *This is the full table. The headline subset lives in [`STATUS.md`](../STATUS.md#what-changed-in-the-latest-text-vs-earlier-reporting).
+For the same GDPR material re-cut **per article, from a controller's desk** — today's obligation, the practical
+effect and whether it is settled — see [`docs/gdpr-delta.md`](gdpr-delta.md).
 Format spec: [`docs/reporting-standard.md`](reporting-standard.md). Extracts are working transcriptions — verify
 against the authoritative source ([`sources/`](../sources/)) before relying on them.*

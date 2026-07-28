@@ -32,6 +32,7 @@ The repo deliberately separates three layers so that links stay stable over time
 - **[`TIMELINE.md`](TIMELINE.md)** — full chronology, every entry linked to a source.
 - **[`docs/summary.md`](docs/summary.md)** — the plain-language summary.
 - **[`docs/commission-proposal.md`](docs/commission-proposal.md)** — digest of the Commission proposal's explanatory memorandum.
+- **[`docs/gdpr-delta.md`](docs/gdpr-delta.md)** — per-article GDPR delta sheet: today's obligation vs the proposal vs the Council text, with the practical effect for a controller and whether it is settled.
 - **[`docs/advisory/`](docs/advisory/)** — digests of the advisory-body opinions: EDPB–EDPS Joint Opinion 2/2026, ECB Opinion CON/2026/9, EESC opinion INT/1108.
 - **[`docs/institutional-positions.md`](docs/institutional-positions.md)** — Commission vs Council vs Parliament comparison table.
 - **[`docs/member-state-positions.md`](docs/member-state-positions.md)** — what individual Council delegations (FR, PL, RO, DE, EE, CZ, AT, DK) are saying.

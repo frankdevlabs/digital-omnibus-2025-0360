@@ -345,6 +345,18 @@ cabinet's answer to the groups' input is still pending. (The dossier's other 30 
 Council adoption of the **Omnibus AI** [2025/0359], is out of scope for this file.)
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-05-22, 2026-06-02, 2026-06-23, 2026-06-30)
 
+**Continued scrutiny (July 2026):** the dossier's newest activity (14 July 2026) is procedural, with **no
+new government position**. (i) The Senate sent a **letter with a question to the State Secretary of
+Economic Affairs** *"naar aanleiding van het verslag van de Telecomraad van 9 juni 2026 over het digitale
+pakket"* — an Eerste Kamer scrutiny question arising from the report of the 9 June Telecom Council on the
+digital package, continuing the E260003 track while the *nader schriftelijk overleg* reply remains pending.
+(ii) The dossier also logs, on the Senate side as **kamerstuk 36.890, EK**, the **State Secretaries' letter
+on the *voortgang van de onderhandelingen over de Omnibus Digitaal*** — this is **not a distinct document**
+but the **Eerste Kamer counterpart of the [6 July Tweede Kamer Kamerbrief *Voortgang onderhandelingen*](#netherlands-nl--government-kamerbrief-voortgang-onderhandelingen--online-tracking-6-july-2026)**
+(same letter to both chambers, the 18 Jun / 19 Jun `36.890, EK, W` pattern again) — cited here, not
+separately registered.
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-07-06, 2026-07-14) · [triage #131](triage/2026-07-28-issue-131.md)
+
 **Tweede Kamer tweeminutendebat (3 June 2026, pre-Council):** A plenary two-minute debate took place on 3 June 2026 ahead of the formal Telecom Council of 9 June. Two motions were submitted: 21501-33-1205 (Kathmann — positive stance toward EU ICT-supplier preference; outcome TBC) and 21501-33-1206 (Van den Berg — keep fundamental GDPR changes out of the Omnibus; **withdrawn** at the 4 June vote). The ongecorrigeerd debate report (2026D27237) and stemmingsuitslagen (2026P09467) are published.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-03, 2026-06-09)
 

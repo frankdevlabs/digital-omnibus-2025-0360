@@ -72,6 +72,16 @@ channels across NIS2/DORA/CER/eIDAS (Am 269–292, 296) while keeping the **96h*
 narrowing personal-data scope, adding an SME ground to refuse subject requests (Am 245), and adding
 **Art 88a** cookie-consent exemptions for security/continuity/preferences (Am 258–260).
 
+**Tabled amendments to the joint ITRE/LIBE draft report (PE791.883 et seq., 27 Jul 2026).** After the
+**15 Jul 2026** deadline, **more than 1,762 MEP amendments** were tabled to the joint draft report
+PE786.818 — the single largest tabling on the file — consolidated across a multi-part doceo set. This is
+**registered metadata-only** ([`CJ72-AM-791883`](../sources/README.md#european-parliament) ·
+[triage #133](triage/2026-07-29-issue-133.md)): only one part is confirmed at triage (PE791.883,
+amendments 1741–1840); the full ~1,800-amendment set is **not yet transcribed** (remaining PE parts
+pending — the ITRE/LIBE listing feeds are AWS-WAF-gated). As competing MEP amendments and not an adopted
+committee line (the joint vote is expected ~Q4 2026), **no per-provision content is asserted** and they
+are **not** folded into the cells below; the substance follows once the operative text is retrieved.
+
 Per-provision detail lives in [`provisions/`](provisions/). Machine-readable version:
 [`../data/positions.csv`](../data/positions.csv) — which additionally carries **ECB**, **EESC** and
 **member-state** columns alongside EDPB–EDPS. For positions of *individual* Council delegations

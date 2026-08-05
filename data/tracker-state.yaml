@@ -3,55 +3,39 @@
 # Note: hashes use the spec-compliant deterministic normalization (strip
 # scripts, csrf+viewport-date meta, hidden inputs, digit runs >8, collapse
 # whitespace).
-# 2026-08-04 run: 0 hits. 32/40 sources polled successfully; europarl.europa.eu WAF
-#   outage PERSISTS (9th affected run: 07-23/24/27/28/29/30/31, 08-03, 08-04; weekends
-#   no run) — 7 Tier-1 sources served the 2431-byte AWS-WAF challenge / 0 es_document
-#   blocks: T1-04, T1-05, T1-06, T1-07, T1-20, T1-21, T1-22 — hashes/seen_refs NOT
-#   updated, commented health #118 (14-day auto-pause lands ~2026-08-06 if it continues).
-#   RECOVERED today: T1-19 (officielebekendmakingen RSS back, hash == retained baseline)
-#   and T2-10 (IEU Monitoring back from Cloudflare, 0 in-scope). T2-04 permanent Cloudflare.
-# NO HITS this run.
-# NOTABLE NON-HITS this run:
-# T1-01/T1-02 OEIL: newest doc rows still "Committee draft report PE786.818 22/06/2026" +
-#   "Amendments tabled PE791.883 27/07/2026" (already #134); no doc date > 27/07/2026. Hash
-#   drift = rotating stakeholder-feedback list (top still 06/07/2026 European Publishers
-#   Council). No new procedural document. New baselines.
-# T1-03 Cellar: XML notice hash UNCHANGED. Refreshed.
-# T1-08/T1-09 Austrian: max doc still 7720/26 resp. 9547/26 (20.05.2026 Presidency
-#   compromise); widget drift. No new LIMITE compromise. New baselines.
-# T1-10/T1-11 Eerste Kamer: hash UNCHANGED. Refreshed.
-# T1-12 EDPB RSS: source reachable again (prior 08-03 baseline had coincidentally stored the
-#   WAF-challenge hash); newest items = stakeholder-event + cross-regulatory info-sharing +
-#   NOYB cookie-banner + blockchain/scraping guidelines — no digital-omnibus/0360 item.
-#   0 in-scope. New baseline.
-# T1-13 EDPB joint opinion: "Joint opinion 2/2026 ... (Digital Omnibus)" title UNCHANGED;
-#   related-docs widget drift. New baseline.
-# T1-14 AP RSS: hash drift; AVG matches = gen-AI GDPR guidelines + "digitale autonomie"
-#   (digital sovereignty) — neither is the Omnibus per Dutch scope rule. 0 new 0360. New baseline.
-# T1-15 MediaLaws: hash UNCHANGED ("Last updated: 24 July 2026", same as #127). New baseline.
-# T1-16 tweedekamer: top substantive result still DiZa SO-inbreng informele Telecomraad
-#   12-13 Oct (#123); widget churn. New baseline.
-# T1-17 DiZa uitgelicht: hash UNCHANGED. Refreshed.
-# T1-18 DiZa calendar: still recess ("geen commissievergaderingen"); current-week date widget
-#   drift (now 3-7 aug) only. No agenda. New baseline.
-# T1-19 officielebekendmakingen RSS: RECOVERED (was error page 07-31/08-03); RSS feed returns,
-#   hash == retained baseline (same 6-item set). Refreshed with today's last_seen_at.
-# T2-01/02/05/09 (noyb/edri/beuc/dlapiper): hash UNCHANGED. Refreshed.
-# T2-03 netzpolitik: hash drift; 25 items, 0 keyword matches (Syria/Palantir/radio). New baseline.
-# T2-06 algorithmwatch: hash drift; only omnibus item is "The AI Omnibus" (2025/0359, out of
-#   scope); rest data-center/deepfake. 0 in-scope 0360. New baseline.
-# T2-07 bitsoffreedom: hash drift; 30 items, 0 keyword matches (new AP chair, Meta, Instagram).
-#   0 in-scope 0360. New baseline.
-# T2-08 heise: hash drift; 157 items, 0 DSGVO/Digital-Omnibus/ePrivacy matches. New baseline.
-# T2-10 IEU Monitoring: RECOVERED (was Cloudflare 07-31/08-03); real RSS, 0 in-scope matches
-#   (energy/M&A/Eurojust items, no Telecom/TTE Council or omnibus). New baseline.
-# T3-01 (montezumachavez): 2 new matches — EDPB letter re US SCOTUS Trump v. Slaughter +
-#   "AI Act vs AI omnibus" consolidated version (2025/0359). 0 in-scope 0360. Advanced.
-# T3-02 (noyb.eu): new posts, 0 keyword matches. Advanced.
-# T3-05 (michae.lv): 2 new matches — UCL Massively Crossreferenced Digital Laws page (GDPR/DSA/
-#   AI Act reference site), not the 0360 proposal. 0 in-scope. Advanced.
-# T3-03/04/06/07/08: no new posts (max indexedAt == last_seen). 0 hit.
-last_run: 2026-08-04T11:30:00Z
+# 2026-08-05 run: 0 hits. PARTIAL / DEGRADED run — executed in an interpreter-restricted
+#   environment (no python/perl/grep/sed and no shell output-redirection available), so the
+#   canonical normalized-hash sweep over all 40 sources could NOT be reproduced. Detection was
+#   content-inspection (curl -> Read) over a high-value subset. To avoid corrupting this
+#   machine-managed file, NO last_seen_hash values were recomputed/overwritten this run — they
+#   are carried forward from 2026-08-04 unchanged; the next properly-provisioned run should
+#   recompute and re-baseline normally. Only last_run and the genuinely-observed T3-01 timestamp
+#   were advanced.
+# POSITIVELY VERIFIED no-new-0360 this run (content inspection):
+#   T1-01/T1-02 OEIL (authoritative timeline): stage still "Awaiting committee decision"; docs
+#     gateway newest still draft report PE786.818 (22/06/2026) + amendments PE791.883
+#     (27/07/2026); only the rotating transparency-meetings list drifts (newest 15/07/2026). No
+#     new procedural document. This ALSO cross-covers the WAF-blocked EP committee sources
+#     (T1-05/20/21/22) -> no hidden new EP committee doc.
+#   T1-03 Cellar XML: fetched OK (HTTP 200, machine notice); substance unchanged.
+#   T1-09 Austrian Council (top LIMITE priority): latest doc still 9547/26 LIMITE (20.05.2026
+#     Presidency compromise), base "9547/26". No new LIMITE compromise text.
+#   T1-12 EDPB RSS: newest = competition-law stakeholder event (30/07, 23/07); no 0360 item.
+#   T2-01 noyb RSS: newest = dict.cc cookie-banner GDPR complaint (July); not the Omnibus.
+#   T2-03 netzpolitik: newest = "Digitaler Euro" (04/08); not the Omnibus.
+#   T2-09 DLA Piper: newest = CER-Directive implementation deadline (17/07); not the 0360 proposal.
+#   T3-01 montezumachavez: 2 new posts (08-04) — Berlin court GDPR ruling + "privacy in mind";
+#     neither in-scope. ADVANCED last_seen_indexed_at to 2026-08-04T23:12:08.873Z.
+#   T3-02 noyb.eu: unchanged (newest 2026-08-04T08:24:27Z, #KillTheCookieBanner). No new posts.
+#   T3-03 maxschrems: unchanged (newest 2026-06-23T17:12:15Z). No new posts.
+#   T3-07 lukaszolejnik: unchanged (newest 2026-08-03T06:27:48Z, TechLetters). No new posts.
+# UNREACHABLE (europarl.europa.eu AWS-WAF, 10th affected run): T1-04 verified HTTP 202 / 2431-byte
+#   challenge; same host => T1-05/T1-06/T1-07/T1-20/T1-21/T1-22 also blocked. seen_refs/hashes not
+#   updated. Commented health #118. 14-day auto-pause threshold lands ~2026-08-06 (human decision).
+# NOT INDIVIDUALLY POLLED this run (interpreter-restricted env; left untouched, last_seen_at stays
+#   2026-08-04): T1-08, T1-10, T1-11, T1-13, T1-14, T1-15, T1-16, T1-17, T1-18, T1-19; T2-02, T2-05,
+#   T2-06, T2-07, T2-08, T2-10; T3-04, T3-05, T3-06, T3-08. (T2-04 permanently Cloudflare-blocked.)
+last_run: 2026-08-05T11:30:00Z
 sources:
   T1-01:
     # 2026-08-04: hash drift (rotating stakeholder-feedback list); newest doc row still PE791.883 27/07/2026 (#134). 0 new. New baseline.
@@ -184,8 +168,8 @@ sources:
     last_seen_hash: "sha256:b44f2cda8bc88b86bb5b588ad63609436c65edaf7f2c685a56a5f1e7e6e952d9"
     last_seen_at: 2026-08-04T11:30:00Z
   T3-01:
-    # 2026-08-04: 2 new matches — EDPB letter re US SCOTUS Trump v. Slaughter + "AI Act vs AI omnibus" consolidated (2025/0359). 0 in-scope 0360. Advanced.
-    last_seen_indexed_at: 2026-08-03T17:13:59.876Z
+    # 2026-08-05: 2 new posts (08-04) — Berlin Admin Court GDPR Art.13/6(1)(f) ruling + "we keep privacy in mind"; neither in-scope 0360. Advanced.
+    last_seen_indexed_at: 2026-08-04T23:12:08.873Z
     did: did:plc:wxpnu3arxymnfzh7zm2vx4cn
   T3-02:
     # 2026-08-04: new posts, 0 keyword matches. Advanced.

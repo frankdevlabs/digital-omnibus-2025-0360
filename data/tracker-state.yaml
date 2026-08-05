@@ -7,7 +7,9 @@
 #   fully-provisioned interpreter environment (python3/curl/pdftotext/perl all present), so the
 #   canonical normalized-hash sweep was reproduced over every reachable source and CHANGED-but-drift
 #   entries were re-baselined normally (the earlier 08-05 degraded run had carried hashes forward
-#   without recomputing). Reachable/polled: 32/40. Unreachable: 8 (7 europarl AWS-WAF + T2-04).
+#   without recomputing). Reachable/polled: 32/40. Unreachable: 7 (europarl AWS-WAF).
+#   [issue #118] T2-04 was retired from data/watchlist.yaml and the cron prompt back in #16/PR #30;
+#   the references that kept it in the health log were orphaned state-file comments, now removed.
 # NO GENUINE 0360 DEVELOPMENT this run. Notable CHANGED-but-not-a-hit:
 #   T1-01 OEIL HTML: hash drift (rotating transparency/stakeholder-meetings list, newest 15/07);
 #     newest procedural docs still draft report PE786.818 (22/06) + amendments PE791.883 (27/07,
@@ -36,8 +38,7 @@
 #   T1-04 verified HTTP 202 / 2431-byte challenge; same host => T1-05/T1-06/T1-07/T1-20/T1-21/T1-22
 #   also blocked (ep_committee_docs.py -> 0 es_document blocks). seen_refs/hashes NOT updated.
 #   Health #118 already carries today's outage entry (posted 09:46Z by the earlier degraded run);
-#   not duplicated. 14-day auto-pause threshold lands ~2026-08-06 (human decision). Also unreachable:
-#   T2-04 (permanently Cloudflare-blocked; not polled, no hash stored).
+#   not duplicated. 14-day auto-pause threshold lands ~2026-08-06 (human decision).
 last_run: 2026-08-05T11:06:44Z
 sources:
   T1-01:
@@ -145,7 +146,6 @@ sources:
     # 2026-08-05: hash drift; 25 items, 0 keyword matches. 0 in-scope 0360. Re-baselined.
     last_seen_hash: "sha256:68c3ff9d4beea5d3843e195c8e8ed27c7aace451ceeb57931bed9ee0a3035e9f"
     last_seen_at: 2026-08-05T11:06:44Z
-  # T2-04: Cloudflare-blocked on every run; treat as unreachable, no hash stored.
   T2-05:
     # 2026-08-05: hash UNCHANGED. Refreshed.
     last_seen_hash: "sha256:a11abad1078a5b0c036f34dde8a1ba28240f9a550c1370e15d76576103a910d6"

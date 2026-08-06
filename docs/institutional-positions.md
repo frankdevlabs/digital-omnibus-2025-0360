@@ -72,6 +72,20 @@ channels across NIS2/DORA/CER/eIDAS (Am 269–292, 296) while keeping the **96h*
 narrowing personal-data scope, adding an SME ground to refuse subject requests (Am 245), and adding
 **Art 88a** cookie-consent exemptions for security/continuity/preferences (Am 258–260).
 
+**Tabled amendments to the joint ITRE/LIBE draft report (PE791.883 et seq., 27 Jul 2026).** After the
+**15 Jul 2026** deadline, **more than 1,762 MEP amendments** were tabled to the joint draft report
+PE786.818 — the single largest tabling on the file — consolidated across a multi-part doceo set
+([`CJ72-AM-791883`](../sources/README.md#european-parliament) · [triage #133](triage/2026-07-29-issue-133.md)).
+**One part is in hand and transcribed in full**: PE791.883, **amendments 1741–1840** (100 amendments,
+51 tablers) — [extract](../extracts/parliament/CJ72-AM-791883_amendments-1741-1840.md). It covers
+**Articles 6–10** of the proposal: the NIS2 **Art 23a single-entry point** (1741–1810, where 14
+amendments replace the ENISA point with **national** entry points), eIDAS (1811–1814), DORA Art 19
+(1815–1818), CER Art 15 (1819–1821), new AI-Act/CRA articles (1822–1823), and the **repeal article**
+(1824–1840, where 14 of 17 strike a repeal — 13 of them the **P2B** repeal). The **remaining PE parts
+are not yet enumerable** (the ITRE/LIBE listing feeds are AWS-WAF-gated), so the register entry keeps
+`pending_operative_text` for the set as a whole. As competing MEP amendments and not an adopted
+committee line (the joint vote is expected ~Q4 2026), they are **not** folded into the cells below.
+
 Per-provision detail lives in [`provisions/`](provisions/). Machine-readable version:
 [`../data/positions.csv`](../data/positions.csv) — which additionally carries **ECB**, **EESC** and
 **member-state** columns alongside EDPB–EDPS. For positions of *individual* Council delegations

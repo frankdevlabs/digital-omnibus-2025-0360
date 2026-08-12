@@ -3,62 +3,75 @@
 # Note: hashes use the spec-compliant deterministic normalization (strip
 # scripts, csrf+viewport-date meta, hidden inputs, digit runs >8, collapse
 # whitespace).
-# 2026-08-11 run: 0 genuine 0360 hits. Polled 32/40 (7 europarl sources SKIPPED — still paused).
-#   Reachable 32/32; unreachable NONE this run (both prior-unreachable sources recovered):
-#     * T1-19 zoek.officielebekendmakingen RSS — RECOVERED (HTTP 200; hash UNCHANGED, same feed). last_seen_at refreshed.
-#     * T2-10 ieu-monitoring — RECOVERED (HTTP 200 on /feed, no Cloudflare challenge this run). Feed hash
-#       CHANGED but 0 in-scope 0360 items (no Digital-Omnibus / Telecom(TTE) Council item; broad kw drift). Re-baselined.
-#   HEALTH movement this run (no new health issue opened):
-#     * europarl AWS-WAF (T1-04/05/06/07/20/21/22) — STILL ACTIVE. Informational probe of T1-04 returned
-#       HTTP 202 / 2431-byte challenge page. Sources STILL PAUSED, skipped this run per the 14-day
-#       auto-pause rule; awaiting human clear of the paused flag once WAF lifts. seen_refs/hashes preserved. (#138)
+# 2026-08-12 run: 0 genuine 0360 hits. Polled 31/40 (7 europarl sources SKIPPED — still paused).
+#   Reachable 31; UNREACHABLE 1: T1-19 zoek.officielebekendmakingen RSS — HTTP 500 then 504 on retry
+#     ("Dienst tijdelijk niet beschikbaar"). Flap (RECOVERED last run). Hash NOT updated; transient, folded
+#     into weekly health rather than a per-source issue. europarl WAF (T1-04/05/06/07/20/21/22) STILL ACTIVE:
+#     informational probe of T1-04 returned HTTP 202 / 2431-byte challenge page. Sources STILL PAUSED, skipped
+#     per the 14-day auto-pause rule; awaiting human clear of the paused flag once WAF lifts. seen_refs/hashes
+#     preserved. (#138)
 #   OPEN tracker issue #140 (IMCO amendments PE790.905 + PE791.061, 16 Jul 2026 missing from repo) still
 #   worked by a human — not re-fired.
 # NO GENUINE 0360 DEVELOPMENT this run. Notable CHANGED-but-not-a-hit (re-baselined):
 #   T1-01/T1-02 OEIL (HTML+PDF): status still "Awaiting committee decision"; procedural timeline UNCHANGED
 #     (latest = draft report PE786.818 22/06 + amendments tabled PE791.883 27/07, both already tracked).
 #     Drift is the rolling interest-representative/lobby-register feedback list. Re-baselined.
+#   T1-03 Cellar XML: base COM(2025)837 notice unchanged; related-document cross-refs now extend to
+#     2026-07-27 (= PE791.883, already tracked). No new related doc. Re-baselined.
 #   T1-08 Austria 65565: max doc still 7720/26 PUBLIC (25.03.2026); widget/date drift. Re-baselined.
 #   T1-09 Austria 73322 (top LIMITE priority): latest doc still 9547/26 LIMITE (20.05.2026 Presidency
 #     compromise); no new LIMITE compromise text. Widget drift. Re-baselined.
+#   T1-10 Eerste Kamer edossier: "Laatste revisie 24-07-2026"; latest event still 14-jul brief (staatssecr.),
+#     all pre-dating the 08-11 run when hash was unchanged. Now non-content (LinkedIn/widget) drift. Re-baselined.
 #   T1-13 EDPB joint-opinion page: title UNCHANGED ("Joint opinion 2/2026 ... (Digital Omnibus)"); related-
 #     docs widget drift. Re-baselined.
-#   T1-16 TK search: top result still DiZa SO-inbreng informele Telecomraad 12-13 Oct 2026; result-count +
-#     widget drift. No new Omnibus Digitaal Kamerstuk. Re-baselined.
-#   T1-18 TK DiZa meetings: still recess ("geen commissievergaderingen"); current-week widget drift. Re-baselined.
-#   T2-03 netzpolitik: only kw match = Baden-Württemberg/Palantir (not 0360). 0 in-scope. Re-baselined.
-#   T2-06 algorithmwatch: "Digital Omnibus" mention is an OLD (18 Jun) item primarily on the AI Omnibus (0359);
-#     new items are digital-violence/deepfake/data-centre stories, none on 0360. 0 in-scope. Re-baselined.
+#   T1-15 MediaLaws: "Last updated: 24 July 2026" UNCHANGED; full-body hash drift only. Re-baselined.
+#   T1-16 TK search: top result still DiZa SO-inbreng informele Telecomraad 12-13 Oct 2026; result-count (516)
+#     + EZK Q1/Q2-2026 kwartaalrapportage rows + widget drift. No new Omnibus-Digitaal Kamerstuk. Re-baselined.
+#   T1-17 TK DiZa uitgelicht: standard recurring rondetafel/heading list; widget drift. Re-baselined.
+#   T1-18 TK DiZa meetings: still recess ("geen commissievergaderingen"); current-week (10-14 aug) widget drift.
+#     No scheduled meeting. Re-baselined.
+#   T2-01 noyb RSS: hash drift but 0 items newer than 08-11; the Digital-Omnibus items (cookie-banner,
+#     Report V3, reality-check) were already present/seen when hash held on 08-11. 0 new in-scope. Re-baselined.
+#   T2-03 netzpolitik: newest items (11-12 Aug) none on 0360; sole DSGVO mention = LVMH/Palantir surveillance
+#     story (generic Grundrechte compliance). 0 in-scope. Re-baselined.
+#   T2-05 beuc / T2-06 algorithmwatch: newest keyword items are the AI Omnibus (0359) / digital-violence,
+#     none 0360. 0 in-scope. Re-baselined.
 #   T2-07 bitsoffreedom: kw hits = generic datalekken/AVG articles, no Digitale-Omnibus phrase. 0 in-scope
 #     per Dutch scope rule. Re-baselined.
 #   T2-08 heise: hash drift; 0 Digital-Omnibus/DSGVO/ePrivacy matches. 0 new. Re-baselined.
-# SAME/refreshed (reachable, no change): T1-03, T1-10, T1-11, T1-12, T1-14, T1-15, T1-17, T1-19; T2-01, T2-02,
-#   T2-05, T2-09. Bluesky no-new: T3-02, T3-03, T3-06, T3-08. Bluesky advanced (0 kw): T3-01, T3-04, T3-05, T3-07.
-# SKIPPED (paused, europarl WAF): T1-04, T1-05, T1-06, T1-07, T1-20, T1-21, T1-22. UNREACHABLE: none.
-last_run: 2026-08-11T11:04:23Z
+#   T2-09 dla piper: hash drift; newest items (CER Directive, breach-template) not 0360-specific. 0 new. Re-baselined.
+#   T2-10 ieu-monitoring: hash drift; newest items general EU finance/justice news, NO Digital-Omnibus /
+#     Telecom(TTE) Council item. 0 in-scope. Re-baselined.
+#   T1-14 AP RSS: hash drift; only kw item = "AVG-richtlijnen generatieve AI" (generic GDPR, not 0360). 0 new. Re-baselined.
+# SAME/refreshed (reachable, no change): T1-11, T1-12; T2-02. Bluesky no-new: T3-02, T3-03, T3-04, T3-06, T3-08.
+#   Bluesky advanced (0 in-scope kw; T3-05 sole "omnibus" match = AI Omnibus 0359 + California SB 942/Anthropic,
+#   out of scope): T3-01, T3-05, T3-07.
+# SKIPPED (paused, europarl WAF): T1-04, T1-05, T1-06, T1-07, T1-20, T1-21, T1-22. UNREACHABLE: T1-19.
+last_run: 2026-08-12T11:07:09Z
 sources:
   T1-01:
-    # 2026-08-11: CHANGED but not a hit — status still "Awaiting committee decision"; timeline unchanged (PE791.883 27/07 latest). Lobby-register feedback drift. Re-baselined.
-    last_seen_hash: "sha256:5f30f66fec18ac6bfdde6d1e689bb6547af44c1ec03dc4ec9e39c077b9b1d470"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: CHANGED but not a hit — status still "Awaiting committee decision"; timeline unchanged (PE791.883 27/07 latest). Lobby-register feedback drift. Re-baselined.
+    last_seen_hash: "sha256:2865460fe3c3caec467de43ddb07e57a47c402f8e862361915e3cf82d200c8dd"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-02:
-    # 2026-08-11: CHANGED but not a hit — PDF timeline unchanged (latest PE791.883 27/07); interest-representative feedback list drift only. Re-baselined.
-    last_seen_hash: "sha256:9d642c6e56c3821b4a515481f8daa08a3bade8a77e7897b94f6e287ca35fe998"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: CHANGED but not a hit — PDF timeline unchanged (latest PE791.883 27/07); interest-representative feedback list drift only. Re-baselined.
+    last_seen_hash: "sha256:488efde0730830376f110ec51a0b5c134aea85b5e7e31b6db5b291ae12708510"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-03:
-    # 2026-08-11: Cellar XML hash UNCHANGED (same COM(2025)837 base-proposal notice). Refreshed.
-    last_seen_hash: "sha256:1873661d8b997ad7d44ece073d3b24c7a2d7b44631aa77e4e4a5423fad878d25"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: CHANGED but not a hit — base COM(2025)837 notice unchanged; related-doc cross-refs extend to 2026-07-27 (PE791.883, already tracked). Re-baselined.
+    last_seen_hash: "sha256:0f44d02b998371f6204fc39240c6b319f43d058e66422445054cae3336d6ca4f"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-04:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF (HTTP 202 / 2431 bytes), 14th consecutive failed day. Skip until human clears flag. Health #138.
-    # 2026-08-11: still paused; SKIPPED. Informational probe confirms WAF still active (HTTP 202 / 2431 bytes).
+    # 2026-08-12: still paused; SKIPPED. Informational probe confirms WAF still active (HTTP 202 / 2431 bytes).
     last_seen_hash: "sha256:e92b2df5fe6d623e3645ebfee0a4a13defb2922d539e544780614386f55bfd07"
     last_seen_at: 2026-07-23T11:20:00Z
     paused: true
     paused_at: 2026-08-06T11:00:00Z
   T1-05:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF; ep_committee_docs.py 0 es_document blocks, 14th failed day. seen_refs retained. Health #138.
-    # 2026-08-11: still paused; SKIPPED this run.
+    # 2026-08-12: still paused; SKIPPED this run.
     seen_refs:
       - PE786.818v01-00
     last_seen_at: 2026-07-23T11:20:00Z
@@ -66,69 +79,69 @@ sources:
     paused_at: 2026-08-06T11:00:00Z
   T1-06:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF challenge page, 14th failed day. Hash NOT updated. Health #138.
-    # 2026-08-11: still paused; SKIPPED this run.
+    # 2026-08-12: still paused; SKIPPED this run.
     last_seen_hash: "sha256:1aab0d77c09a13e1bbe5edb3ef262552db86787f90269153daabb9bd25c00f39"
     last_seen_at: 2026-07-23T11:20:00Z
     paused: true
     paused_at: 2026-08-06T11:00:00Z
   T1-07:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF challenge page, 14th failed day. Hash NOT updated. Health #138.
-    # 2026-08-11: still paused; SKIPPED this run.
+    # 2026-08-12: still paused; SKIPPED this run.
     last_seen_hash: "sha256:27ee3741d68e09d6388929536630b00b43d49f81c5f76cfdc09cfa9a17fdc6aa"
     last_seen_at: 2026-07-23T11:20:00Z
     paused: true
     paused_at: 2026-08-06T11:00:00Z
   T1-08:
-    # 2026-08-11: max doc still 7720/26 PUBLIC (25.03.2026); widget/date drift. Re-baselined.
-    last_seen_hash: "sha256:6c86ed170e18740ab6a1ec2bd2f9ee1118eb1bc71083bae655b3adc5d5e7eb69"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: max doc still 7720/26 PUBLIC (25.03.2026); widget/date drift. Re-baselined.
+    last_seen_hash: "sha256:25deba3ba8dbb0e6b40f43bc5a7d619f86398bdc4569cc1c0caf0a9ec4580a69"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-09:
-    # 2026-08-11: latest doc still 9547/26 LIMITE (20.05.2026 Presidency compromise); no new LIMITE. Widget drift. Re-baselined.
-    last_seen_hash: "sha256:54bb3949592fc5c51bb5248fe48ecec128839e6ebf1a0a3ac794275e39bf0207"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: latest doc still 9547/26 LIMITE (20.05.2026 Presidency compromise); no new LIMITE. Widget drift. Re-baselined.
+    last_seen_hash: "sha256:dd94b8ed66ed0e1f2d900ac8f6cd3f17d97ad0cd522554760d8923de98760eba"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-10:
-    # 2026-08-11: hash UNCHANGED. Refreshed.
-    last_seen_hash: "sha256:5a3b65132eae74fdd1209a0e3a1f260ff2d7c5131a37b9611d885e0182670932"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: CHANGED but not a hit — laatste revisie 24-07-2026, latest event 14-jul brief (all pre-dating 08-11 unchanged run); non-content widget drift. Re-baselined.
+    last_seen_hash: "sha256:d82a376b89166866cd699c095518effbf32556999a3633ce30f376df029fa7ea"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-11:
-    # 2026-08-11: hash UNCHANGED. Refreshed.
+    # 2026-08-12: hash UNCHANGED. Refreshed.
     last_seen_hash: "sha256:e3048afcd5d3901c6bf9cb03eef4ca1130e69c3cb0280a04a0f68789ea71809a"
-    last_seen_at: 2026-08-11T11:04:23Z
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-12:
-    # 2026-08-11: EDPB RSS hash UNCHANGED; no 0360 item. 0 in-scope. Refreshed.
+    # 2026-08-12: EDPB RSS hash UNCHANGED; no 0360 item. 0 in-scope. Refreshed.
     last_seen_hash: "sha256:7fa71cbe52833839b77c48f4a097c7b8dd29b20fcc571c46feb78281813e3170"
-    last_seen_at: 2026-08-11T11:04:23Z
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-13:
-    # 2026-08-11: "Joint opinion 2/2026 ... (Digital Omnibus)" title UNCHANGED; related-docs widget drift. Re-baselined.
-    last_seen_hash: "sha256:e5e16fd51d94c126bf8be679005844c008ea4da18066f35c0563aebc36d780f1"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: "Joint opinion 2/2026 ... (Digital Omnibus)" title UNCHANGED; related-docs widget drift. Re-baselined.
+    last_seen_hash: "sha256:b706204e8c65fa54bdcf6706ef970a5adfe84d41d5902423297b18040cec1940"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-14:
-    # 2026-08-11: AP RSS hash UNCHANGED; only kw item = "AVG-richtlijnen voor generatieve AI" (not 0360). 0 new. Refreshed.
-    last_seen_hash: "sha256:69ef1210f09750f62c22c7ba168faafdf0f3aa436cb19a5ec52241d73828db9f"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: AP RSS CHANGED; only kw item = "AVG-richtlijnen generatieve AI" (generic GDPR, not 0360). 0 new. Re-baselined.
+    last_seen_hash: "sha256:f4b7716743ed1c55fd6a37f283d8b30058b60a9729891a2d2fd81d318cd4e0d4"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-15:
-    # 2026-08-11: "Last updated: 24 July 2026" UNCHANGED; full-body hash also UNCHANGED. 0 new. Refreshed.
-    last_seen_hash: "sha256:34989f247368259a31071ec364f897aaa0c0978ec63414d5063ba04e199cf18f"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: "Last updated: 24 July 2026" UNCHANGED; full-body hash drift only. 0 new. Re-baselined.
+    last_seen_hash: "sha256:955e356614893bf0de151a4c9e700d2ada3f636261dda18d04025a3b0036e43e"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-16:
-    # 2026-08-11: hash drift (result-count + widgets); top result still DiZa SO-inbreng informele Telecomraad 12-13 Oct. 0 new. Re-baselined.
-    last_seen_hash: "sha256:2937c7d455ecf12d38d339319336b77f0c4106fa643c1ec5a134bae42ddc8f58"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: hash drift (516 results + EZK Q1/Q2 kwartaalrapportage rows + widgets); top result still DiZa SO-inbreng informele Telecomraad 12-13 Oct. 0 new. Re-baselined.
+    last_seen_hash: "sha256:c03b71f443abf0c974c8865c25e9feeeb0becface459b08092f0c8a5eb610f57"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-17:
-    # 2026-08-11: hash UNCHANGED. Refreshed.
-    last_seen_hash: "sha256:1bd28c4074daf2e254b09f064b1a57122a3d33ef3ed7b297b0f220844af293d7"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: standard recurring rondetafel/heading list; widget drift. Re-baselined.
+    last_seen_hash: "sha256:6fb16ecf20eeecf3ff501e76eef67c7eee6af0b5553f93941eea60dc0af16d6e"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-18:
-    # 2026-08-11: DiZa calendar still recess ("geen commissievergaderingen"); current-week widget drift. No agenda. Re-baselined.
-    last_seen_hash: "sha256:02b5c9611a90a71163cface0bff9a02fab31e35c1e62d9c0740fcd674d999d26"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: DiZa calendar still recess ("geen commissievergaderingen"); current-week (10-14 aug) widget drift. No agenda. Re-baselined.
+    last_seen_hash: "sha256:8e4f6b9ab3b7e3246094c7c3141ffcef10d48a576881c0950fb85a5cfd2ca5fd"
+    last_seen_at: 2026-08-12T11:07:09Z
   T1-19:
-    # 2026-08-11: RECOVERED — HTTP 200 both feeds; hash UNCHANGED (same feed content). last_seen_at refreshed.
+    # 2026-08-12: UNREACHABLE — HTTP 500 then 504 on retry ("Dienst tijdelijk niet beschikbaar"). Flap (recovered 08-11). Hash NOT updated; transient, weekly health.
     last_seen_hash: "sha256:23adbf41dd2efd153a760e40bb3bee3640773423c0f6576a7f42d73952b295a"
     last_seen_at: 2026-08-11T11:04:23Z
   T1-20:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF; ep_committee_docs.py 0 es_document blocks, 14th failed day. seen_refs retained. Health #138.
-    # 2026-08-11: still paused; SKIPPED this run.
+    # 2026-08-12: still paused; SKIPPED this run.
     seen_refs:
       - PE789.142v01-00
       - PE790.236v01-00
@@ -137,7 +150,7 @@ sources:
     paused_at: 2026-08-06T11:00:00Z
   T1-21:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF; ep_committee_docs.py 0 es_document blocks, 14th failed day. seen_refs retained. Health #138.
-    # 2026-08-11: still paused; SKIPPED this run.
+    # 2026-08-12: still paused; SKIPPED this run.
     seen_refs:
       - PE786.818v01-00
     last_seen_at: 2026-07-23T11:20:00Z
@@ -145,77 +158,77 @@ sources:
     paused_at: 2026-08-06T11:00:00Z
   T1-22:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF; ep_committee_docs.py 0 es_document blocks, 14th failed day. seen_refs retained. Health #138.
-    # 2026-08-11: still paused; SKIPPED this run. (IMCO amendments PE790.905/PE791.061 tracked via #140.)
+    # 2026-08-12: still paused; SKIPPED this run. (IMCO amendments PE790.905/PE791.061 tracked via #140.)
     seen_refs:
       - PE789.877v01-00
     last_seen_at: 2026-07-23T11:20:00Z
     paused: true
     paused_at: 2026-08-06T11:00:00Z
   T2-01:
-    # 2026-08-11: hash UNCHANGED. Refreshed.
-    last_seen_hash: "sha256:a31a65df86c3be40ca2d7cf7f09535a880001b02157fa4f6a4ffe00576644560"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: hash drift but 0 items newer than 08-11; Digital-Omnibus items already seen when hash held on 08-11. 0 new in-scope. Re-baselined.
+    last_seen_hash: "sha256:605f7d0dfb9e38da53ba3b9a6a7505f25fcb334a29ab8be7c2b3b67750218887"
+    last_seen_at: 2026-08-12T11:07:09Z
   T2-02:
-    # 2026-08-11: hash UNCHANGED. 0 new. Refreshed.
+    # 2026-08-12: hash UNCHANGED. 0 new. Refreshed.
     last_seen_hash: "sha256:f9d0702ece9db98483ee58ca47cfb00f8411f220d2379cf6bf1d361f4ca45365"
-    last_seen_at: 2026-08-11T11:04:23Z
+    last_seen_at: 2026-08-12T11:07:09Z
   T2-03:
-    # 2026-08-11: hash drift; only kw match = Baden-Württemberg/Palantir (not 0360). 0 in-scope. Re-baselined.
-    last_seen_hash: "sha256:77d6fe625e2ace65dac3b0878c412579e0095ef32692c09b43011106d3688e82"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: hash drift; newest items (11-12 Aug) none on 0360; sole DSGVO mention = LVMH/Palantir surveillance story. 0 in-scope. Re-baselined.
+    last_seen_hash: "sha256:da182ed884fcd8ca93096efab7e98ef258f1749d3d74b36fdc4bdf1f6573eb56"
+    last_seen_at: 2026-08-12T11:07:09Z
   T2-05:
-    # 2026-08-11: hash UNCHANGED. 0 in-scope 0360. Refreshed.
-    last_seen_hash: "sha256:c2a65ce0875814e0f0f993fc9e9ec12aa4974e6290e540c48fdafb2eec1b3119"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: hash drift; newest keyword item = AI Omnibus (0359), not 0360. 0 in-scope. Re-baselined.
+    last_seen_hash: "sha256:cb8c6993038f8bc84d77a7c956b92c614f7d39538139c29b5da1eb464264a449"
+    last_seen_at: 2026-08-12T11:07:09Z
   T2-06:
-    # 2026-08-11: hash drift; "Digital Omnibus" mention is OLD 18-Jun item on the AI Omnibus (0359); new items are digital-violence/deepfake/data-centre stories, none 0360. 0 in-scope. Re-baselined.
-    last_seen_hash: "sha256:743aaef02e6bd6bc1864229a13500b21501faf2bd25a6d3f77a8b0508b29bbca"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: hash drift; kw items = AI Omnibus (0359) / digital-violence stories, none 0360. 0 in-scope. Re-baselined.
+    last_seen_hash: "sha256:aac1fbed6853d7759e3330875e6503242cc95b7255f74ca22703ed988bc02e8e"
+    last_seen_at: 2026-08-12T11:07:09Z
   T2-07:
-    # 2026-08-11: hash drift; kw hits = generic datalekken/AVG articles, no Digitale-Omnibus phrase. 0 in-scope per Dutch scope rule. Re-baselined.
-    last_seen_hash: "sha256:cc1baa331cc384c90041f8b4cffb357e3688e53bb3148b186340617fd879f82c"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: hash drift; kw hits = generic datalekken/AVG articles, no Digitale-Omnibus phrase. 0 in-scope per Dutch scope rule. Re-baselined.
+    last_seen_hash: "sha256:18b3fe3c4ac3905695dacbfcf357e5b812a06696cf7de7e42f5235fdf73b589b"
+    last_seen_at: 2026-08-12T11:07:09Z
   T2-08:
-    # 2026-08-11: hash drift; 0 Digital-Omnibus/DSGVO/ePrivacy matches. 0 new. Re-baselined.
-    last_seen_hash: "sha256:2bb5f3b98de81489102403efd22201449df94255de1415c5af9b715f55aa5ef2"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: hash drift; 0 Digital-Omnibus/DSGVO/ePrivacy matches. 0 new. Re-baselined.
+    last_seen_hash: "sha256:2dd2004740cc479d88e1a973e09c086ce4c5750c939a4b3e0cbaeacbce453ea3"
+    last_seen_at: 2026-08-12T11:07:09Z
   T2-09:
-    # 2026-08-11: hash UNCHANGED. Refreshed.
-    last_seen_hash: "sha256:39b9b8a50839a017881225454a9e429ee90e80a05a02bb96550096dd4f4a729c"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: hash drift; newest items (CER Directive, EDPB breach template) not 0360-specific. 0 new. Re-baselined.
+    last_seen_hash: "sha256:d8f53b984fb420148d25221f8e33309f0f8532c75d02d0335d9cb1ca36f1d020"
+    last_seen_at: 2026-08-12T11:07:09Z
   T2-10:
-    # 2026-08-11: RECOVERED — HTTP 200 on /feed (no Cloudflare challenge). Hash CHANGED but 0 in-scope 0360 (no Digital-Omnibus / Telecom(TTE) Council item; broad-kw drift). Re-baselined.
-    last_seen_hash: "sha256:0ccc9fe84a46af6c496167ada78135191d1a7a09f664216c30ba6741340ea33e"
-    last_seen_at: 2026-08-11T11:04:23Z
+    # 2026-08-12: hash drift; newest items general EU finance/justice news, NO Digital-Omnibus / Telecom(TTE) Council item. 0 in-scope. Re-baselined.
+    last_seen_hash: "sha256:e29965fc9713995467e9ad85e89fc878aae70e949047d1074d898ca64d796c1d"
+    last_seen_at: 2026-08-12T11:07:09Z
   T3-01:
-    # 2026-08-11: 9 new posts, 0 keyword match. Advanced.
-    last_seen_indexed_at: 2026-08-11T00:06:51.470Z
+    # 2026-08-12: new posts, 0 keyword match. Advanced.
+    last_seen_indexed_at: 2026-08-12T00:57:25.872Z
     did: did:plc:wxpnu3arxymnfzh7zm2vx4cn
   T3-02:
-    # 2026-08-11: no new posts (max indexedAt == last_seen). 0 hit.
+    # 2026-08-12: no new posts (max indexedAt == last_seen). 0 hit.
     last_seen_indexed_at: 2026-08-04T08:24:27.269Z
     did: did:plc:6tig4nnvqut4jhyxmvqbxbag
   T3-03:
-    # 2026-08-11: no new posts (max indexedAt == last_seen). 0 hit.
+    # 2026-08-12: no new posts (max indexedAt == last_seen). 0 hit.
     last_seen_indexed_at: 2026-06-23T17:12:15.271Z
     did: did:plc:u7j6gujy5iyayifj4wn4zwj4
   T3-04:
-    # 2026-08-11: 1 new post, 0 keyword match. Advanced.
+    # 2026-08-12: no new posts (max indexedAt == last_seen). 0 hit.
     last_seen_indexed_at: 2026-08-07T15:19:52.975Z
     did: did:plc:6vzpi3eta33zlyqt2d4zt6aj
   T3-05:
-    # 2026-08-11: 5 new posts, 0 keyword match. Advanced.
-    last_seen_indexed_at: 2026-08-11T05:20:28.669Z
+    # 2026-08-12: 1 new post w/ "omnibus" kw = AI Omnibus (0359) + California SB 942/Anthropic; out of scope. Advanced.
+    last_seen_indexed_at: 2026-08-11T19:43:05.893Z
     did: did:plc:ujstglmdsoymx3t2yffcvgtm
   T3-06:
-    # 2026-08-11: no new posts (max indexedAt == last_seen). 0 hit.
+    # 2026-08-12: no new posts (max indexedAt == last_seen). 0 hit.
     last_seen_indexed_at: 2026-07-22T11:22:25.766Z
     did: did:plc:66ealeut54i3dvgseb4gcn3z
   T3-07:
-    # 2026-08-11: 6 new posts, 0 keyword match. Advanced.
-    last_seen_indexed_at: 2026-08-11T10:52:05.269Z
+    # 2026-08-12: new posts, 0 keyword match. Advanced.
+    last_seen_indexed_at: 2026-08-11T13:50:51.863Z
     did: did:plc:s2xjhqmjyvk54jw2bat5yyyt
   T3-08:
-    # 2026-08-11: no new posts (max indexedAt == last_seen). 0 hit.
+    # 2026-08-12: no new posts (max indexedAt == last_seen). 0 hit.
     last_seen_indexed_at: 2026-06-15T19:29:06.308Z
     did: did:plc:weedlv2mczjipzyjs324e6r5

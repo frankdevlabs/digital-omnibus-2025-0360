@@ -25,6 +25,23 @@ Positions of regulators, civil society and industry. Links resolve via [`../sour
   insists the personal-data definition stay **objective and broad**; the burden of proving an access
   request abusive **stays with the controller**; mandatory data-sharing limited to where strictly
   necessary, with a stronger European Data Innovation Board. → [digest](advisory/eesc-int1108.md)
+- **BfDI (German Federal Data Protection Commissioner) — Datenbarometer cookie report (12 Aug 2026).**
+  The German federal DPA published *"Weg mit den Cookie-Bannern! Cookie-Manager praxistauglich und
+  rechtssicher im EU Digital Omnibus verankern"* (BfDI-Datenbarometer survey + recommendations, PM
+  12/2026), urging co-legislators to **use the Digital Omnibus to anchor legally binding, once-set,
+  cross-site consent signals** and **recognised consent-management services ("Cookie-Manager")** —
+  *"Einwilligungssignale müssen für Website-Betreibende abschließend und verbindlich sein. Zusätzliche
+  Banner sollten entfallen."* It offers Germany's **Einwilligungsverwaltungsverordnung** (EinwV, in
+  force 1 Apr 2025) as a pilot model to raise to EU level and would strengthen independent
+  authorities' recognition role. Survey: ~⅔ would use a central consent-management service; ~8/10 want
+  settings to apply across all sites. This backs the **substance of the Art 88b** machine-readable-signal
+  element the **Council deleted** in ST 10729/26 — putting the German **supervisory authority opposite
+  the German _government_'s Council line** (DE pressed to delete Art 88b, WK 3736/26; noyb/Politico
+  reports), alongside IMCO, EDRi/noyb and German civil society (vzbv, Digitale Gesellschaft). *(The
+  report argues in terms of binding consent signals / consent-managers; it does **not** cite "Art 88b"
+  by number — that mapping is this repo's.)* → [fault-line #3](fault-lines.md);
+  [provision](provisions/gdpr-art88a-88b-cookies.md); register:
+  [`BfDI-DATENBAROMETER-2026`](../sources/README.md#advisory-bodies--national-parliaments).
 
 ## Member States
 

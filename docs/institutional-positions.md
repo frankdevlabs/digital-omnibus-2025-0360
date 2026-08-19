@@ -81,8 +81,14 @@ PE786.818 — the single largest tabling on the file — consolidated across a m
 **Articles 6–10** of the proposal: the NIS2 **Art 23a single-entry point** (1741–1810, where 14
 amendments replace the ENISA point with **national** entry points), eIDAS (1811–1814), DORA Art 19
 (1815–1818), CER Art 15 (1819–1821), new AI-Act/CRA articles (1822–1823), and the **repeal article**
-(1824–1840, where 14 of 17 strike a repeal — 13 of them the **P2B** repeal). The **remaining PE parts
-are not yet enumerable** (the ITRE/LIBE listing feeds are AWS-WAF-gated), so the register entry keeps
+(1824–1840, where 14 of 17 strike a repeal — 13 of them the **P2B** repeal). A **second part has since
+been enumerated** — **PE790.968**, **amendments 401–526** (128 pp; broad cross-party tablers;
+[`CJ72-AM-790968`](../sources/README.md#european-parliament) · [triage #146](triage/2026-08-19-issue-146.md)) —
+but **only the German language version is published** (the English `CJ72-AM-790968_EN.pdf` 404s at doceo as
+of 19 Aug 2026), so it is registered **metadata-only**: the DE PDF is committed for the record, but no
+per-provision content is asserted (translating the German ourselves would not be a faithful transcription),
+and `pending_operative_text` stays set for the English transcription. The **further PE parts
+are not yet enumerable** (the ITRE/LIBE listing feeds are AWS-WAF-gated), so the register keeps
 `pending_operative_text` for the set as a whole. As competing MEP amendments and not an adopted
 committee line (the joint vote is expected ~Q4 2026), they are **not** folded into the cells below.
 

@@ -269,6 +269,46 @@ So on P2B the Council splits: **most delegations want the protections retained**
 
 ---
 
+## Irish-Presidency delegation-comments round (August 2026) — screenshot-only lead
+
+> **Status: lead, not yet in hand.** The underlying Council `WK` compilation is **LIMITE** and has
+> **not** been retrieved; **no WK number is confirmed**. This section records what is visible in a
+> Bluesky/LinkedIn **screenshot** only — no per-delegation position is asserted as authoritative.
+> Verify against the register document before relying on it. See [`../NOTICE`](../NOTICE).
+
+A **fresh consolidated round of delegation written comments** on the Digital Omnibus is circulating
+under the **Irish Presidency (H2 2026)** — later than, and distinct from, the Cyprus-era
+[WK 3735/26 & WK 3736/26](#further-delegations) round (Feb–Mar 2026) above. It is consistent with the
+file being back at **working-party level** after the 16 July Antici (Simplification) exchange of views
+([STATUS](../STATUS.md) · [triage #107](triage/2026-07-10-issue-107.md)).
+
+Surfaced **19 Aug 2026** via a Bluesky thread by L. Montezuma (`T3-01`,
+[post](https://bsky.app/profile/montezumachavez.bsky.social/post/3mtguddwfe22b)) reposting a LinkedIn
+cover note. Per that cover note, comments were received from **CZ, DK, DE, EE, EL, ES, FR, IT, LU, NL,
+AT, PL, PT, FI** on *"Omnibus VII (Digital rules)"*, with a **second document adding LV and SE** —
+treat the delegation list as a lead pending the register document.
+
+**One concrete datapoint** is visible in the screenshots: **NL's proposed drafting for GDPR
+Article 29a** — *"Application of pseudonymisation and identification of a natural person"*, the
+Council's EDPB-centred route that replaced Art 41a (see the
+[pseudonymisation provision](provisions/gdpr-pseudonymisation-by-design.md)). NL keeps the (1)–(5)
+structure and highlights a new **(2a)**: where a person *other than* the controller transmits such
+data to a third party and it cannot be ruled out that the third party possesses or can obtain means
+reasonably likely to identify the data subject, that onward transmission and the third party's
+subsequent processing are to be treated as **processing of personal data** (with an optional recital-27a
+addition that data "impersonal" in themselves may become personal when put at the disposal of persons
+with such means). *Screenshot-only — not confirmed against the source `WK` text.*
+
+The same thread also carries Montezuma's **own** commentary distinguishing "human intervention" /
+"human involvement" / "human oversight" (bearing on the Art 22 ADM strand) — his analysis, not a
+member-state document, so not integrated here.
+
+→ Follow-up: when a Council-register `WK` compilation of these Irish-Presidency delegation comments
+appears (or a committable mirror of the NL/other comments), integrate the per-delegation positions and
+clear this lead — [triage #148](triage/2026-08-20-issue-148.md).
+
+---
+
 ## Netherlands (NL) — national non-paper (8 April 2026)
 
 A **national-government position**, distinct from the `WK` Council-delegation stream above: the

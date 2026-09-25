@@ -53,6 +53,20 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   does **delete Art 88b** ([GDPR extract pt 15](../extracts/council/ST-10729-2026_gdpr-art3-amendments.md#point-15--articles-88-cookies-ai-li) ·
   [what changed](what-changed.md#st-1072926--the-22-june-negotiating-mandate-δ-vs-st-954726)). Still LIMITE
   (not on the public register); Council position to be fixed at Coreper-II.
+  - ▸ **Update — the leaked Irish Presidency compromise (ST 12535/26, 3 Sep 2026).** On **21 Sep 2026** noyb
+    **published a leaked Council text** — an Irish Presidency revised compromise, doc **ST 12535/26** (3 Sep,
+    LIMITE, ~158 pp, file 2025/0360), **not yet on the public register** — and campaigned hard against it:
+    [*"AI: EU Member States plan 'digital expropriation'…"*](https://noyb.eu/en/ai-eu-member-states-plan-digital-expropriation-europeans-interest-ai-companies).
+    Schrems' framing: the text would make data use "in the context of AI" **presumptively lawful legitimate
+    interest** (renumbering the AI clause **Art 88 bis**), a *"digital expropriation of Europeans"* / *"reverse
+    Robin Hood"* that lets AI-company profits *"trump"* the fundamental right to privacy — permitting *"practically
+    unlimited use of all data for AI"*. noyb reads it as a **step backward vs the June ST 10729/26** version (it
+    re-adds the standalone AI legitimate-interest ground the June mandate had deleted). *(These are noyb's
+    characterisations of a leaked, off-register text; the operative content is pending register/transcription —
+    see [fault-line #2](fault-lines.md) and the STATUS follow-up.)* Earlier, on **10 Sep 2026**, noyb had co-signed
+    the **#KillTheCookieBanner civil-society open letter** urging the EU to replace cookie banners with a binding
+    signal ([campaign](https://killthecookiebanner.eu/)) — consistent with its Art 88b line on
+    [fault-line #3](fault-lines.md).
 - **#KillTheCookieBanner coalition (announced 22 Jul 2026).** The civil-society side of the cookie fight
   **formalised into a joint campaign** — landing page [killthecookiebanner.eu](https://killthecookiebanner.eu/) —
   co-led by **noyb, EDRi, BEUC, Check My Ads, Civil Liberties Union for Europe (Liberties), EFF** and the
@@ -91,6 +105,18 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   framework (GDPR/DSA/DMA) is a competitive advantage and "fit for purpose", so the EU should
   **strengthen enforcement and close gaps** (ban spyware, regulate ad-tech) rather than reopen the rules
   via the Omnibus.
+  - ▸ **Update — open letter on the Irish Presidency text (24 Sep 2026).** EDRi published
+    **[*"Simplification for whom? Open letter … to uphold GDPR protections in the Digital Omnibus on Data"*](https://edri.org/our-work/simplification-for-whom-open-letter-uphold-gdpr-protections-in-data-omnibus/)**,
+    responding to the **Irish Presidency's compromise of 3 September** (and a text circulated 21 Sept) — i.e. the
+    leaked **ST 12535/26** (see the noyb bullet above). It urges Member States to reject: a new **Art 25a** that
+    "blurs the line" between still-identifying pseudonymised data and truly anonymous data (variable legal status
+    for identical datasets); language stating processing **for AI "may be carried out for a legitimate interest"**;
+    the narrowing of **transparency/access rights**; and the **deletion of automated privacy signals** alongside
+    expanded consent-free device-access exceptions. Same civil-society line as noyb — attributed to a leaked,
+    off-register text (see [fault-line #1](fault-lines.md), [#2](fault-lines.md), [#3](fault-lines.md)).
+    German tech-press *netzpolitik.org* (21 Sep, *"Digitale Enteignung"*) carried the same alarm, quoting the
+    **Berlin data-protection authority** that the EU is shaking the *"fundamental pillars of European data
+    protection"*.
 - **German consumer & digital-rights groups (vzbv, Digitale Gesellschaft).** German tech-press
   *netzpolitik.org* ([*"Online-Tracking: Deutschland und Google wollen Cookie-Banner retten"*](https://netzpolitik.org/2026/online-tracking-deutschland-und-google-wollen-cookie-banner-retten/),
   Ingo Dachwitz, **24 Jun 2026**) reports the **Verbraucherzentrale Bundesverband (vzbv)** —

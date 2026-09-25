@@ -13,6 +13,12 @@ in [`provisions/`](provisions/).
   pseudonymisation (proposed Art 41a).
 - **Council:** **both deleted.** Art 4(1) untouched; pseudonymisation handled by an **EDPB opinion**
   mandate (new Art 29a) and EDPB guidelines under Art 70.
+  - ▸ **Reported new angle — leaked ST 12535/26 (3 Sep 2026, Irish Presidency; not on the public register).**
+    Per the leak (noyb, 21 Sep; EDRi open letter, 24 Sep), the Irish Presidency adds a **new Article 25a** on
+    pseudonymisation reportedly shifting to an **"insignificant likelihood" of identification** standard tracking a
+    2025 CJEU ruling. EDRi warns it **blurs the anonymous/pseudonymised line** — the same dataset could have a
+    variable legal status depending on who holds it (see [`stakeholders.md`](stakeholders.md)). *Hedged:
+    leaked/off-register text, pending transcription.*
 - **EDPB–EDPS:** strongly oppose any redefinition as inconsistent with CJEU case law, and would delete
   the Art 41a implementing-act power
   ([digest](advisory/edpb-edps-jo-2-2026.md#personal-data)).
@@ -36,6 +42,14 @@ in [`provisions/`](provisions/).
 - **Council:** **Art 88c deleted; recitals 30 & 31 deleted.** The AI Art 6(1)(f) reading survives
   only in **recital 33a**. Art 9(2)(k)/9(5) **retained but tightened** (avoid → erase → safeguard,
   with documentation across the AI life cycle).
+  - ▸ **Reported reversal — leaked ST 12535/26 (3 Sep 2026, Irish Presidency; not on the public register).**
+    Per the text noyb published on 21 Sep 2026, the Irish Presidency **re-adds a standalone AI legitimate-interest
+    ground, renumbered Article 88 bis**, backed by a recital ("processing … for the development and operation of
+    AI *may be regarded as* … a legitimate interest") — reportedly **stripped** of the Commission's unconditional
+    objection/opt-out right, data-minimisation safeguards, enhanced transparency and child-specific protections.
+    That would **reverse the June deletion** and is what noyb calls *"digital expropriation"* (see
+    [`stakeholders.md`](stakeholders.md)). *Hedged: leaked/off-register text, operative content pending
+    transcription — no per-provision claim asserted here.*
 - **EDPB–EDPS:** the standalone article is unnecessary (Opinion 28/2024 already covers AI LI); they would
   bound the Art 9(2)(k) carve-out to *incidental and residual* processing
   ([digest](advisory/edpb-edps-jo-2-2026.md#ai-legitimate-interest)).
@@ -62,6 +76,13 @@ in [`provisions/`](provisions/).
     *against* IMCO and EDRi — after Coreper (8 Jun) flagged the centralised consent signal and its **absence of
     impact assessment** (NOTE ¶8). The cookie regime now lives entirely in the amended ePrivacy Art 5(3).
     See [GDPR extract, point 15](../extracts/council/ST-10729-2026_gdpr-art3-amendments.md#point-15--articles-88-cookies-ai-li).
+  - ▸ **Reported continuation + new exemption — leaked ST 12535/26 (3 Sep 2026, Irish Presidency; not on the
+    public register).** Per the leak (noyb, 21 Sep; EDRi, 24 Sep), the Irish text **deletes both Art 88a and
+    Art 88b** (device-access consent stays in ePrivacy; the browser/OS machine-readable-signal recital is deleted)
+    and **adds a new contextual-advertising consent exemption** — ad *measurement* "based solely on the immediate
+    content displayed during an individual visit to a single web page", without profiling or retention. The Art 88b
+    deletion continues the ST 10729/26 line **against** IMCO/EDRi/noyb; the ad-measurement carve-out is new.
+    *Hedged: leaked/off-register text, pending transcription.*
 - **Parliament (committee opinions, provisional):** **IMCO sits opposite France/industry on Art 88b** — it
   **strengthens and broadens** the machine-readable-signal duty (tech-neutral "software to access online
   interfaces", drops the SME carve-out, accelerates the browser/OS duty 48 → 18 months, adds anti-dark-

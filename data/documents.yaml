@@ -456,14 +456,19 @@ documents:
       full as extracts/parliament/CJ72-AM-791883_amendments-1741-1840.md (100 amendments, 51 tablers;
       Arts 6-10 of the proposal = NIS2 Art 23a single-entry point, eIDAS, DORA, CER, and the P2B /
       Data Governance / free-flow / Open Data repeals). The REST of the multi-part set is not
-      transcribed and the individual PE numbers of the other parts are not yet enumerable (the
-      ITRE/LIBE documents listing feeds are AWS-WAF-gated — health issue #118), so
-      pending_operative_text stays true for the set as a whole. These are competing MEP amendments,
-      NOT the rapporteurs' text and NOT an adopted committee position — the joint committee vote is
-      expected ~Q4 2026, so they are not folded into the per-provision comparison cells. When the
-      listing feeds clear or a mirror appears, enumerate the remaining parts, run
+      transcribed. As of 2026-09-25 the OEIL documentation gateway (T1-01 HTML / T1-02 procedure-file
+      PDF) enumerates the full batch — NINE AM_Com_LegReport parts, all cover-dated 27/07/2026:
+      PE786.820, PE790.967, PE790.968, PE791.071, PE791.072, PE791.073, PE791.873, PE791.874 and
+      PE791.883 (this committed part). The other eight parts' operative text is still not in hand
+      (doceo returns HTTP 202 / AWS-WAF to non-browser clients; the ITRE/LIBE documents listing feeds
+      stay gated — health issue #118), so pending_operative_text stays true for the set as a whole.
+      These are competing MEP amendments, NOT the rapporteurs' text and NOT an adopted committee
+      position — the joint committee vote is expected ~Q4 2026, so they are not folded into the
+      per-provision comparison cells. The parts are now enumerated (via OEIL); the remaining step is
+      to fetch each past the doceo WAF (~/law-tracker/lib/fetch_blocked_doc.py), run
       transcribe-parliament-extract on each, fill the per-provision cells and clear the flag.
-      Surfaced via triage #133 (docs/triage/2026-07-29-issue-133.md).
+      Surfaced via triage #133 (docs/triage/2026-07-29-issue-133.md); enumeration confirmed via
+      triage #151 (docs/triage/2026-09-25-issue-151.md).
 
   - id: EP-LEGTRAIN
     title: "Legislative Train — Digital Omnibus Regulation Proposal"

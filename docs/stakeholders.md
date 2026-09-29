@@ -100,6 +100,17 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   noyb/EDRi and **opposite** the German government's reported position on [fault-line #3](fault-lines.md)
   ([provision](provisions/gdpr-art88a-88b-cookies.md)). *(The German-government characterisation is
   netzpolitik's; DE is already recorded as seeking the deletion via WK 3736/26 and the noyb bullet above.)*
+- **Digitalcourage — Big Brother Awards 2026 (25 Sep 2026, Bielefeld).** The German digital-rights
+  association gave a **negative "Big Brother" award** in the **EU/Europa** category to the **EU
+  Commission** for the Digital Omnibus. Laudator **Ralf Bendrath** (Green/EFA parliamentary advisor)
+  framed the package as modifying nine laws and abolishing four (GDPR, ePrivacy, Data Governance Act),
+  with the central charge being the **redefinition of "personal data"**: under the relative/controller-
+  centric definition *"würden Tracking-Cookies oder IP-Adressen für uns nicht mehr als personenbeziehbar
+  gelten und damit gilt die ganze Datenschutz-Grundverordnung für uns nicht mehr"* — tracking cookies
+  and IP addresses would fall outside the GDPR (*"da geht es wirklich ans Eingemachte"*). Reinforces the
+  civil-society line against the Art 4(1) redefinition ([fault-line #1](fault-lines.md#1-the-concept-of-personal-data-and-pseudonymisation);
+  [provision](provisions/gdpr-art4-personal-data.md)). Reported by *heise online*,
+  [25 Sep 2026](https://www.heise.de/news/Big-Brother-Awards-2026-Negativpreis-fuer-Dobrindt-EU-Kommission-Telekom-Co-11463202.html).
 - **BEUC.** The proposal "goes far beyond targeted modifications" and weakens consumer protections.
 - **127 organisations** signed an open letter (13 Nov 2025) urging the Commission to drop the GDPR
   reopening. **Corporate Europe Observatory / LobbyControl** mapped Big-Tech lobbying behind specific

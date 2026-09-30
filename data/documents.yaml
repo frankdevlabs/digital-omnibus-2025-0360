@@ -602,3 +602,31 @@ documents:
       proposals had an IA) and the Commission's COM(2026) 380 Better-Regulation communication. Cite-by-URL
       (no committed PDF), mirroring ah-tk-20252026-792. Summary in docs/member-state-positions.md
       (Netherlands section).
+
+  - id: TK-22112-4433
+    title: "Verslag van de Rapporteurs over de Omnibus Digitaal (Tweede Kamer DiZa EU-rapporteurs El Boujdaini/Van den Berg)"
+    body: Tweede Kamer
+    date: 2026-09-25
+    limite: false
+    access: public-via-national-parliament
+    url: https://www.tweedekamer.nl/downloads/document?id=2026D46227
+    local: sources/member-states/TK-22112-4433_rapporteurs-verslag-omnibus-digitaal_2026-09-25.docx
+    notes: >-
+      Kamerstuk 22 112, Nr. 4433 ("Nieuwe Commissievoorstellen en initiatieven van de lidstaten van de EU"),
+      document id 2026D46227, vastgesteld 25 Sep 2026. EU-rapporteurs of the DiZa committee for both omnibus
+      files; the Omnibus AI rapporteurship is declared finished (Omnibus AI adopted as Reg (EU) 2026/1744),
+      so this report is on the Omnibus Digitaal (2025/0360) only. In-scope: it scopes itself to COM(2025) 837
+      (Dataverordening, AVG, ePrivacy, cybersecuritymeldingen, P2B). Substance (all as REPORTED by the
+      rapporteurs, not independently confirmed): (1) a new Irish Presidency compromise ST 12535/26 (3 Sep
+      2026), building on the last Cypriot compromise ST 10677/26, discussed at the Antici Group
+      (Simplification) on 11 Sep 2026, leaked via Agence Europe — bulk of the Cypriot compromise survives;
+      new changes on pseudonymisation/personal-data qualification, AI data processing, and broadened
+      cookie-consent exceptions (now incl. contextual advertising under safeguards); automated consent
+      signals stay dropped. Operative text NOT in hand (LIMITE/register-gated) — no per-provision repo claim;
+      pending council-text retrieval; ST-number reconciliation to verify (repo's latest is ST 10729/26, the
+      22 Jun mandate never put to Coreper, with ST 10677/26 the 18 Jun interim). (2) EP: Digital Omnibus
+      handled jointly by LIBE + ITRE, which commissioned an EPRS impact assessment (expected Nov/Dec 2026);
+      final committee vote now scheduled Feb 2027 (later than the repo's ~Q4 2026 estimate) — await OEIL/EP
+      corroboration. (3) Recommendations to the DiZa committee for the 29 Sep schriftelijk overleg ahead of
+      the 12-13 Oct informal Telecom Council. Fetchable (no WAF) via the tweedekamer downloads endpoint;
+      committed DOCX. Summary in docs/member-state-positions.md (Netherlands section).

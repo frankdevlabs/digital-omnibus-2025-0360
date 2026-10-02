@@ -89,6 +89,12 @@ browser/OS obligations.
   security exemptions, but only within ePrivacy). It demands **deletion of Art 88b** (machine-readable
   signals) — technical rules out of place in the GDPR, intractable in practice, harmful to the press, and
   unassessed (no impact assessment).
+  **Still holding (reported 1 Oct 2026):** French trade-press *Contexte* (paywalled, relayed via Bluesky
+  `T3-01`) reports *"La France maintient sa ligne sur la gestion centralisée des cookies"* (lede *"Non à la
+  gestion centralisée du consentement, dit la France…"*) — France reiterates its **no to centralised /
+  machine-readable consent management** (Art 88b) as the file reopens at working-party level under the Irish
+  Presidency. Secondary reportage, cited by URL — a reaffirmation, not a position change. →
+  [`../../TIMELINE.md`](../../TIMELINE.md) (2026-10-01) · [triage #167](../triage/2026-10-02-issue-167.md).
 - **PL** — terminal-equipment storage/access should stay **consent-based** and the rules belong in
   **ePrivacy** (the position the Presidency adopted by ST 9547/26); Art 88b comments "to be shared later".
 - **EE** — web browsers should provide **technical means for data subjects to withdraw consent**; supports

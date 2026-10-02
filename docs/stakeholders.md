@@ -159,3 +159,13 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   Transparency International EU and others, Feb 2026) over her former role as Meta's EU public-policy
   lead and a non-declaration of the potential conflict of interest. ITRE coordinators did not withdraw
   the appointment.
+- **Marina Kaljurand (S&D), joint ITRE/LIBE co-rapporteur — *"no compromise on privacy protection"*
+  (reported 1 Oct 2026).** French trade-press *Contexte* (paywalled) reported the co-rapporteur restating a
+  firm line against watering down privacy/GDPR in the data omnibus
+  ([*"« Pas de compromis sur la protection de la vie privée », martèle Marina Kaljurand sur l'omnibus
+  données"*](https://www.contexte.com/fr/actualite/tech/pas-de-compromis-sur-la-protection-de-la-vie-privee-martele-marina-kaljurand-sur-lomnibus-donnees_279485)),
+  relayed via Bluesky (`T3-01`, 1 Oct 2026). Consistent with — and reinforcing — the joint ITRE/LIBE draft
+  report's walk-back of the deregulation ([PE786.818](../extracts/parliament/CJ72-PR-786818_joint-itre-libe-draft-report.md);
+  [institutional positions](institutional-positions.md)). Secondary reportage, cited by URL — a public
+  reaffirmation ahead of the committee vote (~Q4 2026), **not** a new EP act.
+  → [`../TIMELINE.md`](../TIMELINE.md) (2026-10-01) · [triage #167](triage/2026-10-02-issue-167.md).

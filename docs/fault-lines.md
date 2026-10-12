@@ -5,7 +5,11 @@ negotiating mandate) has already moved away from the Commission; the Parliament 
 and the first **committee-for-opinion texts now bear this out** (the **IMCO draft opinion**, PE789.877, opines
 across the GDPR strand; **JURI**, PE789.142, is data-acquis-only). The **fifth** is new: a late, untested
 **third-country tax-data-transfer (FATCA) derogation** the Council mandate itself adds. These positions are
-**provisional**: the lead **joint ITRE/LIBE draft report is still pending**. Detailed per-provision pages are
+**provisional**: the lead **joint ITRE/LIBE draft report is still pending**. Civil-society tracking
+corroborates the direction of travel: noyb's **[gdpr-omnibus.eu](https://gdpr-omnibus.eu/)** ranking
+(12 Oct 2026) of the 1,000+ tabled EP amendments scores **S&D / Greens / The Left / Renew** net-positive on
+privacy and the **EPP** (esp. Axel Voss) by far the most negative — an advocacy scoring, not primary text
+(see [`stakeholders.md`](stakeholders.md)). Detailed per-provision pages are
 in [`provisions/`](provisions/).
 
 ## 1. The concept of personal data and pseudonymisation

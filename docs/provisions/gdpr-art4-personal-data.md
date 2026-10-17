@@ -55,9 +55,26 @@ evasive interpretations". Unlike the Council's deletion of Art 41a, it **support
 acts** clarifying when pseudonymised data may be treated as anonymised for other entities — to aid AI
 training while preserving safeguards. → [digest](../advisory/eesc-int1108.md)
 
+## Live litigation — CJEU C-654/25
+A German **Bundesgerichtshof** preliminary reference — **Case C-654/25** (*Undelam*; parties *US and DR v
+KY*), lodged **6 October 2025**, published **OJ C/2026/444 (2 Feb 2026)** ([Curia case page](https://curia.europa.eu/juris/liste.jsf?num=C-654/25))
+— puts the **relative/controller-centric identifiability** question directly to the Court. **Question 1**
+asks whether, for the **automated transfer of a dynamic IP address**, that address **already** constitutes
+personal data because a *third party* holds the additional knowledge needed to identify the individual —
+**or** whether personal-data status is instead conditional on the **controller/recipient** having means
+reasonably likely to be used to identify (with a third party's aid). That is exactly the "absolute vs
+relative" line the **Commission's Art 4(1) addition sought to codify** and that the **Council, IMCO and
+EDPB–EDPS deleted**. (Questions 2–3 concern **Art 82(1)** non-material damage for "abusive" documentation
+claims — not this file.) A ruling for the **relative** reading would vindicate the deleted clause; a ruling
+that a **third party's knowledge** suffices would cut against it — so the Court may settle, after this file
+concludes, the very question the co-legislators chose to drop. Builds on **Breyer** (C-582/14, dynamic IP
+addresses) and sits alongside **EDPS v SRB** (C-413/23 P), the case law the Art 4(1) addition purported to
+codify. Surfaced via Bluesky (`T3-01`, 29 Sep 2026, with the OJ notice screenshot) — [triage #163](../triage/2026-09-30-issue-163.md).
+
 ## Status
 **Council has dropped it.** Likely cross-institutional consensus *not* to redefine. Watch for any attempt
-to reintroduce a softer Art 4 clarification under the Irish Presidency or by industry amendment.
+to reintroduce a softer Art 4 clarification under the Irish Presidency or by industry amendment. The
+absolute-vs-relative identifiability question also sits before the CJEU in **C-654/25** (above).
 
 **Parallel amendment of the same article by another file:** the agreed **Omnibus IV** text (2025/0130,
 Coreper 26 Jun 2026, [ST 10978/26](../../sources/README.md#council-documents)) inserts **new Art 4
@@ -83,3 +100,6 @@ this file's trilogue must build on that amended base → [instrument page](../in
 ## Open questions
 - Will the EDPB pseudonymisation opinion (Art 29a) effectively reintroduce a risk-based scoping by guidance?
 - How is "singling out" treated in the new Art 29a(1a)?
+- Will **C-654/25** (dynamic IP addresses / third-party knowledge) settle the absolute-vs-relative
+  identifiability question the co-legislators dropped — and could a *relative*-reading judgment reopen the
+  case for an Art 4(1) clarification in this file's trilogue?

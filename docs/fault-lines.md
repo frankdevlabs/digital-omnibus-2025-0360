@@ -88,6 +88,13 @@ in [`provisions/`](provisions/).
   in a **newer 18-June Council paper** — wider than the WK 3736/26 record below — but the underlying
   ST compromise text is **not yet on the public register**, so this stays a hedged stakeholder report
   pending the text (Council position tracked via the imminent Coreper II step).
+- **Supervisory authority (Germany):** the **BfDI** (German Federal Data Protection Commissioner)
+  published a **Datenbarometer cookie report (12 Aug 2026)** urging co-legislators to **use the Digital
+  Omnibus to anchor legally binding, once-set consent signals and recognised consent-managers** — the
+  **substance of Art 88b** — citing Germany's Einwilligungsverwaltungsverordnung as a model. This puts
+  the German **DPA opposite the German _government_**, on the pro-signal side with IMCO, EDRi/noyb and
+  German civil society (see [`stakeholders.md`](stakeholders.md#regulators)). *(The report does not cite
+  "Art 88b" by number; the mapping is this repo's.)*
 - **Why it matters:** conceptually decisive for where the cookie regime lives and which authority
   enforces it; industry wants the machine-readable signal article deleted as "consent chaos".
 - → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),

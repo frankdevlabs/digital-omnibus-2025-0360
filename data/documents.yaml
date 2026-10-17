@@ -602,3 +602,29 @@ documents:
       proposals had an IA) and the Commission's COM(2026) 380 Better-Regulation communication. Cite-by-URL
       (no committed PDF), mirroring ah-tk-20252026-792. Summary in docs/member-state-positions.md
       (Netherlands section).
+
+  - id: BfDI-DATENBAROMETER-2026
+    title: "BfDI-Datenbarometer: Befragungsergebnisse und Empfehlungen — Cookie-Manager (\"Weg mit den Cookie-Bannern! Cookie-Manager … im EU Digital Omnibus verankern\")"
+    body: BfDI
+    date: 2026-08-12
+    limite: false
+    access: public
+    url: https://www.bfdi.bund.de/SharedDocs/Pressemitteilungen/DE/2026/12_Cookie-Banner.html
+    mirror: https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Themen/Datenbarometer/Cookies-Befragungsergebnisse-Empfehlungen.pdf?__blob=publicationFile&v=5
+    local: sources/advisory/BfDI-DATENBAROMETER-2026_cookie-manager-empfehlungen_2026-08-12.pdf
+    lead_source: >-
+      Bluesky @montezumachavez (T3-01), post 3msxtc7jfg22n, indexed 2026-08-13; triage #144.
+    notes: >-
+      German Federal Data Protection Commissioner (BfDI) Datenbarometer report + press release
+      PM 12/2026. Official national supervisory-authority positioning on the ePrivacy/cookie strand
+      of 2025/0360: urges using the EU Digital Omnibus to anchor legally binding, once-set,
+      cross-site consent signals and recognised consent-management services ("Cookie-Manager"), with
+      Germany's Einwilligungsverwaltungsverordnung (EinwV, in force 1 Apr 2025) as the pilot model,
+      and to strengthen independent authorities' recognition role EU-wide. Survey: ~2/3 would use a
+      central consent-management service; ~8/10 want settings to apply across all websites. This is
+      the *substance* of the Commission's Art 88b machine-readable-consent element (deleted by the
+      Council in ST 10729/26) — the report does NOT cite "Art 88b" or "maschinenlesbar" by
+      number/term; the Art 88b mapping is this repo's analysis. Places the German DPA opposite the
+      German government's Council line (DE pressed to delete Art 88b, WK 3736/26). Fetchable (no WAF);
+      PDF committed. Substance routed to docs/stakeholders.md (Regulators), docs/fault-lines.md (#3),
+      docs/provisions/gdpr-art88a-88b-cookies.md.

@@ -72,6 +72,20 @@ exemption** (¶108–117).
 → [JO 2/2026 digest: ePrivacy terminal equipment](../advisory/edpb-edps-jo-2-2026.md#eprivacy),
 [machine-readable signals](../advisory/edpb-edps-jo-2-2026.md#machine-readable-signals)
 
+## National supervisory authority — BfDI (Germany)
+The **BfDI** (German Federal Data Protection Commissioner) **Datenbarometer** cookie report
+(12 Aug 2026) urges using the **Digital Omnibus** to anchor **legally binding, once-set, cross-site
+consent signals** and **recognised consent-management services ("Cookie-Manager")** —
+*"Einwilligungssignale müssen für Website-Betreibende abschließend und verbindlich sein. Zusätzliche
+Banner sollten entfallen."* — with Germany's **Einwilligungsverwaltungsverordnung** (EinwV, in force
+1 Apr 2025) as a pilot model to raise to EU level, and a strengthened recognition role for independent
+authorities. This is the **substance of the Art 88b** machine-readable-signal element (which the
+Council deleted in ST 10729/26), so the German DPA sits **pro-signal**, opposite the German
+government's Council line. *(The report argues in terms of binding consent signals / consent-managers;
+it does **not** cite "Art 88b" by number — the mapping is this repo's.)*
+→ register [`BfDI-DATENBAROMETER-2026`](../../sources/README.md#advisory-bodies--national-parliaments);
+[stakeholders](../stakeholders.md#regulators); [fault-line #3](../fault-lines.md).
+
 ## EESC
 **EESC (INT/1108)** — encourages exploring **simplified consent in low-risk contexts** through a
 proportionate, risk-based solution that still preserves privacy protection.

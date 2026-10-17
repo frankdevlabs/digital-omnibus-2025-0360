@@ -463,7 +463,44 @@ documents:
       expected ~Q4 2026, so they are not folded into the per-provision comparison cells. When the
       listing feeds clear or a mirror appears, enumerate the remaining parts, run
       transcribe-parliament-extract on each, fill the per-provision cells and clear the flag.
+      A SECOND part of the set has since been enumerated — PE790.968 (Am 401-526), see CJ72-AM-790968.
       Surfaced via triage #133 (docs/triage/2026-07-29-issue-133.md).
+
+  - id: CJ72-AM-790968
+    title: "Tabled amendments to the joint ITRE/LIBE draft report (PE786.818) — amendments 401-526 (part PE790.968; German version only)"
+    body: Parliament
+    date: 2026-07-27
+    limite: false
+    pending_operative_text: true
+    url: https://www.europarl.europa.eu/doceo/document/CJ72-AM-790968_EN.pdf
+    local: sources/parliament/CJ72-AM-790968_amendments-401-526_DE_2026-07-27.pdf
+    lead_source: >-
+      Bluesky @montezumachavez (watchlist T3-01), post 18 Aug 2026 relaying a LinkedIn note by Luis
+      Alberto Montezuma: "the amendments 401 - 526 to the draft report on the Digital Omnibus (Data
+      Act, GDPR and ePrivacy) ... Unfortunately, I don't speak German" — the post's image embed is the
+      document's own cover page, and only the DE language version had been circulated. Surfaced and
+      triaged via tracker issue #146.
+    notes: >-
+      A SECOND confirmed part of the >1,762-amendment set tabled to the joint ITRE/LIBE draft report
+      PE786.818 (CJ72-PR-786818, co-rapporteurs Salla & Kaljurand) on file 2025/0360 (COD), the
+      data/cyber Digital Omnibus COM(2025) 0837 — NOT the AI Act file 2025/0359 — after the 15 Jul 2026
+      amendment-tabling deadline; distinct from part PE791.883 (Am 1741-1840, CJ72-AM-791883). Cover
+      verified from the amendment PDF: PE790.968v01-00 (AM\1347987DE.docx), "ÄNDERUNGSANTRÄGE 401 - 526",
+      cover dated 27 Jul 2026, 128 pages, joint ITRE/LIBE (Ausschuss für Industrie, Forschung und Energie
+      / Ausschuss für bürgerliche Freiheiten, Justiz und Inneres), 2025/0360(COD) / COM(2025)0837, draft
+      report PE786.818v01-00. Tablers are a broad cross-party set of MEPs (EPP, S&D, Renew, ECR, PfE,
+      Verts/ALE, Left) — Salla and Kaljurand appear among many, so the Bluesky "tabled by Salla and
+      Kaljurand" is loose phrasing for "to the Salla/Kaljurand draft report". Competing MEP amendments,
+      NOT the rapporteurs' text and NOT an adopted committee position (the joint committee vote is
+      expected ~Q4 2026), so not folded into the per-provision comparison cells. ONLY THE GERMAN (DE)
+      language version is published at doceo (CJ72-AM-790968_DE.pdf, retrieved via
+      ~/law-tracker/lib/fetch_blocked_doc.py past the AWS-WAF — doceo returns HTTP 202 to curl/WebFetch —
+      and committed under sources/parliament/); the ENGLISH version (CJ72-AM-790968_EN.pdf) returns HTTP
+      404 at doceo as of 19 Aug 2026, i.e. not yet published. Registered metadata-only with NO
+      per-provision claims: transcribing/translating the German operative text ourselves would not be a
+      faithful transcription, so pending_operative_text stays true until the EN version publishes, at
+      which point run transcribe-parliament-extract to build the extract and fill the cells. Surfaced via
+      triage #146 (docs/triage/2026-08-19-issue-146.md).
 
   - id: EP-LEGTRAIN
     title: "Legislative Train — Digital Omnibus Regulation Proposal"

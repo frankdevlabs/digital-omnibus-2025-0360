@@ -357,6 +357,21 @@ but the **Eerste Kamer counterpart of the [6 July Tweede Kamer Kamerbrief *Voort
 separately registered.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-07-06, 2026-07-14) · [triage #131](triage/2026-07-28-issue-131.md)
 
+**Autumn scrutiny (September 2026):** the *nader schriftelijk overleg* that was pending since June is now
+**concluded** — on **17 September 2026** the DIGI and EZ/KGG committees **established** (*vastgesteld*) the
+*verslag van een nader schriftelijk overleg* with the State Secretaries of EZ and J&V **"over de Omnibus
+Digitaal"** (**36.890, EK, AB**), i.e. the cabinet's reply to the 30 June groups' *inbreng*. The dossier
+then opened a **further** round: at the **22 September 2026** DIGI/EZ-KGG meeting the committees decided
+to offer, **on 29 September**, an opportunity to deliver *inbreng* for another *nader schriftelijk overleg*
+with the State Secretaries; at the **29 September 2026** meeting they decided to send a **commissiebrief**
+enclosing the **information-sharing arrangements (*informatieafspraken*)** agreed with the committees, the
+draft circulated to members by email with separate *inbreng* from **Fiers** (GroenLinks-PvdA) and
+**Van de Sanden**. All three items are **procedural** and carry **no new government position**; the
+substantive answer text of the 17 Sep *verslag* is **not transcribed here** — verify against the source
+before citing. (Both September *korte aantekeningen* record decisions on the **Omnibus Digitaal** only,
+not the AI Omnibus 2025/0359.)
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-09-17, 2026-09-22, 2026-09-29) · [triage #161](triage/2026-09-30-issue-161.md)
+
 **Tweede Kamer tweeminutendebat (3 June 2026, pre-Council):** A plenary two-minute debate took place on 3 June 2026 ahead of the formal Telecom Council of 9 June. Two motions were submitted: 21501-33-1205 (Kathmann — positive stance toward EU ICT-supplier preference; outcome TBC) and 21501-33-1206 (Van den Berg — keep fundamental GDPR changes out of the Omnibus; **withdrawn** at the 4 June vote). The ongecorrigeerd debate report (2026D27237) and stemmingsuitslagen (2026P09467) are published.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-03, 2026-06-09)
 

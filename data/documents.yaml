@@ -241,6 +241,66 @@ documents:
       analysis in docs/provisions/gdpr-art49-third-country-tax-transfers.md. Live context: pending CJEU
       case C-804/25 (FATCA v GDPR).
 
+  - id: ST-12535-2026
+    title: "Irish Presidency compromise text on the Digital Omnibus (GDPR, ePrivacy/cookies, EUDPR, P2B, Data Act, cyber) — metadata only"
+    body: Council
+    date: 2026-09-03
+    limite: true
+    access: cite-only   # leaked via Agence Europe; not held; register 404s until released
+    pending_operative_text: true
+    register: https://data.consilium.europa.eu/doc/document/ST-12535-2026-INIT/en/pdf   # 404 until released
+    lead_source: >-
+      Tweede Kamer DiZa EU-rapporteurs' report "Verslag van de rapporteurs over de Omnibus Digitaal"
+      (NL-RAPPORTEURS-2026-09-25, 25 Sep 2026), which names the text (ST 12535/26) and cites its leak
+      via Agence Europe. Surfaced via tracker issue #153 (docs/triage/2026-09-25-issue-153.md).
+    notes: >-
+      METADATA ONLY — operative text NOT in hand (pending_operative_text; access cite-only). Existence,
+      number (ST 12535/26) and date rest on the NL Tweede Kamer rapporteurs' report of 25 Sep 2026
+      (secondary summary; the text was leaked via Agence Europe), not on a retrieved copy. Confirmed per
+      that report: the FIRST Irish Presidency compromise on the Digital Omnibus, issued 3 Sep 2026,
+      building on the last Cyprus text ST 10677/26 (the interim 18 Jun text, not held), discussed in the
+      Antici Group (Simplification / AGS) on 11 Sep 2026. The rapporteurs summarise the main deltas vs the
+      Cyprus text as concentrated on the politically sensitive GDPR/ePrivacy parts: pseudonymisation /
+      personal-data qualification (clarifies that pseudonymised data passed to a party that CAN identify
+      the data subject counts as personal data for that party, so further processing falls under the GDPR;
+      the EDPB pseudonymisation/anonymisation opinion is retained); AI data processing (keeps the earlier
+      approach — the standalone GDPR AI article stays deleted, a legitimate-interest framing survives in
+      the recitals); cookies (WIDENS the no-consent storage/read cases to include contextual advertising
+      under safeguards; the Commission's automated consent-signal duty, already dropped by Cyprus, does not
+      return). Do NOT assert these as operative text — no per-provision claims and no extracts / positions.csv
+      / what-changed.md operative edits until the ST is retrieved (register T1-08/T1-09, WAF-gated, or a
+      mirror). When retrieved, run the transcribe-council-extract skill and clear the flag. The repo's
+      comparison baseline remains ST 10729/26 / ST 9547/26.
+
+  - id: NL-RAPPORTEURS-2026-09-25
+    title: "Netherlands Tweede Kamer DiZa EU-rapporteurs' report on the Omnibus Digitaal ('Verslag van de rapporteurs over de Omnibus Digitaal')"
+    body: Tweede Kamer
+    date: 2026-09-25
+    limite: false
+    url: https://www.tweedekamer.nl/kamerstukken/detail?id=2026Z20014&did=2026D46227
+    local: sources/member-states/NL-RAPPORTEURS-2026-09-25_verslag-rapporteurs-omnibus-digitaal_2026-09-25.docx
+    lead_source: >-
+      Tweede Kamer search feed (watchlist T1-16) — surfaced via tracker issue #153
+      (docs/triage/2026-09-25-issue-153.md).
+    notes: >-
+      Parliamentary scrutiny document, NOT a government position: the Tweede Kamer's vaste commissie voor
+      Digitale Zaken (DiZa) EU-rapporteurs El Boujdaini (D66) and Van den Berg (JA21) advise their committee
+      on how to steer the cabinet on the Omnibus Digitaal. Kamerstukdossier 22112 (Nieuwe
+      Commissievoorstellen), nr. 4433; zaak 2026Z20014 / document 2026D46227; vastgesteld 25 Sep 2026.
+      Substance: (1) flags a NEW Irish Presidency compromise text ST 12535/26 (3 Sep 2026, built on
+      ST 10677/26, discussed at AGS 11 Sep 2026, leaked via Agence Europe) — registered metadata-only as
+      ST-12535-2026 (pending_operative_text); (2) the rapporteurs' read of its main deltas vs the Cyprus
+      text (pseudonymisation / personal-data qualification, AI data processing, cookies widened to
+      contextual advertising) — secondary summary, not operative text; (3) reports, relaying Brussels media,
+      that LIBE/ITRE asked EPRS for a broad impact assessment (expected Nov/Dec 2026) and that the LIBE/ITRE
+      committee final vote is now scheduled for FEBRUARY 2027; (4) recommends the DiZa 29 Sep 2026 inbreng
+      schriftelijk overleg (ahead of the informal Telecomraad of Oct 2026) press the cabinet for an
+      appreciation of the Irish text and whether it will await/consider the EP impact assessment before
+      agreeing a Raadsakkoord on GDPR/ePrivacy/fundamental-rights parts. The Omnibus AI rapporteurschap
+      (2025/0359) is concluded (Verordening (EU) 2026/1744, out of scope); the Omnibus Digitaal
+      rapporteurschap continues until a Raadsakkoord. Fetchable (no WAF); committed for offline diffing.
+      Substance routed to docs/member-state-positions.md (Netherlands section).
+
   - id: CM-2918-2026
     title: "AGS meeting agenda (exchange of views on ST 9547/26)"
     body: Council

@@ -81,8 +81,10 @@ PE786.818 — the single largest tabling on the file — consolidated across a m
 **Articles 6–10** of the proposal: the NIS2 **Art 23a single-entry point** (1741–1810, where 14
 amendments replace the ENISA point with **national** entry points), eIDAS (1811–1814), DORA Art 19
 (1815–1818), CER Art 15 (1819–1821), new AI-Act/CRA articles (1822–1823), and the **repeal article**
-(1824–1840, where 14 of 17 strike a repeal — 13 of them the **P2B** repeal). The **remaining PE parts
-are not yet enumerable** (the ITRE/LIBE listing feeds are AWS-WAF-gated), so the register entry keeps
+(1824–1840, where 14 of 17 strike a repeal — 13 of them the **P2B** repeal). OEIL now **enumerates the
+full batch** — nine parts, all 27/07/2026: PE786.820, PE790.967, PE790.968, PE791.071, PE791.072,
+PE791.073, PE791.873, PE791.874, PE791.883 ([triage #151](triage/2026-09-25-issue-151.md)) — but the
+**other eight parts' operative text is still not in hand** (doceo AWS-WAF), so the register entry keeps
 `pending_operative_text` for the set as a whole. As competing MEP amendments and not an adopted
 committee line (the joint vote is expected ~Q4 2026), they are **not** folded into the cells below.
 

@@ -357,6 +357,23 @@ but the **Eerste Kamer counterpart of the [6 July Tweede Kamer Kamerbrief *Voort
 separately registered.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-07-06, 2026-07-14) · [triage #131](triage/2026-07-28-issue-131.md)
 
+**Continued scrutiny (September 2026) — the pending overleg is answered, a fresh round opens.** The
+*nader schriftelijk overleg* that had been left pending (the cabinet's reply to the 30 June *inbreng* of
+the GroenLinks-PvdA group and fractie-Van de Sanden) is now **concluded**: the Senate published the
+**verslag van een nader schriftelijk overleg met de staatssecretaris van EZ en de staatssecretaris van
+J&V over de Omnibus Digitaal (36.890, EK, AB, ~17 Sept 2026)** — the record of the cabinet's answers. The
+DIGI + EZ/KGG committees then **opened a further round**: on **15 September 2026** they sent two *brieven*
+with *nadere vragen inzake de Omnibus Digitaal* (to the staatssecretaris van J&V and to the
+staatssecretaris van Digitale Economie en Soevereiniteit; references 36.890, not yet published as
+Kamerstuk). Procedural steps are recorded in the *korte aantekeningen* of the 8 and 22 September DIGI/EZ-KGG
+meetings (dossier E260003 — a combined AI+Digital page; only the *Omnibus Digitaal* content is in scope for
+this file). This is the **procedural continuation** of the Senate track — **no new government position**: the
+answers restate the tracked NL negotiating line (the "clean cut" / missing-impact-assessment asks and the
+strand-by-strand reads of the [18 June](#netherlands-nl--government-kamerbrief-naderende-raadspositie-18-june-2026)
+and [6 July](#netherlands-nl--government-kamerbrief-voortgang-onderhandelingen--online-tracking-6-july-2026)
+Kamerbrieven). Cited by URL, not separately registered.
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-09-22) · [triage #152](triage/2026-09-25-issue-152.md)
+
 **Tweede Kamer tweeminutendebat (3 June 2026, pre-Council):** A plenary two-minute debate took place on 3 June 2026 ahead of the formal Telecom Council of 9 June. Two motions were submitted: 21501-33-1205 (Kathmann — positive stance toward EU ICT-supplier preference; outcome TBC) and 21501-33-1206 (Van den Berg — keep fundamental GDPR changes out of the Omnibus; **withdrawn** at the 4 June vote). The ongecorrigeerd debate report (2026D27237) and stemmingsuitslagen (2026P09467) are published.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-03, 2026-06-09)
 

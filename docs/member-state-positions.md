@@ -583,6 +583,81 @@ its line on minors, contextual advertising and possible **national** measures:
 
 ---
 
+## Netherlands (NL) — Tweede Kamer EU-rapporteurs' report on the Omnibus Digitaal (25 September 2026)
+
+A **Tweede Kamer parliamentary-scrutiny document**, distinct from the cabinet's own position instruments
+above: the EU-rapporteurs of the standing committee for Digital Affairs (DiZa) report to their committee on
+the file's state of play and advise how to steer the cabinet in the next phase. The rapporteurs are
+**El Boujdaini (D66)** and **Van den Berg (JA21)** (appointed for *both* omnibus files; the **Omnibus AI**
+rapporteurship is now **finished** — COM(2025) 836 adopted as **Reg (EU) 2026/1744** — so this report is on
+the **Omnibus Digitaal (2025/0360)** only).
+
+> **Source:** *Verslag van de Rapporteurs*, kamerstuk **22 112, Nr. 4433** ("Nieuwe Commissievoorstellen en
+> initiatieven van de lidstaten van de Europese Unie"), document id **2026D46227**, **vastgesteld 25 Sep 2026** —
+> registered as [`TK-22112-4433`](../sources/README.md#advisory-bodies--national-parliaments); committed copy
+> [`../sources/member-states/TK-22112-4433_rapporteurs-verslag-omnibus-digitaal_2026-09-25.docx`](../sources/member-states/TK-22112-4433_rapporteurs-verslag-omnibus-digitaal_2026-09-25.docx) (DOCX);
+> authoritative copy at [tweedekamer.nl download](https://www.tweedekamer.nl/downloads/document?id=2026D46227).
+> The report scopes itself to COM(2025) 837 (Dataverordening/datawetgeving, AVG, ePrivacy, cybersecurity­meldingen,
+> P2B). This is a working summary of a parliamentary document, **not legal advice**; verify against the source
+> before relying on any drafting point. See [`../NOTICE`](../NOTICE).
+
+**Recommendations (the actionable core).** The rapporteurs advise the DiZa committee, in its **29 September
+2026 schriftelijk overleg** ahead of the **informal Telecom Council (12–13 Oct 2026)**, to press the cabinet
+for: (i) an **appreciatie of the new Irish compromise text**, with emphasis on the **definition of personal
+data and pseudonymisation, data processing for AI, cookies/ePrivacy, incident reporting, and the effect on
+the P2B rules and data legislation**; (ii) an assessment of **whether the new proposals change the level of
+protection of the AVG and ePrivacy**, and if so what safeguards are needed; and (iii) whether the cabinet is
+willing to **await, or at least take into account, the European Parliament's impact assessment** before the
+Netherlands agrees a Council position on the parts touching the AVG, ePrivacy and fundamental rights. This
+continues the NL line from the [8 April non-paper](#netherlands-nl--national-non-paper-8-april-2026) — the
+protection of fundamental rights and personal data must hold — anchored in the **BNC-fiche** (22112-4223,
+12 Dec 2025).
+
+**What the report tells us that the repo did not yet record** (all as *reported by the rapporteurs*, pending
+independent confirmation):
+
+- **A new Irish Presidency compromise — ST 12535/26 (3 Sep 2026).** Per the report the **Irish Presidency
+  issued a new compromise on 3 Sep 2026 (ST 12535/26)**, building on the **last Cypriot compromise
+  (ST 10677/26)**, discussed at the **Antici Group (Simplification), AGS, on 11 Sep 2026**, and **leaked via
+  Agence Europe**. The rapporteurs say the **bulk of the Cypriot compromise survives**; the new changes
+  concentrate on the politically sensitive AVG/ePrivacy points. Their characterisation of those changes
+  (**not** repo operative text — the ST 12535/26 text is not in hand):
+  - **Pseudonymisation / personal data** — the Irish text clarifies that where pseudonymised data are passed
+    to a party that **can** identify the data subject, for that party the data **are** personal data and
+    further processing falls under the AVG (building on the June compromise's "out of scope for a party that
+    cannot identify" line; the post-entry-into-force **EDPB opinion** on pseudonymisation/anonymisation is
+    retained). → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md),
+    [`provisions/gdpr-pseudonymisation-by-design.md`](provisions/gdpr-pseudonymisation-by-design.md)
+  - **AI data processing** — follows the earlier compromise: the standalone GDPR-for-AI article stays
+    deleted, with recitals clarifying AI development/deployment can, under conditions, be a legitimate
+    interest. → [`provisions/gdpr-art88c-ai-legitimate-interest.md`](provisions/gdpr-art88c-ai-legitimate-interest.md)
+  - **Cookie exceptions** — the Irish text **broadens** the cases where information may be stored/read on a
+    user's device without prior consent, **now including contextual advertising** under safeguards meant to
+    prevent tracking or retention for later use; the Commission's automated consent-signal proposal (already
+    dropped by Cyprus) does **not** return. → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),
+    [`instruments/eprivacy-2002-58.md`](instruments/eprivacy-2002-58.md)
+
+  *Faithfulness / reconciliation:* the ST 12535/26 operative text is **not committed or transcribed** (LIMITE,
+  register-gated, known here only via a national-parliament summary of a leak) — it is left as a **pending
+  `council-text` follow-up**. Note the ST-number nuance: the repo's latest committed Council text is
+  **ST 10729/26** (22 Jun negotiating mandate, never put to Coreper), with **ST 10677/26** the 18 Jun interim;
+  the rapporteurs treat **ST 10677/26** as "the last Cypriot compromise" (the 10729 mandate wrapper having
+  been withdrawn). Verify the chain against the Council register before relying on it.
+
+- **European Parliament — LIBE/ITRE, an EPRS impact assessment, and a February 2027 vote.** Per the report
+  the Digital Omnibus is handled **jointly by LIBE and ITRE**, which have **asked the EP research service
+  (EPRS) to carry out a broad impact assessment** of the Digital Omnibus (a response to the Commission's
+  decision not to produce a formal one), **expected November/December 2026**; and the committees' **final
+  vote is now scheduled for February 2027** — after which, if a trilogue mandate is given, trilogues can
+  begin (provided the Council has fixed its position). This is **later than** the repo's prior "~Q4 2026"
+  committee-vote estimate and is recorded as reported (rapporteurs citing Brussels media + their own
+  inquiry), pending OEIL/EP corroboration. → [`../STATUS.md`](../STATUS.md) (European Parliament),
+  [`institutional-positions.md`](institutional-positions.md).
+
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-09-25) · [`../STATUS.md`](../STATUS.md) · [triage #162](triage/2026-09-30-issue-162.md)
+
+---
+
 ## How this fed the later compromise
 
 Several of these positions are visible in the **ST 9547/26** (May) text: the Art 4(1) redefinition

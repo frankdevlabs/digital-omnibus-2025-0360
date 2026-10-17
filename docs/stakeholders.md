@@ -53,6 +53,20 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   does **delete Art 88b** ([GDPR extract pt 15](../extracts/council/ST-10729-2026_gdpr-art3-amendments.md#point-15--articles-88-cookies-ai-li) ·
   [what changed](what-changed.md#st-1072926--the-22-june-negotiating-mandate-δ-vs-st-954726)). Still LIMITE
   (not on the public register); Council position to be fixed at Coreper-II.
+- **noyb — *gdpr-omnibus.eu* MEP amendment ranking (12 Oct 2026).** noyb launched an interactive database
+  ([*"Ranking: Who in the EU Parliament fights for your privacy — and who for Big Tech"*](https://noyb.eu/en/ranking-who-eu-parliament-fights-your-privacy-and-who-big-tech);
+  tool at [gdpr-omnibus.eu](https://gdpr-omnibus.eu/)) scoring the **1,000+ EP amendments** tabled on the
+  **GDPR and ePrivacy Directive** under the Digital Omnibus — the data strand of **2025/0360** — as net
+  "privacy-strengthening minus privacy-weakening" counts per MEP, political group and member state (across
+  the **LIBE / IMCO / ITRE** committees). Headline read: **S&D, Greens/EFA, The Left and Renew** net
+  positive; **EPP** by far the most negative (noyb: *"fighting the hardest against users' rights"*), with
+  **ECR** and **Patriots/PfE** also negative. noyb singles out **Axel Voss (EPP)** as the top individual
+  de-protector and reports the EPP holding **9 of the 10** amendments that *both* cut protection and add
+  complexity — i.e. working against the Omnibus's own "simplification" aim. This is an **advocacy scoring**
+  (equal weight per amendment; neutral/unclear ones dropped), **not a primary institutional position** — a
+  useful signal on the Parliament's trajectory ahead of the pending joint ITRE/LIBE report
+  (cf. [fault-lines.md](fault-lines.md), [institutional-positions.md](institutional-positions.md)).
+  Announced via noyb's Bluesky thread, 12 Oct 2026.
 - **#KillTheCookieBanner coalition (announced 22 Jul 2026).** The civil-society side of the cookie fight
   **formalised into a joint campaign** — landing page [killthecookiebanner.eu](https://killthecookiebanner.eu/) —
   co-led by **noyb, EDRi, BEUC, Check My Ads, Civil Liberties Union for Europe (Liberties), EFF** and the

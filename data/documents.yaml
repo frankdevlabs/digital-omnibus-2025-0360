@@ -430,6 +430,66 @@ documents:
       88a cookie-consent exemptions for security/continuity/preferences (Am 258-260). Surfaced via
       triage #102 (docs/triage/2026-07-07-issue-102.md).
 
+  - id: IMCO-AM-790905
+    title: "IMCO tabled amendments 125-328 to the Agius Saliba draft opinion on the Digital Omnibus (part 1 of 2)"
+    body: Parliament
+    date: 2026-07-16
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/IMCO-AM-790905_EN.pdf
+    local: sources/parliament/IMCO-AM-790905_amendments_2026-07-16.pdf
+    lead_source: >-
+      Side-finding of the source-blackout completeness check behind tracker issue #138 / PR #139,
+      filed separately as issue #140 (one issue per triage). The EP committee-document listing feeds
+      (T1-05 ITRE, T1-21 LIBE, T1-22 IMCO) were AWS-WAF-blocked through the 14-day auto-pause window
+      (health issue #118), so the 16 Jul 2026 IMCO tablings were missed at detection time. Retrieved
+      via the doceo document endpoint, which works through the headless-browser tier even while the
+      listing feeds are blocked (confirmed earlier on CJ72-AM-791883).
+    notes: >-
+      Committee on the Internal Market and Consumer Protection (IMCO) tabled amendments PE790.905v01-00
+      (AM\1347737EN.docx), cover dated 16 Jul 2026 — 204 amendments (numbered 125-328), part 1 of 2 of
+      the MEP tablings to Alex Agius Saliba's IMCO draft opinion PE789.877 (IMCO-PA-789877) on file
+      2025/0360 (COD), the data/cyber Digital Omnibus COM(2025) 837, NOT the AI Act file 2025/0359
+      (whose IMCO opinion is Kokalari/McNamara). These are the amendment-deadline (8 Jul 2026) tablings,
+      NOT the rapporteur's own text (amendments 1-124) and NOT an adopted committee position — the IMCO
+      vote is expected ~Q4 2026. Part 1 covers the recitals and Article 1 (amendments to the Data Act,
+      Reg. (EU) 2023/2854). Tablers: Virginie Joron, David Cormand (on behalf of the Verts/ALE Group),
+      Sophia Kircher, Piotr Müller (some jointly with Diego Solier), Arba Kokalari, the Renew group of
+      Morten Løkkegaard / Svenja Hahn / Jeannette Baljeu / Sandro Gozi, Maria Grapini, Kateřina Konečná,
+      Sabine Verheyen and Christian Doleschal (143 amended, 30 deleted, 31 new). Operative text retrieved
+      2026-08-07 via the headless-browser AWS-WAF bypass (~/law-tracker/lib/fetch_blocked_doc.py; doceo
+      returns HTTP 202 to curl/WebFetch) and transcribed in full to
+      extracts/parliament/IMCO-AM-790905_amendments-125-328.md. Competing MEP amendments, not folded
+      into the per-provision comparison cells until the committee votes. Surfaced via triage #140
+      (docs/triage/2026-08-06-issue-140.md).
+
+  - id: IMCO-AM-791061
+    title: "IMCO tabled amendments 329-532 to the Agius Saliba draft opinion on the Digital Omnibus (part 2 of 2)"
+    body: Parliament
+    date: 2026-07-16
+    limite: false
+    url: https://www.europarl.europa.eu/doceo/document/IMCO-AM-791061_EN.pdf
+    local: sources/parliament/IMCO-AM-791061_amendments_2026-07-16.pdf
+    lead_source: >-
+      Same lead as IMCO-AM-790905 (its companion part): the source-blackout completeness check behind
+      tracker issue #138 / PR #139, filed as issue #140. Retrieved via the doceo document endpoint
+      through the headless-browser tier while the T1-05/T1-21/T1-22 listing feeds remained WAF-blocked.
+    notes: >-
+      IMCO tabled amendments PE791.061v01-00 (AM\1348368EN.docx), cover dated 16 Jul 2026 — 204
+      amendments (numbered 329-532), part 2 of 2 of the MEP tablings to Alex Agius Saliba's IMCO draft
+      opinion PE789.877 (IMCO-PA-789877) on file 2025/0360 (COD), the data/cyber Digital Omnibus
+      COM(2025) 837, NOT the AI Act file 2025/0359. Amendment-deadline (8 Jul 2026) tablings, NOT the
+      rapporteur's own text and NOT an adopted committee position — IMCO vote expected ~Q4 2026. Part 2
+      continues Article 1 (Data Act) and covers Article 2 (Single Digital Gateway, Reg. (EU) 2018/1724),
+      Article 3 (GDPR, Reg. (EU) 2016/679 — the largest block, incl. Art 22 automated decisions, breach
+      notification, the Art 88a-88c AI/cookie grounds), Article 4 (EUDPR), Article 5 (ePrivacy), Article
+      6 (NIS2), Article 7 (eIDAS), Article 8 (DORA) and Article 10 (final). Tablers: Virginie Joron,
+      David Cormand (Verts/ALE), Piotr Müller, Arba Kokalari, Sophia Kircher, the Renew four, Kateřina
+      Konečná, Sabine Verheyen, Christian Doleschal (136 amended, 53 deleted, 15 new). Operative text
+      retrieved 2026-08-07 via the headless-browser AWS-WAF bypass (~/law-tracker/lib/fetch_blocked_doc.py)
+      and transcribed in full to extracts/parliament/IMCO-AM-791061_amendments-329-532.md. Competing MEP
+      amendments, not folded into the per-provision comparison cells until the committee votes. Surfaced
+      via triage #140 (docs/triage/2026-08-06-issue-140.md).
+
   - id: CJ72-AM-791883
     title: "Tabled amendments to the joint ITRE/LIBE draft report (PE786.818) — >1,762 amendments (part PE791.883 = Am 1741-1840)"
     body: Parliament

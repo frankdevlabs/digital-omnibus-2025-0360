@@ -104,6 +104,22 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
 - **127 organisations** signed an open letter (13 Nov 2025) urging the Commission to drop the GDPR
   reopening. **Corporate Europe Observatory / LobbyControl** mapped Big-Tech lobbying behind specific
   provisions (Jan 2026).
+  - ▸ **Update — CEO/LobbyControl, *"The Big Tech campaign to kill data protection in Europe"* (28 Oct
+    2026).** A second, FOI-sourced report
+    ([corporateeurope.org](https://corporateeurope.org/en/2026/10/big-tech-campaign-kill-data-protection-europe);
+    attributed to CEO with LobbyControl by
+    [EU Perspectives, 28 Oct](https://euperspectives.eu/2026/10/big-tech-lobbying-dominates-eu-data-reform/)),
+    published ~a week after the Council adopted its negotiating mandate (21 Oct 2026). Counts **655
+    lobby meetings with MEPs** on the file since the Nov 2025 proposal, **83% with business interests**
+    (11% civil society / trade unions) — Google 21, Meta 19, DIGITALEUROPE 10 — and maps national
+    lobbying, esp. the **German government: 85 meetings with 11 non-EU tech firms** (103 participations,
+    May 2025–Sep 2026), with Digital Minister **Karsten Wildberger** holding **18** such meetings.
+    Frames the Council text as going *beyond* the Commission proposal (AI trained/operated on personal
+    data without a right to object; weakened personal-data definition). **noyb** is cited as a "partner
+    organisation" and **amplified the report via its Bluesky thread (28 Oct 2026**,
+    [post](https://bsky.app/profile/noyb.eu/post/3mywbjj44es2s)), trailing a **3–4 Nov 2026 webinar** on
+    the file's adtech/ePrivacy impact. Feeds directly into the renewed call to withdraw rapporteur
+    **Aura Salla** (see [Parliament-side controversy](#parliament-side-controversy)).
 - **AlgorithmWatch + coalition (joint statement, 18 Jun 2026).** Co-signed by AlgorithmWatch, EDRi,
   Access Now, ARTICLE19, Amnesty International and others. Primarily an analysis of the AI-Act file
   (2025/0359), but expressly ties it to **2025/0360**: warns the "Data Omnibus" pillar "risks creating
@@ -158,4 +174,8 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
 - Civil-society **call to withdraw Aura Salla** as rapporteur (Corporate Europe Observatory,
   Transparency International EU and others, Feb 2026) over her former role as Meta's EU public-policy
   lead and a non-declaration of the potential conflict of interest. ITRE coordinators did not withdraw
-  the appointment.
+  the appointment. **Renewed (Oct 2026)** by CEO/LobbyControl + five organisations
+  ([transparency.eu call](https://transparency.eu/call-to-withdraw-european-parliaments-digital-omnibus-rapporteur-appointment/)):
+  the 28 Oct CEO report records Salla as having **met 110 lobbyists** on the file — more than any other
+  MEP (see the [CEO/LobbyControl update under Civil society](#civil-society)). Salla denies a conflict
+  and says she complied with transparency rules.

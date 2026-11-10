@@ -357,6 +357,24 @@ but the **Eerste Kamer counterpart of the [6 July Tweede Kamer Kamerbrief *Voort
 separately registered.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-07-06, 2026-07-14) · [triage #131](triage/2026-07-28-issue-131.md)
 
+**Continued scrutiny (Oct–Nov 2026):** the dossier's autumn activity is **procedural parliamentary
+scrutiny** of the Omnibus Digitaal, with **no new government position** on file 2025/0360. On **5 Oct 2026**
+the DIGI and EZ/KGG committees sent the Staatssecretarissen of EZ and J&V two letters — **36.890, EK, AC**
+*over de naderende Raadspositie inzake de Omnibus Digitaal* (with annex) and **36.890, EK, AF** pressing for
+**timely information** (*tijdige informatieverstrekking*) about the negotiations — followed by question
+letters on **7 Oct** and **15 Oct** (and korte aantekeningen of the 13 & 27 Oct meetings); the cabinet
+answered both on **3 Nov 2026** (verslagen **36.890, EK, AH** *nader schriftelijk overleg* and **AI**
+*schriftelijk overleg over de naderende Raadspositie*). On **2 Nov 2026** the Staatssecretarissen sent a
+**brief over het bereikte Raadscompromis** (**36.890, EK, AG**, with annex) — the cabinet's
+information-provision to the Senate on the Council compromise now reached. On **10 Nov 2026** the committees
+held a **mondeling overleg** with the Staatssecretarissen of **EZK** and **J&V** on the **Omnibus Digitaal**
+*and the information-provision to the Chamber* (*informatievoorziening aan de Kamer*) — the recurring
+scrutiny grievance that the cabinet had not kept the Kamer timely informed under the *parlementair
+behandelvoorbehoud*. The underlying **Council mandate development (Coreper, 21 Oct 2026)** is tracked
+separately (issues #177/#181); this section asserts only the Senate's scrutiny activity, not the Council
+act, and makes **no per-provision claim** (the AG brief's text is not retrieved).
+→ [`../TIMELINE.md`](../TIMELINE.md) (2026-10-05, 2026-11-02, 2026-11-03, 2026-11-10) · [triage #185](triage/2026-11-10-issue-185.md)
+
 **Tweede Kamer tweeminutendebat (3 June 2026, pre-Council):** A plenary two-minute debate took place on 3 June 2026 ahead of the formal Telecom Council of 9 June. Two motions were submitted: 21501-33-1205 (Kathmann — positive stance toward EU ICT-supplier preference; outcome TBC) and 21501-33-1206 (Van den Berg — keep fundamental GDPR changes out of the Omnibus; **withdrawn** at the 4 June vote). The ongecorrigeerd debate report (2026D27237) and stemmingsuitslagen (2026P09467) are published.
 → [`../TIMELINE.md`](../TIMELINE.md) (2026-06-03, 2026-06-09)
 

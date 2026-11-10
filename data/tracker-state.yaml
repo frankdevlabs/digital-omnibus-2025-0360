@@ -4,7 +4,7 @@
 # scripts, csrf+viewport-date meta, hidden inputs, digit runs >8, collapse
 # whitespace).
 # 2026-11-10 run (since 2026-11-09): 2 genuine hits -> 2 new issues (#185, #186), 0 comments.
-#   Polled 31/40 reachable of 33 attempted. 7 europarl SKIPPED (still paused). 1 NON-UPDATING
+#   Polled 32/40 reachable of 33 attempted. 7 europarl SKIPPED (still paused). 1 NON-UPDATING
 #   (T1-12 EDPB RSS HTTP 503 CDN "Sorry" page, 4th consecutive failure 4/14; health #154 commented this run).
 # HITS:
 #   T1-10 Eerste Kamer edossier e260003: NEW November activity on "Omnibus Digitaal" — headline event a

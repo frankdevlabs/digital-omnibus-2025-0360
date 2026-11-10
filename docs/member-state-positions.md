@@ -460,6 +460,15 @@ position (the letter it treats is already tracked). The meeting's separate agend
 Development Act*, `22112-4395`) concerns the **CADA file 2026/0138** (tracked in its own repo) and is out of scope.
 → [`../TIMELINE.md`](../TIMELINE.md) (Expected / forward look) · [triage #100](triage/2026-07-02-issue-100.md).
 
+**Tweede Kamer scrutiny — continued (November 2026, procedural):** After the 12–13 Oct *informal* Telecomraad,
+the **DiZa** committee held a further *inbreng schriftelijk overleg* on the *"Naderende Raadspositie Omnibus
+Digitaal"* (**Kamerstuk 22112-4452**) — SO input delivered **3 Nov 2026** (`2026D55594`) — and on **5 Nov 2026**
+issued a **rappel on open committee requests** (`2026D55917`, zaak `2026Z23012`) asking the cabinet to answer
+**before the formal (CD) Telecomraad**. A procedural scrutiny step, **not a new government position**. The same
+TK feed also lists a *"Raadscompromis Omnibus Digitaal oktober 2026"* (`2026D54946`, 2 Nov, + Beslisnota
+`2026D54947`) — a possible new Irish-Presidency **October Council compromise text**, flagged for separate triage
+(not integrated here). → [`../TIMELINE.md`](../TIMELINE.md) (2026-11-05) · [triage #186](triage/2026-11-10-issue-186.md).
+
 ---
 
 ## Netherlands (NL) — Eerste Kamer Kamervragen on the omnibus procedure and impact assessments (23 June 2026)

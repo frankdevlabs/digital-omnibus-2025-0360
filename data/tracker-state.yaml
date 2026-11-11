@@ -3,76 +3,77 @@
 # Note: hashes use the spec-compliant deterministic normalization (strip
 # scripts, csrf+viewport-date meta, hidden inputs, digit runs >8, collapse
 # whitespace).
-# 2026-11-10 run (since 2026-11-09): 2 genuine hits -> 2 new issues (#185, #186), 0 comments.
+# 2026-11-11 run (since 2026-11-10): 2 genuine hits -> 2 new issues (#189, #190), 0 comments.
 #   Polled 32/40 reachable of 33 attempted. 7 europarl SKIPPED (still paused). 1 NON-UPDATING
-#   (T1-12 EDPB RSS HTTP 503 CDN "Sorry" page, 4th consecutive failure 4/14; health #154 commented this run).
+#   (T1-12 EDPB RSS HTTP 503 CDN "Sorry" page, 5th consecutive failure 5/14; health #154 NOT re-commented
+#   today — weekly cadence, last commented 2026-11-10).
 # HITS:
-#   T1-10 Eerste Kamer edossier e260003: NEW November activity on "Omnibus Digitaal" — headline event a
-#     10 Nov 2026 mondeling overleg with the staatssecretarissen of EZK + J&V; plus 2-3 Nov briefs/answers/
-#     verslagen schriftelijk overleg. In-scope (Dutch rule). -> issue #185. T1-11 bronnen shows the same
-#     2-3 Nov docs; folded into #185. Both re-baselined.
-#   T1-16 TK search: NEW in-scope item 2026Z23012 (5 Nov) — "rappel openstaande commissieverzoeken" re the
-#     Naderende Raadspositie Omnibus Digitaal, seeking answers before the FORMAL Telecomraad; Inbreng SO 3 Nov.
-#     -> issue #186 (refs #162). Other new result 2026D56754 (plenary RvW) matched only generic "omnibus-
-#     voorstellen" -> out of scope, not issued. Re-baselined.
+#   T3-01 montezumachavez (Bluesky): NEW post 10 Nov 12:22 — "IMCO adopted its opinion on the Digital Omnibus
+#     (Data Act, GDPR and ePrivacy Directive)" = parliamentary milestone (committee-for-opinion, Agius Saliba).
+#     OEIL still "Awaiting committee decision", so Bluesky is ahead. -> issue #189 (refs #140, #61). Advanced max indexedAt.
+#   T2-03 netzpolitik: NEW item 10 Nov 18:00 "EU-Studie: Bei Online-Werbung versagt die europ. Tech-Regulierung"
+#     — cites the Digital-Omnibus reform of the DSGVO (cookie-banner / Privacy Signals) and member-state rejection.
+#     Secondary/contextual to 0360 but in-scope. -> issue #190. Re-baselined.
 # Notable CHANGED-but-not-a-hit (re-baselined/advanced):
 #   T1-01/T1-02 OEIL: CHANGED but drift only. PE-ref set IDENTICAL (10 refs PE786.818/820, PE790.967/968,
 #     PE791.071/072/073, PE791.873/874, PE791.883); status still "Awaiting committee decision"; Key legislative
-#     events still only 19/11/2025 + 19/01/2026. Diff is appended lobby/interest-rep entries (03-05 Nov). Re-baselined.
-#   T1-03 Cellar XML: CHANGED (was byte-identical last run) but metadata/timeline drift only — still base
-#     proposal COM(2025)837 / CELEX 52025PC0837; no new substantive milestone (latest date 2026-10-13). Re-baselined.
+#     events still only 19/11/2025 + 19/01/2026 (no IMCO-opinion event yet — see #189). Calendar-widget drift. Re-baselined.
+#   T1-03 Cellar XML: CHANGED but metadata/timeline drift only — still base proposal COM(2025)837 / CELEX
+#     52025PC0837; latest date 2025-11-19. Re-baselined.
 #   T1-08 Austria 65565: CHANGED but drift — max doc still 7720/26. Re-baselined.
 #   T1-09 Austria 73322 (top LIMITE priority): CHANGED but drift — latest RAT doc STILL 9547/26 LIMITE; no new
-#     ST number / general-approach text in the register. Re-baselined — KEEP WATCHING for the ST mandate text
-#     behind the 21 Oct Coreper agreement (#177/#181).
+#     ST number / general-approach text. Re-baselined — KEEP WATCHING for the ST mandate text behind the 21 Oct
+#     Coreper agreement (#177/#181).
 #   T1-13 EDPB joint-opinion page: CHANGED but drift — title unchanged ("Joint opinion 2/2026 ... Digital
-#     Omnibus"), dates unchanged (08 Jul / 11 Feb / 16 Apr 2026). Re-baselined.
-#   T1-18 TK commissievergaderingen: CHANGED — meeting week-widget advanced to 9-12 Nov; no omnibus/0360
-#     item in the DiZa agenda (9 Nov Wetgevingsoverleg budgets). Re-baselined.
-#   T2-01 noyb / T2-03 netzpolitik / T2-07 bitsoffreedom / T2-08 heise / T2-10 ieu-monitoring: CHANGED but no
-#     NEW in-scope 0360 item since last run (newest matching items predate the 2026-11-06 cut or are off-topic:
-#     GDPR cases, AI-Omnibus 0359, EU simplification savings, Central-Asia/India items). T2-10 lone "digital
-#     omnibus" substring was in off-topic titles, no Telecom/TTE Council item. Advanced.
-#   T2-02 EDRi: CHANGED but newest matching item still 4 Nov "Data Omnibus deal weakens our rights" = already
-#     issued #181. No newer in-scope item. Advanced.
-#   T3-01 montezumachavez: 4 new posts, 0 keyword match. Advanced max indexedAt.
-#   T3-06 alexfanta / T3-07 lukaszolejnik / T3-08 jvh: no new posts since last run. Unchanged.
-#   T3-02/T3-03/T3-04/T3-05: no new posts since last run (indexedAt unchanged).
-# UNCHANGED (reachable, hash byte-identical): T1-14, T1-15, T1-17, T1-19, T2-05, T2-06, T2-09.
+#     Omnibus"); dates unchanged (08 Jul / 11 Feb / 16 Apr 2026). Re-baselined.
+#   T1-14 AP RSS: CHANGED but not a hit — AVG-keyword match is a generic "EDPB-guidelines DSA/AVG en AVG-boetes"
+#     item, not the Digital Omnibus. No 0360 item. Advanced.
+#   T1-15 MediaLaws: CHANGED body but tracker string UNCHANGED ("Last updated: 24 July 2026") -> not a hit. Re-baselined.
+#   T1-16 TK search: CHANGED but not a hit — new matches are generic omnibus/EU-simplification mentions in the
+#     informal-European-Council-13-Nov annotated-agenda SO (2026D56754 Z24590 / 2026D55888 Z23335), NOT the
+#     Digital Omnibus 0360; 2026D56754 already judged out-of-scope last run. No new in-scope item. Re-baselined.
+#   T1-18 TK commissievergaderingen: CHANGED — meeting-widget drift; no omnibus/0360 item in the DiZa agenda. Re-baselined.
+#   T2-07 bitsoffreedom: CHANGED but AVG-match is a job vacancy (privacy/AI beleidsmedewerker); no 0360 item. Advanced.
+#   T2-08 heise: CHANGED but DSGVO-match is a Uni-Tübingen data-breach story (stock image only); no Digital Omnibus. Advanced.
+#   T2-10 ieu-monitoring: CHANGED but no Telecom/TTE Council or 0360 item — "tte"/telecom substrings are noise
+#     (Rutte/matters/committed/India connectivity). Advanced.
+#   T3-08 jvh: 1 new post, 0 keyword match. Advanced max indexedAt.
+# UNCHANGED (reachable, hash byte-identical): T1-10, T1-11, T1-17, T1-19, T2-01, T2-02, T2-05, T2-06, T2-09.
+#   (T1-10/T1-11 = same EK Nov cluster already issued #185; no newer EK activity this run.)
 # NON-UPDATING this run (hash NOT updated):
-#   T1-12 (EDPB news RSS HTTP 503 CDN "Sorry" page after retry+backoff; 4th consecutive failure, 4/14 toward
-#     auto-pause; health #154 commented this run).
+#   T1-12 (EDPB news RSS HTTP 503 CDN "Sorry" page after retry+backoff; 5th consecutive failure, 5/14 toward
+#     auto-pause; health #154 last commented 2026-11-10, weekly cadence — not re-commented today).
 # SKIPPED (paused, europarl AWS-WAF): T1-04, T1-05, T1-06, T1-07, T1-20, T1-21, T1-22.
 # OPEN tracker issues still worked by a human — not re-fired as new: #140, #142, #144, #146, #148, #150,
-#   #151, #152, #153, #154 (health; commented this run), #159, #161, #162, #163, #167, #169, #171, #173,
-#   #175, #177, #179, #181, #182, #185 (new), #186 (new).
-last_run: 2026-11-10T12:06:48Z
+#   #151, #152, #153, #154 (health), #159, #161, #162, #163, #167, #169, #171, #173, #175, #177, #179,
+#   #181, #182, #185, #186, #189 (new), #190 (new).
+last_run: 2026-11-11T12:10:21Z
 sources:
   T1-01:
-    # 2026-11-10: CHANGED but drift — PE-ref set unchanged (10 refs); status "Awaiting committee decision";
-    #   Key legislative events unchanged (19/11/2025 + 19/01/2026); only appended lobby-meeting entries. Re-baselined.
-    last_seen_hash: "sha256:cf6cc25593a8f216de4911cc9303e9d3546c1a9b1cccb34981ed5650f3b6d072"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: CHANGED but drift — PE-ref set unchanged (10 refs); status "Awaiting committee decision";
+    #   Key events unchanged (19/11/2025 + 19/01/2026); calendar-widget drift. Re-baselined.
+    last_seen_hash: "sha256:f8a1668047449447508918f52c7c5c0d561b64c5d253f0c7e0fc3e605e0fcda0"
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-02:
-    # 2026-11-10: CHANGED but drift — OEIL PDF PE-ref set unchanged (10 refs); status unchanged; Key events
+    # 2026-11-11: CHANGED but drift — OEIL PDF PE-ref set unchanged (10 refs); status unchanged; Key events
     #   still 19/11/2025 + 19/01/2026. HTTP 200. Re-baselined.
-    last_seen_hash: "sha256:988f9b3b3fe265a9bc7953ec5cc208321025354569c8c7c531522705a6091b2a"
-    last_seen_at: 2026-11-10T12:06:48Z
+    last_seen_hash: "sha256:f8494c4b1ef6aca8f85aca5d514fe8149c5adab84488fec40a58679e135e4dba"
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-03:
-    # 2026-11-10: CHANGED (was byte-identical) but metadata/timeline drift — still base proposal COM(2025)837
-    #   / CELEX 52025PC0837; no new substantive milestone (latest date 2026-10-13). Re-baselined.
-    last_seen_hash: "sha256:459425773753de4352fe398a452ea97a95b70e17428b871a1ae2657949cd09cc"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: CHANGED but metadata/timeline drift — still base proposal COM(2025)837 / CELEX 52025PC0837;
+    #   latest date 2025-11-19. Re-baselined.
+    last_seen_hash: "sha256:1873661d8b997ad7d44ece073d3b24c7a2d7b44631aa77e4e4a5423fad878d25"
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-04:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF (HTTP 202 / 2431 bytes). Health #138.
-    # 2026-11-10: still paused; SKIPPED. Health #154.
+    # 2026-11-11: still paused; SKIPPED. Health #154.
     last_seen_hash: "sha256:e92b2df5fe6d623e3645ebfee0a4a13defb2922d539e544780614386f55bfd07"
     last_seen_at: 2026-07-23T11:20:00Z
     paused: true
     paused_at: 2026-08-06T11:00:00Z
   T1-05:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF; ep_committee_docs.py 0 es_document blocks. Health #138.
-    # 2026-11-10: still paused; SKIPPED. seen_refs retained. Health #154.
+    # 2026-11-11: still paused; SKIPPED. seen_refs retained. Health #154.
     seen_refs:
       - PE786.818v01-00
     last_seen_at: 2026-07-23T11:20:00Z
@@ -80,79 +81,77 @@ sources:
     paused_at: 2026-08-06T11:00:00Z
   T1-06:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF challenge page. Hash NOT updated. Health #138.
-    # 2026-11-10: still paused; SKIPPED. Health #154.
+    # 2026-11-11: still paused; SKIPPED. Health #154.
     last_seen_hash: "sha256:1aab0d77c09a13e1bbe5edb3ef262552db86787f90269153daabb9bd25c00f39"
     last_seen_at: 2026-07-23T11:20:00Z
     paused: true
     paused_at: 2026-08-06T11:00:00Z
   T1-07:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF challenge page. Hash NOT updated. Health #138.
-    # 2026-11-10: still paused; SKIPPED. Health #154.
+    # 2026-11-11: still paused; SKIPPED. Health #154.
     last_seen_hash: "sha256:27ee3741d68e09d6388929536630b00b43d49f81c5f76cfdc09cfa9a17fdc6aa"
     last_seen_at: 2026-07-23T11:20:00Z
     paused: true
     paused_at: 2026-08-06T11:00:00Z
   T1-08:
-    # 2026-11-10: CHANGED but not a hit — max doc still 7720/26; widget/date drift. Re-baselined.
-    last_seen_hash: "sha256:6773bbab81747a8de15fad9d3016a2ab46792e7418ec812d13692955bbba1e79"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: CHANGED but not a hit — max doc still 7720/26; widget/date drift. Re-baselined.
+    last_seen_hash: "sha256:ffdfa5434177dad0b46e49d8a2b8d18fd404b268282c077af27c71f715694730"
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-09:
-    # 2026-11-10: CHANGED but not a hit — latest RAT doc STILL 9547/26 LIMITE; no new ST number. Re-baselined.
+    # 2026-11-11: CHANGED but not a hit — latest RAT doc STILL 9547/26 LIMITE; no new ST number. Re-baselined.
     #   KEEP WATCHING for the ST mandate text behind the 21 Oct Coreper agreement (#177/#181).
-    last_seen_hash: "sha256:aef0a2d39e3fb118b7daa3259486adddec0ff8d37970954f129969f445947f4c"
-    last_seen_at: 2026-11-10T12:06:48Z
+    last_seen_hash: "sha256:19a2bd5cf36a8d7f94cb5908793aa6fba610e614c6d50aa9de0702e09d37840d"
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-10:
-    # 2026-11-10: HIT — NEW November activity on "Omnibus Digitaal": 10 Nov mondeling overleg with the
-    #   staatssecretarissen EZK+J&V; 2-3 Nov briefs/answers/verslagen SO. -> issue #185. Re-baselined.
+    # 2026-11-11: UNCHANGED (hash byte-identical). Same EK Nov cluster already issued #185; no newer activity. Refreshed.
     last_seen_hash: "sha256:5c49212e66808c2d16cc46757cb666f75b6d4de9eef456f8240e2ba8c156682f"
-    last_seen_at: 2026-11-10T12:06:48Z
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-11:
-    # 2026-11-10: CHANGED — bronnen now lists the 2-3 Nov EK documents; same event cluster as T1-10, folded
-    #   into issue #185. Re-baselined.
+    # 2026-11-11: UNCHANGED (hash byte-identical). Same event cluster as T1-10 (#185). Refreshed.
     last_seen_hash: "sha256:321dad39d40b5604819e56894b3f3ed1fee9c10c4fecdb4359c8773dbdac59eb"
-    last_seen_at: 2026-11-10T12:06:48Z
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-12:
-    # 2026-11-10: UNREACHABLE — EDPB news RSS returned HTTP 503 with a CDN "Sorry - <id>" error page on both
+    # 2026-11-11: UNREACHABLE — EDPB news RSS returned HTTP 503 with a CDN "Sorry - <id>" error page on both
     #   the initial fetch and the 10s-backoff retry (server-side, not a WAF/JS challenge; T1-13 EDPB HTML page
-    #   polled fine HTTP 200). Hash NOT updated. 4th consecutive failure; 4/14 toward auto-pause. Health #154.
+    #   polled fine HTTP 200). Hash NOT updated. 5th consecutive failure; 5/14 toward auto-pause. Health #154
+    #   (last commented 2026-11-10; weekly cadence — not re-commented today).
     last_seen_hash: "sha256:fccd818ae7e26c2b19c355e1ed2f4d2ca4a8fa6e29911e392f3e02441f392b82"
     last_seen_at: 2026-10-21T11:08:19Z
   T1-13:
-    # 2026-11-10: CHANGED but drift — title unchanged ("Joint opinion 2/2026 ... Digital Omnibus"); dates
+    # 2026-11-11: CHANGED but drift — title unchanged ("Joint opinion 2/2026 ... Digital Omnibus"); dates
     #   unchanged (08 Jul / 11 Feb / 16 Apr 2026); widget drift. Re-baselined.
-    last_seen_hash: "sha256:74877853cd53e81db04f700ba7bc795bef78f761e63f70323ea90ff7d07c471f"
-    last_seen_at: 2026-11-10T12:06:48Z
+    last_seen_hash: "sha256:ac49fefa7ce94105728deae4de73ef958966236975a76a51f295c1f9a864ca42"
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-14:
-    # 2026-11-10: UNCHANGED (hash byte-identical). Newest AP items unchanged, none 0360. Refreshed.
-    last_seen_hash: "sha256:31684d8107a594168441395a02fe40b6f3cb7a886d978bb8814bfa7352308d6b"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: CHANGED but not a hit — AVG-keyword match is a generic EDPB-guidelines DSA/AVG + AVG-boetes
+    #   item, not the Digital Omnibus 0360. Advanced.
+    last_seen_hash: "sha256:9e3df654fa197f6188573b99adc8f0fa5223c5b8a32f27aded236f9ccbd3ffeb"
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-15:
-    # 2026-11-10: UNCHANGED tracker string ("Last updated: 24 July 2026"); hash byte-identical. Refreshed.
-    last_seen_hash: "sha256:62f875efa4588e2f59f770a9898aee0521e58fa8e70944f9e289777b61ab090a"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: CHANGED body but tracker string UNCHANGED ("Last updated: 24 July 2026") -> not a hit. Re-baselined.
+    last_seen_hash: "sha256:dfcfdfcdb27a53c25f97d85331e93f6c7b17204d77d0260f2b5d4afb92b83b97"
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-16:
-    # 2026-11-10: HIT — NEW in-scope item 2026Z23012 (rappel re Naderende Raadspositie Omnibus Digitaal,
-    #   answers wanted before the FORMAL Telecomraad). -> issue #186 (refs #162). 2026D56754 generic
-    #   "omnibusvoorstellen" -> out of scope. Re-baselined.
-    last_seen_hash: "sha256:a93ac6507b2c3d2a3d8f85d94d6bcceaad200be20820dcafc4f486b6f8f78959"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: CHANGED but not a hit — new matches are generic omnibus/EU-simplification mentions in the
+    #   informal-European-Council-13-Nov annotated-agenda SO (2026D56754/Z24590, 2026D55888/Z23335), NOT the
+    #   Digital Omnibus 0360; 2026D56754 already out-of-scope last run. No new in-scope item. Re-baselined.
+    last_seen_hash: "sha256:2ee88892b527e6d36ddfa83a1691cf943384f533acfe87e72b520188fa0da865"
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-17:
-    # 2026-11-10: UNCHANGED (hash byte-identical). Highlighted items stale; no new 0360 content.
+    # 2026-11-11: UNCHANGED (hash byte-identical). Highlighted items stale; no new 0360 content. Refreshed.
     last_seen_hash: "sha256:e0b43c855d906ff716f14157ac4d5bebf6fa445a5afc2b024dd22bb0aca5bd94"
-    last_seen_at: 2026-11-10T12:06:48Z
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-18:
-    # 2026-11-10: CHANGED — meeting week-widget advanced to 9-12 Nov; no omnibus/0360 item in the DiZa
-    #   agenda (9 Nov Wetgevingsoverleg budgets). Re-baselined.
-    last_seen_hash: "sha256:955714f2fe05d0af4679d6116dee2c7de9e69114226969bee82d67d200c74c26"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: CHANGED — meeting-widget drift; no omnibus/0360 item in the DiZa agenda. Re-baselined.
+    last_seen_hash: "sha256:d6b3fef38b8a213487bd583356df8476464dbce1fc478d3877e9dfabb9d33305"
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-19:
-    # 2026-11-10: UNCHANGED (hash byte-identical; feed recovered to a well-formed body). Last real item still
-    #   ah-tk-20252026-2827 (31 Aug 2026). Refreshed.
-    last_seen_hash: "sha256:b575c5d01f258f6349fd1812f6e532bf0253a4afe319d85865d6246f89a73561"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: UNCHANGED (hash byte-identical). Last real item still ah-tk-20252026-2827 (31 Aug 2026). Refreshed.
+    last_seen_hash: "sha256:b575c0d01f258f6349fd1812f6e532bf0253a4afe319d85865d6246f89a73561"
+    last_seen_at: 2026-11-11T12:10:21Z
   T1-20:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF; ep_committee_docs.py 0 es_document blocks. seen_refs retained. Health #138.
-    # 2026-11-10: still paused; SKIPPED. Health #154. (Salla/Kaljurand draft-report amendments tracked via #146.)
+    # 2026-11-11: still paused; SKIPPED. Health #154. (Salla/Kaljurand draft-report amendments tracked via #146.)
     seen_refs:
       - PE789.142v01-00
       - PE790.236v01-00
@@ -161,7 +160,7 @@ sources:
     paused_at: 2026-08-06T11:00:00Z
   T1-21:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF; ep_committee_docs.py 0 es_document blocks. seen_refs retained. Health #138.
-    # 2026-11-10: still paused; SKIPPED. Health #154.
+    # 2026-11-11: still paused; SKIPPED. Health #154.
     seen_refs:
       - PE786.818v01-00
     last_seen_at: 2026-07-23T11:20:00Z
@@ -169,80 +168,83 @@ sources:
     paused_at: 2026-08-06T11:00:00Z
   T1-22:
     # 2026-08-06: AUTO-PAUSED — europarl AWS-WAF; ep_committee_docs.py 0 es_document blocks. seen_refs retained. Health #138.
-    # 2026-11-10: still paused; SKIPPED. Health #154. (IMCO amendments PE790.905/PE791.061 tracked via #140.)
+    # 2026-11-11: still paused; SKIPPED. Health #154. (IMCO amendments PE790.905/PE791.061 via #140; IMCO
+    #   ADOPTED opinion surfaced via Bluesky this run -> #189; its PE doc fetchable at triage via fetch_blocked_doc.py.)
     seen_refs:
       - PE789.877v01-00
     last_seen_at: 2026-07-23T11:20:00Z
     paused: true
     paused_at: 2026-08-06T11:00:00Z
   T2-01:
-    # 2026-11-10: CHANGED (body drift) but no new 0360 item since last run — newest keyword matches predate
-    #   the 2026-11-06 cut (latest Digital Omnibus article 16 Apr 2026). Advanced.
+    # 2026-11-11: UNCHANGED (hash byte-identical). No new 0360 item. Refreshed.
     last_seen_hash: "sha256:c37f50429b9749246245547a6f97d1d2c1f261aa1bf8d498e5ade8a2640101d1"
-    last_seen_at: 2026-11-10T12:06:48Z
+    last_seen_at: 2026-11-11T12:10:21Z
   T2-02:
-    # 2026-11-10: CHANGED but newest matching item still 4 Nov EDRi "Data Omnibus deal weakens our rights" =
-    #   already issued #181. No newer in-scope item. Advanced.
+    # 2026-11-11: UNCHANGED (hash byte-identical). Newest matching item still 4 Nov EDRi "Data Omnibus deal"
+    #   = already issued #181. Refreshed.
     last_seen_hash: "sha256:90862a61d7833fe464506ff3367ac9092aa9ce824ba7e1a32711a6ceb7b8131f"
-    last_seen_at: 2026-11-10T12:06:48Z
+    last_seen_at: 2026-11-11T12:10:21Z
   T2-03:
-    # 2026-11-10: CHANGED but not a hit — no in-scope 0360 keyword match in newest items. Advanced.
-    last_seen_hash: "sha256:c38e123d57597b7c026936e17ee36af7620cef9b81f1dfbde33b42e76e3aaa09"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: HIT — NEW item 10 Nov 18:00 "EU-Studie: Bei Online-Werbung versagt die europ. Tech-Regulierung"
+    #   cites the Digital-Omnibus DSGVO/cookie-banner (Privacy Signals) reform + member-state rejection. -> #190. Re-baselined.
+    last_seen_hash: "sha256:599c56701e85f78308f4ff1de59fceac783cfc3e2321d1bd4225240b7cd506c0"
+    last_seen_at: 2026-11-11T12:10:21Z
   T2-05:
-    # 2026-11-10: UNCHANGED (hash byte-identical). No new matching item. Refreshed.
+    # 2026-11-11: UNCHANGED (hash byte-identical). No new matching item. Refreshed.
     last_seen_hash: "sha256:57296c37655723ea8ce8fae0077da0af6271e1b972d2ca365f71a050b682207d"
-    last_seen_at: 2026-11-10T12:06:48Z
+    last_seen_at: 2026-11-11T12:10:21Z
   T2-06:
-    # 2026-11-10: UNCHANGED (hash byte-identical). No in-scope 0360 hit. Refreshed.
+    # 2026-11-11: UNCHANGED (hash byte-identical). No in-scope 0360 hit. Refreshed.
     last_seen_hash: "sha256:aa6061469c06a849dc3ff62ab145c3bdb5a5b96c0e575b385d7d72727b344022"
-    last_seen_at: 2026-11-10T12:06:48Z
+    last_seen_at: 2026-11-11T12:10:21Z
   T2-07:
-    # 2026-11-10: CHANGED but not a hit — no omnibus/AVG/ePrivacy/GDPR match in newest items. Advanced.
-    last_seen_hash: "sha256:edc98e195e8b04adf7bc028229d30ac46810feb1140d560236e79ee93f1aefc3"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: CHANGED but not a hit — AVG-match is a privacy/AI job vacancy; no 0360 item. Advanced.
+    last_seen_hash: "sha256:13439a6ec67982cddbb3b45920300ad460961d9451a35a8a014efa8bf2868976"
+    last_seen_at: 2026-11-11T12:10:21Z
   T2-08:
-    # 2026-11-10: CHANGED but not a hit — 0 Digital-Omnibus/DSGVO/ePrivacy in entry titles. Advanced.
-    last_seen_hash: "sha256:4dfef41b418b84c2e502598403da9d75e9ebec0c98ba84713feda5b029586bac"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: CHANGED but not a hit — DSGVO-match is a Uni-Tübingen data-breach story (stock image only);
+    #   no Digital Omnibus. Advanced.
+    last_seen_hash: "sha256:bffdf14971119da60f058759b868d665564af4f9ad0fff65d6459bcd2ccc9069"
+    last_seen_at: 2026-11-11T12:10:21Z
   T2-09:
-    # 2026-11-10: UNCHANGED (hash byte-identical). No new 0360 match. Refreshed.
+    # 2026-11-11: UNCHANGED (hash byte-identical). No new 0360 match. Refreshed.
     last_seen_hash: "sha256:b126df3a252d88f13939bd0c77e84af5e65b2429a536cfd6a42a507d853d9ffe"
-    last_seen_at: 2026-11-10T12:06:48Z
+    last_seen_at: 2026-11-11T12:10:21Z
   T2-10:
-    # 2026-11-10: CHANGED (HTTP 200) — lone "digital omnibus" substring in off-topic titles (Central-Asia
-    #   digital links / India Horizon / EU simplification-savings); no Telecom/TTE Council or 0360 item. Advanced.
-    last_seen_hash: "sha256:124a8ef17ce0a9258064909f6a37aee667035def3ccf4ba9d4fc450347c19ad2"
-    last_seen_at: 2026-11-10T12:06:48Z
+    # 2026-11-11: CHANGED (HTTP 200) but no Telecom/TTE Council or 0360 item — "tte"/telecom substrings are
+    #   noise (Rutte/matters/committed/India connectivity). Advanced.
+    last_seen_hash: "sha256:fcded47c4bb0f6bb8df1f5edfe9d354491a38c45c853c448abff64844df8389c"
+    last_seen_at: 2026-11-11T12:10:21Z
   T3-01:
-    # 2026-11-10: 4 new posts, 0 keyword match. Advanced max indexedAt.
-    last_seen_indexed_at: 2026-11-09T23:48:20.880Z
+    # 2026-11-11: HIT — NEW post 10 Nov 12:22 "IMCO adopted its opinion on the Digital Omnibus" -> issue #189.
+    #   3 new posts total; advanced max indexedAt.
+    last_seen_indexed_at: 2026-11-11T10:28:59.374Z
     did: did:plc:wxpnu3arxymnfzh7zm2vx4cn
   T3-02:
-    # 2026-11-10: no new posts since last run. Unchanged.
+    # 2026-11-11: no new posts since last run. Unchanged.
     last_seen_indexed_at: 2026-11-05T09:09:51.473Z
     did: did:plc:6tig4nnvqut4jhyxmvqbxbag
   T3-03:
-    # 2026-11-10: no new posts since last run. Unchanged.
+    # 2026-11-11: no new posts since last run. Unchanged.
     last_seen_indexed_at: 2026-10-28T07:54:41.472Z
     did: did:plc:u7j6gujy5iyayifj4wn4zwj4
   T3-04:
-    # 2026-11-10: no new posts since last run. Unchanged.
+    # 2026-11-11: no new posts since last run. Unchanged.
     last_seen_indexed_at: 2026-10-21T22:13:39.650Z
     did: did:plc:6vzpi3eta33zlyqt2d4zt6aj
   T3-05:
-    # 2026-11-10: no new posts since last run. Unchanged.
+    # 2026-11-11: no new posts since last run. Unchanged.
     last_seen_indexed_at: 2026-10-28T15:21:16.981Z
     did: did:plc:ujstglmdsoymx3t2yffcvgtm
   T3-06:
-    # 2026-11-10: no new posts since last run. Unchanged.
+    # 2026-11-11: no new posts since last run. Unchanged.
     last_seen_indexed_at: 2026-11-06T12:28:45.677Z
     did: did:plc:66ealeut54i3dvgseb4gcn3z
   T3-07:
-    # 2026-11-10: no new posts since last run. Unchanged.
+    # 2026-11-11: no new posts since last run. Unchanged.
     last_seen_indexed_at: 2026-11-08T15:17:08.577Z
     did: did:plc:s2xjhqmjyvk54jw2bat5yyyt
   T3-08:
-    # 2026-11-10: no new posts since last run. Unchanged.
-    last_seen_indexed_at: 2026-11-06T21:42:59.275Z
+    # 2026-11-11: 1 new post, 0 keyword match. Advanced max indexedAt.
+    last_seen_indexed_at: 2026-11-10T17:01:46.483Z
     did: did:plc:weedlv2mczjipzyjs324e6r5

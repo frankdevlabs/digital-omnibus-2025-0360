@@ -100,6 +100,16 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   noyb/EDRi and **opposite** the German government's reported position on [fault-line #3](fault-lines.md)
   ([provision](provisions/gdpr-art88a-88b-cookies.md)). *(The German-government characterisation is
   netzpolitik's; DE is already recorded as seeking the deletion via WK 3736/26 and the noyb bullet above.)*
+  A later *netzpolitik.org* piece ([*"EU-Studie: Bei Online-Werbung versagt die europäische
+  Tech-Regulierung"*](https://netzpolitik.org/2026/eu-studie-bei-online-werbung-versagt-die-europaeische-tech-regulierung/),
+  Ingo Dachwitz, **10 Nov 2026**) reports a **Commission-commissioned 570-page study of the online-ad
+  market** (by the consultancy **AWO**) whose headline fix is exactly the browser/OS **"Privacy
+  Signals"** — centrally-managed consent AdTech firms must honour — i.e. the Omnibus **Art 88b**
+  machine-readable-consent signal. Glatzner (vzbv) now pivots forward: he calls the member states'
+  deletion of that proposal regrettable and says the **European Parliament is the venue to reinstate
+  it** (welcoming "automatisierte Datenschutzsignale"). Reinforces the vzbv line on
+  [fault-line #3](fault-lines.md) ([provision](provisions/gdpr-art88a-88b-cookies.md)); the Council
+  deletion it references is already on the primary record (**ST 10729/26**, see noyb bullet above).
 - **BEUC.** The proposal "goes far beyond targeted modifications" and weakens consumer protections.
 - **127 organisations** signed an open letter (13 Nov 2025) urging the Commission to drop the GDPR
   reopening. **Corporate Europe Observatory / LobbyControl** mapped Big-Tech lobbying behind specific

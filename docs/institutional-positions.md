@@ -36,6 +36,12 @@ signals. Data-acquis substance is captured on
 [Data Act](instruments/data-act-2023-2854.md#parliament-imco-draft-opinion) and the
 [P2B repeal](provisions/final-repeals-p2b.md#parliament-imco-draft-opinion); GDPR-strand detail on
 the per-provision pages in [`provisions/`](provisions/).
+On **10 November 2026 IMCO adopted its opinion** (vote on a *Final Compromise amendments* document,
+cover dated 5 Nov 2026) — the first committee on the file to conclude its opinion stage, ahead of the
+Oeil procedure file. The adoption is **registered metadata-only** ([register](../sources/README.md#european-parliament),
+[triage #189](triage/2026-11-11-issue-189.md)): the consolidated adopted-opinion operative text is **not
+yet published on doceo**, so the per-provision IMCO cells above remain those of the **draft** opinion
+(PE789.877) pending transcription of the adopted compromise text (`pending_operative_text`).
 
 The **lead committees' joint draft report** — the **joint ITRE/LIBE draft report** (Rule 59,
 co-rapporteurs **Aura Salla**, ITRE/EPP, and **Marina Kaljurand**, LIBE/S&D, PE786.818v01-00, 22 Jun

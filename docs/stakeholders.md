@@ -100,6 +100,27 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   noyb/EDRi and **opposite** the German government's reported position on [fault-line #3](fault-lines.md)
   ([provision](provisions/gdpr-art88a-88b-cookies.md)). *(The German-government characterisation is
   netzpolitik's; DE is already recorded as seeking the deletion via WK 3736/26 and the noyb bullet above.)*
+- **Bits of Freedom (NL).** Dutch digital-rights NGO. Policy adviser **Nadia Benaissa**,
+  *"Als verdwijnt wat ons beschermt"*
+  ([bitsoffreedom.nl](https://www.bitsoffreedom.nl/2026/11/16/als-verdwijnt-wat-ons-beschermd/),
+  **16 Nov 2026**) — a late-2026 civil-society position piece tying the **data/GDPR Digital Omnibus
+  (2025/0360)** to the already-adopted **AI-Act Omnibus (2025/0359)**, arguing both weaken rights
+  *"onder het mom van 'versimpeling van administratieve lasten'"* (under the guise of cutting
+  administrative burden); it co-promotes a joint civil-society report with **Oxfam Novib** (health,
+  workers' rights, climate, food safety, privacy). On the **data strand** BoF opposes: narrowing the
+  personal-data definition so **pseudonymised data falls outside the AVG**
+  ([Art 4](provisions/gdpr-art4-personal-data.md)); introducing **legitimate interest as a basis for
+  AI** — noting the basis *"bestaat echter al"* (already exists)
+  ([Art 88c](provisions/gdpr-art88c-ai-legitimate-interest.md)); and weakening
+  **automated-decision-making** safeguards ([Art 22](provisions/gdpr-art22-automated-decisions.md))
+  and the **right of access / transparency** ([Art 12/13](provisions/gdpr-art12-57-abusive-requests.md)).
+  It **supports a single, standard cookie choice** (*"We steunen een standaard cookie-keuze"*) — the
+  civil-society side of [fault-line #3](fault-lines.md) (the machine-readable consent signal,
+  [Art 88a/88b](provisions/gdpr-art88a-88b-cookies.md)) — and a **service-based, not age-based** route
+  to a safe online environment. Aligns with the overall **noyb/EDRi** opposition. *(The article dates
+  the Council's position to **21 Oct 2026**; that procedural step is **not yet independently tracked**
+  here — see [`../STATUS.md`](../STATUS.md) — and is flagged for separate triage, not integrated in
+  this entry.)*
 - **BEUC.** The proposal "goes far beyond targeted modifications" and weakens consumer protections.
 - **127 organisations** signed an open letter (13 Nov 2025) urging the Commission to drop the GDPR
   reopening. **Corporate Europe Observatory / LobbyControl** mapped Big-Tech lobbying behind specific

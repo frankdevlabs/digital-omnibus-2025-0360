@@ -90,7 +90,23 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   — EDRi's response to the Commission's **Digital Fitness Check** consultation, arguing the rights-based
   framework (GDPR/DSA/DMA) is a competitive advantage and "fit for purpose", so the EU should
   **strengthen enforcement and close gaps** (ban spyware, regulate ad-tech) rather than reopen the rules
-  via the Omnibus.
+  via the Omnibus. As the EP amendments wave matured, EDRi returned on **16 Nov 2026** with
+  **[*"1,840 amendments, one basic question: will the Data Omnibus simplify EU digital rules or weaken
+  people's rights?"*](https://edri.org/our-work/1840-amendments-one-basic-question-will-the-data-omnibus-simplify-eu-digital-rules-or-weaken-peoples-rights/)**
+  — framing the tabling it dates as **1,840 (= 1,762 amendments tabled on top of the 78 changes in the
+  joint LIBE–ITRE draft report**, PE786.818; the arithmetic behind the ">1,762 amendments" the repo
+  tracks — see [institutional positions](institutional-positions.md)). It sorts the amendments three
+  ways — those that **restore/strengthen** safeguards, those that **improve the text but leave the
+  underlying problems**, and those that **create new exclusions/permissions pushing the file toward
+  substantive deregulation** — and restates its bottom line: *"the Digital Omnibus on Data should be
+  rejected as a whole."* Its single example of *good* simplification remains the **binding privacy
+  signal** (once-set browser/device/app choice) over repeated cookie banners — its Art 88b line
+  ([fault-line #3](fault-lines.md); [provision](provisions/gdpr-art88a-88b-cookies.md)) — while it
+  reiterates opposition to **narrowing the personal-data definition**, to a **dedicated AI
+  legitimate-interest route** (Art 6(1)(f) already covers it), and to weakened access/automated-decision
+  safeguards. The piece ships an accompanying **issue-by-issue guide to the amendments** (PDF, for MEPs
+  and civil society). *(No COM/procedure number on the page; scope — 2025/0360, not the AI-Act file
+  2025/0359 — confirmed from the subject matter and the joint LIBE–ITRE draft report it cites.)*
 - **German consumer & digital-rights groups (vzbv, Digitale Gesellschaft).** German tech-press
   *netzpolitik.org* ([*"Online-Tracking: Deutschland und Google wollen Cookie-Banner retten"*](https://netzpolitik.org/2026/online-tracking-deutschland-und-google-wollen-cookie-banner-retten/),
   Ingo Dachwitz, **24 Jun 2026**) reports the **Verbraucherzentrale Bundesverband (vzbv)** —

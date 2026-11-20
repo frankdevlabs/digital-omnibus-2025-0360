@@ -465,6 +465,51 @@ documents:
       transcribe-parliament-extract on each, fill the per-provision cells and clear the flag.
       Surfaced via triage #133 (docs/triage/2026-07-29-issue-133.md).
 
+  - id: JURI-AD-789142
+    title: "JURI committee OPINION (adopted) on the Digital Omnibus (rapporteur Benifei) — for ITRE/LIBE — 69 amendments"
+    body: Parliament
+    date: 2026-11-11
+    limite: false
+    pending_operative_text: true
+    access: public-released
+    url: https://www.europarl.europa.eu/doceo/document/JURI-AD-789142_EN.pdf
+    local: sources/parliament/JURI-AD-789142_committee-opinion_2026-11-11.pdf
+    lead_source: >-
+      OEIL procedure-file documentation gateway (watchlist T1-02), detected 2026-11-20: the EP
+      documentation references grew from 10 to 11 — a new "Committee opinion" entry from JURI,
+      PE789.142, dated 11/11/2026, replacing the earlier "Committee draft opinion" classification and
+      linking doceo document JURI-AD-789142 (the adopted-opinion "AD" code, v02-00). Surfaced and
+      triaged via tracker issue #201.
+    notes: >-
+      The ADOPTED JURI committee opinion on file 2025/0360 (COD), the data/cyber Digital Omnibus
+      COM(2025) 0837 — NOT the AI Act file 2025/0359 — superseding the Benifei DRAFT opinion
+      (JURI-PA-789142, 5 Jun 2026). Cover: "OPINION of the Committee on Legal Affairs for the
+      Committee on Industry, Research and Energy and the Committee on Civil Liberties, Justice and
+      Home Affairs", COM(2025)0837 – C10-0303/2025 – 2025/0360(COD), rapporteur for opinion Brando
+      Benifei (S&D), PE789.142v02-00 (AD\1354165EN.docx), dated 11.11.2026, 46 pages, 69 amendments
+      (numbered 1-69). Scope confirmed on the cover (interinstitutional ref 2025/0360(COD), Data Act
+      strand of COM(2025) 837), not the AI file 0359. Retrieved via the headless-browser AWS-WAF
+      bypass (~/law-tracker/lib/fetch_blocked_doc.py; doceo returns HTTP 202 to curl/WebFetch) and
+      committed under sources/parliament/. Per the committee's own SHORT JUSTIFICATION the adopted
+      opinion keeps JURI's data-acquis thrust from the draft: preserve neutrality/trustworthiness of
+      data-intermediation services (registration/supervision), preserve the Union's open-data
+      principles (no new disclosure obligations on public bodies; non-discriminatory re-use;
+      interoperability; open licences), maintain balanced B2G public-interest access (preserve a
+      non-emergency access framework; narrow emergency mechanisms; remove the broad "mitigation"
+      concept), add trade-secret safeguards (refusal of access as a measure of last resort), preserve
+      the P2B Regulation (concerns on the repeal; ranking transparency, complaint-handling,
+      anti-unfair-suspension), preserve cloud-switching/interoperability (anti-lock-in; caution on
+      broad SME exemptions), keep smart contracts (minimum security/interoperability/controllability/
+      auditability safeguards), and strengthen legal certainty and the coordinating role of the
+      European Data Innovation Board (EDIB). OEIL still shows the procedure status as "Awaiting
+      committee decision" with no new Key event (the lead joint ITRE/LIBE committee vote is still
+      pending ~Q4 2026). pending_operative_text is kept true because the source is in hand but the
+      per-amendment EXTRACT is not yet built: the 69 adopted amendments have NOT been transcribed —
+      hand off to the transcribe-parliament-extract skill to produce
+      extracts/parliament/JURI-AD-789142_committee-opinion.md, then fill the per-provision cells
+      (Data Act / P2B pages) and clear the flag. No per-amendment claims are asserted from the
+      cover/justification alone. Surfaced via triage #201 (docs/triage/2026-11-20-issue-201.md).
+
   - id: EP-LEGTRAIN
     title: "Legislative Train — Digital Omnibus Regulation Proposal"
     body: Parliament

@@ -18,6 +18,27 @@ provisions in the table below. The JURI position is captured on the affected pag
 [Data Act](instruments/data-act-2023-2854.md#parliament--juri-draft-opinion) and the
 [P2B repeal](provisions/final-repeals-p2b.md#parliament--juri-draft-opinion).
 
+**JURI has now adopted its opinion (11 Nov 2026).** The Committee on Legal Affairs adopted its
+formal **OPINION** for the lead joint ITRE/LIBE — **PE789.142v02-00** (`JURI-AD-789142`,
+AD\1354165EN, [register](../sources/README.md#european-parliament)), **69 amendments**, dated
+11.11.2026 — superseding the 5 Jun draft opinion. This is JURI's **first adopted position** (no longer
+a draft or competing tablings). Per the committee's own *Short Justification* the adopted opinion keeps
+the draft's **data-acquis** thrust: preserve the neutrality and trustworthiness of **data-intermediation**
+services (registration/supervision), preserve the Union's **open-data** principles (no new disclosure
+obligations on public bodies; non-discriminatory re-use; interoperability; open licences), maintain a
+balanced **B2G** public-interest access framework while **removing the broad "mitigation" concept** and
+narrowing emergency mechanisms, add **trade-secret** safeguards (refusal of access as a last resort),
+**preserve the P2B Regulation** (ranking transparency, complaint-handling, anti-unfair-suspension),
+**preserve cloud switching**/interoperability, **keep smart contracts** (minimum security, interoperability,
+controllability and auditability safeguards), and **strengthen the coordinating role of the European Data
+Innovation Board (EDIB)**. The source is committed under `sources/parliament/`, but the **per-amendment
+extract is not yet built** (`pending_operative_text`): the 69 adopted amendments remain to be transcribed
+(hand-off to `transcribe-parliament-extract`), so the per-provision cells below still cite the **draft**
+opinion's amendment numbers, and **no per-amendment adopted outcomes are asserted** here beyond the
+committee's justification — see [triage #201](triage/2026-11-20-issue-201.md). Procedurally the lead
+joint **ITRE/LIBE committee vote** — which fixes Parliament's position — is still pending (~Q4 2026); OEIL
+still shows status *"Awaiting committee decision"*.
+
 The second committee-for-opinion text — the **IMCO draft opinion** (rapporteur Agius Saliba, S&D,
 PE789.877v01-00, cover dated 8 Jun 2026; [register](../sources/README.md#european-parliament)) — is
 likewise transcribed ([extract, 124 amendments](../extracts/parliament/IMCO-PA-789877_draft-opinion.md)).

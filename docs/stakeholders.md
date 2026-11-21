@@ -91,6 +91,26 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   framework (GDPR/DSA/DMA) is a competitive advantage and "fit for purpose", so the EU should
   **strengthen enforcement and close gaps** (ban spyware, regulate ad-tech) rather than reopen the rules
   via the Omnibus.
+- **Civil-society coalition of 100 — one-year-anniversary open letter (19 Nov 2026).** Timed to the
+  first anniversary of the proposal (presented 19 Nov 2025), **100 organisations, academics, researchers,
+  individuals and responsible businesses** published an open letter via EDRi
+  ([*"One year later … do not simplify away people's rights with the Digital Omnibus"*](https://edri.org/our-work/one-year-later-digital-omnibus-broad-coalition-tells-eu-lawmakers-do-not-simplify-peoples-rights/);
+  [letter PDF](https://edri.org/wp-content/uploads/2026/11/201611-letter-Digital-Omnibus-anniversary.pdf))
+  warning that "simplification is turning into deregulation, with consequences far beyond the usual
+  digital-rights sphere". It **"calls on the European Parliament and Member States to reject provisions
+  that weaken rights and substantive protections"**, and asks that any "evidence-backed genuine problems
+  in the GDPR, ePrivacy or other legislation [be] addressed through proper democratic processes, backed by
+  evidence, consultation and scrutiny". It singles out the **GDPR route making the legitimate-interest
+  basis available for AI development/training/operation** (normalising "large-scale reuse of personal data
+  for AI" — see [fault-line #2](fault-lines.md); [provision](provisions/gdpr-art88c-ai-legitimate-interest.md)),
+  the weakening of **automated-decision-making, access and transparency** safeguards and of **sensitive/
+  biometric-data** protection, and the move of **device-confidentiality (ePrivacy)** rules. It **concedes
+  targeted simplification** — "the EU can simplify its rules without simplifying away people's rights"
+  (e.g. ending "endless cookie banners", better regulator cooperation). Squarely on the **data strand
+  (2025/0360)** — the page discusses GDPR/ePrivacy changes and the "Digital Omnibus on Data", **not** the
+  AI-Act file 2025/0359 (the 2025/0360 procedure number is not cited on the page; scope inferred from
+  content). Widens and reinforces the existing EDRi/noyb opposition line as the file moves through Council
+  and Parliament.
 - **German consumer & digital-rights groups (vzbv, Digitale Gesellschaft).** German tech-press
   *netzpolitik.org* ([*"Online-Tracking: Deutschland und Google wollen Cookie-Banner retten"*](https://netzpolitik.org/2026/online-tracking-deutschland-und-google-wollen-cookie-banner-retten/),
   Ingo Dachwitz, **24 Jun 2026**) reports the **Verbraucherzentrale Bundesverband (vzbv)** —

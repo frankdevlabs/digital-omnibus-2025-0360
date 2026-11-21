@@ -91,6 +91,34 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   framework (GDPR/DSA/DMA) is a competitive advantage and "fit for purpose", so the EU should
   **strengthen enforcement and close gaps** (ban spyware, regulate ad-tech) rather than reopen the rules
   via the Omnibus.
+  On **4 Nov 2026** EDRi reacted to the **Council's agreed general position** (adopted at Coreper on
+  **21 Oct 2026** — Council press release *"Digital rulebook: Council agrees position to simplify data
+  protection, privacy and cyber reporting rules"*, 21 Oct; the procedural step is tracked under **#177**):
+  **[*"EU governments call it 'simplification,' but their Data Omnibus deal considerably weakens our
+  rights"*](https://edri.org/our-work/eu-governments-call-it-simplification-but-their-data-omnibus-deal-considerably-weakens-our-rights/)**.
+  With the file **moving to the European Parliament for first reading** (EDRi: "more than 1,800 amendments
+  tabled"), it calls on MEPs to **reject the weakening of GDPR safeguards for AI and pseudonymised data**,
+  defend ePrivacy, and preserve access/transparency/automated-decision rights. EDRi's per-provision reading
+  is of the **21 Oct agreed text, which is not yet transcribed in this repo** (the latest primary text here is
+  the 22 Jun [ST 10729/26](../extracts/council/)); treat the following as *EDRi's characterisation pending the
+  operative text*:
+  - **Welcomes** — the Council **rejected the Art 4(1) personal-data redefinition** and **dropped the Art 41a**
+    pseudonymisation implementing power (EDRi: "likely an unconstitutional move"), and **kept device-access
+    rules in the ePrivacy Directive** rather than the GDPR — all consistent with the repo's ST 10729/26 record
+    ([fault-line #1](fault-lines.md#1-the-concept-of-personal-data-and-pseudonymisation), [#3](fault-lines.md#3-cookies--terminal-equipment-consent)).
+  - **Opposes** — a new **Art 25a** treating **pseudonymised data as non-personal for third parties** unable
+    to re-identify (asks MEPs to reject it); a retained **Art 88bis** AI legitimate-interest provision
+    (Commission's Art 88c) and the **Art 9(2)(k)** sensitive-data carve-out (asks MEPs to delete both); new
+    **ePrivacy exemptions** for **audience measurement and contextual-advertising measurement**, a
+    **four-month** consent re-prompt, and **deletion of the machine-readable privacy-signal** duty (asks MEPs
+    to restore a "legally binding, machine-readable privacy signal" — its Art 88b line, consistent with the
+    repo's record that ST 10729/26 deletes Art 88b); narrowed **access / Art 13 transparency / Art 22
+    automated-decision** protections; a new **biometric-verification** exception; and a broadened **Art 4(38)**
+    research definition it fears could cover "routine product optimisation or commercial AI development".
+    *EDRi's reading that **Art 88bis survives** in the 21 Oct text would **differ from the repo's 22 Jun
+    ST 10729/26 record**, where standalone Art 88c was deleted and the AI-LI reading left only in recital 33a —
+    flagged for confirmation against the eventual primary text, not asserted here* (see
+    [fault-lines #1–#4](fault-lines.md)).
 - **German consumer & digital-rights groups (vzbv, Digitale Gesellschaft).** German tech-press
   *netzpolitik.org* ([*"Online-Tracking: Deutschland und Google wollen Cookie-Banner retten"*](https://netzpolitik.org/2026/online-tracking-deutschland-und-google-wollen-cookie-banner-retten/),
   Ingo Dachwitz, **24 Jun 2026**) reports the **Verbraucherzentrale Bundesverband (vzbv)** —

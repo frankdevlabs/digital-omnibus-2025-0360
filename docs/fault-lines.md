@@ -26,6 +26,11 @@ in [`provisions/`](provisions/).
 - **Member States (WK 3736/26):** FR and PL both welcome the deletion; FR wants a *binding* EDPB opinion
   on pseudonymisation, while PL **opposes deleting Art 41a** and wants any guidance to leave Art 4(1)
   untouched. See [`member-state-positions.md`](member-state-positions.md).
+- **Civil society (EDRi, 4 Nov 2026):** reacting to the Council's **21 Oct agreed position**, EDRi
+  **welcomes** the Art 4(1)/Art 41a deletions but **opposes a new Art 25a** that (on EDRi's reading of the
+  not-yet-transcribed text) would treat **pseudonymised data as non-personal for third parties** unable to
+  re-identify, against the CJEU's contextual, case-by-case test; it asks MEPs to **reject Art 25a**. See
+  [`stakeholders.md`](stakeholders.md) (hedged pending the primary text).
 - → [`provisions/gdpr-art4-personal-data.md`](provisions/gdpr-art4-personal-data.md),
   [`provisions/gdpr-pseudonymisation-by-design.md`](provisions/gdpr-pseudonymisation-by-design.md)
 
@@ -45,6 +50,12 @@ in [`provisions/`](provisions/).
   Art 9(2)(k)/9(5) special-category carve-out and recital 33
   ([Am 100–101](../extracts/parliament/IMCO-PA-789877_draft-opinion.md#amendment-100)) as an "AI
   privilege". JURI silent; joint ITRE/LIBE report pending.
+- **Civil society (EDRi, 4 Nov 2026):** EDRi reads the Council's **21 Oct agreed position** as **retaining a
+  standalone Art 88bis** AI legitimate-interest provision (the Commission's Art 88c) and the **Art 9(2)(k)**
+  sensitive-data carve-out, and asks MEPs to **delete both**. ⚠ *EDRi's reading that Art 88bis **survives**
+  would differ from the repo's primary-text record — the 22 Jun **ST 10729/26** deleted standalone Art 88c,
+  leaving the AI-LI reading only in recital 33a. The 21 Oct text is **not yet transcribed here**; flagged for
+  confirmation against the operative extract once obtained, not asserted* (see [`stakeholders.md`](stakeholders.md)).
 - → [`provisions/gdpr-art88c-ai-legitimate-interest.md`](provisions/gdpr-art88c-ai-legitimate-interest.md),
   [`provisions/gdpr-art9-special-categories-ai.md`](provisions/gdpr-art9-special-categories-ai.md)
 
@@ -88,6 +99,12 @@ in [`provisions/`](provisions/).
   in a **newer 18-June Council paper** — wider than the WK 3736/26 record below — but the underlying
   ST compromise text is **not yet on the public register**, so this stays a hedged stakeholder report
   pending the text (Council position tracked via the imminent Coreper II step).
+  **Update — EDRi, 4 Nov 2026** (reacting to the **21 Oct agreed Council position**): EDRi reiterates the call
+  to **restore a legally binding, machine-readable privacy signal** over cookie banners, and — on its reading
+  of the not-yet-transcribed text — reports the Council **keeps device-access rules in ePrivacy** (welcome)
+  but **adds consent exemptions for audience measurement and contextual-advertising measurement** and lets
+  companies **re-prompt for consent after four months**, which it opposes (single-query contextual ads can
+  reveal sensitive interests) (see [`stakeholders.md`](stakeholders.md); hedged pending the primary text).
 - **Why it matters:** conceptually decisive for where the cookie regime lives and which authority
   enforces it; industry wants the machine-readable signal article deleted as "consent chaos".
 - → [`provisions/gdpr-art88a-88b-cookies.md`](provisions/gdpr-art88a-88b-cookies.md),
@@ -110,6 +127,11 @@ in [`provisions/`](provisions/).
 - **Member States (WK 3736/26):** PL welcomes the burden resting on the controller but wants "abusive
   intention" read restrictively; FR wants the ground to also catch circumvention of procedures with
   their own access rules. See [`member-state-positions.md`](member-state-positions.md).
+- **Civil society (EDRi, 4 Nov 2026):** on the **21 Oct agreed position**, EDRi warns the Council gives
+  controllers **more room to reject or charge for "abusive" requests** ("access rights are often the only way
+  to uncover unlawful surveillance") and adds a new **Art 13 transparency** exemption for low-risk processing;
+  it asks MEPs to **preserve meaningful access, transparency and automated-decision safeguards**. See
+  [`stakeholders.md`](stakeholders.md) (hedged pending the primary text).
 - → [`provisions/gdpr-art12-57-abusive-requests.md`](provisions/gdpr-art12-57-abusive-requests.md)
 
 ## 5. Third-country tax-data transfers (FATCA) — **new in the negotiating mandate**

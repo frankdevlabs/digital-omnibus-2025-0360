@@ -112,6 +112,25 @@ resist the P2B repeal. → [`member-state-positions.md`](member-state-positions.
   data strand this reinforces the existing civil-society line against the **Art 9(2)(k)/9(5)
   special-category carve-out** ([fault-line #2](fault-lines.md);
   [provision](provisions/gdpr-art9-special-categories-ai.md)).
+- **ETUI — European Trade Union Institute (study, Nov 2026).** A study by **Aida Ponce Del Castillo**
+  (ETUI) and **Thomas le Bonniec** opens a **labour / worker-rights** front on the GDPR-weakening
+  critique, arguing the Omnibus would make **workplace data abuses harder to uncover**. It tests the
+  proposed amendments against four workplace cases that previously produced enforcement or successful
+  claims and finds the same outcomes harder to reach. Two mechanisms: (1) on **subject-access requests**,
+  an employer/platform could refuse a worker's request on the ground it was made for a *purpose other than*
+  exercising data-protection rights (e.g. gathering evidence in an employment dispute), shifting the burden
+  onto the worker — the labour-side instantiation of the EDPB/EDPS concern about tying abuse to the request's
+  *purpose* ([provision](provisions/gdpr-art12-57-abusive-requests.md); the 2023 Amsterdam Court of Appeal
+  Uber/Ola drivers' access case is the worked example); (2) on **automated decisions**, the amendment would
+  change the "necessity" test so that an available, equally effective **human alternative** no longer by
+  itself shows the automation was unnecessary, strengthening an operator's "necessary for the contract"
+  defence ([provision](provisions/gdpr-art22-automated-decisions.md); the Uber automated-fraud
+  deactivation case). The authors stress the Commission ran **no full impact assessment** — the stated
+  reason for the study. Ponce Del Castillo: *"A worker may be right about unlawful surveillance and still
+  be unable to prove it."* Reported by *netzpolitik.org*
+  ([*"Proposed GDPR changes: Workplace Data Abuses Could Soon Be Harder to Uncover"*](https://netzpolitik.org/2026/proposed-gdpr-changes-workplace-data-abuses-could-soon-be-harder-to-uncover/),
+  Muna Turki, 17 Nov 2026). *(The provision mapping is editorial — the article names no
+  article numbers; claims are the authors'/netzpolitik's.)*
 <a id="association-of-accidental-americans-aaa--fatca"></a>
 - **Association of Accidental Americans (Fabien Lehagre).** Surfaced (and published) the Council's
   **ST 10729/26** negotiating mandate via a LinkedIn post, flagging that the **Cypriot Presidency inserted

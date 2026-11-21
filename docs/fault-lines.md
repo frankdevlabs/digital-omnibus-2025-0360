@@ -75,7 +75,10 @@ in [`provisions/`](provisions/).
   18 Jun 2026 ePrivacy/cookies explainer leaflet it frames machine-readable privacy-preference
   communication as a route out of consent fatigue ("rights respected by design"), and **reiterated
   this on 16 Jul 2026** ([*"The Digital Omnibus is going on summer break. Your rights are not."*](https://edri.org/our-work/the-digital-omnibus-is-going-on-summer-break-your-rights-are-not/)),
-  backing a **binding privacy signal** — a single browser/device opt-out — over cookie banners. **noyb (Schrems)**
+  backing a **binding privacy signal** — a single browser/device opt-out — over cookie banners;
+  it **restated the binding-privacy-signal preference again on 16 Nov 2026** as its one example of *good*
+  simplification in its [*"1,840 amendments"*](https://edri.org/our-work/1840-amendments-one-basic-question-will-the-data-omnibus-simplify-eu-digital-rules-or-weaken-peoples-rights/)
+  analysis of the EP tabling (see [`stakeholders.md`](stakeholders.md)). **noyb (Schrems)**
   went public on 23 Jun 2026 (*"EU Member States (and Google) suddenly want to keep cookie
   banners!"*) defending Art 88b on the same side. On *this* article, civil society thus sits
   **opposite** industry and France, who want Art 88b deleted (see [`stakeholders.md`](stakeholders.md)).
